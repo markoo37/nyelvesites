@@ -13,11 +13,11 @@
 					"USERNAME_PLACEHOLDER" : "Felhasználónév *",
 					"PASSWORD_PLACEHOLDER" : "Jelszó *"
 				},
-				"LOGIN_BUTTON_LABEL" : "Belépés",
+				"LOGIN_BUTTON_TEXT" : "Belépés",
 				"FORGOTTEN_PASSWORD_LINK" : "Elfelejtett jelszó",
 				"REGISTRATION_BOX" : {
 					"DESCRIPTION" : "Beregisztrálom egyéni gyógytornász rendelőm, több fős klinikám",
-					"REGISTRATION_BUTTON_LABEL" : "Regisztráció"
+					"REGISTRATION_BUTTON_TEXT" : "Regisztráció"
 				}
 			},
 			"SYSTEM_NOTIFICATIONS" : {}

@@ -22,7 +22,7 @@
       }
     },
     "SIDEBAR" : {
-      "TAB_LABEL" : {
+      "TAB_TEXT" : {
         "NOTIFICATION_SETTINGS" : "Értesítés beállítások",
         "PATIENTS" : "Páciensek",
         "COLLEAGUES" : "Munkatársak",

@@ -13,11 +13,11 @@
           "USERNAME_PLACEHOLDER" : "Felhasználónév *",
           "PASSWORD_PLACEHOLDER" : "Jelszó *"
         },
-        "LOGIN_BUTTON_LABEL" : "Belépés",
+        "LOGIN_BUTTON_TEXT" : "Belépés",
         "FORGOTTEN_PASSWORD_LINK" : "Elfelejtett jelszó",
         "REGISTRATION_BOX" : {
           "DESCRIPTION" : "Beregisztrálom egyéni gyógytornász rendelőm, több fős klinikám",
-          "REGISTRATION_BUTTON_LABEL" : "Regisztráció"
+          "REGISTRATION_BUTTON_TEXT" : "Regisztráció"
         }
       },
       "SYSTEM_NOTIFICATIONS" : {}
@@ -86,10 +86,10 @@
       "GROUP_PARTICIPANTS" : "Résztvevők",
       "NO_PREVIOUS_SURVEY" : "A páciens utolsó vizsgálatához nincs vizsgálati lap",
       "MORE_INFORMATION_BUTTON" : {
-        "LABEL" : "További információk",
+        "TEXT" : "További információk",
         "TOOLTIPS" : "Ugrás a legutolsó vizsgálatra"
       },
-      "STATE_LABELS" : {
+      "STATE_TEXTS" : {
         "PATIENT_DATA_NOT_GIVEN" : "Nincs megadva",
         "NO_MORE_EVENTS_TO_THIS_ROOM_TODAY" : "A mai napra már nincs több esemény ehhez a kezelőhelyiséghez"
       },
@@ -170,7 +170,7 @@
       }
     },
     "SIDEBAR" : {
-      "TAB_LABEL" : {
+      "TAB_TEXT" : {
         "ACTIVE_PATIENTS" : "Aktív páciensek",
         "INACTIVE_PATIENTS" : "Inaktív páciensek",
         "SUSPENDED_PATIENTS" : "Felfüggesztett páciensek",
@@ -180,7 +180,7 @@
     },
     "PATIENT_PROFILE_CLICKED" : {
       "SIDEBAR" : {
-        "TAB_LABEL" : {
+        "TAB_TEXT" : {
           "DATA" : "Adatok",
           "MUSCULOSKELETAL_PROBLEMS" : "Mozgásszervi problémák",
           "COMPARE_VISITS" : "Vizsgálatok összehasonlítása",
@@ -421,22 +421,22 @@
               "TITLE" : "Várólista szerkesztés",
               "FIELDS" : {
                 "THERAPIST": {
-                  "LABEL": "Terapeuta",
+                  "TEXT": "Terapeuta",
                   "PLACEHOLDER": "Válassz terapeutát"
                 },
                 "PATIENT": {
-                  "LABEL": "Páciens",
+                  "TEXT": "Páciens",
                   "PLACEHOLDER": "Válassz pácienst"
                 },
                 "TREATMENT_TYPE": {
-                  "LABEL": "Kezelés típusa",
+                  "TEXT": "Kezelés típusa",
                   "PLACEHOLDER": "Válassz típust"
                 },
                 "DURATION": {
-                  "LABEL": "Kezelés hossza"
+                  "TEXT": "Kezelés hossza"
                 },
                 "PRIORITY": {
-                  "LABEL": "Prioritás",
+                  "TEXT": "Prioritás",
                   "OPTIONS": {
                     "NOT_URGENT": "Nem sürgős",
                     "AVARAGE" :  "Átlagos",
@@ -474,7 +474,7 @@
             "TITLE" : "M.szervi problémák"
           },
           "INFORMATION_SECTION" : {
-            "LABELS" : {
+            "TEXTS" : {
               "TOGGLE_FINALIZE" : "Ahhoz, hogy a páciens lássa a kitöltött vizsgálati lapokat és csatolmányokat, kérjük véglegesítse azokat:",
               "MUSCULOSKELETAL_PROBLEM" : "Mozgásszervi probléma:",
               "VISIT" : "Vizsgálat",
@@ -521,7 +521,7 @@
     },
     "TABS" : {
       "ACTIVE_PATIENTS" : {
-        "NEW_PATIENT_BUTTON_LABEL" : "Új páciens",
+        "NEW_PATIENT_BUTTON_TEXT" : "Új páciens",
         "PATIENTS_TABLE" : {
           "SEARCH_PLACEHOLDER" : "Keresés",
           "TABLE_COLUMN" : {
@@ -618,7 +618,7 @@
           },
           "ACTIONS" : {
             "ADD_BUTTON" : {
-              "LABEL" : "Hozzáadás"
+              "TEXT" : "Hozzáadás"
             }
           },
           "ADD_TO_WAITING_LIST_POPUP" : {
@@ -626,16 +626,16 @@
             "FIELDS" : {
               "PATIENT": {
                 "PLACEHOLDER": "Páciens",
-                "CHECKBOX_LABEL" : "Inaktív páciensek is látszódjanak"
+                "CHECKBOX_TEXT" : "Inaktív páciensek is látszódjanak"
               },
               "TREATMENT_TYPE": {
-                "LABEL": "Kezelés típusa"
+                "TEXT": "Kezelés típusa"
               },
               "DURATION": {
-                "LABEL": "Kezelés hossza"
+                "TEXT": "Kezelés hossza"
               },
               "PRIORITY": {
-                "LABEL": "Prioritás",
+                "TEXT": "Prioritás",
                 "OPTIONS": {
                   "NOT_URGENT": "Nem sürgős",
                   "AVARAGE" :  "Átlagos",
@@ -655,22 +655,22 @@
             "TITLE" : "Várólista szerkesztés",
             "FIELDS" : {
               "THERAPIST": {
-                "LABEL": "Terapeuta",
+                "TEXT": "Terapeuta",
                 "PLACEHOLDER": "Válassz terapeutát"
               },
               "PATIENT": {
-                "LABEL": "Páciens",
+                "TEXT": "Páciens",
                 "PLACEHOLDER": "Válassz pácienst"
               },
               "TREATMENT_TYPE": {
-                "LABEL": "Kezelés típusa",
+                "TEXT": "Kezelés típusa",
                 "PLACEHOLDER": "Válassz típust"
               },
               "DURATION": {
-                "LABEL": "Kezelés hossza"
+                "TEXT": "Kezelés hossza"
               },
               "PRIORITY": {
-                "LABEL": "Prioritás",
+                "TEXT": "Prioritás",
                 "OPTIONS": {
                   "NOT_URGENT": "Nem sürgős",
                   "AVARAGE" :  "Átlagos",
@@ -711,7 +711,7 @@
       }
     },
     "SIDEBAR" : {
-      "TAB_LABEL" : {
+      "TAB_TEXT" : {
         "CALENDAR" : "Naptár",
         "CALENDAR_EVENTS_LIST_VIEW" : "Naptáresemények listanézete",
         "CANCEL_REQUESTS" : "Lemondási kérelmek"
@@ -723,30 +723,30 @@
           "SECTIONS" : {
             "PATIENT_ON_WAITING_LIST_DROPDOWN": {
               "HEADER" : "Várólistás páciensek",
-              "CHECKBOX_LABELS" : {
+              "CHECKBOX_TEXTS" : {
                 "SHOW_ONLY_MY_PATIENTS" : "Csak saját páciensek mutatása"
               },
               "INPUT_PLACEHOLDER" : "Páciens neve"
             },
             "TREATMENT_ROOMS": {
               "HEADER" : "Kezelő helyiségek",
-              "DELETE_HIGHLIGHT_CHECKBOX_LABEL" : "Kijelölések törlése"
+              "DELETE_HIGHLIGHT_CHECKBOX_TEXT" : "Kijelölések törlése"
             },
             "THERAPISTS": {
               "HEADER" : "Terapeuták",
-              "CHECKBOX_LABELS" : {
+              "CHECKBOX_TEXTS" : {
                 "DELETE_SELECTION" : "Kijelölések törlése",
                 "DELETED_THERAPIST_EVENTS" : "Törölt terapeuta eseményei"
               }
             },
-            "GOOGLE_SYNC_BUTTON_LABEL" : "Összekapcsolás Google Naptárral"
+            "GOOGLE_SYNC_BUTTON_TEXT" : "Összekapcsolás Google Naptárral"
           }
         },
         "CALENDAR_SECTION" : {
           "TABS" : {
             "WEEK_VIEW" : {
-              "TAB_LABEL" : "Heti Nézet",
-              "ACTION_BUTTON_LABELS" : {
+              "TAB_TEXT" : "Heti Nézet",
+              "ACTION_BUTTON_TEXTS" : {
                 "LOAD_TEST_DATA" : "Tesztadatok betöltése"
               },
               "TOOLTIPS" : {
@@ -754,7 +754,7 @@
               }
             },
             "DAY_VIEW" : {
-              "TAB_LABEL" : "Napi nézet",
+              "TAB_TEXT" : "Napi nézet",
               "CALENDAR_VIEW_SETTINGS" : {
                 "TITLE" : "Naptárnézet",
                 "OPTIONS" : {
@@ -780,7 +780,7 @@
               "PLACEHOLDER" : "Terapeuta"
             },
             "DATE" : {
-              "LABEL" : "Dátum"
+              "TEXT" : "Dátum"
             },
             "STATUS" : {
               "PLACEHOLDER" : "Állapot",
@@ -913,7 +913,7 @@
       }
     },
     "SIDEBAR" : {
-      "TAB_LABEL" : {
+      "TAB_TEXT" : {
         "NOTIFICATION_SETTINGS" : "Értesítés beállítások",
         "PATIENTS" : "Páciensek",
         "COLLEAGUES" : "Munkatársak",
@@ -955,7 +955,7 @@
       }
     },
     "SIDEBAR" : {
-      "TAB_LABEL" : {
+      "TAB_TEXT" : {
         "PERSONAL_DATA": "Személyes adatok",
         "EXERCISES" : "Gyakorlatok",
         "SURVEYS" : "Vizsgálati lapok",

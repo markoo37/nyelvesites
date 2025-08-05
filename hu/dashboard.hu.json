@@ -29,7 +29,7 @@
         "GROUP_PARTICIPANTS" : "Résztvevők",
         "NO_PREVIOUS_SURVEY" : "A páciens utolsó vizsgálatához nincs vizsgálati lap",
         "MORE_INFORMATION_BUTTON" : {
-          "LABEL" : "További információk",
+          "TEXT" : "További információk",
           "TOOLTIP" : "Ugrás a legutolsó vizsgálatra"
         },
         "PATIENT_DATA_NOT_GIVEN" : "Nincs megadva",
@@ -50,17 +50,17 @@
         },
         "TABS" : {
           "PATIENTS" : {
-            "LABEL" : "Páciensek",
+            "TEXT" : "Páciensek",
             "SEARCH_FOR_PATIENT_PLACEHOLDER" : "Páciens keresése",
             "SEARCH_FOR_PATIENT_TOOLTIP" : "Páciens keresése"
           },
           "COLLEAGUES" : {
-            "LABEL" : "Munkatársak",
+            "TEXT" : "Munkatársak",
             "SEARCH_FOR_COLLEAGUE_PLACEHOLDER" : "Munkatárs keresése",
             "SEARCH_FOR_COLLEAGUE_TOOLTIP" : "Munkatárs keresése"
           },
           "CLINIC" : {
-            "LABEL" : "Klinika",
+            "TEXT" : "Klinika",
             "SEARCH_FOR_PATIENT_PLACEHOLDER" : "Páciens keresése",
             "SEARCH_FOR_PATIENT_TOOLTIP" : "Páciens keresése"
           }
@@ -73,7 +73,7 @@
         },
         "PAGINATION" : {}
       },
-      "RECEPTION_CALEANDAR_VIEW_CHANGE" : {
+      "RECEPTION_CALENDAR_VIEW_CHANGE" : {
         "PLACEHOLDER" : "Naptárnézet",
         "COLUMN_PICK_PLACEHOLDER" : "Oszlopok száma",
         "OPTIONS" : {
@@ -81,7 +81,7 @@
           "THERAPIST_EVENT_ONLY" : "Terapeuta (csak esemény)",
           "THERAPIST_ALL" : "Terapeuta (mind)",
           "TREATMENT_ROOM_EVENT_ONLY" : "Kezelőhelyiség (csak esemény)",
-          "THREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
+          "TREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
         }
       },
       "SYSTEM_NOTIFICATIONS" : {}

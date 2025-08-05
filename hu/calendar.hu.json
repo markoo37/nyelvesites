@@ -17,7 +17,7 @@
       }
     },
     "SIDEBAR" : {
-      "TAB_LABEL" : {
+      "TAB_TEXT" : {
         "CALENDAR" : "Naptár",
         "CALENDAR_EVENTS_LIST_VIEW" : "Naptáresemények listanézete",
         "CANCEL_REQUESTS" : "Lemondási kérelmek"
@@ -29,11 +29,11 @@
           "SECTIONS" : {
             "PATIENT_ON_WAITING_LIST_DROPDOWN": {
               "HEADER" : "Várólistás páciensek",
-              "CHECKBOX_LABELS" : {
+              "CHECKBOX_TEXTS" : {
                 "SHOW_ONLY_MY_PATIENTS" : "Csak saját páciensek mutatása"
               },
               "INPUT_PLACEHOLDER" : "Páciens neve",
-              "PATIENT_INFO_FIELD_LABELS" : {
+              "PATIENT_INFO_FIELD_TEXTS" : {
                 "PATIENT_THERAPIST" : "Terapeuta",
                 "PATIENT_TREATMENT" : "Terapeuta",
                 "PATIENT_TREATMENT_LENGHT" : "Terapeuta",
@@ -42,27 +42,27 @@
             },
             "TREATMENT_ROOMS": {
               "HEADER" : "Kezelő helyiségek",
-              "CHECKBOX_LABELS" : {
+              "CHECKBOX_TEXTS" : {
                 "SELECT_ALL" : "Mind kijelöl",
                 "DELETE_SELECTION" : "Kijelölések törlése"
               }
             },
             "THERAPISTS": {
               "HEADER" : "Terapeuták",
-              "CHECKBOX_LABELS" : {
+              "CHECKBOX_TEXTS" : {
                 "DELETE_SELECTION" : "Kijelölések törlése",
                 "SELECT_ALL" : "Mind kijelöl",
                 "DELETED_THERAPIST_EVENTS" : "Törölt terapeuta eseményei"
               }
             },
-            "GOOGLE_SYNC_BUTTON_LABEL" : "Összekapcsolás Google Naptárral"
+            "GOOGLE_SYNC_BUTTON_TEXT" : "Összekapcsolás Google Naptárral"
           }
         },
         "CALENDAR_SECTION" : {
           "TABS" : {
             "WEEK_VIEW" : {
-              "TAB_LABEL" : "Heti Nézet",
-              "ACTION_BUTTON_LABELS" : {
+              "TAB_TEXT" : "Heti Nézet",
+              "ACTION_BUTTON_TEXTS" : {
                 "LOAD_TEST_DATA" : "Tesztadatok betöltése"
               },
               "TOOLTIPS" : {
@@ -70,7 +70,7 @@
               }
             },
             "DAY_VIEW" : {
-              "TAB_LABEL" : "Napi nézet",
+              "TAB_TEXT" : "Napi nézet",
               "CALENDAR_VIEW_SETTINGS" : {
                 "TITLE" : "Naptárnézet",
                 "OPTIONS" : {
@@ -96,7 +96,7 @@
               "PLACEHOLDER" : "Terapeuta"
             },
             "DATE" : {
-              "LABEL" : "Dátum"
+              "TEXT" : "Dátum"
             },
             "STATUS" : {
               "PLACEHOLDER" : "Állapot",

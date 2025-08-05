@@ -1,0 +1,24 @@
+{
+  "NOTIFICATIONS" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "NOTIFICATIONS" : "Értesítések"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+
+      }
+    },
+    "TABS" : {
+      "EMAIL_NOTIFICATIONS" : {},
+      "SMS_NOTIFICATIONS" : {},
+      "BULK_EMAIL_SENDING" : {}
+    }
+  }
+}

@@ -20,7 +20,7 @@
       }
     },
     "SIDEBAR" : {
-      "TAB_LABEL" : {
+      "TAB_TEXT" : {
         "PERSONAL_DATA": "Személyes adatok",
         "EXERCISES" : "Gyakorlatok",
         "SURVEYS" : "Vizsgálati lapok",
