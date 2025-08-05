@@ -1,0 +1,976 @@
+{
+  "AUTH" : {
+    "LOGIN_PAGE" : {
+      "BREADCRUMB" : {
+        "TITLE" : {
+          "DASHBOARD" : "Kezdőlap"
+        }
+      },
+      "WELCOME_TITLE" : "Köszöntünk az i-Clinic rendszerben!",
+      "LOGIN_BOX" : {
+        "TITLE" : "Kérjük, jelentkezzen be!",
+        "INPUTS" : {
+          "USERNAME_PLACEHOLDER" : "Felhasználónév *",
+          "PASSWORD_PLACEHOLDER" : "Jelszó *"
+        },
+        "LOGIN_BUTTON_LABEL" : "Belépés",
+        "FORGOTTEN_PASSWORD_LINK" : "Elfelejtett jelszó",
+        "REGISTRATION_BOX" : {
+          "DESCRIPTION" : "Beregisztrálom egyéni gyógytornász rendelőm, több fős klinikám",
+          "REGISTRATION_BUTTON_LABEL" : "Regisztráció"
+        }
+      },
+      "SYSTEM_NOTIFICATIONS" : {}
+    },
+    "REGISTRATION_PAGE" : {
+      "BREADCRUMB": "Regisztráció",
+      "WELCOME_TITLE" : "Köszöntünk az i-Clinic rendszerben!",
+      "INFO_PARAGRAPH_1" : "Ha gyógytornász vagy, csak válaszd a klinika vezető szerepkört és az i-Clinic-et egy hónapig kockázat nélkül kipróbálhatod.",
+      "INFO_PARAGRAPH_2" : "Maradsz a papírnál? Tologatod a mappákat? Vagy inkább megnézed, hogyan néz ki a 21. századi gyógytornász praxis?",
+      "INFO_PARAGRAPH_3" : "Mindezt teljesen kockázat nélkül, hiszen az ingyenes tesztidőszakot követő előfizetési időszak alatt is biztosítunk a számodra egy ",
+      "HIGHLIGHTED_GUARANTEE" : "90 napos pénzvisszafizetési garanciát!",
+      "ROLE_SELECTION" : {
+        "TITLE" : "Szerepkör kiválasztása",
+        "DESCRIPTION" : "Kérjük, adja meg, milyen szerepkörben használná az i-Clinic alkalmazást:",
+        "OPTIONS" : {
+          "PATIENT" : "Páciens",
+          "EMPLOYEE" : "Klinikai alkalmazott",
+          "ADMIN" : "Klinikai vezető"
+        }
+      },
+      "SYSTEM_NOTIFICATIONS" : {}
+    }
+  },
+
+  "NAVIGATION" : {
+    "DASHBOARD" : "Kezdőlap",
+    "MY_PATIENTS" : "Pácienseim",
+    "CALENDAR"  : "Naptár",
+    "NOTIFICATIONS" : "Értesítések",
+    "MY_CLINICS" : "Klinikáim",
+    "MY_ACCOUNT" : "Fiókom",
+    "TOOLTIPS" : {
+      "SUPPORT_CHAT" : "Ügyfélszolgálati chat",
+      "INITIAL_STEPS" : "Kezdeti lépések",
+      "HELP" : "Súgó",
+      "SYSTEM_ADMIN_PAGE" : "Rendszer Admin oldal",
+      "EXIT" : "Kilépés"
+    }
+  },
+
+  "DASHBOARD" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "CALENDAR_DAILY_VIEW" : {
+      "GO_TO_CURRENT_DAY" : "Ugrás a mai naphoz"
+    },
+    "NEXT_PATIENT" : {
+      "HEADER" : {
+        "NO_DATE_SELECTED" : "Nincs kiválasztva időpont",
+        "CURRENT_PATIENT" : "JELENLEGI PÁCIENS",
+        "PREVIOUS_PATIENT" : "ELŐZŐ PÁCIENS",
+        "NEXT_PATIENT" : "KÖVETKEZŐ PÁCIENS"
+      },
+      "USER_RENTALS" : "Felhasználói bérletek",
+      "GROUP_PARTICIPANTS" : "Résztvevők",
+      "NO_PREVIOUS_SURVEY" : "A páciens utolsó vizsgálatához nincs vizsgálati lap",
+      "MORE_INFORMATION_BUTTON" : {
+        "LABEL" : "További információk",
+        "TOOLTIPS" : "Ugrás a legutolsó vizsgálatra"
+      },
+      "STATE_LABELS" : {
+        "PATIENT_DATA_NOT_GIVEN" : "Nincs megadva",
+        "NO_MORE_EVENTS_TO_THIS_ROOM_TODAY" : "A mai napra már nincs több esemény ehhez a kezelőhelyiséghez"
+      },
+      "TOOLTIPS" : {
+        "TREATMENT_ROOM" : "Kezelőhelyiség",
+        "PATIENT" : "Páciens",
+        "THERAPIST" : "Terapeuta",
+        "EVENT" : "Időpont",
+        "TREATMENT" : "Kezelés"
+      },
+      "RECEPTION_VIEW_BOX_DROPDOWN" : {
+        "TITLE" : "Következő páciensek / üzenetek"
+      },
+      "RECEPTION_CHANGE_VIEW" : {
+        "TITLE" : "Naptárnézet",
+        "COLUMN_PICK_TITLE" : "Oszlopok száma",
+        "OPTIONS" : {
+          "ALL_EVENTS" : "Minden esemény",
+          "THERAPIST_EVENT_ONLY" : "Terapeuta (csak esemény)",
+          "THERAPIST_ALL" : "Terapeuta (mind)",
+          "TREATMENT_ROOM_EVENT_ONLY" : "Kezelőhelyiség (csak esemény)",
+          "THREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
+        }
+      }
+    },
+    "LATEST_CHAT_MESSAGES" : {
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése",
+          "SEARCH_FOR_COLLEAGUE" : "Munkatárs keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés",
+          "SEARCH_FOR_COLLEAGUE" : "Munkatárs keresése"
+        }
+      },
+      "HEADER" : {
+        "LATEST_MESSAGES" : "Legutóbbi üzenetek"
+      },
+      "TABS" : {
+        "PATIENTS" : "Páciensek",
+        "COLLEAGUES" : "Munkatársak",
+        "CLINIC" : "Klinika"
+      },
+      "MESSAGE_POPUP" : {
+        "TITLE" : "Üzenetküldés",
+        "INPUT" : {
+          "PLACEHOLDER" : "Ide írjon üzenetet ..."
+        }
+      },
+      "PAGINATION" : {}
+    },
+    "SYSTEM_NOTIFICATIONS" : {}
+  },
+
+  "MY_PATIENTS" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "PATIENTS" : "Páciensek",
+        "ACTIVE_PATIENTS" : "Aktív páciensek",
+        "INACTIVE_PATIENTS" : "Inaktív páciensek",
+        "SUSPENDED_PATIENTS" : "Felfüggesztett páciensek",
+        "WAITING_FOR_ACCEPTANCE_PATIENTS" : "Elfogadásra váró páciensek",
+        "WAITLISTED_PATIENTS" : "Várólistás páciensek",
+        "DATA" : "Adatok",
+        "MUSCULOSKELETAL_PROBLEMS" : "Mozgásszervi problémák",
+        "MESSAGES" : "Üzenetek",
+        "BILLING_AND_CONTACT_INFORMATION" : "Számlázási és kontakt adatok"
+      },
+      "SEARCH" : { 
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "SIDEBAR" : {
+      "TAB_LABEL" : {
+        "ACTIVE_PATIENTS" : "Aktív páciensek",
+        "INACTIVE_PATIENTS" : "Inaktív páciensek",
+        "SUSPENDED_PATIENTS" : "Felfüggesztett páciensek",
+        "WAITING_FOR_ACCEPTANCE_PATIENTS" : "Elfogadásra váró páciensek",
+        "WAITLISTED_PATIENTS" : "Várólistás páciensek"
+      }
+    },
+    "PATIENT_PROFILE_CLICKED" : {
+      "SIDEBAR" : {
+        "TAB_LABEL" : {
+          "DATA" : "Adatok",
+          "MUSCULOSKELETAL_PROBLEMS" : "Mozgásszervi problémák",
+          "COMPARE_VISITS" : "Vizsgálatok összehasonlítása",
+          "MESSAGES" : "Üzenetek",
+          "BILLING_AND_CONTACT_INFORMATION" : "Számlázási és kontakt adatok"
+        }
+      },
+      "TABS" : {
+        "DATA" : {
+          "PATIENT_DATA" : {
+            "ACTIONS" : {
+              "EDIT_DATA" : "Adatok módosítása"
+            },
+            "HEADER" : {
+              "TITLE" : "Páciens adatai",
+              "TOOLTIPS" : {
+                "INACTIVATE_PATIENT" : "Páciens inaktiválása",
+                "BLOCK_PATIENT_PROFILE" : "Páciens profil oldal tiltása",
+                "UNBLOCK_PATIENT_PROFILE" : "Páciens profil oldal engedélyezése",
+                "PATIENT_ABLE_TO_SEE_VISITS" : "Páciens lássa a vizsgálatokat",
+                "PATIENT_UNABLE_TO_SEE_VISITS" : "Páciens ne lássa a vizsgálatokat",
+                "SHARE_PATIENT" : "Páciens megosztása",
+                "EDIT_PATIENT" : "Páciens szerkesztése",
+                "DOWNLOAD_PDF" : "PDF letöltés"
+              }
+            },
+            "FIELDS" : {
+              "TAJ": "TAJ szám:",
+              "ADDRESS": "Lakcím:",
+              "PHONE": "Telefonszám:",
+              "EMAIL": "E-mail:",
+              "BIRTH_DATE": "Születési dátum:",
+              "THERAPIST": "Terapeuta:",
+              "LAST_VISIT": "Utolsó vizsgálat:",
+              "LAST_LOGIN": "Utolsó bejelentkezés:",
+              "OCCUPATION": "Foglalkozás:",
+              "HEALTH_ISSUE": "Egészségügyi probléma:"
+            },
+            "DATA_MANAGEMENT_INFORMATION_SHEET" : {
+              "LINK_TEXT" : {
+                "NOT_ACCEPTED_YET" : "Adatkezelési tájékoztató még nincs elfogadva",
+                "ACCEPTED" : "Elfogadott adatkezelési tájékoztató (Online)"
+              },
+              "TITLE" : "Adatkezelési tájékoztató",
+              "AGREEMENT" : "Elolvastam és elfogadom az i-Clinic használatát szabályozó Felhasználási feltételeket. / I have read and accept the Terms of Use regulating the use of i-Clinic.",
+              "SIGNATURE" : "Aláírás",
+              "ACTIONS" : {
+                "CLOSE" : "Mentés",
+                "ACCEPT" : "Elfogad"
+              }
+            }
+          },
+          "SEND_NOTIFICATION_SETTINGS" : {
+            "TITLE" : "Értesítő küldése a következő esetekben",
+            "OPTIONS" : {
+              "DATE_REMINDER": "Időpont emlékeztető",
+              "NEW_VISIT": "Értesítés új vizsgálat rögzítéséről",
+              "NEW_EXCERCISE_LIST": "Értesítés új gyakorlatsor rögzítéséről",
+              "NEW_APPOINTMENT":"Új időpont rögzítése",
+              "DELETE_APPOINTMENT": "Meglévő időpont törlése",
+              "MODIFY_APPOINTMENT": "Meglévő időpont módosítása",
+              "NEW_MESSAGE": "Értesítés új üzenetről",
+              "CONDITION_CHECK": "Állapotfelmérő kiküldés",
+              "SMS_NOTIFICATION": {
+                "NEW_APPOINTMENT": "SMS emlékeztető időpontról",
+                "NOTE_NEW_APPOINTMENT": "SMS értesítés új időpontról",
+                "NOTE_DELETE_APPOINTMENT": "SMS értesítés időpont törléséről",
+                "MODIFY_APPOINTMENT": "SMS értesítés meglévő időpont módosításáról"
+              }
+            }
+          },
+          "MESSAGES" : {
+            "TITLE" : "Üzenetek"
+          },
+          "TREATMENTS_TAB" : {
+            "TITLE" : "Kezelések",
+            "TABLE_HEADERS" : {
+              "THERAPIST": "Terapeuta",
+              "TREATMENT": "Kezelés",
+              "TREATMENT_DATE": "Kezelés dátuma",
+              "LENGTH_OF_TREATMENT": "Kezelés hossza",
+              "STATUS": "Állapot",
+              "COMPENSATED": "Kiegyenlítve",
+              "PRICE": "Ár",
+              "OPERATIONS" : "Műveletek"
+            },
+            "STATUS_OPTIONS" : {
+              "AGREED_TIME" : "Leegyeztetett időpont",
+              "TREATMENT_IS_DONE" : "Megtörtént",
+              "CANCELED" : "Lemondott (késve)",
+              "BILLED" : "Kiegyenlített",
+              "DELETED" : "Törölt esemény",
+              "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+              "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+              "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+              "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
+            },
+            "TOOLTIPS" : {
+              "AGREED_TIME" : "Leegyeztetett időpont",
+              "TREATMENT_IS_DONE" : "Megtörtént",
+              "CANCELED" : "Lemondott (késve)",
+              "BILLED" : "Kiegyenlített",
+              "DELETED" : "Törölt esemény",
+              "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+              "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+              "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+              "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)",
+              "IF_NOT_COMPENSATED" : "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható.",
+              "EDIT" : "Szerkesztés"
+            },
+            "INVOICING": {
+              "ISSUER_SECTION": {
+                "TITLE": "Számlakibocsátó",
+                "FIELDS": {
+                  "ACCOUNT": "Válassz számlázó fiókot",
+                  "INVOICE_TYPE": "Számla típusa",
+                  "PAYMENT_METHOD": "Fizetési mód",
+                  "PAYMENT_METHOD_TYPES" : {
+                    "TRANSFER": "átutalás",
+                    "CREDIT_CARD": "bankkártya",
+                    "CASH": "készpénz",
+                    "OTHER": "egyéb"
+                  },
+                  "CURRENCY": "Számláid pénzneme",
+                  "CURRENCY_TYPES" : {
+                    "HUF": "forint",
+                    "EUR": "euró",
+                    "CHF": "svájci frank",
+                    "USD": "amerikai dollár",
+                    "AED": "Arab Emírségek dirham",
+                    "AUD": "ausztrál dollár",
+                    "BGN": "bolgár leva",
+                    "BRL": "brazil real",
+                    "CAD": "kanadai dollár",
+                    "CNY": "kínai jüan",
+                    "CZK": "cseh korona",
+                    "DKK": "dán korona",
+                    "EEK": "észt korona",
+                    "GBP": "angol font",
+                    "HKD": "hongkongi dollár",
+                    "HRK": "horvát kúna",
+                    "IDR": "indonéz rúpia",
+                    "ILS": "izraeli sékel",
+                    "INR": "indiai rúpia",
+                    "ISK": "izlandi korona",
+                    "JPY": "japán jen",
+                    "KRW": "dél-koreai won",
+                    "KWD": "kuvaiti dinár",
+                    "LTL": "litván litas",
+                    "LVL": "lett lat",
+                    "MXN": "mexikói peso",
+                    "MYR": "maláj ringgit",
+                    "NOK": "norvég korona",
+                    "NZD": "új-zélandi dollár",
+                    "PHP": "fülöp-szigeteki peso",
+                    "PLN": "lengyel zloty",
+                    "RON": "új román lej",
+                    "RSD": "szerb dinár",
+                    "RUB": "orosz rubel",
+                    "SEK": "svéd korona",
+                    "SGD": "szingapúri dollár",
+                    "THB": "thai bát",
+                    "TRY": "török líra",
+                    "UAH": "ukrán hryvna",
+                    "VND": "vietnámi dong",
+                    "ZAR": "dél-afrikai rand"
+                  },
+                  "INVOICE_DATE": "Számla kelte",
+                  "DUE_DATE": "Fizetési határidő",
+                  "FULFILLMENT_DATE": "Teljesítés dátuma"
+                },
+                "NOTE_SZAMLAZZ": "A számlához tartozó adataidat a Számlázz.hu biztosítja a számlához, ezért az itt nem, csak a Számlázz.hu-ba belépve szerkeszthető!"
+              },
+              "PARTNER_SECTION": {
+                "TITLE": "Partner",
+                "INVOICE_TO": {
+                  "PATIENT": "Páciens számlázási adatok",
+                  "HEALTH_FUND": "Egészségpénztári számla"
+                },
+                "FIELDS": {
+                  "NAME": "Név",
+                  "TAX_NUMBER": "Adószáma",
+                  "EMAIL": "E-mail",
+                  "COUNTRY": "Ország",
+                  "ZIP": "Irányítószám",
+                  "CITY": "Város",
+                  "ADDRESS": "Cím"
+                }
+              },
+              "ITEMS_SECTION": {
+                "TITLE": "Tételek",
+                "FIELDS": {
+                  "NAME": "Tétel neve",
+                  "QUANTITY": "Mennyiség",
+                  "UNIT": "Mennyiségi egység",
+                  "UNIT_PRICE": "Nettó egységár",
+                  "VAT": "Áfa kulcs",
+                  "NET_PRICE": "Nettó ár",
+                  "GROSS_PRICE": "Bruttó ár",
+                  "COMMENT": "Megjegyzés"
+                },
+                "SUMMARY": {
+                  "TOTAL": "Végösszeg",
+                  "NET": "Nettó",
+                  "GROSS": "Bruttó"
+                },
+                "ACTIONS": {
+                  "ADD_ITEM": "Új tétel",
+                  "DELETE_ITEM": "törlöm",
+                  "CANCEL": "Mégse",
+                  "ISSUE_INVOICE": "Kiállítom a számlát"
+                },
+                "OPTIONS": {
+                  "SEND_EMAIL": "Számla elküldése a páciens számára e-mailben",
+                  "ALREADY_PAID": "Már kiegyenlített"
+                },
+                "INVOICE_COMMENT": "Számla megjegyzése"
+              }
+            }
+          },
+          "WAITING_LISTS_TAB" : {
+            "SEARCH_FIELD" : {
+              "PLACEHOLDER" : "Keresés"
+            },
+            "TABLE_HEADERS" : {
+              "PRIORITY": "Prioritás",
+              "TREATMENT": "Kezelés",
+              "LENGTH_OF_TREATMENT": "Kezelés hossz",
+              "THERAPIST": "Terapeuta",
+              "ON_LIST": "Várólistán",
+              "COMMENT": "Megjegyzés",
+              "OPERATIONS" : "Műveletek"
+            },
+            "ACTIONS" : {
+              "ADD_TO_WAITING_LIST" : "Hozzáadás várólistához"
+            },
+            "ADD_TO_WAITING_LIST_POPUP" : {
+              "TITLE" : "Várólista szerkesztés",
+              "FIELDS" : {
+                "THERAPIST": {
+                  "LABEL": "Terapeuta",
+                  "PLACEHOLDER": "Válassz terapeutát"
+                },
+                "PATIENT": {
+                  "LABEL": "Páciens",
+                  "PLACEHOLDER": "Válassz pácienst"
+                },
+                "TREATMENT_TYPE": {
+                  "LABEL": "Kezelés típusa",
+                  "PLACEHOLDER": "Válassz típust"
+                },
+                "DURATION": {
+                  "LABEL": "Kezelés hossza"
+                },
+                "PRIORITY": {
+                  "LABEL": "Prioritás",
+                  "OPTIONS": {
+                    "NOT_URGENT": "Nem sürgős",
+                    "AVARAGE" :  "Átlagos",
+                    "URGENT": "Sürgős"
+                  }
+                },
+                "COMMENT": {
+                  "PLACEHOLDER": "Megjegyzés"
+                }
+              },
+              "ACTIONS": {
+                "CANCEL": "Mégsem",
+                "SAVE": "Mentés"
+              }
+            },
+            "TOOLTIPS" : {
+              "EDIT" : "Szerkesztés",
+              "DELETE" : "Törlés"
+            }
+          },
+          "DOCUMENTS_TAB" : {},
+          "REVIEWS_TAB" : {},
+          "COMMENTS_TAB" : {},
+          "MEMBERSHIPS_TAB" : {},
+          "PRELIMINARY_HEALTH_SECTION" : {},
+          "SYSTEM_NOTIFICATIONS" : {}
+        },
+        "MUSCULOSKELETAL_PROBLEMS" : {
+          "ACTIONS" : {
+            "NEW_MUSCULOSKELETAL_PROBLEM" : "Új m.szervi prob.",
+            "SAVE" : "Mentés",
+            "ADD_NEW_VISIT" : "új vizsgálat hozzáadása"
+          },
+          "MUSCULOSKELETAL_PROBLEMS_DROPDOWN" : {
+            "TITLE" : "M.szervi problémák"
+          },
+          "INFORMATION_SECTION" : {
+            "LABELS" : {
+              "TOGGLE_FINALIZE" : "Ahhoz, hogy a páciens lássa a kitöltött vizsgálati lapokat és csatolmányokat, kérjük véglegesítse azokat:",
+              "MUSCULOSKELETAL_PROBLEM" : "Mozgásszervi probléma:",
+              "VISIT" : "Vizsgálat",
+              "CREATED_BY" : "Létrehozta:",
+              "FILLED_OUT_BY" : "Kitöltötte:"
+            }
+          },
+          "FORM_SECTION" : {
+            "TABS" : {
+              "SHEET_COMPLETION" : {
+                "TITLE" : "Vizsgálati lapok kitöltése"
+              },
+              "UPLOAD_DOCUMENTS" : {
+                "TITLE" : "Dokumentumok, képek feltöltése"
+              },
+              "ADD_EXERCISE" : {
+                "TITLE" : "Gyakorlat hozzáadása"
+              }
+            }
+          },
+          "TOOLTIPS" : {
+            "NEW_PROBLEM_BUTTON_TOOLTIP" : "Annak a mozgásszervi problémának felvétele, mellyel a páciens érkezett",
+            "DROPDOWN_MENU" : "Ugyanahoz a mozgásszervi problémához tartozó vizsgálatok hozzáadása",
+            "DELETE_ANSWERS" : "Válaszok törlése",
+            "DELETE_SURVEY" : "Vizsgálati lap törlése",
+            "ADD_OR_DELETE_SURVEYS" : "Vizsgálati lapok hozzáadása/törlése",
+            "MOBILE_HELP" : "Legalább 6 karakter, tartalmazhaz számot és +/ jeleket, illetve szóközt"
+          },
+          "SYSTEM_NOTIFICATIONS" : {}
+        },
+        "COMPARE_VISITS" : {
+
+          "SYSTEM_NOTIFICATIONS" : {}
+        },
+        "MESSAGES" : {
+
+          "SYSTEM_NOTIFICATIONS" : {}
+        },
+        "BILLING_AND_CONTACT_INFORMATION" : {
+
+          "SYSTEM_NOTIFICATIONS" : {}
+        }
+      }
+    },
+    "TABS" : {
+      "ACTIVE_PATIENTS" : {
+        "NEW_PATIENT_BUTTON_LABEL" : "Új páciens",
+        "PATIENTS_TABLE" : {
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_COLUMN" : {
+            "NAME" : "Név",
+            "LAST_VISIT" : "Utolsó vizsgálat",
+            "ID" : "Azonosító",
+            "EMAIL" : "Email-cím",
+            "PROFILE_ENABLED" : "Profil oldal engedélyezve?",
+            "SEES_THE_VISITS" : "Vizsgálatokat látja?",
+            "AT_ACCEPTED" : "AT elfogadva?",
+            "EVALUATION" : "Értékelés",
+            "OPERATIONS" : "Műveletek"
+          },
+          "TOOLTIPS" : {
+            "SELECT_ALL" : "Összes kijelölése",
+            "SELECT" : "Kijelölés",
+            "PATIENT_EVALUATION_SCORE" : "A páciens értékelés pontszáma:",
+            "INACTIVATE_PATIENT" : "Páciens inaktiválása",
+            "BLOCK_PATIENT_PROFILE" : "Páciens profil oldal tiltása",
+            "UNBLOCK_PATIENT_PROFILE" : "Páciens profil oldal engedélyezése",
+            "PATIENT_ABLE_TO_SEE_VISITS" : "Páciens lássa a vizsgálatokat",
+            "PATIENT_UNABLE_TO_SEE_VISITS" : "Páciens ne lássa a vizsgálatokat",
+            "SHARE_PATIENT" : "Páciens megosztása",
+            "EDIT_PATIENT" : "Páciens szerkesztése"
+          },
+          "PAGINATION" : {}
+        },
+        "SYSTEM_NOTIFICATIONS" : {}
+      },
+      "INACTIVE_PATIENTS" : {
+        "PATIENTS_TABLE" : {
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_COLUMN" : {
+            "NAME" : "Név",
+            "ID" : "Azonosító",
+            "EMAIL" : "Email-cím",
+            "OPERATIONS" : "Műveletek"
+          },
+          "TOOLTIPS" : {
+            "ACTIVATE_PATIENT" : "Páciens aktiválása",
+            "EDIT_PATIENT" : "Páciens szerkesztése"
+          },
+          "PAGINATION" : {}
+        },
+        "SYSTEM_NOTIFICATIONS" : {}
+      },
+      "SUSPENDED_PATIENTS" : {
+        "PATIENTS_TABLE" : {
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_COLUMN" : {
+            "NAME" : "Név",
+            "ID" : "Azonosító",
+            "EMAIL" : "Email-cím"
+          },
+          "TOOLTIPS" : {
+
+          },
+          "PAGINATION" : {}
+        },
+        "SYSTEM_NOTIFICATIONS" : {}
+      },
+      "PATIENTS_WAITING_FOR_ACCEPTANCE" : {
+        "PATIENTS_TABLE" : {
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_COLUMN" : {
+            "NAME" : "Név",
+            "ID" : "Azonosító",
+            "EMAIL" : "Email-cím",
+            "OPERATIONS" : "Műveletek"
+          },
+          "TOOLTIPS" : {
+
+          },
+          "PAGINATION" : {}
+        },
+        "SYSTEM_NOTIFICATIONS" : {}
+      },
+      "PATIENTS_ON_WAITING_LIST" : {
+        "PATIENTS_TABLE" : {
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_COLUMN" : {
+            "NAME" : "Név",
+            "PRIORITY" : "Prioritás",
+            "TREATMENT" : "Kezelés",
+            "TREATMENT_LENGHT" : "Kezelés hossz",
+            "EMAIL" : "Email-cím",
+            "ON_WAITING_LIST" : "Várólistán",
+            "COMMENT" : "Megjegyzés",
+            "OPERATIONS" : "Műveletek"
+          },
+          "TOOLTIPS" : {
+            "EDIT" : "Szerkesztés",
+            "DELETE" : "Törlés"
+          },
+          "ACTIONS" : {
+            "ADD_BUTTON" : {
+              "LABEL" : "Hozzáadás"
+            }
+          },
+          "ADD_TO_WAITING_LIST_POPUP" : {
+            "TITLE" : "Várólistához adás",
+            "FIELDS" : {
+              "PATIENT": {
+                "PLACEHOLDER": "Páciens",
+                "CHECKBOX_LABEL" : "Inaktív páciensek is látszódjanak"
+              },
+              "TREATMENT_TYPE": {
+                "LABEL": "Kezelés típusa"
+              },
+              "DURATION": {
+                "LABEL": "Kezelés hossza"
+              },
+              "PRIORITY": {
+                "LABEL": "Prioritás",
+                "OPTIONS": {
+                  "NOT_URGENT": "Nem sürgős",
+                  "AVARAGE" :  "Átlagos",
+                  "URGENT": "Sürgős"
+                }
+              },
+              "COMMENT": {
+                "PLACEHOLDER": "Megjegyzés"
+              }
+            },
+            "ACTIONS": {
+              "CANCEL": "Mégsem",
+              "SAVE": "Mentés"
+            }
+          },
+          "EDIT_WAITING_LIST_POPUP" : {
+            "TITLE" : "Várólista szerkesztés",
+            "FIELDS" : {
+              "THERAPIST": {
+                "LABEL": "Terapeuta",
+                "PLACEHOLDER": "Válassz terapeutát"
+              },
+              "PATIENT": {
+                "LABEL": "Páciens",
+                "PLACEHOLDER": "Válassz pácienst"
+              },
+              "TREATMENT_TYPE": {
+                "LABEL": "Kezelés típusa",
+                "PLACEHOLDER": "Válassz típust"
+              },
+              "DURATION": {
+                "LABEL": "Kezelés hossza"
+              },
+              "PRIORITY": {
+                "LABEL": "Prioritás",
+                "OPTIONS": {
+                  "NOT_URGENT": "Nem sürgős",
+                  "AVARAGE" :  "Átlagos",
+                  "URGENT": "Sürgős"
+                }
+              },
+              "COMMENT": {
+                "PLACEHOLDER": "Megjegyzés"
+              }
+            },
+            "ACTIONS": {
+              "CANCEL": "Mégsem",
+              "SAVE": "Mentés"
+            }
+          },
+          "PAGINATION" : {}
+        },
+        "SYSTEM_NOTIFICATIONS" : {}
+      }
+    }
+  },
+
+  "CALENDAR" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "CALENDAR" : "Naptár",
+        "LIST_VIEW" : "Lista nézet",
+        "CANCEL_REQUESTS" : "Lemondási kérelmek"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "SIDEBAR" : {
+      "TAB_LABEL" : {
+        "CALENDAR" : "Naptár",
+        "CALENDAR_EVENTS_LIST_VIEW" : "Naptáresemények listanézete",
+        "CANCEL_REQUESTS" : "Lemondási kérelmek"
+      }
+    },
+    "TABS" : {
+      "CALENDAR" : {
+        "FILTER_PANEL" : {
+          "SECTIONS" : {
+            "PATIENT_ON_WAITING_LIST_DROPDOWN": {
+              "HEADER" : "Várólistás páciensek",
+              "CHECKBOX_LABELS" : {
+                "SHOW_ONLY_MY_PATIENTS" : "Csak saját páciensek mutatása"
+              },
+              "INPUT_PLACEHOLDER" : "Páciens neve"
+            },
+            "TREATMENT_ROOMS": {
+              "HEADER" : "Kezelő helyiségek",
+              "DELETE_HIGHLIGHT_CHECKBOX_LABEL" : "Kijelölések törlése"
+            },
+            "THERAPISTS": {
+              "HEADER" : "Terapeuták",
+              "CHECKBOX_LABELS" : {
+                "DELETE_SELECTION" : "Kijelölések törlése",
+                "DELETED_THERAPIST_EVENTS" : "Törölt terapeuta eseményei"
+              }
+            },
+            "GOOGLE_SYNC_BUTTON_LABEL" : "Összekapcsolás Google Naptárral"
+          }
+        },
+        "CALENDAR_SECTION" : {
+          "TABS" : {
+            "WEEK_VIEW" : {
+              "TAB_LABEL" : "Heti Nézet",
+              "ACTION_BUTTON_LABELS" : {
+                "LOAD_TEST_DATA" : "Tesztadatok betöltése"
+              },
+              "TOOLTIPS" : {
+                "JUMP_TO_CURRENT_WEEK" : "Ugrás az aktuális hétre"
+              }
+            },
+            "DAY_VIEW" : {
+              "TAB_LABEL" : "Napi nézet",
+              "CALENDAR_VIEW_SETTINGS" : {
+                "TITLE" : "Naptárnézet",
+                "OPTIONS" : {
+                  "ALL_EVENTS" : "Minden esemény",
+                  "THERAPIST_EVENT_ONLY" : "Terapeuta (csak esemény)",
+                  "THERAPIST_ALL" : "Terapeuta (mind)",
+                  "TREATMENT_ROOM_EVENT_ONLY" : "Kezelőhelyiség (csak esemény)",
+                  "THREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
+                }
+              },
+              "TOOLTIPS" : {
+                "JUMP_TO_CURRENT_DAY" : "Ugrás a mai naphoz"
+              }
+            }
+          }
+        }
+      },
+      "CALENDAR_EVENTS_LIST_VIEW" : {
+        "FILTER_SECTION" : {
+          "TITLE" : "Szűrési feltételek",
+          "FIELDS" : {
+            "CHOOSE_THERAPIST_DROPDOWN_MENU" : {
+              "PLACEHOLDER" : "Terapeuta"
+            },
+            "DATE" : {
+              "LABEL" : "Dátum"
+            },
+            "STATUS" : {
+              "PLACEHOLDER" : "Állapot",
+              "OPTIONS" : {
+                "CREATED" : "Leegyeztetett időpont",
+                "TREATMENT_IS_DONE" : "Megtörtént",
+                "CANCELED" : "Lemondott (késve)",
+                "BILLED" : "Kiegyenlített",
+                "DELETED" : "Törölt esemény",
+                "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+                "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+                "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+                "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
+              }
+            }
+          }
+        },
+        "EVENTS_TABLE" : {
+          "SEARCH_INPUT_PLACEHOLDER" : "Keresés",
+          "TABLE_HEADERS" : {
+            "TIME" : "Időpont",
+            "PATIENT" : "Páciens",
+            "THERAPIST" : "Terapeuta",
+            "ROOM" : "Helyiség",
+            "TREATMENT" : "Kezelés",
+            "TREATMENT_LENGHT" : "Kezelés hossz",
+            "PRICE" : "Ár",
+            "STATUS" : "Állapot",
+            "COMPENSATED" : "Kiegyenlítve"
+          },
+          "STATUS_OPTIONS" : {
+            "CREATED" : "Leegyeztetett időpont",
+            "TREATMENT_IS_DONE" : "Megtörtént",
+            "CANCELED" : "Lemondott (késve)",
+            "BILLED" : "Kiegyenlített",
+            "DELETED" : "Törölt esemény",
+            "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
+          },
+          "TOOLTIPS" : {
+            "AGREED_TIME" : "Leegyeztetett időpont",
+            "TREATMENT_IS_DONE" : "Megtörtént",
+            "CANCELED" : "Lemondott (késve)",
+            "BILLED" : "Kiegyenlített",
+            "DELETED" : "Törölt esemény",
+            "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)",
+            "IF_NOT_COMPENSATED" : "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható."
+          }
+        },
+        "ACTION_BUTTONS" : {
+          "DOWNLOAD_AS_EXCEL_FILE" : "Letöltés excel fájlként"
+        }
+      },
+      "CANCEL_REQUESTS" : {
+        "FILTER_SECTION" : {},
+        "CANCELLED_EVENTS_TABLE" : {}
+      }
+    }
+  },
+
+  "NOTIFICATIONS" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "NOTIFICATIONS" : "Értesítések"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+
+      }
+    },
+    "TABS" : {
+      "EMAIL_NOTIFICATIONS" : {},
+      "SMS_NOTIFICATIONS" : {},
+      "BULK_EMAIL_SENDING" : {}
+    }
+  },
+
+  "EESZT" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "EESZT_DATA_SERVICE" : "EESZT adatszolgáltatás"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "TABS" : {
+      "DATA_PROVISION" : {},
+      "QUERY_DATA_PROVISION" : {}
+    }
+  },
+
+  "MY_CLINIC" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "MY_CLINIC" : "Klinikám",
+        "NOTIFICATIONS" : "Értesítések",
+        "PATIENTS" : "Páciensek",
+        "COLLEAGUES" : "Munkatársak",
+        "EDIT_CLINIC" : "Klinika szerkesztése",
+        "AUTHORITIES_AND_CLINIC_SETTINGS" : "Jogosultságok, Klinika beállítások",
+        "BILLING_SETTINGS" : "Számlázási beállítások",
+        "SUBSCRIPTION" : "Előfizetés"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "SIDEBAR" : {
+      "TAB_LABEL" : {
+        "NOTIFICATION_SETTINGS" : "Értesítés beállítások",
+        "PATIENTS" : "Páciensek",
+        "COLLEAGUES" : "Munkatársak",
+        "EDIT_CLINIC" : "Klinika szerkesztése",
+        "AUTHORITIES_AND_CLINIC_SETTINGS" : "Jogosultságok, Klinika beállítások",
+        "BILLING_SETTINGS" : "Számlázási beállítások",
+        "SUBSCRIPTION" : "Előfizetés"
+      }
+    },
+    "TABS" : {
+      "NOTIFICATION_SETTINGS" : {},
+      "PATIENTS" : {},
+      "COLLEAGUES" : {},
+      "EDIT_CLINIC" : {},
+      "AUTHORITIES_AND_CLINIC_SETTINGS" : {},
+      "BILLING_SETTINGS" : {},
+      "SUBSCRIPTION" : {}
+    }
+  },
+
+  "MY_ACCOUNT" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "PERSONAL_DATA": "Személyes adatok",
+        "EXERCISES" : "Gyakorlatok",
+        "SURVEYS" : "Vizsgálati lapok",
+        "EESZT_DATA" : "EESZT adatok",
+        "CUSTOM_BILLING_SETTINGS" : "Saját számlázási beállítások",
+        "DATA_PRIVACY" : "Adatvédelem"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "SIDEBAR" : {
+      "TAB_LABEL" : {
+        "PERSONAL_DATA": "Személyes adatok",
+        "EXERCISES" : "Gyakorlatok",
+        "SURVEYS" : "Vizsgálati lapok",
+        "EESZT_DATA" : "EESZT adatok",
+        "CUSTOM_BILLING_SETTINGS" : "Saját számlázási beállítások",
+        "DATA_PRIVACY" : "Adatvédelem"
+      }
+    },
+    "TABS" : {
+      "PERSONAL_DATA" : {},
+      "EXERCISES" : {},
+      "SURVEYS" : {},
+      "EESZT_DATA" : {},
+      "CUSTOM_BILLING_SETTINGS" : {},
+      "DATA_PRIVACY" : {}
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "PAGE_HEADER" : {
+    "DASHBOARD" : "Kezdőlap",
+    "MY_PATIENTS" : "Pácienseim",
+    "CALENDAR"  : "Naptár",
+    "NOTIFICATIONS" : "Értesítések",
+    "MY_CLINICS" : "Klinikáim",
+    "MY_ACCOUNT" : "Fiókom",
+    "ADMIN_SETTINGS" : "Beállítások",
+    "EESZT" : "EESZT",
+    "TOOLTIPS" : {
+      "SUPPORT_CHAT" : "Ügyfélszolgálati chat",
+      "INITIAL_STEPS" : "Kezdeti lépések",
+      "FASTLANE" : "Gyorsítósáv",
+      "HELP" : "Súgó",
+      "SYSTEM_ADMIN_PAGE" : "Rendszer Admin oldal",
+      "EXIT" : "Kilépés"
+    }
+  }
+}

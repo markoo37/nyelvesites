@@ -1,0 +1,41 @@
+{
+  "MY_ACCOUNT" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "PERSONAL_DATA": "Személyes adatok",
+        "EXERCISES" : "Gyakorlatok",
+        "SURVEYS" : "Vizsgálati lapok",
+        "EESZT_DATA" : "EESZT adatok",
+        "CUSTOM_BILLING_SETTINGS" : "Saját számlázási beállítások",
+        "DATA_PRIVACY" : "Adatvédelem"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "SIDEBAR" : {
+      "TAB_LABEL" : {
+        "PERSONAL_DATA": "Személyes adatok",
+        "EXERCISES" : "Gyakorlatok",
+        "SURVEYS" : "Vizsgálati lapok",
+        "EESZT_DATA" : "EESZT adatok",
+        "CUSTOM_BILLING_SETTINGS" : "Saját számlázási beállítások",
+        "DATA_PRIVACY" : "Adatvédelem"
+      }
+    },
+    "TABS" : {
+      "PERSONAL_DATA" : {},
+      "EXERCISES" : {},
+      "SURVEYS" : {},
+      "EESZT_DATA" : {},
+      "CUSTOM_BILLING_SETTINGS" : {},
+      "DATA_PRIVACY" : {}
+    }
+  }
+}

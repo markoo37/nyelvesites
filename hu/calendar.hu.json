@@ -1,0 +1,164 @@
+{
+  "CALENDAR" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "CALENDAR" : "Naptár",
+        "LIST_VIEW" : "Lista nézet",
+        "CANCEL_REQUESTS" : "Lemondási kérelmek"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "SIDEBAR" : {
+      "TAB_LABEL" : {
+        "CALENDAR" : "Naptár",
+        "CALENDAR_EVENTS_LIST_VIEW" : "Naptáresemények listanézete",
+        "CANCEL_REQUESTS" : "Lemondási kérelmek"
+      }
+    },
+    "TABS" : {
+      "CALENDAR" : {
+        "FILTER_PANEL" : {
+          "SECTIONS" : {
+            "PATIENT_ON_WAITING_LIST_DROPDOWN": {
+              "HEADER" : "Várólistás páciensek",
+              "CHECKBOX_LABELS" : {
+                "SHOW_ONLY_MY_PATIENTS" : "Csak saját páciensek mutatása"
+              },
+              "INPUT_PLACEHOLDER" : "Páciens neve",
+              "PATIENT_INFO_FIELD_LABELS" : {
+                "PATIENT_THERAPIST" : "Terapeuta",
+                "PATIENT_TREATMENT" : "Terapeuta",
+                "PATIENT_TREATMENT_LENGHT" : "Terapeuta",
+                "COMMENT" : "Terapeuta"
+              }
+            },
+            "TREATMENT_ROOMS": {
+              "HEADER" : "Kezelő helyiségek",
+              "CHECKBOX_LABELS" : {
+                "SELECT_ALL" : "Mind kijelöl",
+                "DELETE_SELECTION" : "Kijelölések törlése"
+              }
+            },
+            "THERAPISTS": {
+              "HEADER" : "Terapeuták",
+              "CHECKBOX_LABELS" : {
+                "DELETE_SELECTION" : "Kijelölések törlése",
+                "SELECT_ALL" : "Mind kijelöl",
+                "DELETED_THERAPIST_EVENTS" : "Törölt terapeuta eseményei"
+              }
+            },
+            "GOOGLE_SYNC_BUTTON_LABEL" : "Összekapcsolás Google Naptárral"
+          }
+        },
+        "CALENDAR_SECTION" : {
+          "TABS" : {
+            "WEEK_VIEW" : {
+              "TAB_LABEL" : "Heti Nézet",
+              "ACTION_BUTTON_LABELS" : {
+                "LOAD_TEST_DATA" : "Tesztadatok betöltése"
+              },
+              "TOOLTIPS" : {
+                "JUMP_TO_CURRENT_WEEK" : "Ugrás az aktuális hétre"
+              }
+            },
+            "DAY_VIEW" : {
+              "TAB_LABEL" : "Napi nézet",
+              "CALENDAR_VIEW_SETTINGS" : {
+                "TITLE" : "Naptárnézet",
+                "OPTIONS" : {
+                  "ALL_EVENTS" : "Minden esemény",
+                  "THERAPIST_EVENT_ONLY" : "Terapeuta (csak esemény)",
+                  "THERAPIST_ALL" : "Terapeuta (mind)",
+                  "TREATMENT_ROOM_EVENT_ONLY" : "Kezelőhelyiség (csak esemény)",
+                  "THREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
+                }
+              },
+              "TOOLTIPS" : {
+                "JUMP_TO_CURRENT_DAY" : "Ugrás a mai naphoz"
+              }
+            }
+          }
+        }
+      },
+      "CALENDAR_EVENTS_LIST_VIEW" : {
+        "FILTER_SECTION" : {
+          "TITLE" : "Szűrési feltételek",
+          "FIELDS" : {
+            "CHOOSE_THERAPIST_DROPDOWN_MENU" : {
+              "PLACEHOLDER" : "Terapeuta"
+            },
+            "DATE" : {
+              "LABEL" : "Dátum"
+            },
+            "STATUS" : {
+              "PLACEHOLDER" : "Állapot",
+              "OPTIONS" : {
+                "CREATED" : "Leegyeztetett időpont",
+                "TREATMENT_IS_DONE" : "Megtörtént",
+                "CANCELED" : "Lemondott (késve)",
+                "BILLED" : "Kiegyenlített",
+                "DELETED" : "Törölt esemény",
+                "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+                "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+                "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+                "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
+              }
+            }
+          }
+        },
+        "EVENTS_TABLE" : {
+          "SEARCH_INPUT_PLACEHOLDER" : "Keresés",
+          "TABLE_HEADERS" : {
+            "TIME" : "Időpont",
+            "PATIENT" : "Páciens",
+            "THERAPIST" : "Terapeuta",
+            "ROOM" : "Helyiség",
+            "TREATMENT" : "Kezelés",
+            "TREATMENT_LENGHT" : "Kezelés hossz",
+            "PRICE" : "Ár",
+            "STATUS" : "Állapot",
+            "COMPENSATED" : "Kiegyenlítve"
+          },
+          "STATUS_OPTIONS" : {
+            "CREATED" : "Leegyeztetett időpont",
+            "TREATMENT_IS_DONE" : "Megtörtént",
+            "CANCELED" : "Lemondott (késve)",
+            "BILLED" : "Kiegyenlített",
+            "DELETED" : "Törölt esemény",
+            "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
+          },
+          "TOOLTIPS" : {
+            "AGREED_TIME" : "Leegyeztetett időpont",
+            "TREATMENT_IS_DONE" : "Megtörtént",
+            "CANCELED" : "Lemondott (késve)",
+            "BILLED" : "Kiegyenlített",
+            "DELETED" : "Törölt esemény",
+            "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)",
+            "IF_NOT_COMPENSATED" : "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható."
+          }
+        },
+        "ACTION_BUTTONS" : {
+          "DOWNLOAD_AS_EXCEL_FILE" : "Letöltés excel fájlként"
+        }
+      },
+      "CANCEL_REQUESTS" : {
+        "FILTER_SECTION" : {},
+        "CANCELLED_EVENTS_TABLE" : {}
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+	"AUTH" : {
+		"LOGIN_PAGE" : {
+			"BREADCRUMB" : {
+				"TITLE" : {
+					"DASHBOARD" : "Kezdőlap"
+				}
+			},
+			"WELCOME_TITLE" : "Köszöntünk az i-Clinic rendszerben!",
+			"LOGIN_BOX" : {
+				"TITLE" : "Kérjük, jelentkezzen be!",
+				"INPUTS" : {
+					"USERNAME_PLACEHOLDER" : "Felhasználónév *",
+					"PASSWORD_PLACEHOLDER" : "Jelszó *"
+				},
+				"LOGIN_BUTTON_LABEL" : "Belépés",
+				"FORGOTTEN_PASSWORD_LINK" : "Elfelejtett jelszó",
+				"REGISTRATION_BOX" : {
+					"DESCRIPTION" : "Beregisztrálom egyéni gyógytornász rendelőm, több fős klinikám",
+					"REGISTRATION_BUTTON_LABEL" : "Regisztráció"
+				}
+			},
+			"SYSTEM_NOTIFICATIONS" : {}
+		},
+		"REGISTRATION_PAGE" : {
+			"BREADCRUMB": "Regisztráció",
+			"WELCOME_TITLE" : "Köszöntünk az i-Clinic rendszerben!",
+			"INFO_PARAGRAPH_1" : "Ha gyógytornász vagy, csak válaszd a klinika vezető szerepkört és az i-Clinic-et egy hónapig kockázat nélkül kipróbálhatod.",
+			"INFO_PARAGRAPH_2" : "Maradsz a papírnál? Tologatod a mappákat? Vagy inkább megnézed, hogyan néz ki a 21. századi gyógytornász praxis?",
+			"INFO_PARAGRAPH_3" : "Mindezt teljesen kockázat nélkül, hiszen az ingyenes tesztidőszakot követő előfizetési időszak alatt is biztosítunk a számodra egy ",
+			"HIGHLIGHTED_GUARANTEE" : "90 napos pénzvisszafizetési garanciát!",
+			"ROLE_SELECTION" : {
+				"TITLE" : "Szerepkör kiválasztása",
+				"DESCRIPTION" : "Kérjük, adja meg, milyen szerepkörben használná az i-Clinic alkalmazást:",
+				"OPTIONS" : {
+					"PATIENT" : "Páciens",
+					"EMPLOYEE" : "Klinikai alkalmazott",
+					"ADMIN" : "Klinikai vezető"
+				}
+			},
+			"SYSTEM_NOTIFICATIONS" : {}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "EESZT" : {
+    "BREADCRUMB" : {
+      "TITLE" : {
+        "DASHBOARD" : "Kezdőlap",
+        "EESZT_DATA_SERVICE" : "EESZT adatszolgáltatás"
+      },
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "TABS" : {
+      "DATA_PROVISION" : {},
+      "QUERY_DATA_PROVISION" : {}
+    }
+  }
+}

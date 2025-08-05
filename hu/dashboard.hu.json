@@ -1,0 +1,89 @@
+{
+  "DASHBOARD" : {
+      "BREADCRUMB" : {
+        "TITLE" : {
+          "DASHBOARD" : "Kezdőlap"
+        },
+        "SEARCH" : {
+          "INPUT_PLACEHOLDER" : {
+            "SEARCH_FOR_PATIENT" : "Páciens keresése"
+          },
+          "TOOLTIPS" : {
+            "SEARCH_FOR_PATIENT" : "Páciens keresés"
+          }
+        }
+      },
+      "CALENDAR_DAILY_VIEW" : {
+        "GO_TO_CURRENT_DAY" : "Ugrás a mai naphoz"
+      },
+      "NEXT_PATIENT" : {
+        "HEADER" : {
+          "NEXT_PATIENTS_BOX_TITLE" : "Következő páciensek",
+          "NO_DATE_SELECTED" : "Nincs kiválasztva időpont",
+          "CURRENT_PATIENT" : "JELENLEGI PÁCIENS – {{start}} - {{end}}",
+          "PREVIOUS_PATIENT" : "KORÁBBI PÁCIENS – {{start}} - {{end}}",
+          "NEXT_PATIENT" : "KÖVETKEZŐ PÁCIENS – {{start}} - {{end}}",
+          "NEXT_PATIENTS" : "KÖVETKEZŐ PÁCIENSEK – {{start}} - {{end}}"
+        },
+        "USER_RENTALS" : "Felhasználói bérletek",
+        "GROUP_PARTICIPANTS" : "Résztvevők",
+        "NO_PREVIOUS_SURVEY" : "A páciens utolsó vizsgálatához nincs vizsgálati lap",
+        "MORE_INFORMATION_BUTTON" : {
+          "LABEL" : "További információk",
+          "TOOLTIP" : "Ugrás a legutolsó vizsgálatra"
+        },
+        "PATIENT_DATA_NOT_GIVEN" : "Nincs megadva",
+        "TOOLTIPS" : {
+          "TREATMENT_ROOM" : "Kezelőhelyiség",
+          "PATIENT" : "Páciens",
+          "THERAPIST" : "Terapeuta",
+          "EVENT" : "Időpont",
+          "TREATMENT" : "Kezelés"
+        },
+        "RECEPTION_VIEW_BOX_DROPDOWN" : {
+          "TITLE" : "Következő páciensek / üzenetek"
+        }
+      },
+      "LATEST_CHAT_MESSAGES" : {
+        "HEADER" : {
+          "LATEST_MESSAGES" : "Legutóbbi üzenetek"
+        },
+        "TABS" : {
+          "PATIENTS" : {
+            "LABEL" : "Páciensek",
+            "SEARCH_FOR_PATIENT_PLACEHOLDER" : "Páciens keresése",
+            "SEARCH_FOR_PATIENT_TOOLTIP" : "Páciens keresése"
+          },
+          "COLLEAGUES" : {
+            "LABEL" : "Munkatársak",
+            "SEARCH_FOR_COLLEAGUE_PLACEHOLDER" : "Munkatárs keresése",
+            "SEARCH_FOR_COLLEAGUE_TOOLTIP" : "Munkatárs keresése"
+          },
+          "CLINIC" : {
+            "LABEL" : "Klinika",
+            "SEARCH_FOR_PATIENT_PLACEHOLDER" : "Páciens keresése",
+            "SEARCH_FOR_PATIENT_TOOLTIP" : "Páciens keresése"
+          }
+        },
+        "MESSAGE_POPUP" : {
+          "TITLE" : "Üzenetküldés",
+          "INPUT" : {
+            "PLACEHOLDER" : "Ide írjon üzenetet ..."
+          }
+        },
+        "PAGINATION" : {}
+      },
+      "RECEPTION_CALEANDAR_VIEW_CHANGE" : {
+        "PLACEHOLDER" : "Naptárnézet",
+        "COLUMN_PICK_PLACEHOLDER" : "Oszlopok száma",
+        "OPTIONS" : {
+          "ALL_EVENTS" : "Minden esemény",
+          "THERAPIST_EVENT_ONLY" : "Terapeuta (csak esemény)",
+          "THERAPIST_ALL" : "Terapeuta (mind)",
+          "TREATMENT_ROOM_EVENT_ONLY" : "Kezelőhelyiség (csak esemény)",
+          "THREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
+        }
+      },
+      "SYSTEM_NOTIFICATIONS" : {}
+  }
+}
