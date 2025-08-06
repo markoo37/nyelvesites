@@ -35,13 +35,13 @@
               "INPUT_PLACEHOLDER" : "Páciens neve",
               "PATIENT_INFO_FIELD_TEXTS" : {
                 "PATIENT_THERAPIST" : "Terapeuta",
-                "PATIENT_TREATMENT" : "Terapeuta",
-                "PATIENT_TREATMENT_LENGHT" : "Terapeuta",
-                "COMMENT" : "Terapeuta"
+                "PATIENT_TREATMENT" : "Kezelés",
+                "PATIENT_TREATMENT_LENGHT" : "Kezelés hossza",
+                "COMMENT" : "Megjegyzés"
               }
             },
             "TREATMENT_ROOMS": {
-              "HEADER" : "Kezelő helyiségek",
+              "HEADER" : "Kezelőhelyiségek",
               "CHECKBOX_TEXTS" : {
                 "SELECT_ALL" : "Mind kijelöl",
                 "DELETE_SELECTION" : "Kijelölések törlése"
@@ -152,7 +152,8 @@
           }
         },
         "ACTION_BUTTONS" : {
-          "DOWNLOAD_AS_EXCEL_FILE" : "Letöltés excel fájlként"
+          "DOWNLOAD_AS_EXCEL_FILE" : "Letöltés excel fájlként",
+          "SAVE" : "Mentés"
         }
       },
       "CANCEL_REQUESTS" : {
