@@ -67,6 +67,19 @@
               },
               "TOOLTIPS" : {
                 "JUMP_TO_CURRENT_WEEK" : "Ugrás az aktuális hétre"
+              },
+              "TOOLTIP_CARD" : {
+                "PATIENT_DATA" : {
+                  "MOBILE_NUMBER" : "Telefonszám",
+                  "BILLING_INFORMATION" : "Számlázási adatok",
+                  "EMAIL" : "E-mail",
+                  "TREATMENT" : "Kezelés",
+                  "ROOM" : "Helyiség",
+                  "COMMENT" : "Megjegyzés",
+                  "LENGTH" : "Időtartam",
+                  "NO_MOBILE_NUMBER_GIVEN" : "Nincs telefonszám",
+                  "NO_EMAIL_GIVEN" : "Nincs email cím"
+                }
               }
             },
             "DAY_VIEW" : {
@@ -112,7 +125,8 @@
                 "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
               }
             }
-          }
+          },
+          "DELETE_FILTERS_BUTTON_TEXT" : "Szűrők törlése"
         },
         "EVENTS_TABLE" : {
           "SEARCH_INPUT_PLACEHOLDER" : "Keresés",
@@ -122,7 +136,7 @@
             "THERAPIST" : "Terapeuta",
             "ROOM" : "Helyiség",
             "TREATMENT" : "Kezelés",
-            "TREATMENT_LENGHT" : "Kezelés hossz",
+            "TREATMENT_LENGTH" : "Kezelés hossz",
             "PRICE" : "Ár",
             "STATUS" : "Állapot",
             "COMPENSATED" : "Kiegyenlítve"
@@ -139,6 +153,10 @@
             "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
           },
           "TOOLTIPS" : {
+            "SELECT_ALL" : "Összes kijelölése",
+            "DELETE_ALL_SELECTION" : "Összes kijelölés törlése",
+            "SELECT" : "Kijelölés",
+            "DELETE_SELECTION" : "Kijelölés törlése",
             "AGREED_TIME" : "Leegyeztetett időpont",
             "TREATMENT_IS_DONE" : "Megtörtént",
             "CANCELED" : "Lemondott (késve)",

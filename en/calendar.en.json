@@ -1,0 +1,170 @@
+{
+  "CALENDAR": {
+    "BREADCRUMB": {
+      "TITLE": {
+        "DASHBOARD": "Dashboard",
+        "CALENDAR": "Calendar",
+        "LIST_VIEW": "List View",
+        "CANCEL_REQUESTS": "Cancel Requests"
+      },
+      "SEARCH": {
+        "INPUT_PLACEHOLDER": {
+          "SEARCH_FOR_PATIENT": "Search for patient"
+        },
+        "TOOLTIPS": {
+          "SEARCH_FOR_PATIENT": "Patient search"
+        }
+      }
+    },
+    "SIDEBAR": {
+      "TAB_TEXT": {
+        "CALENDAR": "Calendar",
+        "CALENDAR_EVENTS_LIST_VIEW": "Calendar Events List View",
+        "CANCEL_REQUESTS": "Cancel Requests"
+      }
+    },
+    "TABS": {
+      "CALENDAR": {
+        "FILTER_PANEL": {
+          "SECTIONS": {
+            "PATIENT_ON_WAITING_LIST_DROPDOWN": {
+              "HEADER": "Patients on Waiting List",
+              "CHECKBOX_TEXTS": {
+                "SHOW_ONLY_MY_PATIENTS": "Show only my patients"
+              },
+              "INPUT_PLACEHOLDER": "Patient name",
+              "PATIENT_INFO_FIELD_TEXTS": {
+                "PATIENT_THERAPIST": "Therapist",
+                "PATIENT_TREATMENT": "Treatment",
+                "PATIENT_TREATMENT_LENGHT": "Treatment length",
+                "COMMENT": "Comment"
+              }
+            },
+            "TREATMENT_ROOMS": {
+              "HEADER": "Treatment Rooms",
+              "CHECKBOX_TEXTS": {
+                "SELECT_ALL": "Select all",
+                "DELETE_SELECTION": "Clear selection"
+              }
+            },
+            "THERAPISTS": {
+              "HEADER": "Therapists",
+              "CHECKBOX_TEXTS": {
+                "DELETE_SELECTION": "Clear selection",
+                "SELECT_ALL": "Select all",
+                "DELETED_THERAPIST_EVENTS": "Deleted therapist events"
+              }
+            },
+            "GOOGLE_SYNC_BUTTON_TEXT": "Connect with Google Calendar"
+          }
+        },
+        "CALENDAR_SECTION": {
+          "TABS": {
+            "WEEK_VIEW": {
+              "TAB_TEXT": "Weekly View",
+              "ACTION_BUTTON_TEXTS": {
+                "LOAD_TEST_DATA": "Load test data"
+              },
+              "TOOLTIPS": {
+                "JUMP_TO_CURRENT_WEEK": "Jump to current week"
+              }
+            },
+            "DAY_VIEW": {
+              "TAB_TEXT": "Daily View",
+              "CALENDAR_VIEW_SETTINGS": {
+                "TITLE": "Calendar View",
+                "OPTIONS": {
+                  "ALL_EVENTS": "All events",
+                  "THERAPIST_EVENT_ONLY": "Therapist (events only)",
+                  "THERAPIST_ALL": "Therapist (all)",
+                  "TREATMENT_ROOM_EVENT_ONLY": "Room (events only)",
+                  "THREATMENT_ROOM_ALL": "Room (all)"
+                }
+              },
+              "TOOLTIPS": {
+                "JUMP_TO_CURRENT_DAY": "Jump to today"
+              }
+            }
+          }
+        }
+      },
+      "CALENDAR_EVENTS_LIST_VIEW": {
+        "FILTER_SECTION": {
+          "TITLE": "Filter conditions",
+          "FIELDS": {
+            "CHOOSE_THERAPIST_DROPDOWN_MENU": {
+              "PLACEHOLDER": "Therapist"
+            },
+            "DATE": {
+              "TEXT": "Date"
+            },
+            "STATUS": {
+              "PLACEHOLDER": "Status",
+              "OPTIONS": {
+                "CREATED": "Agreed appointment",
+                "TREATMENT_IS_DONE": "Completed",
+                "CANCELED": "Cancelled (late)",
+                "BILLED": "Billed",
+                "DELETED": "Deleted event",
+                "DELETED_BY_PATIENT_SUSPENSION": "Deleted event (Patient suspended)",
+                "DELETED_BY_PATIENT_INACTIVATION": "Deleted event (Patient inactivated)",
+                "DELETED_BY_PATIENT_DELETION": "Deleted event (Patient deleted)",
+                "DELETED_BY_THERAPIST_SUSPENSION": "Deleted event (Therapist suspended)"
+              }
+            }
+          },
+          "DELETE_FILTERS_BUTTON_TEXT": "Clear filters"
+        },
+        "EVENTS_TABLE": {
+          "SEARCH_INPUT_PLACEHOLDER": "Search",
+          "TABLE_HEADERS": {
+            "TIME": "Time",
+            "PATIENT": "Patient",
+            "THERAPIST": "Therapist",
+            "ROOM": "Room",
+            "TREATMENT": "Treatment",
+            "TREATMENT_LENGTH": "Kezelés hossz",
+            "PRICE": "Price",
+            "STATUS": "Status",
+            "COMPENSATED": "Compensated"
+          },
+          "STATUS_OPTIONS": {
+            "CREATED": "Agreed appointment",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Cancelled (late)",
+            "BILLED": "Billed",
+            "DELETED": "Deleted event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Deleted event (Patient suspended)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Deleted event (Patient inactivated)",
+            "DELETED_BY_PATIENT_DELETION": "Deleted event (Patient deleted)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Deleted event (Therapist suspended)"
+          },
+          "TOOLTIPS": {
+            "SELECT_ALL": "Select all",
+            "DELETE_ALL_SELECTION": "Clear all selections",
+            "SELECT": "Select",
+            "DELETE_SELECTION": "Deselect",
+            "AGREED_TIME": "Agreed appointment",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Cancelled (late)",
+            "BILLED": "Billed",
+            "DELETED": "Deleted event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Deleted event (Patient suspended)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Deleted event (Patient inactivated)",
+            "DELETED_BY_PATIENT_DELETION": "Deleted event (Patient deleted)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Deleted event (Therapist suspended)",
+            "IF_NOT_COMPENSATED": "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható."
+          }
+        },
+        "ACTION_BUTTONS": {
+          "DOWNLOAD_AS_EXCEL_FILE": "Download as Excel file",
+          "SAVE": "Save"
+        }
+      },
+      "CANCEL_REQUESTS": {
+        "FILTER_SECTION": {},
+        "CANCELLED_EVENTS_TABLE": {}
+      }
+    }
+  }
+}

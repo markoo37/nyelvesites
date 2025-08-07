@@ -1,0 +1,102 @@
+{
+  "DASHBOARD": {
+    "BREADCRUMB": {
+      "TITLE": {
+        "DASHBOARD": "Dashboard"
+      },
+      "SEARCH": {
+        "INPUT_PLACEHOLDER": {
+          "SEARCH_FOR_PATIENT": "Search for patient"
+        },
+        "TOOLTIPS": {
+          "SEARCH_FOR_PATIENT": "Patient search"
+        }
+      }
+    },
+    "CALENDAR_DAILY_VIEW": {
+      "GO_TO_CURRENT_DAY": "Go to today",
+      "TOOLTIP_CARD": {
+        "PATIENT_DATA": {
+          "MOBILE_NUMBER": "Phone number",
+          "BILLING_INFORMATION": "Billing information",
+          "EMAIL": "Email",
+          "TREATMENT": "Treatment",
+          "ROOM": "Room",
+          "COMMENT": "Comment",
+          "LENGTH": "Duration",
+          "NO_MOBILE_NUMBER_GIVEN": "No phone number",
+          "NO_EMAIL_GIVEN": "No email address"
+        }
+      }
+    },
+    "NEXT_PATIENT": {
+      "HEADER": {
+        "NEXT_PATIENTS_BOX_TITLE": "Next patients",
+        "NO_DATE_SELECTED": "No date selected",
+        "CURRENT_PATIENT": "CURRENT PATIENT – {{start}} - {{end}}",
+        "PREVIOUS_PATIENT": "PREVIOUS PATIENT – {{start}} - {{end}}",
+        "NEXT_PATIENT": "NEXT PATIENT – {{start}} - {{end}}",
+        "NEXT_PATIENTS": "NEXT PATIENTS – {{start}} - {{end}}"
+      },
+      "USER_RENTALS": "User rentals",
+      "GROUP_PARTICIPANTS": "Participants",
+      "NO_PREVIOUS_SURVEY": "No previous survey for patient",
+      "MORE_INFORMATION_BUTTON": {
+        "TEXT": "More information",
+        "TOOLTIP": "Go to last survey"
+      },
+      "PATIENT_DATA_NOT_GIVEN": "Not provided",
+      "TOOLTIPS": {
+        "TREATMENT_ROOM": "Treatment room",
+        "PATIENT": "Patient",
+        "THERAPIST": "Therapist",
+        "EVENT": "Appointment",
+        "TREATMENT": "Treatment"
+      },
+      "RECEPTION_VIEW_BOX_DROPDOWN": {
+        "TITLE": "Next patients / messages"
+      }
+    },
+    "LATEST_CHAT_MESSAGES": {
+      "HEADER": {
+        "LATEST_MESSAGES": "Latest messages"
+      },
+      "TABS": {
+        "PATIENTS": {
+          "TEXT": "Patients",
+          "SEARCH_FOR_PATIENT_PLACEHOLDER": "Search for patient",
+          "SEARCH_FOR_PATIENT_TOOLTIP": "Search for patient"
+        },
+        "COLLEAGUES": {
+          "TEXT": "Colleagues",
+          "SEARCH_FOR_COLLEAGUE_PLACEHOLDER": "Search for colleague",
+          "SEARCH_FOR_COLLEAGUE_TOOLTIP": "Search for colleague"
+        },
+        "CLINIC": {
+          "TEXT": "Clinic",
+          "SEARCH_FOR_PATIENT_PLACEHOLDER": "Search for patient",
+          "SEARCH_FOR_PATIENT_TOOLTIP": "Search for patient"
+        }
+      },
+      "MESSAGE_POPUP": {
+        "TITLE": "Send message",
+        "INPUT": {
+          "PLACEHOLDER": "Write your message here..."
+        }
+      },
+      "PAGINATION": {}
+    },
+    "RECEPTION_CALENDAR_VIEW_CHANGE": {
+      "PLACEHOLDER": "Calendar view",
+      "COLUMN_PICK_PLACEHOLDER": "Number of columns",
+      "OPTIONS": {
+        "ALL_EVENTS": "All events",
+        "THERAPIST_EVENT_ONLY": "Therapist (events only)",
+        "THERAPIST_ALL": "Therapist (all)",
+        "TREATMENT_ROOM_EVENT_ONLY": "Room (events only)",
+        "TREATMENT_ROOM_ALL": "Room (all)"
+      }
+    },
+    "SYSTEM_NOTIFICATIONS": {}
+  }
+}

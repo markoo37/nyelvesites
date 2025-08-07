@@ -14,7 +14,20 @@
         }
       },
       "CALENDAR_DAILY_VIEW" : {
-        "GO_TO_CURRENT_DAY" : "Ugrás a mai naphoz"
+        "GO_TO_CURRENT_DAY" : "Ugrás a mai naphoz",
+        "TOOLTIP_CARD" : {
+          "PATIENT_DATA" : {
+            "MOBILE_NUMBER" : "Telefonszám",
+            "BILLING_INFORMATION" : "Számlázási adatok",
+            "EMAIL" : "E-mail",
+            "TREATMENT" : "Kezelés",
+            "ROOM" : "Helyiség",
+            "COMMENT" : "Megjegyzés",
+            "LENGTH" : "Időtartam",
+            "NO_MOBILE_NUMBER_GIVEN" : "Nincs telefonszám",
+            "NO_EMAIL_GIVEN" : "Nincs email cím"
+          }
+        }
       },
       "NEXT_PATIENT" : {
         "HEADER" : {
