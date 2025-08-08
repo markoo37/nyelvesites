@@ -1,0 +1,89 @@
+{
+  "AUTH": {
+		"LOGIN_PAGE": {
+			"BREADCRUMB": {
+				"TITLE": {
+					"DASHBOARD": "Dashboard"
+				}
+			},
+			"WELCOME_TITLE": "Welcome to the i-Clinic system!",
+			"LOGIN_BOX": {
+				"TITLE": "Please log in!",
+				"INPUTS": {
+					"USERNAME_PLACEHOLDER": "Username",
+					"PASSWORD_PLACEHOLDER": "Password",
+					"PASSWORD_EYE_TOOLTIP": "After entering the new password, click the eye icon to reveal the typed password"
+				},
+				"LOGIN_BUTTON_TEXT": "Login",
+				"FORGOTTEN_PASSWORD_LINK": "Forgot password",
+				"REGISTRATION_BOX": {
+					"DESCRIPTION": "I’m registering my individual physiotherapy practice or a multi-person clinic",
+					"REGISTRATION_BUTTON_TEXT": "Registration"
+				}
+			},
+			"SYSTEM_NOTIFICATIONS": {
+				"WRONG_USERNAME_OR_PASSWORD": "Incorrect username or password!"
+			}
+		},
+		"REGISTRATION_PAGE": {
+			"BREADCRUMB": "Registration",
+			"WELCOME_TITLE": "Welcome to the i-Clinic system!",
+			"INFO_PARAGRAPH_1": "If you’re a physiotherapist, just choose the clinic administrator role and try i-Clinic risk-free for one month.",
+			"INFO_PARAGRAPH_2": "Still using paper and folders? Or would you rather see what a 21st-century physiotherapy practice looks like?",
+			"INFO_PARAGRAPH_3": "All of this completely risk-free, because even after the free trial, we offer you a ",
+			"HIGHLIGHTED_GUARANTEE": "90-day money-back guarantee!",
+			"ROLE_SELECTION": {
+				"TITLE": "Select role",
+				"DESCRIPTION": "Please select the role in which you would use the i-Clinic application:",
+				"OPTIONS": {
+					"PATIENT": "Patient",
+					"EMPLOYEE": "Clinic employee",
+					"ADMIN": "Clinic administrator"
+				},
+				"TABS": {
+					"TITLE": "Warning",
+					"REGISTRATION_AS_PATIENT": {
+						"ROW_1": "Physiotherapists send patients an email with the necessary registration information, including a link.",
+						"ROW_2": "Please use the link (provided by your physiotherapist in the email) for registration.",
+						"ROW_3": "If you can't find the email, please check your spam or promotions folder, or contact your physiotherapist."
+					},
+					"REGISTRATION_AS_EMPLOYEE": {
+						"ROW_1": "The clinic sends its employees an email with the necessary registration information, including a link.",
+						"ROW_2": "Please use this link to register."
+					},
+					"REGISTRATION_AS_ADMIN": {
+						"INFORMATION_1_FIRST_PART": "Please provide your registration details so we can create your clinic’s account. For data handling information, see our",
+						"INFORMATION_1_LINK_TEXT": "data management notice",
+						"INFORMATION_1_SECOND_PART": "After registration, you'll be greeted by a short questionnaire. Please fill it out so we can tailor i-Clinic to your needs.",
+						"INFORMATION_2": "Important! System features become available after completing the registration questionnaire. You'll also receive an email series with video tutorials to guide you step-by-step through using your new digital assistant.",
+						"FIELDS": {
+							"LAST_NAME": "Last name",
+							"FIRST_NAME": "First name",
+							"EMAIL_ADDRESS": "Email address",
+							"MOBILE_NUMBER": "Phone number",
+							"CLINIC_NAME": "Clinic name",
+							"CLINIC_NAME_HELP_TOOLTIP": "This is how your clinic will appear in the i-Clinic system, and your patients will also see this name.",
+							"COUPON_CODE": "Coupon code",
+							"USERNAME": "Username",
+							"USERNAME_HELP_TOOLTIP": "If the automatically generated username is already taken, feel free to change it to something available and memorable. Only you will see your username, and it will be used solely for login purposes.",
+							"PASSWORD": "Password",
+							"PASSWORD_EYE_TOOLTIP": "After entering the password, it will be visible after pressing the eye icon",
+							"PASSWORD_HELP_TOOLTIP": "Must be 8–50 characters long and include at least one uppercase letter, one lowercase letter, and one number.",
+							"PASSWORD_AGAIN": "Repeat password",
+							"PASSWORD_AGAIN_EYE_TOOLTIP": "After entering the password, it will be visible after pressing the eye icon",
+							"PASSWORD_AGAIN_HELP_TOOLTIP": "Must be 8–50 characters long and include at least one uppercase letter, one lowercase letter, and one number."
+						},
+						"ACCEPT_TERMS_AND_CONDITIONS": {
+							"TEXT": "I accept the",
+							"LINK_TEXT": "Terms and Conditions"
+						},
+						"REGISTER_BUTTON_TEXT": "Register"
+					}
+				}
+			},
+			"SYSTEM_NOTIFICATIONS": {
+				"REGISTRATION_SUCCESS": "Registration successful"
+			}
+		}
+	}
+}

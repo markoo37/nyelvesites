@@ -1,0 +1,935 @@
+{
+  "PAGE_HEADER": {
+    "DASHBOARD": "Home",
+    "MY_PATIENTS": "My Patients",
+    "CALENDAR": "Calendar",
+    "NOTIFICATIONS": "Notifications",
+    "MY_CLINIC": "My Clinic",
+    "TOKENS": "Tokens",
+    "MY_ACCOUNT": "My Account",
+    "ADMIN_SETTINGS": "Settings",
+    "EESZT": "EESZT",
+    "TOOLTIPS": {
+      "SUPPORT_CHAT": "Customer Support Chat",
+      "INITIAL_STEPS": "Initial Steps",
+      "FASTLANE": "Fastlane",
+      "HELP": "Help",
+      "SYSTEM_ADMIN_PAGE": "System Admin Page",
+      "EXIT": "Logout"
+    }
+  },
+  "MAIN_BREADCRUMB": {
+    "TEXT": "Home"
+  },
+  "AUTH": {
+    "LOGIN_PAGE": {
+      "BREADCRUMB": {
+        "TITLE": {
+          "DASHBOARD": "Home"
+        }
+      },
+      "WELCOME_TITLE": "Welcome to the i-Clinic System!",
+      "LOGIN_BOX": {
+        "TITLE": "Please Log In!",
+        "INPUTS": {
+          "USERNAME_PLACEHOLDER": "Username",
+          "PASSWORD_PLACEHOLDER": "Password",
+          "PASSWORD_EYE_TOOLTIP": "After entering the new password, click the eye icon to show the typed password"
+        },
+        "LOGIN_BUTTON_TEXT": "Log In",
+        "FORGOTTEN_PASSWORD_LINK": "Forgot Password",
+        "REGISTRATION_BOX": {
+          "DESCRIPTION": "I register my individual physiotherapist practice or multi-therapist clinic",
+          "REGISTRATION_BUTTON_TEXT": "Register"
+        }
+      },
+      "SYSTEM_NOTIFICATIONS": {
+        "WRONG_USERNAME_OR_PASSWORD": "Incorrect username or password!"
+      }
+    },
+    "REGISTRATION_PAGE": {
+      "BREADCRUMB": "Registration",
+      "WELCOME_TITLE": "Welcome to the i-Clinic System!",
+      "INFO_PARAGRAPH_1": "If you’re a physiotherapist, simply select the clinic leader role and you can try i-Clinic for one month risk-free.",
+      "INFO_PARAGRAPH_2": "Still using paper? Pushing around folders? Or would you rather see what a 21st‑century physiotherapy practice looks like?",
+      "INFO_PARAGRAPH_3": "All of this is completely risk-free, because even after the free trial period, during the subscription period we provide you with a ",
+      "HIGHLIGHTED_GUARANTEE": "90‑day money‑back guarantee!",
+      "ROLE_SELECTION": {
+        "TITLE": "Select Role",
+        "DESCRIPTION": "Please indicate in what role you would use the i‑Clinic application:",
+        "OPTIONS": {
+          "PATIENT": "Patient",
+          "EMPLOYEE": "Clinic Staff",
+          "ADMIN": "Clinic Manager"
+        },
+        "TABS": {
+          "TITLE": "Notice",
+          "REGISTRATION_AS_PATIENT": {
+            "ROW_1": "For patients, the physiotherapist sends the necessary registration information via email, including a link.",
+            "ROW_2": "Please use that link (found in the email from your physiotherapist) to register.",
+            "ROW_3": "If you cannot find the registration email, please check your spam and promotions folders or inquire with your physiotherapist."
+          },
+          "REGISTRATION_AS_EMPLOYEE": {
+            "ROW_1": "For clinic staff, the clinic sends the necessary registration information via email, including a link.",
+            "ROW_2": "Please use that link to register."
+          },
+          "REGISTRATION_AS_ADMIN": {
+            "INFORMATION_1_FIRST_PART": "Please provide the data required for registration so we can create your clinic’s account. For information on how your data is handled, read our",
+            "INFORMATION_1_LINK_TEXT": "data handling information",
+            "INFORMATION_1_SECOND_PART": " After registration, upon login you will be greeted by a short questionnaire. Please complete it so we can tailor i-Clinic to your needs.",
+            "INFORMATION_2": "Important! System functionality only becomes available after completing the post-registration questionnaire. At the same time, an email series begins with video guides that help you learn the system step by step—your new digital assistant.",
+            "FIELDS": {
+              "LAST_NAME": "Last Name",
+              "FIRST_NAME": "First Name",
+              "EMAIL_ADDRESS": "Email Address",
+              "MOBILE_NUMBER": "Mobile Number",
+              "CLINIC_NAME": "Clinic Name",
+              "CLINIC_NAME_HELP_TOOLTIP": "Your clinic will exist under this name in the i‑Clinic system; your patients will also see this designation.",
+              "COUPON_CODE": "Coupon Code",
+              "USERNAME": "Username",
+              "USERNAME_HELP_TOOLTIP": "If the system-generated username is already taken, you can change it to something available and memorable. Only you will see the username and use it to log in.",
+              "PASSWORD": "Password",
+              "PASSWORD_EYE_TOOLTIP": "After entering the password, click the eye icon to make it visible.",
+              "PASSWORD_HELP_TOOLTIP": "Must be at least 8 and at most 50 characters, including at least one lowercase letter, one uppercase letter, and a number.",
+              "PASSWORD_AGAIN": "Repeat Password",
+              "PASSWORD_AGAIN_EYE_TOOLTIP": "After entering the password, click the eye icon to make it visible.",
+              "PASSWORD_AGAIN_HELP_TOOLTIP": "Must be at least 8 and at most 50 characters, including at least one lowercase letter, one uppercase letter, and a number."
+            },
+            "ACCEPT_TERMS_AND_CONDITIONS": {
+              "TEXT": "I accept the",
+              "LINK_TEXT": "General Terms and Conditions"
+            },
+            "REGISTER_BUTTON_TEXT": "Register"
+          }
+        }
+      },
+      "SYSTEM_NOTIFICATIONS": {
+        "REGISTRATION_SUCCESS": "Registration Successful"
+      }
+    }
+  },
+  "DASHBOARD": {
+    "BREADCRUMB": {
+      "TITLE": {
+        "DASHBOARD": "Home"
+      },
+      "SEARCH": {
+        "INPUT_PLACEHOLDER": {
+          "SEARCH_FOR_PATIENT": "Search Patient"
+        },
+        "TOOLTIPS": {
+          "SEARCH_FOR_PATIENT": "Search for Patient"
+        }
+      }
+    },
+    "CALENDAR_DAILY_VIEW": {
+      "GO_TO_CURRENT_DAY": "Jump to Today",
+      "TOOLTIP_CARD": {
+        "PATIENT_DATA": {
+          "MOBILE_NUMBER": "Mobile Number",
+          "BILLING_INFORMATION": "Billing Information",
+          "EMAIL": "Email",
+          "TREATMENT": "Treatment",
+          "ROOM": "Room",
+          "COMMENT": "Comment",
+          "LENGTH": "Duration",
+          "NO_MOBILE_NUMBER_GIVEN": "No mobile number provided",
+          "NO_EMAIL_GIVEN": "No email provided"
+        }
+      }
+    },
+    "NEXT_PATIENT": {
+      "HEADER": {
+        "NEXT_PATIENTS_BOX_TITLE": "Next Patients",
+        "NO_DATE_SELECTED": "No date selected",
+        "CURRENT_PATIENT": "CURRENT PATIENT – {{start}} - {{end}}",
+        "PREVIOUS_PATIENT": "PREVIOUS PATIENT – {{start}} - {{end}}",
+        "NEXT_PATIENT": "NEXT PATIENT – {{start}} - {{end}}",
+        "NEXT_PATIENTS": "NEXT PATIENTS – {{start}} - {{end}}"
+      },
+      "USER_RENTALS": "User Rentals",
+      "GROUP_PARTICIPANTS": "Participants",
+      "NO_PREVIOUS_SURVEY": "No examination form exists for the patient’s last visit",
+      "MORE_INFORMATION_BUTTON": {
+        "TEXT": "More Information",
+        "TOOLTIP": "Go to the latest examination"
+      },
+      "PATIENT_DATA_NOT_GIVEN": "Not provided",
+      "TOOLTIPS": {
+        "TREATMENT_ROOM": "Treatment Room",
+        "PATIENT": "Patient",
+        "THERAPIST": "Therapist",
+        "EVENT": "Appointment",
+        "TREATMENT": "Treatment"
+      },
+      "RECEPTION_VIEW_BOX_DROPDOWN": {
+        "TITLE": "Next Patients / Messages"
+      }
+    },
+    "LATEST_CHAT_MESSAGES": {
+      "HEADER": {
+        "LATEST_MESSAGES": "Latest Messages"
+      },
+      "TABS": {
+        "PATIENTS": {
+          "TEXT": "Patients",
+          "SEARCH_FOR_PATIENT_PLACEHOLDER": "Search Patient",
+          "SEARCH_FOR_PATIENT_TOOLTIP": "Search for Patient"
+        },
+        "COLLEAGUES": {
+          "TEXT": "Colleagues",
+          "SEARCH_FOR_COLLEAGUE_PLACEHOLDER": "Search Colleague",
+          "SEARCH_FOR_COLLEAGUE_TOOLTIP": "Search for Colleague"
+        },
+        "CLINIC": {
+          "TEXT": "Clinic",
+          "SEARCH_FOR_PATIENT_PLACEHOLDER": "Search Patient",
+          "SEARCH_FOR_PATIENT_TOOLTIP": "Search for Patient"
+        }
+      },
+      "MESSAGE_POPUP": {
+        "TITLE": "Send Message",
+        "INPUT": {
+          "PLACEHOLDER": "Type your message here..."
+        }
+      },
+      "PAGINATION": {}
+    },
+    "RECEPTION_CALENDAR_VIEW_CHANGE": {
+      "PLACEHOLDER": "Calendar View",
+      "COLUMN_PICK_PLACEHOLDER": "Number of Columns",
+      "OPTIONS": {
+        "ALL_EVENTS": "All Events",
+        "THERAPIST_EVENT_ONLY": "Therapist (Events Only)",
+        "THERAPIST_ALL": "Therapist (All)",
+        "TREATMENT_ROOM_EVENT_ONLY": "Treatment Room (Events Only)",
+        "TREATMENT_ROOM_ALL": "Treatment Room (All)"
+      }
+    },
+    "SYSTEM_NOTIFICATIONS": {}
+  },
+  "MY_PATIENTS": {
+    "BREADCRUMB": {
+      "TITLE": {
+        "DASHBOARD": "Home",
+        "PATIENTS": "Patients",
+        "ACTIVE_PATIENTS": "Active Patients",
+        "INACTIVE_PATIENTS": "Inactive Patients",
+        "SUSPENDED_PATIENTS": "Suspended Patients",
+        "WAITING_FOR_ACCEPTANCE_PATIENTS": "Patients Waiting for Acceptance",
+        "WAITLISTED_PATIENTS": "Waitlisted Patients",
+        "DATA": "Data",
+        "MUSCULOSKELETAL_PROBLEMS": "Musculoskeletal Problems",
+        "MESSAGES": "Messages",
+        "BILLING_AND_CONTACT_INFORMATION": "Billing and Contact Information"
+      },
+      "SEARCH": {
+        "INPUT_PLACEHOLDER": {
+          "SEARCH_FOR_PATIENT": "Search Patient"
+        },
+        "TOOLTIPS": {
+          "SEARCH_FOR_PATIENT": "Search for Patient"
+        }
+      }
+    },
+    "SIDEBAR": {
+      "TAB_TEXT": {
+        "ACTIVE_PATIENTS": "Active Patients",
+        "INACTIVE_PATIENTS": "Inactive Patients",
+        "SUSPENDED_PATIENTS": "Suspended Patients",
+        "WAITING_FOR_ACCEPTANCE_PATIENTS": "Patients Waiting for Acceptance",
+        "WAITLISTED_PATIENTS": "Waitlisted Patients"
+      }
+    },
+    "PATIENT_PROFILE_CLICKED": {
+      "SIDEBAR": {
+        "TAB_TEXT": {
+          "DATA": "Data",
+          "MUSCULOSKELETAL_PROBLEMS": "Musculoskeletal Problems",
+          "COMPARE_VISITS": "Compare Visits",
+          "MESSAGES": "Messages",
+          "BILLING_AND_CONTACT_INFORMATION": "Billing and Contact Information"
+        }
+      },
+      "TABS": {
+        "DATA": {
+          "PATIENT_DATA": {
+            "ACTIONS": {
+              "EDIT_DATA": "Edit Data"
+            },
+            "HEADER": {
+              "TITLE": "Patient Data",
+              "TOOLTIPS": {
+                "INACTIVATE_PATIENT": "Inactivate Patient",
+                "BLOCK_PATIENT_PROFILE": "Block Patient Profile",
+                "UNBLOCK_PATIENT_PROFILE": "Unblock Patient Profile",
+                "PATIENT_ABLE_TO_SEE_VISITS": "Allow Patient to See Visits",
+                "PATIENT_UNABLE_TO_SEE_VISITS": "Prevent Patient from Seeing Visits",
+                "SHARE_PATIENT": "Share Patient",
+                "EDIT_PATIENT": "Edit Patient",
+                "DOWNLOAD_PDF": "Download PDF"
+              }
+            },
+            "FIELDS": {
+              "TAJ": "Social Security Number:",
+              "ADDRESS": "Address:",
+              "PHONE": "Phone Number:",
+              "EMAIL": "Email:",
+              "BIRTH_DATE": "Date of Birth:",
+              "THERAPIST": "Therapist:",
+              "LAST_VISIT": "Last Visit:",
+              "LAST_LOGIN": "Last Login:",
+              "OCCUPATION": "Occupation:",
+              "HEALTH_ISSUE": "Health Issue:"
+            },
+            "DATA_MANAGEMENT_INFORMATION_SHEET": {
+              "LINK_TEXT": {
+                "NOT_ACCEPTED_YET": "Data handling information not yet accepted",
+                "ACCEPTED": "Accepted data handling information (Online)"
+              },
+              "TITLE": "Data Handling Information",
+              "AGREEMENT": "I have read and accept the Terms of Use regulating the use of i‑Clinic.",
+              "SIGNATURE": "Signature",
+              "ACTIONS": {
+                "CLOSE": "Save",
+                "ACCEPT": "Accept"
+              }
+            }
+          },
+          "SEND_NOTIFICATION_SETTINGS": {
+            "TITLE": "Send Notification In The Following Cases",
+            "OPTIONS": {
+              "DATE_REMINDER": "Appointment Reminder",
+              "NEW_VISIT": "Notification about New Visit Recorded",
+              "NEW_EXCERCISE_LIST": "Notification about New Exercise Plan Recorded",
+              "NEW_APPOINTMENT": "New Appointment Recorded",
+              "DELETE_APPOINTMENT": "Existing Appointment Deleted",
+              "MODIFY_APPOINTMENT": "Existing Appointment Modified",
+              "NEW_MESSAGE": "Notification about New Message",
+              "CONDITION_CHECK": "Condition Assessment Sent",
+              "SMS_NOTIFICATION": {
+                "NEW_APPOINTMENT": "SMS Reminder about Appointment",
+                "NOTE_NEW_APPOINTMENT": "SMS Notification about New Appointment",
+                "NOTE_DELETE_APPOINTMENT": "SMS Notification about Appointment Deletion",
+                "MODIFY_APPOINTMENT": "SMS Notification about Appointment Modification"
+              }
+            }
+          },
+          "MESSAGES": {
+            "TITLE": "Messages"
+          },
+          "TREATMENTS_TAB": {
+            "TITLE": "Treatments",
+            "TABLE_HEADERS": {
+              "THERAPIST": "Therapist",
+              "TREATMENT": "Treatment",
+              "TREATMENT_DATE": "Treatment Date",
+              "LENGTH_OF_TREATMENT": "Treatment Duration",
+              "STATUS": "Status",
+              "COMPENSATED": "Compensated",
+              "PRICE": "Price",
+              "OPERATIONS": "Operations"
+            },
+            "STATUS_OPTIONS": {
+              "AGREED_TIME": "Agreed Time",
+              "TREATMENT_IS_DONE": "Completed",
+              "CANCELED": "Canceled (Late)",
+              "BILLED": "Billed",
+              "DELETED": "Deleted Event",
+              "DELETED_BY_PATIENT_SUSPENSION": "Deleted Event (Patient Suspended)",
+              "DELETED_BY_PATIENT_INACTIVATION": "Deleted Event (Patient Inactivated)",
+              "DELETED_BY_PATIENT_DELETION": "Deleted Event (Patient Deleted)",
+              "DELETED_BY_THERAPIST_SUSPENSION": "Deleted Event (Therapist Suspended)"
+            },
+            "TOOLTIPS": {
+              "AGREED_TIME": "Agreed Time",
+              "TREATMENT_IS_DONE": "Completed",
+              "CANCELED": "Canceled (Late)",
+              "BILLED": "Billed",
+              "DELETED": "Deleted Event",
+              "DELETED_BY_PATIENT_SUSPENSION": "Deleted Event (Patient Suspended)",
+              "DELETED_BY_PATIENT_INACTIVATION": "Deleted Event (Patient Inactivated)",
+              "DELETED_BY_PATIENT_DELETION": "Deleted Event (Patient Deleted)",
+              "DELETED_BY_THERAPIST_SUSPENSION": "Deleted Event (Therapist Suspended)",
+              "IF_NOT_COMPENSATED": "Currently, the treatment has not been compensated yet. To compensate, switch the treatment status to \"Completed\" or \"Canceled (Late)\". Then you can deduct a session from the pass or issue an invoice.",
+              "EDIT": "Edit"
+            },
+            "INVOICING": {
+              "ISSUER_SECTION": {
+                "TITLE": "Invoice Issuer",
+                "FIELDS": {
+                  "ACCOUNT": "Choose billing account",
+                  "INVOICE_TYPE": "Invoice Type",
+                  "PAYMENT_METHOD": "Payment Method",
+                  "PAYMENT_METHOD_TYPES": {
+                    "TRANSFER": "Bank Transfer",
+                    "CREDIT_CARD": "Credit Card",
+                    "CASH": "Cash",
+                    "OTHER": "Other"
+                  },
+                  "CURRENCY": "Currency of your invoices",
+                  "CURRENCY_TYPES": {
+                    "HUF": "Hungarian Forint",
+                    "EUR": "Euro",
+                    "CHF": "Swiss Franc",
+                    "USD": "US Dollar",
+                    "AED": "UAE Dirham",
+                    "AUD": "Australian Dollar",
+                    "BGN": "Bulgarian Lev",
+                    "BRL": "Brazilian Real",
+                    "CAD": "Canadian Dollar",
+                    "CNY": "Chinese Yuan",
+                    "CZK": "Czech Koruna",
+                    "DKK": "Danish Krone",
+                    "EEK": "Estonian Kroon",
+                    "GBP": "British Pound",
+                    "HKD": "Hong Kong Dollar",
+                    "HRK": "Croatian Kuna",
+                    "IDR": "Indonesian Rupiah",
+                    "ILS": "Israeli Shekel",
+                    "INR": "Indian Rupee",
+                    "ISK": "Icelandic Króna",
+                    "JPY": "Japanese Yen",
+                    "KRW": "South Korean Won",
+                    "KWD": "Kuwaiti Dinar",
+                    "LTL": "Lithuanian Litas",
+                    "LVL": "Latvian Lats",
+                    "MXN": "Mexican Peso",
+                    "MYR": "Malaysian Ringgit",
+                    "NOK": "Norwegian Krone",
+                    "NZD": "New Zealand Dollar",
+                    "PHP": "Philippine Peso",
+                    "PLN": "Polish Zloty",
+                    "RON": "Romanian Leu",
+                    "RSD": "Serbian Dinar",
+                    "RUB": "Russian Ruble",
+                    "SEK": "Swedish Krona",
+                    "SGD": "Singapore Dollar",
+                    "THB": "Thai Baht",
+                    "TRY": "Turkish Lira",
+                    "UAH": "Ukrainian Hryvnia",
+                    "VND": "Vietnamese Dong",
+                    "ZAR": "South African Rand"
+                  },
+                  "INVOICE_DATE": "Invoice Date",
+                  "DUE_DATE": "Due Date",
+                  "FULFILLMENT_DATE": "Fulfillment Date"
+                },
+                "NOTE_SZAMLAZZ": "The billing data for the invoice is provided by Számlázz.hu, so it can only be edited in Számlázz.hu, not here!"
+              },
+              "PARTNER_SECTION": {
+                "TITLE": "Partner",
+                "INVOICE_TO": {
+                  "PATIENT": "Patient Billing Data",
+                  "HEALTH_FUND": "Health Fund Invoice"
+                },
+                "FIELDS": {
+                  "NAME": "Name",
+                  "TAX_NUMBER": "Tax Number",
+                  "EMAIL": "Email",
+                  "COUNTRY": "Country",
+                  "ZIP": "Postal Code",
+                  "CITY": "City",
+                  "ADDRESS": "Address"
+                }
+              },
+              "ITEMS_SECTION": {
+                "TITLE": "Items",
+                "FIELDS": {
+                  "NAME": "Item Name",
+                  "QUANTITY": "Quantity",
+                  "UNIT": "Unit",
+                  "UNIT_PRICE": "Unit Price (Net)",
+                  "VAT": "VAT Rate",
+                  "NET_PRICE": "Net Price",
+                  "GROSS_PRICE": "Gross Price",
+                  "COMMENT": "Comment"
+                },
+                "SUMMARY": {
+                  "TOTAL": "Total",
+                  "NET": "Net",
+                  "GROSS": "Gross"
+                },
+                "ACTIONS": {
+                  "ADD_ITEM": "Add Item",
+                  "DELETE_ITEM": "Delete",
+                  "CANCEL": "Cancel",
+                  "ISSUE_INVOICE": "Issue Invoice"
+                },
+                "OPTIONS": {
+                  "SEND_EMAIL": "Send invoice to patient via email",
+                  "ALREADY_PAID": "Already Paid"
+                },
+                "INVOICE_COMMENT": "Invoice Comment"
+              }
+            }
+          },
+          "WAITING_LISTS_TAB": {
+            "SEARCH_FIELD": {
+              "PLACEHOLDER": "Search"
+            },
+            "TABLE_HEADERS": {
+              "PRIORITY": "Priority",
+              "TREATMENT": "Treatment",
+              "LENGTH_OF_TREATMENT": "Treatment Duration",
+              "THERAPIST": "Therapist",
+              "ON_LIST": "On Waiting List",
+              "COMMENT": "Comment",
+              "OPERATIONS": "Operations"
+            },
+            "ACTIONS": {
+              "ADD_TO_WAITING_LIST": "Add to Waiting List"
+            },
+            "ADD_TO_WAITING_LIST_POPUP": {
+              "TITLE": "Edit Waiting List",
+              "FIELDS": {
+                "THERAPIST": {
+                  "TEXT": "Therapist",
+                  "PLACEHOLDER": "Select Therapist"
+                },
+                "PATIENT": {
+                  "TEXT": "Patient",
+                  "PLACEHOLDER": "Select Patient"
+                },
+                "TREATMENT_TYPE": {
+                  "TEXT": "Treatment Type",
+                  "PLACEHOLDER": "Select Type"
+                },
+                "DURATION": {
+                  "TEXT": "Treatment Duration"
+                },
+                "PRIORITY": {
+                  "TEXT": "Priority",
+                  "OPTIONS": {
+                    "NOT_URGENT": "Not Urgent",
+                    "AVARAGE": "Average",
+                    "URGENT": "Urgent"
+                  }
+                },
+                "COMMENT": {
+                  "PLACEHOLDER": "Comment"
+                }
+              },
+              "ACTIONS": {
+                "CANCEL": "Cancel",
+                "SAVE": "Save"
+              }
+            },
+            "TOOLTIPS": {
+              "EDIT": "Edit",
+              "DELETE": "Delete"
+            }
+          },
+          "DOCUMENTS_TAB": {},
+          "REVIEWS_TAB": {},
+          "COMMENTS_TAB": {},
+          "MEMBERSHIPS_TAB": {},
+          "PRELIMINARY_HEALTH_SECTION": {},
+          "SYSTEM_NOTIFICATIONS": {}
+        },
+        "MUSCULOSKELETAL_PROBLEMS": {
+          "ACTIONS": {
+            "NEW_MUSCULOSKELETAL_PROBLEM": "New Musculoskeletal Problem",
+            "SAVE": "Save",
+            "ADD_NEW_VISIT": "Add New Visit"
+          },
+          "MUSCULOSKELETAL_PROBLEMS_DROPDOWN": {
+            "TITLE": "Musculoskeletal Problems"
+          },
+          "INFORMATION_SECTION": {
+            "TEXTS": {
+              "TOGGLE_FINALIZE": "To allow the patient to see the completed examination forms and attachments, please finalize them:",
+              "MUSCULOSKELETAL_PROBLEM": "Musculoskeletal Problem:",
+              "VISIT": "Visit",
+              "CREATED_BY": "Created By:",
+              "FILLED_OUT_BY": "Filled Out By:"
+            }
+          },
+          "FORM_SECTION": {
+            "TABS": {
+              "SHEET_COMPLETION": {
+                "TITLE": "Fill Out Examination Forms"
+              },
+              "UPLOAD_DOCUMENTS": {
+                "TITLE": "Upload Documents and Images"
+              },
+              "ADD_EXERCISE": {
+                "TITLE": "Add Exercise"
+              }
+            }
+          },
+          "TOOLTIPS": {
+            "NEW_PROBLEM_BUTTON_TOOLTIP": "Add the musculoskeletal problem with which the patient arrived",
+            "DROPDOWN_MENU": "Add examinations related to the same musculoskeletal problem",
+            "DELETE_ANSWERS": "Delete Answers",
+            "DELETE_SURVEY": "Delete Examination Form",
+            "ADD_OR_DELETE_SURVEYS": "Add/Delete Examination Forms",
+            "MOBILE_HELP": "At least 6 characters, may include numbers, +/ signs, and spaces"
+          },
+          "SYSTEM_NOTIFICATIONS": {}
+        },
+        "COMPARE_VISITS": {
+          "SYSTEM_NOTIFICATIONS": {}
+        },
+        "MESSAGES": {
+          "SYSTEM_NOTIFICATIONS": {}
+        },
+        "BILLING_AND_CONTACT_INFORMATION": {
+          "SYSTEM_NOTIFICATIONS": {}
+        }
+      }
+    },
+    "TABS": {
+      "ACTIVE_PATIENTS": {
+        "NEW_PATIENT_BUTTON_TEXT": "New Patient",
+        "PATIENTS_TABLE": {
+          "SEARCH_PLACEHOLDER": "Search",
+          "TABLE_COLUMN": {
+            "NAME": "Name",
+            "LAST_VISIT": "Last Visit",
+            "ID": "ID",
+            "EMAIL": "Email Address",
+            "PROFILE_ENABLED": "Profile Page Enabled?",
+            "SEES_THE_VISITS": "Can See Visits?",
+            "AT_ACCEPTED": "Data Handling Accepted?",
+            "EVALUATION": "Evaluation",
+            "OPERATIONS": "Operations"
+          },
+          "TOOLTIPS": {
+            "SELECT_ALL": "Select All",
+            "DELETE_ALL_SELECTION": "Deselect All",
+            "SELECT": "Select",
+            "DELETE_SELECTION": "Deselect",
+            "IS_AT_ACCEPTED": "Has Accepted Data Handling Information?",
+            "PATIENT_EVALUATION_SCORE": "Patient Evaluation Score:",
+            "INACTIVATE_PATIENT": "Inactivate Patient",
+            "BLOCK_PATIENT_PROFILE": "Block Patient Profile",
+            "UNBLOCK_PATIENT_PROFILE": "Unblock Patient Profile",
+            "PATIENT_ABLE_TO_SEE_VISITS": "Allow Patient to See Visits",
+            "PATIENT_UNABLE_TO_SEE_VISITS": "Prevent Patient from Seeing Visits",
+            "SHARE_PATIENT": "Share Patient",
+            "EDIT_PATIENT": "Edit Patient"
+          },
+          "PAGINATION": {}
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "INACTIVE_PATIENTS": {
+        "PATIENTS_TABLE": {
+          "SEARCH_PLACEHOLDER": "Search",
+          "TABLE_COLUMN": {
+            "NAME": "Name",
+            "ID": "ID",
+            "EMAIL": "Email Address",
+            "OPERATIONS": "Operations"
+          },
+          "TOOLTIPS": {
+            "ACTIVATE_PATIENT": "Activate Patient",
+            "EDIT_PATIENT": "Edit Patient"
+          },
+          "PAGINATION": {}
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "SUSPENDED_PATIENTS": {
+        "PATIENTS_TABLE": {
+          "SEARCH_PLACEHOLDER": "Search",
+          "TABLE_COLUMN": {
+            "NAME": "Name",
+            "ID": "ID",
+            "EMAIL": "Email Address"
+          },
+          "TOOLTIPS": {},
+          "PAGINATION": {}
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "PATIENTS_WAITING_FOR_ACCEPTANCE": {
+        "PATIENTS_TABLE": {
+          "SEARCH_PLACEHOLDER": "Search",
+          "TABLE_COLUMN": {
+            "NAME": "Name",
+            "ID": "ID",
+            "EMAIL": "Email Address",
+            "OPERATIONS": "Operations"
+          },
+          "TOOLTIPS": {},
+          "PAGINATION": {}
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "PATIENTS_ON_WAITING_LIST": {
+        "PATIENTS_TABLE": {
+          "SEARCH_PLACEHOLDER": "Search",
+          "TABLE_COLUMN": {
+            "NAME": "Name",
+            "PRIORITY": "Priority",
+            "TREATMENT": "Treatment",
+            "TREATMENT_LENGHT": "Treatment Duration",
+            "EMAIL": "Email Address",
+            "ON_WAITING_LIST": "On Waiting List",
+            "COMMENT": "Comment",
+            "OPERATIONS": "Operations"
+          },
+          "TOOLTIPS": {
+            "EDIT": "Edit",
+            "DELETE": "Delete"
+          },
+          "ACTIONS": {
+            "ADD_BUTTON": {
+              "TEXT": "Add"
+            }
+          },
+          "ADD_TO_WAITING_LIST_POPUP": {
+            "TITLE": "Add to Waiting List",
+            "FIELDS": {
+              "PATIENT": {
+                "PLACEHOLDER": "Patient",
+                "CHECKBOX_TEXT": "Include inactive patients too"
+              },
+              "TREATMENT_TYPE": {
+                "TEXT": "Treatment Type"
+              },
+              "DURATION": {
+                "TEXT": "Treatment Duration"
+              },
+              "PRIORITY": {
+                "TEXT": "Priority",
+                "OPTIONS": {
+                  "NOT_URGENT": "Not Urgent",
+                  "AVARAGE": "Average",
+                  "URGENT": "Urgent"
+                }
+              },
+              "COMMENT": {
+                "PLACEHOLDER": "Comment"
+              }
+            },
+            "ACTIONS": {
+              "CANCEL": "Cancel",
+              "SAVE": "Save"
+            }
+          },
+          "EDIT_WAITING_LIST_POPUP": {
+            "TITLE": "Edit Waiting List",
+            "FIELDS": {
+              "THERAPIST": {
+                "TEXT": "Therapist",
+                "PLACEHOLDER": "Select Therapist"
+              },
+              "PATIENT": {
+                "TEXT": "Patient",
+                "PLACEHOLDER": "Select Patient"
+              },
+              "TREATMENT_TYPE": {
+                "TEXT": "Treatment Type",
+                "PLACEHOLDER": "Select Type"
+              },
+              "DURATION": {
+                "TEXT": "Treatment Duration"
+              },
+              "PRIORITY": {
+                "TEXT": "Priority",
+                "OPTIONS": {
+                  "NOT_URGENT": "Not Urgent",
+                  "AVARAGE": "Average",
+                  "URGENT": "Urgent"
+                }
+              },
+              "COMMENT": {
+                "PLACEHOLDER": "Comment"
+              }
+            },
+            "ACTIONS": {
+              "CANCEL": "Cancel",
+              "SAVE": "Save"
+            }
+          },
+          "PAGINATION": {}
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      }
+    }
+  },
+  "CALENDAR": {
+    "BREADCRUMB": {
+      "TITLE": {
+        "DASHBOARD": "Home",
+        "CALENDAR": "Calendar",
+        "LIST_VIEW": "List View",
+        "CANCEL_REQUESTS": "Cancellation Requests"
+      },
+      "SEARCH": {
+        "INPUT_PLACEHOLDER": {
+          "SEARCH_FOR_PATIENT": "Search Patient"
+        },
+        "TOOLTIPS": {
+          "SEARCH_FOR_PATIENT": "Search for Patient"
+        }
+      }
+    },
+    "SIDEBAR": {
+      "TAB_TEXT": {
+        "CALENDAR": "Calendar",
+        "CALENDAR_EVENTS_LIST_VIEW": "Events List View",
+        "CANCEL_REQUESTS": "Cancellation Requests"
+      }
+    },
+    "TABS": {
+      "CALENDAR": {
+        "FILTER_PANEL": {
+          "SECTIONS": {
+            "PATIENT_ON_WAITING_LIST_DROPDOWN": {
+              "HEADER": "Patients on Waiting List",
+              "CHECKBOX_TEXTS": {
+                "SHOW_ONLY_MY_PATIENTS": "Show Only My Patients"
+              },
+              "INPUT_PLACEHOLDER": "Patient Name",
+              "PATIENT_INFO_FIELD_TEXTS": {
+                "PATIENT_THERAPIST": "Therapist",
+                "PATIENT_TREATMENT": "Treatment",
+                "PATIENT_TREATMENT_LENGHT": "Treatment Duration",
+                "COMMENT": "Comment"
+              }
+            },
+            "TREATMENT_ROOMS": {
+              "HEADER": "Treatment Rooms",
+              "CHECKBOX_TEXTS": {
+                "SELECT_ALL": "Select All",
+                "DELETE_SELECTION": "Clear Selection"
+              }
+            },
+            "THERAPISTS": {
+              "HEADER": "Therapists",
+              "CHECKBOX_TEXTS": {
+                "DELETE_SELECTION": "Clear Selection",
+                "SELECT_ALL": "Select All",
+                "DELETED_THERAPIST_EVENTS": "Events of Deleted Therapist"
+              }
+            },
+            "GOOGLE_SYNC_BUTTON_TEXT": "Connect with Google Calendar"
+          }
+        },
+        "CALENDAR_SECTION": {
+          "TABS": {
+            "WEEK_VIEW": {
+              "TAB_TEXT": "Week View",
+              "ACTION_BUTTON_TEXTS": {
+                "LOAD_TEST_DATA": "Load Test Data"
+              },
+              "TOOLTIPS": {
+                "JUMP_TO_CURRENT_WEEK": "Jump to Current Week"
+              },
+              "TOOLTIP_CARD": {
+                "PATIENT_DATA": {
+                  "MOBILE_NUMBER": "Mobile Number",
+                  "BILLING_INFORMATION": "Billing Information",
+                  "EMAIL": "Email",
+                  "TREATMENT": "Treatment",
+                  "ROOM": "Room",
+                  "COMMENT": "Comment",
+                  "LENGTH": "Duration",
+                  "NO_MOBILE_NUMBER_GIVEN": "No mobile number provided",
+                  "NO_EMAIL_GIVEN": "No email provided"
+                }
+              }
+            },
+            "DAY_VIEW": {
+              "TAB_TEXT": "Day View",
+              "CALENDAR_VIEW_SETTINGS": {
+                "TITLE": "Calendar View",
+                "OPTIONS": {
+                  "ALL_EVENTS": "All Events",
+                  "THERAPIST_EVENT_ONLY": "Therapist (Events Only)",
+                  "THERAPIST_ALL": "Therapist (All)",
+                  "TREATMENT_ROOM_EVENT_ONLY": "Treatment Room (Events Only)",
+                  "TREATMENT_ROOM_ALL": "Treatment Room (All)"
+                }
+              },
+              "TOOLTIPS": {
+                "JUMP_TO_CURRENT_DAY": "Jump to Today"
+              }
+            }
+          }
+        }
+      },
+      "CALENDAR_EVENTS_LIST_VIEW": {
+        "FILTER_SECTION": {
+          "TITLE": "Filter Conditions",
+          "FIELDS": {
+            "CHOOSE_THERAPIST_DROPDOWN_MENU": {
+              "PLACEHOLDER": "Therapist"
+            },
+            "DATE": {
+              "TEXT": "Date"
+            },
+            "STATUS": {
+              "PLACEHOLDER": "Status",
+              "OPTIONS": {
+                "CREATED": "Agreed Time",
+                "TREATMENT_IS_DONE": "Completed",
+                "CANCELED": "Canceled (Late)",
+                "BILLED": "Billed",
+                "DELETED": "Deleted Event",
+                "DELETED_BY_PATIENT_SUSPENSION": "Deleted Event (Patient Suspended)",
+                "DELETED_BY_PATIENT_INACTIVATION": "Deleted Event (Patient Inactivated)",
+                "DELETED_BY_PATIENT_DELETION": "Deleted Event (Patient Deleted)",
+                "DELETED_BY_THERAPIST_SUSPENSION": "Deleted Event (Therapist Suspended)"
+              }
+            }
+          },
+          "DELETE_FILTERS_BUTTON_TEXT": "Clear Filters"
+        },
+        "EVENTS_TABLE": {
+          "SEARCH_INPUT_PLACEHOLDER": "Search",
+          "TABLE_HEADERS": {
+            "TIME": "Time",
+            "PATIENT": "Patient",
+            "THERAPIST": "Therapist",
+            "ROOM": "Room",
+            "TREATMENT": "Treatment",
+            "TREATMENT_LENGTH": "Treatment Duration",
+            "PRICE": "Price",
+            "STATUS": "Status",
+            "COMPENSATED": "Compensated"
+          },
+          "STATUS_OPTIONS": {
+            "CREATED": "Agreed Time",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Canceled (Late)",
+            "BILLED": "Billed",
+            "DELETED": "Deleted Event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Deleted Event (Patient Suspended)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Deleted Event (Patient Inactivated)",
+            "DELETED_BY_PATIENT_DELETION": "Deleted Event (Patient Deleted)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Deleted Event (Therapist Suspended)"
+          },
+          "TOOLTIPS": {
+            "SELECT_ALL": "Select All",
+            "DELETE_ALL_SELECTION": "Deselect All",
+            "SELECT": "Select",
+            "DELETE_SELECTION": "Deselect",
+            "AGREED_TIME": "Agreed Time",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Canceled (Late)",
+            "BILLED": "Billed",
+            "DELETED": "Deleted Event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Deleted Event (Patient Suspended)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Deleted Event (Patient Inactivated)",
+            "DELETED_BY_PATIENT_DELETION": "Deleted Event (Patient Deleted)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Deleted Event (Therapist Suspended)",
+            "IF_NOT_COMPENSATED": "Currently, the treatment has not been compensated yet. To compensate, switch the treatment status to \"Completed\" or \"Canceled (Late)\". Then you can deduct a session from the pass or issue an invoice."
+          }
+        },
+        "ACTION_BUTTONS": {
+          "DOWNLOAD_AS_EXCEL_FILE": "Download as Excel File",
+          "SAVE": "Save"
+        }
+      },
+      "CANCEL_REQUESTS": {
+        "FILTER_SECTION": {},
+        "CANCELLED_EVENTS_TABLE": {}
+      }
+    }
+  }
+}

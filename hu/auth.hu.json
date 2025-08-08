@@ -10,8 +10,9 @@
 			"LOGIN_BOX" : {
 				"TITLE" : "Kérjük, jelentkezzen be!",
 				"INPUTS" : {
-					"USERNAME_PLACEHOLDER" : "Felhasználónév *",
-					"PASSWORD_PLACEHOLDER" : "Jelszó *"
+					"USERNAME_PLACEHOLDER" : "Felhasználónév",
+					"PASSWORD_PLACEHOLDER" : "Jelszó",
+					"PASSWORD_EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó"
 				},
 				"LOGIN_BUTTON_TEXT" : "Belépés",
 				"FORGOTTEN_PASSWORD_LINK" : "Elfelejtett jelszó",
@@ -20,7 +21,9 @@
 					"REGISTRATION_BUTTON_TEXT" : "Regisztráció"
 				}
 			},
-			"SYSTEM_NOTIFICATIONS" : {}
+			"SYSTEM_NOTIFICATIONS" : {
+				"WRONG_USERNAME_OR_PASSWORD" : "Hibás felhasználónév vagy jelszó!"
+			}
 		},
 		"REGISTRATION_PAGE" : {
 			"BREADCRUMB": "Regisztráció",
@@ -36,9 +39,51 @@
 					"PATIENT" : "Páciens",
 					"EMPLOYEE" : "Klinikai alkalmazott",
 					"ADMIN" : "Klinikai vezető"
+				},
+				"TABS" : {
+					"TITLE" : "Figyelmeztetés",
+					"REGISTRATION_AS_PATIENT" : {
+						"ROW_1" : "Páciensek számára a gyógytornász küldi meg e-mailben a szükséges információkat a regisztrációhoz, többek között egy linket is.",
+						"ROW_2" : "Kérjük, ezt a linket (amit a gyógytornászától kapott e-mailben talál) használja a regisztrációhoz.",
+						"ROW_3" : "Amennyiben nem találja a regisztrációhoz szükséges e-mailt, kérjük ellenőrizze levelezője spam és promóciók mappáját, illetve érdeklődjön gyógytornászánál."
+					},
+					"REGISTRATION_AS_EMPLOYEE" : {
+						"ROW_1" : "Klinika alkalmazottak számára a klinika küldi meg e-mailben a szükséges információkat a regisztrációhoz, többek között egy linket is.",
+						"ROW_2" : "Kérjük, ezt a linket használja a regisztrációhoz."
+					},
+					"REGISTRATION_AS_ADMIN" : {
+						"INFORMATION_1_FIRST_PART" : "Kérlek, add meg a regisztrációhoz szükséges adataidat, hogy létrehozhassuk a klinikád fiókját. Adataid kezelésével kapcsolatban olvasd el",
+						"INFORMATION_1_LINK_TEXT" : "adatkezelés tájékoztatónkat",
+						"INFORMATION_1_SECOND_PART": "A regisztráció után, belépéskor egy rövid kérdőív fogad. Kérlek, töltsd ki, hogy az i-Clinic-et a saját igényeidre szabva tudjuk beállítani.",
+						"INFORMATION_2" : "Fontos! A rendszer funkciói a regisztrációt követő kérdőív kitöltése után válnak elérhetővé. Ezzel egy időben elindul egy e-mail sorozat, amelyben videós útmutatókkal segítünk lépésről lépésre megismerni rendszerünket, azaz az új digitális asszisztensedet.",
+						"FIELDS" : {
+							"LAST_NAME" : "Vezetéknév",
+							"FIRST_NAME" : "Keresztnév",
+							"EMAIL_ADDRESS" : "Email cím",
+							"MOBILE_NUMBER" : "Telefonszám",
+							"CLINIC_NAME" : "Klinika neve",
+							"CLINIC_NAME_HELP_TOOLTIP" : "A klinikád ezzel a névvel fog létezni az i-Clinic rendszerében, a pácienseid is ezt az elnevezést fogják látni.",
+							"COUPON_CODE" : "Kupon kód",
+							"USERNAME" : "Felhasználónév",
+							"USERNAME_HELP_TOOLTIP" : "Ha esetleg a rendszer által generált felhasználó név már foglalt, bármi másra átírhatod, ami még szabad és emlékezni fogsz rá. A felhasználó nevedet senki sem fogja látni a rendszerben, csak te és csak a belépéshez fogod használni.",
+							"PASSWORD" : "Jelszó",
+							"PASSWORD_EYE_TOOLTIP" : "A jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+							"PASSWORD_HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon.",
+							"PASSWORD_AGAIN" : "Jelszó ismétlése",
+							"PASSWORD_AGAIN_EYE_TOOLTIP" : "A jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+							"PASSWORD_AGAIN_HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon."
+						},
+						"ACCEPT_TERMS_AND_CONDITIONS" : {
+							"TEXT" : "Elfogadom az",
+							"LINK_TEXT" : "Általános Szerzői Feltételeket"
+						},
+						"REGISTER_BUTTON_TEXT" : "Regisztrálás"
+					}
 				}
 			},
-			"SYSTEM_NOTIFICATIONS" : {}
+			"SYSTEM_NOTIFICATIONS" : {
+				"REGISTRATION_SUCCESS" : "Sikeres regisztráció"
+			}
 		}
 	}
 }

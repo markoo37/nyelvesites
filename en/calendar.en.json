@@ -28,7 +28,7 @@
         "FILTER_PANEL": {
           "SECTIONS": {
             "PATIENT_ON_WAITING_LIST_DROPDOWN": {
-              "HEADER": "Patients on Waiting List",
+              "HEADER": "Patients on waiting list",
               "CHECKBOX_TEXTS": {
                 "SHOW_ONLY_MY_PATIENTS": "Show only my patients"
               },
@@ -41,14 +41,14 @@
               }
             },
             "TREATMENT_ROOMS": {
-              "HEADER": "Treatment Rooms",
+              "HEADER": "Treatment rooms",
               "CHECKBOX_TEXTS": {
                 "SELECT_ALL": "Select all",
                 "DELETE_SELECTION": "Clear selection"
               }
             },
             "THERAPISTS": {
-              "HEADER": "Therapists",
+              "HEADER": "Terapeuták",
               "CHECKBOX_TEXTS": {
                 "DELETE_SELECTION": "Clear selection",
                 "SELECT_ALL": "Select all",
@@ -61,18 +61,31 @@
         "CALENDAR_SECTION": {
           "TABS": {
             "WEEK_VIEW": {
-              "TAB_TEXT": "Weekly View",
+              "TAB_TEXT": "Weekly view",
               "ACTION_BUTTON_TEXTS": {
                 "LOAD_TEST_DATA": "Load test data"
               },
               "TOOLTIPS": {
                 "JUMP_TO_CURRENT_WEEK": "Jump to current week"
+              },
+              "TOOLTIP_CARD": {
+                "PATIENT_DATA": {
+                  "MOBILE_NUMBER": "Phone number",
+                  "BILLING_INFORMATION": "Billing information",
+                  "EMAIL": "Email",
+                  "TREATMENT": "Treatment",
+                  "ROOM": "Room",
+                  "COMMENT": "Comment",
+                  "LENGTH": "Duration",
+                  "NO_MOBILE_NUMBER_GIVEN": "No phone number",
+                  "NO_EMAIL_GIVEN": "No email address"
+                }
               }
             },
             "DAY_VIEW": {
-              "TAB_TEXT": "Daily View",
+              "TAB_TEXT": "Daily view",
               "CALENDAR_VIEW_SETTINGS": {
-                "TITLE": "Calendar View",
+                "TITLE": "Calendar view",
                 "OPTIONS": {
                   "ALL_EVENTS": "All events",
                   "THERAPIST_EVENT_ONLY": "Therapist (events only)",
@@ -123,7 +136,7 @@
             "THERAPIST": "Therapist",
             "ROOM": "Room",
             "TREATMENT": "Treatment",
-            "TREATMENT_LENGTH": "Kezelés hossz",
+            "TREATMENT_LENGTH": "Treatment length",
             "PRICE": "Price",
             "STATUS": "Status",
             "COMPENSATED": "Compensated"
@@ -143,7 +156,7 @@
             "SELECT_ALL": "Select all",
             "DELETE_ALL_SELECTION": "Clear all selections",
             "SELECT": "Select",
-            "DELETE_SELECTION": "Deselect",
+            "DELETE_SELECTION": "Delete selection",
             "AGREED_TIME": "Agreed appointment",
             "TREATMENT_IS_DONE": "Completed",
             "CANCELED": "Cancelled (late)",
