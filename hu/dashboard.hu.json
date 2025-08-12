@@ -97,6 +97,13 @@
           "TREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
         }
       },
-      "SYSTEM_NOTIFICATIONS" : {}
+      "SYSTEM_NOTIFICATIONS" : {
+        "ERROR_WHILE_SEARCHING_FOR_COLLEAGUE" : "Hiba a munkatárs keresés közben",
+        "ERROR_WHILE_SEARCHING_FOR_PATIENT" : "Hiba a páciens keresés közben",
+        "UNSUCCESSFUL_PATIENT_DATA_SHEET_QUERY" : "Sikertelen páciens adatlap lekérdezés",
+        "UNSUCCESSFUL_TREATMENT_ROOM_QUERY" : "Sikertelen kezelőhelyiség lekérdezés",
+        "UNSUCCESSFUL_NEXT_EVENTS_QUERY" : "Sikertelen következő események lekérdezés",
+        "UNSUCCESSFUL_EVENTS_QUERY_FOR_TREATMENT_ROOM" : "Sikertelen események lekérdezés kezelőhelyiséghez"
+      }
   }
 }

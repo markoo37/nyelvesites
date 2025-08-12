@@ -22,7 +22,9 @@
 				}
 			},
 			"SYSTEM_NOTIFICATIONS" : {
-				"WRONG_USERNAME_OR_PASSWORD" : "Hibás felhasználónév vagy jelszó!"
+				"WRONG_USERNAME_OR_PASSWORD" : "Hibás felhasználónév vagy jelszó!",
+				"UNSUCCESSFUL_SUBSCRIPTION_DATE_QUERY" : "Sikertelen előfizetési dátum lekérdezés",
+				"EXPIRATION_WARNING" : "Az előfizetés {{dateTime}} időpontban le fog járni. Amennyiben nem újítod meg az előfizetést, csak olvasási lehetősége lesz a klinika összes dolgozójának."
 			}
 		},
 		"REGISTRATION_PAGE" : {

@@ -97,6 +97,12 @@
         "TREATMENT_ROOM_ALL": "Room (all)"
       }
     },
-    "SYSTEM_NOTIFICATIONS": {}
+    "SYSTEM_NOTIFICATIONS": {
+      "ERROR_WHILE_SEARCHING_FOR_COLLEAGUE" : "Error while searching for colleague",
+      "ERROR_WHILE_SEARCHING_FOR_PATIENT" : "Error while searching for patient",
+      "UNSUCCESSFUL_PATIENT_DATA_SHEET_QUERY" : "Unsuccessful query of patient's data sheet",
+      "UNSUCCESSFUL_TREATMENT_ROOM_QUERY" : "Unsuccessful query of treatment room",
+      "UNSUCCESSFUL_NEXT_EVENTS_QUERY" : "Unsuccessful query of next events"
+    }
   }
 }

@@ -91,7 +91,7 @@
                   "THERAPIST_EVENT_ONLY" : "Terapeuta (csak esemény)",
                   "THERAPIST_ALL" : "Terapeuta (mind)",
                   "TREATMENT_ROOM_EVENT_ONLY" : "Kezelőhelyiség (csak esemény)",
-                  "THREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
+                  "TREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
                 }
               },
               "TOOLTIPS" : {
@@ -130,6 +130,7 @@
         },
         "EVENTS_TABLE" : {
           "SEARCH_INPUT_PLACEHOLDER" : "Keresés",
+          "SET_STATUS_ON_SELECTED_EVENT" : "A kiválasztott események állapotának beállítása:",
           "TABLE_HEADERS" : {
             "TIME" : "Időpont",
             "PATIENT" : "Páciens",
@@ -174,10 +175,83 @@
           "SAVE" : "Mentés"
         }
       },
-      "CANCEL_REQUESTS" : {
-        "FILTER_SECTION" : {},
-        "CANCELLED_EVENTS_TABLE" : {}
+      "CANCEL_REQUESTS": {
+        "NOTICE" : "Páciense lemondási szándékát/szándékait elfogadhatja, ha az egyes esemény státuszát Törölt, vagy Lemondott (Késve) állapotúra állítja. Törölt esemény nem jár fizetési kötelezettséggel, Lemondott(Késve) esemény az Ön házirendje függvényében fizetési kötelezettséggel járhat, melyről a páciens az i-Clinicen belüli chatüzenet formájában automatikusan tájékoztatjuk az esemény állapotának átállítását követően.",
+        "FILTER_SECTION": {
+          "TITLE": "Szűrési feltételek",
+          "FIELDS": {
+            "CHOOSE_THERAPIST_DROPDOWN_MENU": {
+              "PLACEHOLDER": "Terapeuta"
+            },
+            "DATE": {
+              "TEXT": "Dátum"
+            }
+          },
+          "DELETE_FILTERS_BUTTON_TEXT" : "Szűrők törlése"
+        },
+        "CANCELLED_EVENTS_TABLE": {
+          "SEARCH_INPUT_PLACEHOLDER": "Keresés",
+          "SET_STATUS_ON_SELECTED_EVENT" : "A kiválasztott események állapotának beállítása:",
+          "TABLE_HEADERS": {
+            "DATE_OF_CANCELLATION": "Lemondás időpontja",
+            "DATE_OF_TREATMENT": "Kezelés időpontja",
+            "THERAPIST": "Terapeuta",
+            "PATIENT": "Páciens",
+            "CANCEL_REASON" : "Lemondás oka",
+            "ROOM": "Kezelőhelyiség",
+            "TREATMENT": "Kezelés",
+            "STATUS": "Állapot",
+            "OPERATIONS": "Műveletek"
+          },
+          "STATUS_OPTIONS": {
+            "CREATED" : "Leegyeztetett időpont",
+            "TREATMENT_IS_DONE" : "Megtörtént",
+            "CANCELED" : "Lemondott (késve)",
+            "BILLED" : "Kiegyenlített",
+            "DELETED" : "Törölt esemény",
+            "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
+          },
+          "TOOLTIPS": {
+            "SELECT_ALL" : "Összes kijelölése",
+            "DELETE_ALL_SELECTION" : "Összes kijelölés törlése",
+            "SELECT" : "Kijelölés",
+            "DELETE_SELECTION" : "Kijelölés törlése",
+            "AGREED_TIME" : "Leegyeztetett időpont",
+            "TREATMENT_IS_DONE" : "Megtörtént",
+            "CANCELED" : "Lemondott (késve)",
+            "BILLED" : "Kiegyenlített",
+            "DELETED" : "Törölt esemény",
+            "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)",
+            "IF_NOT_COMPENSATED" : "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható."
+          }
+        },
+        "ACTION_BUTTONS" : {
+          "SAVE" : "Mentés"
+        }
       }
+    },
+    "SYSTEM_NOTIFICATIONS" : {
+      "UNSUCCESSFUL_TREATMENT_ROOM_QUERY" : "Sikertelen kezelőhelyiség lekérdezés",
+      "UNSUCCESSFUL_THERAPIST_QUERY" : "Sikertelen terapeuta lekérdezés",
+      "UNSUCCESSFUL_THERAPIST_LIST_QUERY" : "Sikertelen terapeuta lista lekérdezés",
+      "UNSUCCESSFUL_REMOVAL_OF_WAITING_LIST" : "Sikertelen várólista törlés",
+      "UNSUCCESSFUL_QUERY_OF_WAITING_LIST" : "Sikertelen várólista lekérdezés",
+      "TURN_OFF_GOOGLE_SYNC_CONFIRM_DIALOG" : "Biztosan ki szeretné kapcsolni a szinkronizációt a Google naptárral?",
+      "SET_STATUS_FOR_SELECTED_CONFIRM_DIALOG" : "Biztos, hogy beállítod az összes kijelölt eseményre a(z) {{statusName}} állapotot?",
+      "ACCEPT_CANCELLATION_AND_SET_STATUS_FOR_SELECTED_EVENT_CONFIRM_DIALOG" : "Biztos, hogy az összes kijelölt esemény lemondását elfogadod és az állapotát a(z) {{statusName}} állapotra állítod?",
+      "SUCCESSFUL_EVENT_STATUS_SETTING" : "Sikeres esemény állapot beállítás",
+      "SUCCESSFUL_EVENT_STATUS_UPDATE" : "Sikeres esemény állapot frissítés",
+      "UNSUCCESSFUL_EVENT_STATUS_SETTING" : "Sikertelen esemény állapot beállítás",
+      "BEGINNING_OF_SCREENING_CAN_NOT_BE_LATER_THAN_THE_END" : "A szűrés kezdete nem lehet később, mint a szűrés vége",
+      "CANCEL_SUCCESS_CONFIRMATION" : "Sikeres lemondás megerősítése",
+      "CANCEL_FAILURE_CONFIRMATION" : "Sikertelen lemondás megerősítés",
+      "CONFIRM_EVENT_DATE_MODIFICATION_DIALOG" : "Biztos, hogy módosítod az esemény időpontját?"
     }
   }
 }

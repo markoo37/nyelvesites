@@ -22,7 +22,10 @@
 				}
 			},
 			"SYSTEM_NOTIFICATIONS": {
-				"WRONG_USERNAME_OR_PASSWORD": "Incorrect username or password!"
+				"WRONG_USERNAME_OR_PASSWORD": "Incorrect username or password!",
+				"UNSUCCESSFUL_SUBSCRIPTION_DATE_QUERY" : "Unsuccessful subscription date query.",
+				"EXPIRATION_WARNING" : "The subscription will expire on the following date: {{dateTime}}. If you won't renew your subscription, the employees of the clinic will only be able read data."
+
 			}
 		},
 		"REGISTRATION_PAGE": {

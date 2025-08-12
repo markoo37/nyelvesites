@@ -4,8 +4,8 @@
       "TITLE": {
         "DASHBOARD": "Dashboard",
         "CALENDAR": "Calendar",
-        "LIST_VIEW": "List View",
-        "CANCEL_REQUESTS": "Cancel Requests"
+        "LIST_VIEW": "List view",
+        "CANCEL_REQUESTS": "Cancellation requests"
       },
       "SEARCH": {
         "INPUT_PLACEHOLDER": {
@@ -19,8 +19,8 @@
     "SIDEBAR": {
       "TAB_TEXT": {
         "CALENDAR": "Calendar",
-        "CALENDAR_EVENTS_LIST_VIEW": "Calendar Events List View",
-        "CANCEL_REQUESTS": "Cancel Requests"
+        "CALENDAR_EVENTS_LIST_VIEW": "Calendar events list view",
+        "CANCEL_REQUESTS": "Cancellation requests"
       }
     },
     "TABS": {
@@ -44,13 +44,13 @@
               "HEADER": "Treatment rooms",
               "CHECKBOX_TEXTS": {
                 "SELECT_ALL": "Select all",
-                "DELETE_SELECTION": "Clear selection"
+                "DELETE_SELECTION": "Delete selection"
               }
             },
             "THERAPISTS": {
               "HEADER": "Terapeuták",
               "CHECKBOX_TEXTS": {
-                "DELETE_SELECTION": "Clear selection",
+                "DELETE_SELECTION": "Delete selection",
                 "SELECT_ALL": "Select all",
                 "DELETED_THERAPIST_EVENTS": "Deleted therapist events"
               }
@@ -61,7 +61,7 @@
         "CALENDAR_SECTION": {
           "TABS": {
             "WEEK_VIEW": {
-              "TAB_TEXT": "Weekly view",
+              "TAB_TEXT": "Week view",
               "ACTION_BUTTON_TEXTS": {
                 "LOAD_TEST_DATA": "Load test data"
               },
@@ -83,15 +83,15 @@
               }
             },
             "DAY_VIEW": {
-              "TAB_TEXT": "Daily view",
+              "TAB_TEXT": "Day view",
               "CALENDAR_VIEW_SETTINGS": {
                 "TITLE": "Calendar view",
                 "OPTIONS": {
                   "ALL_EVENTS": "All events",
-                  "THERAPIST_EVENT_ONLY": "Therapist (events only)",
+                  "THERAPIST_EVENT_ONLY": "Therapist (event only)",
                   "THERAPIST_ALL": "Therapist (all)",
-                  "TREATMENT_ROOM_EVENT_ONLY": "Room (events only)",
-                  "THREATMENT_ROOM_ALL": "Room (all)"
+                  "TREATMENT_ROOM_EVENT_ONLY": "Treatment room (event only)",
+                  "TREATMENT_ROOM_ALL": "Treatment room (all)"
                 }
               },
               "TOOLTIPS": {
@@ -117,21 +117,21 @@
                 "CREATED": "Agreed appointment",
                 "TREATMENT_IS_DONE": "Completed",
                 "CANCELED": "Cancelled (late)",
-                "BILLED": "Billed",
+                "BILLED": "Paid",
                 "DELETED": "Deleted event",
-                "DELETED_BY_PATIENT_SUSPENSION": "Deleted event (Patient suspended)",
-                "DELETED_BY_PATIENT_INACTIVATION": "Deleted event (Patient inactivated)",
-                "DELETED_BY_PATIENT_DELETION": "Deleted event (Patient deleted)",
-                "DELETED_BY_THERAPIST_SUSPENSION": "Deleted event (Therapist suspended)"
+                "DELETED_BY_PATIENT_SUSPENSION": "Törölt esemény (Páciens felfüggesztés)",
+                "DELETED_BY_PATIENT_INACTIVATION": "Törölt esemény (Páciens inaktiválás)",
+                "DELETED_BY_PATIENT_DELETION": "Törölt esemény (Páciens törlés)",
+                "DELETED_BY_THERAPIST_SUSPENSION": "Törölt esemény (Terapeuta felfüggesztés)"
               }
             }
           },
-          "DELETE_FILTERS_BUTTON_TEXT": "Clear filters"
+          "DELETE_FILTERS_BUTTON_TEXT": "Szűrők törlése"
         },
         "EVENTS_TABLE": {
-          "SEARCH_INPUT_PLACEHOLDER": "Search",
+          "SEARCH_INPUT_PLACEHOLDER": "Keresés",
           "TABLE_HEADERS": {
-            "TIME": "Time",
+            "TIME": "Időpont",
             "PATIENT": "Patient",
             "THERAPIST": "Therapist",
             "ROOM": "Room",
@@ -139,33 +139,33 @@
             "TREATMENT_LENGTH": "Treatment length",
             "PRICE": "Price",
             "STATUS": "Status",
-            "COMPENSATED": "Compensated"
+            "COMPENSATED": "Paid"
           },
           "STATUS_OPTIONS": {
             "CREATED": "Agreed appointment",
             "TREATMENT_IS_DONE": "Completed",
             "CANCELED": "Cancelled (late)",
-            "BILLED": "Billed",
+            "BILLED": "Paid",
             "DELETED": "Deleted event",
-            "DELETED_BY_PATIENT_SUSPENSION": "Deleted event (Patient suspended)",
-            "DELETED_BY_PATIENT_INACTIVATION": "Deleted event (Patient inactivated)",
-            "DELETED_BY_PATIENT_DELETION": "Deleted event (Patient deleted)",
-            "DELETED_BY_THERAPIST_SUSPENSION": "Deleted event (Therapist suspended)"
+            "DELETED_BY_PATIENT_SUSPENSION": "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION": "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Törölt esemény (Terapeuta felfüggesztés)"
           },
           "TOOLTIPS": {
             "SELECT_ALL": "Select all",
-            "DELETE_ALL_SELECTION": "Clear all selections",
+            "DELETE_ALL_SELECTION": "Delete all selections",
             "SELECT": "Select",
-            "DELETE_SELECTION": "Delete selection",
+            "DELETE_SELECTION": "Deselect",
             "AGREED_TIME": "Agreed appointment",
             "TREATMENT_IS_DONE": "Completed",
             "CANCELED": "Cancelled (late)",
-            "BILLED": "Billed",
+            "BILLED": "Paid",
             "DELETED": "Deleted event",
-            "DELETED_BY_PATIENT_SUSPENSION": "Deleted event (Patient suspended)",
-            "DELETED_BY_PATIENT_INACTIVATION": "Deleted event (Patient inactivated)",
-            "DELETED_BY_PATIENT_DELETION": "Deleted event (Patient deleted)",
-            "DELETED_BY_THERAPIST_SUSPENSION": "Deleted event (Therapist suspended)",
+            "DELETED_BY_PATIENT_SUSPENSION": "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION": "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Törölt esemény (Terapeuta felfüggesztés)",
             "IF_NOT_COMPENSATED": "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható."
           }
         },
@@ -175,9 +175,82 @@
         }
       },
       "CANCEL_REQUESTS": {
-        "FILTER_SECTION": {},
-        "CANCELLED_EVENTS_TABLE": {}
+        "NOTICE": "Páciense lemondási szándékát/szándékait elfogadhatja, ha az egyes esemény státuszát Törölt, vagy Lemondott (Késve) állapotúra állítja. Törölt esemény nem jár fizetési kötelezettséggel, Lemondott(Késve) esemény az Ön házirendje függvényében fizetési kötelezettséggel járhat, melyről a páciens az i-Clinicen belüli chatüzenet formájában automatikusan tájékoztatjuk az esemény állapotának átállítását követően.",
+        "FILTER_SECTION": {
+          "TITLE": "Filter conditions",
+          "FIELDS": {
+            "CHOOSE_THERAPIST_DROPDOWN_MENU": {
+              "PLACEHOLDER": "Therapist"
+            },
+            "DATE": {
+              "TEXT": "Date"
+            }
+          },
+          "DELETE_FILTERS_BUTTON_TEXT": "Szűrők törlése"
+        },
+        "CANCELLED_EVENTS_TABLE": {
+          "SEARCH_INPUT_PLACEHOLDER": "Keresés",
+          "SET_STATUS_ON_SELECTED_EVENT": "A kiválasztott események állapotának beállítása:",
+          "TABLE_HEADERS": {
+            "DATE_OF_CANCELLATION": "Cancellation date",
+            "DATE_OF_TREATMENT": "Kezelés időpontja",
+            "THERAPIST": "Therapist",
+            "PATIENT": "Patient",
+            "CANCEL_REASON": "Cancellation reason",
+            "ROOM": "Kezelőhelyiség",
+            "TREATMENT": "Treatment",
+            "STATUS": "Status",
+            "OPERATIONS": "Actions"
+          },
+          "STATUS_OPTIONS": {
+            "CREATED": "Agreed appointment",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Cancelled (late)",
+            "BILLED": "Paid",
+            "DELETED": "Deleted event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION": "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Törölt esemény (Terapeuta felfüggesztés)"
+          },
+          "TOOLTIPS": {
+            "SELECT_ALL": "Select all",
+            "DELETE_ALL_SELECTION": "Delete all selections",
+            "SELECT": "Select",
+            "DELETE_SELECTION": "Deselect",
+            "AGREED_TIME": "Agreed appointment",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Cancelled (late)",
+            "BILLED": "Paid",
+            "DELETED": "Deleted event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION": "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Törölt esemény (Terapeuta felfüggesztés)",
+            "IF_NOT_COMPENSATED": "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható."
+          }
+        },
+        "ACTION_BUTTONS": {
+          "SAVE": "Save"
+        }
       }
+    },
+    "SYSTEM_NOTIFICATIONS": {
+      "UNSUCCESSFUL_TREATMENT_ROOM_QUERY": "Unsuccessful treatment room query",
+      "UNSUCCESSFUL_THERAPIST_QUERY": "Unsuccessful therapist query",
+      "UNSUCCESSFUL_THERAPIST_LIST_QUERY": "Unsuccessful therapist list query",
+      "UNSUCCESSFUL_REMOVAL_OF_WAITING_LIST": "Unsuccessful waiting list deletion",
+      "UNSUCCESSFUL_QUERY_OF_WAITING_LIST": "Unsuccessful waiting list query",
+      "TURN_OFF_GOOGLE_SYNC_CONFIRM_DIALOG": "Are you sure you want to turn off Google Calendar sync?",
+      "SET_STATUS_FOR_SELECTED_CONFIRM_DIALOG": "Biztos, hogy beállítod az összes kijelölt eseményre a(z) {{statusName}} állapotot?",
+      "ACCEPT_CANCELLATION_AND_SET_STATUS_FOR_SELECTED_EVENT_CONFIRM_DIALOG": "Biztos, hogy az összes kijelölt esemény lemondását elfogadod és az állapotát a(z) {{statusName}} állapotra állítod?",
+      "SUCCESSFUL_EVENT_STATUS_SETTING": "Sikeres esemény állapot beállítás",
+      "SUCCESSFUL_EVENT_STATUS_UPDATE": "Sikeres esemény állapot frissítés",
+      "UNSUCCESSFUL_EVENT_STATUS_SETTING": "Sikertelen esemény állapot beállítás",
+      "BEGINNING_OF_SCREENING_CAN_NOT_BE_LATER_THAN_THE_END": "A szűrés kezdete nem lehet később, mint a szűrés vége",
+      "CANCEL_SUCCESS_CONFIRMATION": "Sikeres lemondás megerősítése",
+      "CANCEL_FAILURE_CONFIRMATION": "Sikertelen lemondás megerősítés",
+      "CONFIRM_EVENT_DATE_MODIFICATION_DIALOG": "Are you sure you want to modify the event date?"
     }
   }
 }
