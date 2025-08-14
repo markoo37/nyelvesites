@@ -1,0 +1,358 @@
+{
+  "PATIENT_PROFILE": {
+    "SIDEBAR": {
+      "TAB_TEXT": {
+        "DATA": "Data",
+        "MUSCULOSKELETAL_PROBLEMS": "Musculoskeletal problems",
+        "MESSAGES": "Messages",
+        "BILLING_AND_CONTACT_INFORMATION": "Billing and contact information",
+        "MY_DATA": "My data",
+        "EXERCISES": "Exercises",
+        "VISIT_COMPARISON": "Visit comparison",
+        "DATA_PRIVACY": "Data privacy"
+      }
+    },
+    "TABS": {
+      "DATA": {
+        "PATIENT_DATA": {
+          "ACTIONS": {
+            "EDIT_DATA_BUTTON_TEXT": "Edit data"
+          },
+          "HEADER": {
+            "TITLE": {
+              "PATIENT_DATA": "Patient data",
+              "MY_DATA": "My data"
+            },
+            "TOOLTIPS": {
+              "INACTIVATE_PATIENT": "Deactivate patient",
+              "BLOCK_PATIENT_PROFILE": "Block patient profile page",
+              "UNBLOCK_PATIENT_PROFILE": "Unblock patient profile page",
+              "PATIENT_ABLE_TO_SEE_VISITS": "Patient can see visits",
+              "PATIENT_UNABLE_TO_SEE_VISITS": "Patient cannot see visits",
+              "SHARE_PATIENT": "Share patient",
+              "EDIT_PATIENT": "Edit patient",
+              "DOWNLOAD_PDF": "Download PDF"
+            }
+          },
+          "FIELDS": {
+            "TAJ": "Social Security Number",
+            "ADDRESS": "Address",
+            "PHONE": "Phone",
+            "EMAIL": "Email",
+            "BIRTH_DATE": "Date of birth",
+            "THERAPIST": "Therapist",
+            "LAST_VISIT": "Last visit",
+            "LAST_LOGIN": "Last login",
+            "OCCUPATION": "Occupation",
+            "HEALTH_ISSUE": "Health issue"
+          },
+          "DATA_MANAGEMENT_INFORMATION_SHEET": {
+            "LINK_TEXT": {
+              "NOT_ACCEPTED_YET": "Privacy policy not yet accepted",
+              "ACCEPTED": "Accepted privacy policy (Online)"
+            },
+            "TITLE": "Privacy policy",
+            "AGREEMENT": "Elolvastam és elfogadom az i-Clinic használatát szabályozó Felhasználási feltételeket. / I have read and accept the Terms of Use regulating the use of i-Clinic.",
+            "SIGNATURE": "Signature",
+            "ACTIONS": {
+              "CLOSE": "Close",
+              "ACCEPT": "Accept"
+            }
+          }
+        },
+        "SEND_NOTIFICATION_SETTINGS": {
+          "TITLE": "Send notifications in the following cases",
+          "OPTIONS": {
+            "DATE_REMINDER": "Appointment reminder",
+            "NEW_VISIT": "Notification of new visit",
+            "NEW_EXERCISE_LIST": "Notification of new exercise list",
+            "NEW_APPOINTMENT": "Record new appointment",
+            "DELETE_APPOINTMENT": "Delete existing appointment",
+            "MODIFY_APPOINTMENT": "Modify existing appointment",
+            "NEW_MESSAGE": "Notification of new message",
+            "CONDITION_CHECK": "Send condition check",
+            "SMS_NOTIFICATION": {
+              "NEW_APPOINTMENT": "SMS reminder for appointment",
+              "NOTE_NEW_APPOINTMENT": "SMS notification of new appointment",
+              "NOTE_DELETE_APPOINTMENT": "SMS notification of appointment deletion",
+              "MODIFY_APPOINTMENT": "SMS notification of appointment modification"
+            }
+          },
+          "SAVE_BUTTON_TEXT": "Save"
+        },
+        "MESSAGES": {
+          "TITLE": "Messages"
+        },
+        "TREATMENTS_TAB": {
+          "TITLE": "Treatments",
+          "TABLE_HEADERS": {
+            "THERAPIST": "Therapist",
+            "TREATMENT": "Treatment",
+            "TREATMENT_DATE": "Treatment date",
+            "LENGTH_OF_TREATMENT": "Treatment length",
+            "STATUS": "Status",
+            "COMPENSATED": "Paid",
+            "PRICE": "Price",
+            "OPERATIONS": "Operations"
+          },
+          "STATUS_OPTIONS": {
+            "AGREED_TIME": "Agreed appointment",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Cancelled (late)",
+            "BILLED": "Kiegyenlített",
+            "DELETED": "Deleted event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION": "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Törölt esemény (Terapeuta felfüggesztés)"
+          },
+          "TOOLTIPS": {
+            "AGREED_TIME": "Agreed appointment",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Cancelled (late)",
+            "BILLED": "Kiegyenlített",
+            "DELETED": "Deleted event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Törölt esemény (Páciens felfüggesztés)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Törölt esemény (Páciens inaktiválás)",
+            "DELETED_BY_PATIENT_DELETION": "Törölt esemény (Páciens törlés)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Törölt esemény (Terapeuta felfüggesztés)",
+            "IF_NOT_COMPENSATED": "The treatment has not been paid yet. To settle it, set the treatment status to 'Completed' or 'Cancelled (late)'. Then you can deduct a pass session or issue the invoice.",
+            "EDIT": "Edit"
+          },
+          "INVOICING": {
+            "ISSUER_SECTION": {
+              "TITLE": "Invoice issuer",
+              "FIELDS": {
+                "ACCOUNT": "Select billing account",
+                "INVOICE_TYPE": "Invoice type",
+                "PAYMENT_METHOD": "Payment method",
+                "PAYMENT_METHOD_TYPES": {
+                  "TRANSFER": "átutalás",
+                  "CREDIT_CARD": "bankkártya",
+                  "CASH": "készpénz",
+                  "OTHER": "egyéb"
+                },
+                "CURRENCY": "Invoice currency",
+                "CURRENCY_TYPES": {
+                  "HUF": "forint",
+                  "EUR": "euró",
+                  "CHF": "svájci frank",
+                  "USD": "amerikai dollár",
+                  "AED": "Arab Emírségek dirham",
+                  "AUD": "ausztrál dollár",
+                  "BGN": "bolgár leva",
+                  "BRL": "brazil real",
+                  "CAD": "kanadai dollár",
+                  "CNY": "kínai jüan",
+                  "CZK": "cseh korona",
+                  "DKK": "dán korona",
+                  "EEK": "észt korona",
+                  "GBP": "angol font",
+                  "HKD": "hongkongi dollár",
+                  "HRK": "horvát kúna",
+                  "IDR": "indonéz rúpia",
+                  "ILS": "izraeli sékel",
+                  "INR": "indiai rúpia",
+                  "ISK": "izlandi korona",
+                  "JPY": "japán jen",
+                  "KRW": "dél-koreai won",
+                  "KWD": "kuvaiti dinár",
+                  "LTL": "litván litas",
+                  "LVL": "lett lat",
+                  "MXN": "mexikói peso",
+                  "MYR": "maláj ringgit",
+                  "NOK": "norvég korona",
+                  "NZD": "új-zélandi dollár",
+                  "PHP": "fülöp-szigeteki peso",
+                  "PLN": "lengyel zloty",
+                  "RON": "új román lej",
+                  "RSD": "szerb dinár",
+                  "RUB": "orosz rubel",
+                  "SEK": "svéd korona",
+                  "SGD": "szingapúri dollár",
+                  "THB": "thai bát",
+                  "TRY": "török líra",
+                  "UAH": "ukrán hryvna",
+                  "VND": "vietnámi dong",
+                  "ZAR": "dél-afrikai rand"
+                },
+                "INVOICE_DATE": "Invoice date",
+                "DUE_DATE": "Due date",
+                "FULFILLMENT_DATE": "Fulfillment date"
+              },
+              "NOTE_SZAMLAZZ": "A számlához tartozó adataidat a Számlázz.hu biztosítja a számlához, ezért az itt nem, csak a Számlázz.hu-ba belépve szerkeszthető!"
+            },
+            "PARTNER_SECTION": {
+              "TITLE": "Partner",
+              "INVOICE_TO": {
+                "PATIENT": "Patient billing information",
+                "HEALTH_FUND": "Health fund invoice"
+              },
+              "FIELDS": {
+                "NAME": "Name",
+                "TAX_NUMBER": "Tax number",
+                "EMAIL": "Email",
+                "COUNTRY": "Country",
+                "ZIP": "ZIP",
+                "CITY": "City",
+                "ADDRESS": "Address"
+              }
+            },
+            "ITEMS_SECTION": {
+              "TITLE": "Items",
+              "FIELDS": {
+                "NAME": "Item name",
+                "QUANTITY": "Quantity",
+                "UNIT": "Unit",
+                "UNIT_PRICE": "Net unit price",
+                "VAT": "VAT rate",
+                "NET_PRICE": "Net price",
+                "GROSS_PRICE": "Gross price",
+                "COMMENT": "Comment"
+              },
+              "SUMMARY": {
+                "TOTAL": "Total",
+                "NET": "Net",
+                "GROSS": "Gross"
+              },
+              "ACTIONS": {
+                "ADD_ITEM": "New item",
+                "DELETE_ITEM": "Delete",
+                "CANCEL": "Cancel",
+                "ISSUE_INVOICE": "Issue the invoice"
+              },
+              "OPTIONS": {
+                "SEND_EMAIL": "Send invoice to patient via email",
+                "ALREADY_PAID": "Already paid"
+              },
+              "INVOICE_COMMENT": "Invoice comment"
+            }
+          }
+        },
+        "WAITING_LISTS_TAB": {
+          "TITLE": "Waiting list",
+          "SEARCH_FIELD": {
+            "PLACEHOLDER": "Search"
+          },
+          "TABLE_HEADERS": {
+            "PRIORITY": "Prioritás",
+            "TREATMENT": "Treatment",
+            "LENGTH_OF_TREATMENT": "Kezelés hossz",
+            "THERAPIST": "Therapist",
+            "ON_LIST": "On waiting list",
+            "COMMENT": "Comment",
+            "OPERATIONS": "Operations"
+          },
+          "ACTIONS": {
+            "ADD_TO_WAITING_LIST": "Add to waiting list"
+          },
+          "ADD_TO_WAITING_LIST_POPUP": {
+            "TITLE": "Edit waiting list",
+            "FIELDS": {
+              "THERAPIST": {
+                "TEXT": "Therapist",
+                "PLACEHOLDER": "Select therapist"
+              },
+              "PATIENT": {
+                "TEXT": "Páciens",
+                "PLACEHOLDER": "Select patient"
+              },
+              "TREATMENT_TYPE": {
+                "TEXT": "Treatment type",
+                "PLACEHOLDER": "Select type"
+              },
+              "DURATION": {
+                "TEXT": "Treatment length"
+              },
+              "PRIORITY": {
+                "TEXT": "Prioritás",
+                "OPTIONS": {
+                  "NOT_URGENT": "Not urgent",
+                  "AVERAGE": "Average",
+                  "URGENT": "Urgent"
+                }
+              },
+              "COMMENT": {
+                "PLACEHOLDER": "Comment"
+              }
+            },
+            "ACTIONS": {
+              "CANCEL": "Mégsem",
+              "SAVE": "Save"
+            }
+          },
+          "TOOLTIPS": {
+            "EDIT": "Edit",
+            "DELETE": "Delete"
+          }
+        },
+        "DOCUMENTS_TAB": {
+          "TITLE": "Documents"
+        },
+        "REVIEWS_TAB": {
+          "TITLE": "Reviews"
+        },
+        "COMMENTS_TAB": {
+          "TITLE": "Megjegyzések"
+        },
+        "MEMBERSHIPS_TAB": {
+          "TITLE": "Memberships"
+        },
+        "PRELIMINARY_HEALTH_SECTION": {
+          "TITLE": "Preliminary health survey, data request"
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "MUSCULOSKELETAL_PROBLEMS": {
+        "ACTIONS": {
+          "NEW_MUSCULOSKELETAL_PROBLEM": "New musculoskeletal problem",
+          "SAVE": "Save",
+          "ADD_NEW_VISIT": "Add new visit"
+        },
+        "MUSCULOSKELETAL_PROBLEMS_DROPDOWN": {
+          "TITLE": "Musculoskeletal problems"
+        },
+        "INFORMATION_SECTION": {
+          "TEXTS": {
+            "TOGGLE_FINALIZE": "To make the patient see the completed examination sheets and attachments, please finalize them:",
+            "MUSCULOSKELETAL_PROBLEM": "Musculoskeletal problem:",
+            "VISIT": "Examination",
+            "CREATED_BY": "Created by:",
+            "FILLED_OUT_BY": "Filled out by:"
+          }
+        },
+        "FORM_SECTION": {
+          "TABS": {
+            "SHEET_COMPLETION": {
+              "TITLE": "Fill out examination sheets"
+            },
+            "UPLOAD_DOCUMENTS": {
+              "TITLE": "Upload documents, images"
+            },
+            "ADD_EXERCISE": {
+              "TITLE": "Add exercise"
+            }
+          }
+        },
+        "TOOLTIPS": {
+          "NEW_PROBLEM_BUTTON_TOOLTIP": "Add the musculoskeletal problem the patient came with",
+          "DROPDOWN_MENU": "Add examinations belonging to the same musculoskeletal problem",
+          "DELETE_ANSWERS": "Delete answers",
+          "DELETE_SURVEY": "Delete examination sheet",
+          "ADD_OR_DELETE_SURVEYS": "Add/remove examination sheets",
+          "MOBILE_HELP": "At least 6 characters, may contain numbers and +/ signs, and spaces"
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "COMPARE_VISITS": {
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "MESSAGES": {
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "BILLING_AND_CONTACT_INFORMATION": {
+        "SYSTEM_NOTIFICATIONS": {}
+      }
+    }
+  }
+}

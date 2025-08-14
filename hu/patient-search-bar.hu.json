@@ -1,0 +1,10 @@
+{
+	"PATIENT_SEARCH_BAR" : {
+		"TOOLTIPS" : {
+			"CREATE_PATIENT" : "Páciens létrehozás",
+			"SEARCH_FOR_PATIENT" : "Páciens keresés"
+		},
+		"PLACEHOLDER" : "Páciens keresése",
+		"MAKE_INACTIVE_PATIENTS_VISIBLE_CHECKBOX_TEXT" : "Inaktív páciensek is látszódjanak"
+	}
+}

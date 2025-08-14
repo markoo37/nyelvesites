@@ -1,0 +1,17 @@
+{
+	"MAIN_BREADCRUMBS" : {
+		"HOME_PAGE" : "Kezdőlap",
+		"PATIENTS" : "Páciensek",
+		"CALENDAR" : "Naptár",
+		"EMAILS" : "E-mailek",
+		"TOKENS" : "Tokenek",
+		"EESZT_DATA_SERVICE" : "EESZT Adatszolgáltatás",
+		"EESZT_NEWS" : "EESZT Hírek",
+		"MY_CLINIC" : "Klinikám",
+		"MY_ACCOUNT" : "Fiókom",
+		"EDIT_PATIENT" : "Páciens szerkesztése",
+		"HELP" : "Súgó",
+		"NOTIFICATIONS" : "Értesítések",
+		"SMS" : "SMS-ek"
+	}
+}
