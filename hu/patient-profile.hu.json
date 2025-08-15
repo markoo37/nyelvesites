@@ -366,38 +366,84 @@
           "SELL_MEMBERSHIP_BUTTON_TEXT" : "Bérlet eladása"
         },
         "PRELIMINARY_HEALTH_SECTION": {
-          "TITLE": "Előzetes állapotfelmérő, adatbekérő"
+          "TITLE": "Előzetes állapotfelmérő, adatbekérő",
+          "INFO_TEXTS" : {
+            "THE_PATIENT_IS_SUSPENDED" : "A páciens jelenleg felfüggesztett állapotban van, így nem küldető neki állapotfelmérő.",
+            "THE_PATIENT_HAVE_NOT_ACCEPTED_PRIVACY_POLICY_YET" : "A páciens még nem fogadta el az adatkezelési tájékoztatót, így nem rendelhető hozzá adatbekérő.",
+            "INTAKE_FORM_DOES_NOT_EXIST_YET" : "Még nem létezik adatbekérő adatlap. Hozzon létre egyet a vizsgálati lapok menüpont alatt!",
+            "NO_COMPLETED_ASSESSMENT" : "Nem érkezett még be kitöltött állapotfelmérő"
+          }
         },
         "SYSTEM_NOTIFICATIONS" : {}
       },
       "MUSCULOSKELETAL_PROBLEMS" : {
+        "EESZT_INFO_SECTION" : {
+          "CARD_TITLE" : "EESZT Adatszolgáltatás",
+          "HELP_TOOLTIP" : "Itt láthatod, hogy a vizsgálatról indítottál-e már EESZT adatszolgáltatást, valamint lezártad-e azt.",
+          "TEXTS" : {
+            "ID_OF_DATA_SERVICE" : "Adatszolgáltatás azonosítója",
+            "DATA_RECORDED_NOT_SYNCED_EESZT_ERROR" : "Az adatszolgáltatást rögzítettük, de EESZT technikai hiba miatt még nem került szinkronizálásra az EESZT rendszerével.",
+            "START_OF_DATA_SERVICE" : "Adatszolgáltatás kezdete",
+            "DATA_SERVICE_OF_VISIT_IS_NOT_CLOSED_YET" : "A vizsgálatról kezdeményezett adatszolgáltatás még nincs lezárva.",
+            "PREVIOUSLY_INITIATED_CLOSURE_DATA" : "Korábban kezdeményezett lezárás időpontja",
+            "NO_INITIATED_DATA_SERVICE_ON_THIS_VISIT_YET" : "Erről a vizsgálatról még nem kezdeményezett adatszolgáltatást!",
+            "DATA_SERVICE_ALREADY_HAPPENED_ON_THIS_VISIT" : "Erről a vizsgálatról már történt adatszolgáltatás!"
+          },
+          "BUTTON_TEXTS" : {
+            "SYNC_CLOSURE" : "Lezárás szinkronizálása",
+            "CLOSE_DATA_SERVICE" : "Adatszolgáltatás lezárása",
+            "SYNC_DATA_SERVICE" : "Adatszolgáltatás szinkronizálása",
+            "INITIATE_DATA_SERVICE" : "Adatszolgáltatás kezdeményezése"
+          }
+        },
         "ACTIONS" : {
           "NEW_MUSCULOSKELETAL_PROBLEM" : "Új m.szervi prob.",
           "SAVE" : "Mentés",
           "ADD_NEW_VISIT" : "új vizsgálat hozzáadása"
         },
         "MUSCULOSKELETAL_PROBLEMS_DROPDOWN" : {
-          "TITLE" : "M.szervi problémák"
+          "TITLE" : "M.szervi problémák",
+          "NO_PATIENT_VISITS_YET" : "A pácienshez még nem tartozik vizsgálat.",
+          "NEW_PROBLEM_BUTTON_TEXT" : "Új M.szervi prob.",
+          "EXERCISES" : {
+            "ADD_EXERCISE_TEXT" : "Gyakorlat hozzáadása",
+            "EXERCISE_CATEGORY_PLACEHOLDER" : "Gyakorlat kategória",
+            "EXERCISES_TEXT" : "Gyakorlatok"
+          },
+          "TOOLTIPS" : {
+            "CLOSED_VISIT" : "Lezárt vizsgálat",
+            "RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED" : "Annak a mozgásszervi problémának a felvétele, mellyel a páciens érkezett",
+            "ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM" : "Ugyanahoz a mozgásszervi problémához tartozó vizsgálatok hozzáadása",
+            "COPY_VISIT" : "Vizsgálat másolása",
+            "DELETE_VERSION" : "Verzió törlése"
+          }
         },
         "INFORMATION_SECTION" : {
           "TEXTS" : {
-            "TOGGLE_FINALIZE" : "Ahhoz, hogy a páciens lássa a kitöltött vizsgálati lapokat és csatolmányokat, kérjük véglegesítse azokat:",
-            "MUSCULOSKELETAL_PROBLEM" : "Mozgásszervi probléma:",
+            "TOGGLE_FINALIZE" : "Ahhoz, hogy a páciens lássa a kitöltött vizsgálati lapokat és csatolmányokat, kérjük véglegesítse azokat",
+            "MUSCULOSKELETAL_PROBLEM" : "Mozgásszervi probléma",
             "VISIT" : "Vizsgálat",
-            "CREATED_BY" : "Létrehozta:",
-            "FILLED_OUT_BY" : "Kitöltötte:"
+            "CREATED_BY" : "Létrehozta",
+            "FILLED_OUT_BY" : "Kitöltötte",
+            "NO_MUSCULOSKELETAL_PROBLEM_OR_VISIT_FOR_PATIENT" : "A pácienshez még nem tartozik mozgásszervi probléma és vizsgálat.",
+            "CLICK_NEW_MUSCULOSKELETAL_PROBLEM_BUTTON" : "Kérlek, kattints az Új mozgásszervi probléma gombra, hogy létre hozd az első mozgásszervi panaszhoz tartozó vizsgálatot és vizsgálati lapokat."
           }
         },
         "FORM_SECTION" : {
           "TABS" : {
             "SHEET_COMPLETION" : {
-              "TITLE" : "Vizsgálati lapok kitöltése"
+              "TITLE" : "Vizsgálati lapok kitöltése",
+              "NO_VISIT_FORM_FOR_VISIT" : "A vizsgálathoz nem tartozik vizsgálati lap",
+              "VISIT_FORMS_NOT_FINALIZED_BY_THERAPIST" : "A vizsgálati lapokat az Ön terapeutája még nem veglegesítette"
             },
             "UPLOAD_DOCUMENTS" : {
-              "TITLE" : "Dokumentumok, képek feltöltése"
+              "TITLE" : "Dokumentumok, képek feltöltése",
+              "ATTACHMENTS_NOT_FINALIZED_BY_THERAPIST" : "A csatolmányokat az Ön terapeutája még nem veglegesítette"
             },
             "ADD_EXERCISE" : {
-              "TITLE" : "Gyakorlat hozzáadása"
+              "TITLE" : "Gyakorlat hozzáadása",
+              "NO_EXERCISE_FOR_VISIT" : "A vizsgálathoz nem tartozik gyakorlat",
+              "EXERCISES_NOT_FINALIZED_BY_THERAPIST" : "A gyakorlatokat az Ön terapeutája még nem veglegesítette"
             }
           }
         },
@@ -407,7 +453,7 @@
           "DELETE_ANSWERS" : "Válaszok törlése",
           "DELETE_SURVEY" : "Vizsgálati lap törlése",
           "ADD_OR_DELETE_SURVEYS" : "Vizsgálati lapok hozzáadása/törlése",
-          "MOBILE_HELP" : "Legalább 6 karakter, tartalmazhaz számot és +/ jeleket, illetve szóközt"
+          "PDF_DOWNLOAD" : "PDF letöltés"
         },
         "SYSTEM_NOTIFICATIONS" : {}
       },
