@@ -59,6 +59,47 @@
           }
         },
         "CALENDAR_SECTION" : {
+          "CREATE_EVENT_POPUP" : {
+            "TITLES" : {
+              "CREATE_EVENT" : "Esemény létrehozása",
+              "EDIT_EVENT" : "Esemény szerkesztése",
+              "WATCH_EVENT" : "Esemény megtekintése"
+            },
+            "FIELDS" : {
+              "FIXATE_WORK_BREAK_CHECKBOX_TEXT" : "Munkaközi szünet/szabadság rögzítése",
+              "GROUP_CHECKBOX_TEXT" : "Csoportos óra",
+              "DATE" : "Időpont",
+              "REPEATING" : "Ismétlődés",
+              "THERAPIST" : "Terapeuta",
+              "TREATMENT_TYPE" : "Kezelés típusa",
+              "LATER_SETTING_OF_TREATMENT_TYPE" : "Későbbi beállítás",
+              "TREATMENT_ROOM" : "Helyiség",
+              "MAX_GROUP_SIZE" : "Mennyi lehet a csoportos foglalkozás maximális létszáma?",
+              "COLOR" : "Szín",
+              "COMMENT" : "Megjegyzés",
+              "PARTICIPANTS" : "Résztvevők",
+              "COMPACT_VIEW_TOOLTIP" : "Kompakt nézet",
+              "SHOW_INACTIVE_PATIENTS_TOO" : "Inaktív páciensek is látszódjanak",
+              "PATIENT_PLACEHOLDER" : "Páciens",
+              "STATUS_OF_EVENT" : {
+                "PLACEHOLDER" : "Esemény állapota",
+                "OPTIONS" : {
+                  "CREATED" : "Leegyeztetett időpont",
+                  "AGREED_TIME" : "Leegyeztetett időpont",
+                  "TREATMENT_IS_DONE" : "Megtörtént",
+                  "CANCELED" : "Lemondott (késve)",
+                  "BILLED" : "Kiegyenlített",
+                  "DELETED" : "Törölt esemény",
+                  "DELETED_BY_PATIENT_SUSPENSION" : "Törölt esemény (Páciens felfüggesztés)",
+                  "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
+                  "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
+                  "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
+                }
+              }
+            },
+            "SAVE_BUTTON_TEXT" : "Mentés",
+            "GO_BACK_BUTTON_TEXT" : "Mégsem"
+          },
           "TABS" : {
             "WEEK_VIEW" : {
               "TAB_TEXT" : "Heti Nézet",

@@ -59,12 +59,21 @@
               "PATIENT_ABLE_TO_SEE_VISITS" : "Páciens lássa a vizsgálatokat",
               "PATIENT_UNABLE_TO_SEE_VISITS" : "Páciens ne lássa a vizsgálatokat",
               "SHARE_PATIENT" : "Páciens megosztása",
-              "EDIT_PATIENT" : "Páciens szerkesztése",
+              "EDIT_PATIENT" : "Adatok szerkesztése",
               "DOWNLOAD_PDF" : "PDF letöltés"
             }
           },
           "FIELDS" : {
-            "TAJ": "TAJ szám",
+            "IDENTIFIERS" : {
+              "TAJ":"TAJ szám: ",
+              "CHILD": "2 hónapnál fiatalabb gyermek képzett TAJ száma: ",
+              "PASSPORT": "Útlevél szám (külföldi állampolgár): ",
+              "IMMIGRANT_1": "Menedékes kérelmező, befogadó ig. száma: ",
+              "UNKNOWN": "Ismeretlen beteg: ",
+              "EU": "Európai egészségügyi kártya: ",
+              "IMMIGRANT_2": "Menekült, menedékes és oltalmazott státusz kérelmezése előtt: ",
+              "ID": "Azonosító: "
+            },
             "ADDRESS": "Lakcím",
             "PHONE": "Telefonszám",
             "EMAIL": "E-mail",
@@ -420,7 +429,8 @@
         },
         "INFORMATION_SECTION" : {
           "TEXTS" : {
-            "TOGGLE_FINALIZE" : "Ahhoz, hogy a páciens lássa a kitöltött vizsgálati lapokat és csatolmányokat, kérjük véglegesítse azokat",
+            "TOGGLE_FINALIZE_DOCUMENTS" : "Ahhoz, hogy a páciens lássa a kitöltött vizsgálati lapokat és csatolmányokat, kérjük véglegesítse azokat",
+            "TOGGLE_FINALIZE_EXERCISES" : "Ahhoz, hogy a páciens lássa a gyakorlatokat, kérjük véglegesítse azokat",
             "MUSCULOSKELETAL_PROBLEM" : "Mozgásszervi probléma",
             "VISIT" : "Vizsgálat",
             "CREATED_BY" : "Létrehozta",
@@ -457,12 +467,78 @@
         },
         "SYSTEM_NOTIFICATIONS" : {}
       },
+      "EXERCISES" : {
+        "MUSCULOSKELETAL_PROBLEMS_DROPDOWN": {
+          "TITLE": "M.Szervi problémááák",
+          "NO_PATIENT_VISITS_YET": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.NO_PATIENT_VISITS_YET",
+          "NEW_PROBLEM_BUTTON_TEXT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.NEW_PROBLEM_BUTTON_TEXT",
+          "EXERCISES": {
+            "ADD_EXERCISE_TEXT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.EXERCISES.ADD_EXERCISE_TEXT",
+            "EXERCISE_CATEGORY_PLACEHOLDER" : "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.EXERCISES.EXERCISE_CATEGORY_PLACEHOLDER",
+            "EXERCISES_TEXT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.EXERCISES.EXERCISES_TEXT"
+          },
+          "TOOLTIPS": {
+            "CLOSED_VISIT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.CLOSED_VISIT",
+            "RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED",
+            "ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM",
+            "COPY_VISIT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.COPY_VISIT",
+            "DELETE_VERSION": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.DELETE_VERSION"
+          }
+        },
+        "EXERCISE_CARD" : {
+          "DESCRIPTION_OF_EXERCISE" : "Gyakorlat leírása",
+          "REPS" : "Ismétlések",
+          "PICTURES" : "Képek",
+          "VIDEOS" : "Videók"
+        },
+        "TOOLTIPS" : {
+          "PDF_PRINT" : "PDF nyomtatás"
+        },
+        "SYSTEM_NOTIFICATIONS" : {}
+      },
       "COMPARE_VISITS" : {
-
+        "CARD_TITLE" : "Vizsgálatok összehasonlítása",
+        "SELECT_MUSCULOSKELETAL_PROBLEM_DROPDOWN_PLACEHOLDER" : "Mozgásszervi probléma kiválasztása",
+        "FIRST_VISIT_PLACEHOLDER" : "Első vizsgálat",
+        "SECOND_VISIT_PLACEHOLDER" : "Második vizsgálat",
+        "COMPARE_BUTTON_TEXT" : "Összehasonlítás",
+        "TABS" : {
+          "VISIT_SHEETS" : {
+            "TAB_HEADER" : "Vizsgálati lapok",
+            "NO_VISIT_SHEET_FOR_VISIT" : "A vizsgálatokhoz nem tartozik vizsgálati lap",
+            "NO_VISIT_SHEET_LIKE_THIS_FOR_FIRST_VISIT" : "Az első vizsgálathoz nem tartozik ilyen vizsgálati lap"
+            "NO_VISIT_SHEET_LIKE_THIS_FOR_SECOND_VISIT" : "Az második vizsgálathoz nem tartozik ilyen vizsgálati lap"
+          },
+          "EXERCISES" : {
+            "TAB_HEADER" : "Gyakorlatok",
+            "NO_EXERCISE_FOR_FIRST_VISIT" : "Az első vizsgálathoz nem tartozik gyakorlat",
+            "NO_EXERCISE_FOR_SECOND_VISIT" : "Az második vizsgálathoz nem tartozik gyakorlat"
+          },
+          "ATTACHMENTS" : {
+            "MAIN_TAB_HEADER" : "Csatolmányok",
+            "PICTURES_TAB_HEADER" : "Képek",
+            "VIDEOS_TAB_HEADER" : "Videók",
+            "DOCUMENTS_TAB_HEADER" : "Dokumentumok",
+            "NO_PICTURE_FOR_FIRST_VISIT" : "Az első vizsgálathoz nem tartozik kép",
+            "NO_PICTURE_FOR_SECOND_VISIT" : "Az második vizsgálathoz nem tartozik kép",
+            "NO_VIDEO_FOR_FIRST_VISIT" : "Az első vizsgálathoz nem tartozik videó",
+            "NO_VIDEO_FOR_SECOND_VISIT" : "Az második vizsgálathoz nem tartozik videó",
+            "NO_DOCUMENT_FOR_FIRST_VISIT" : "Az első vizsgálathoz nem tartozik dokumentum",
+            "NO_DOCUMENT_FOR_SECOND_VISIT" : "Az második vizsgálathoz nem tartozik dokumentum"
+          }
+        },
         "SYSTEM_NOTIFICATIONS" : {}
       },
       "MESSAGES" : {
-
+        "MESSAGING_PARTNERS_LEFT_SIDEBAR" : {
+          "CLINIC" : "Klinika",
+          "CLINIC_ADMINISTRATORS" : "Klinika adminisztrátorok",
+          "MY_THERAPISTS" : "Saját terapeuták"
+        },
+        "MESSAGING_SECTION" : {
+          "CLINIC_MESSAGE_WARNING" : "A klinikával folytatott beszélgetést a klinika összes munkatársa láthatja!",
+          "MESSAGE_PLACEHOLDER" : "Ide írjon üzenetet"
+        },
         "SYSTEM_NOTIFICATIONS" : {}
       },
       "BILLING_AND_CONTACT_INFORMATION" : {
