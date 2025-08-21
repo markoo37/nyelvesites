@@ -87,7 +87,8 @@
           "DATA_MANAGEMENT_INFORMATION_SHEET" : {
             "LINK_TEXT" : {
               "NOT_ACCEPTED_YET" : "Adatkezelési tájékoztató még nincs elfogadva",
-              "ACCEPTED" : "Elfogadott adatkezelési tájékoztató"
+              "ACCEPTED" : "Elfogadott adatkezelési tájékoztató",
+              "DELETE_MY_PROFILE" : "Felhasználói fiókom törlése"
             },
             "TITLE" : "Adatkezelési tájékoztató",
             "AGREEMENT" : "Elolvastam és elfogadom az i-Clinic használatát szabályozó Felhasználási feltételeket. / I have read and accept the Terms of Use regulating the use of i-Clinic.",
@@ -381,7 +382,9 @@
             "THE_PATIENT_HAVE_NOT_ACCEPTED_PRIVACY_POLICY_YET" : "A páciens még nem fogadta el az adatkezelési tájékoztatót, így nem rendelhető hozzá adatbekérő.",
             "INTAKE_FORM_DOES_NOT_EXIST_YET" : "Még nem létezik adatbekérő adatlap. Hozzon létre egyet a vizsgálati lapok menüpont alatt!",
             "NO_COMPLETED_ASSESSMENT" : "Nem érkezett még be kitöltött állapotfelmérő"
-          }
+          },
+          "CHOOSE_SHEET_DROPDOWN_PLACEHOLDER" : "Állapotfelmérő, adatbekérő kiválasztása",
+          "SEND_BUTTON_TEXT" : "Küldés"
         },
         "SYSTEM_NOTIFICATIONS" : {}
       },
@@ -431,6 +434,7 @@
           "TEXTS" : {
             "TOGGLE_FINALIZE_DOCUMENTS" : "Ahhoz, hogy a páciens lássa a kitöltött vizsgálati lapokat és csatolmányokat, kérjük véglegesítse azokat",
             "TOGGLE_FINALIZE_EXERCISES" : "Ahhoz, hogy a páciens lássa a gyakorlatokat, kérjük véglegesítse azokat",
+            "HIDE_QUESTIONS_LEFT_EMPTY" : "Üresen hagyott kérdések elrejtése",
             "MUSCULOSKELETAL_PROBLEM" : "Mozgásszervi probléma",
             "VISIT" : "Vizsgálat",
             "CREATED_BY" : "Létrehozta",
@@ -448,7 +452,10 @@
             },
             "UPLOAD_DOCUMENTS" : {
               "TITLE" : "Dokumentumok, képek feltöltése",
-              "ATTACHMENTS_NOT_FINALIZED_BY_THERAPIST" : "A csatolmányokat az Ön terapeutája még nem veglegesítette"
+              "ATTACHMENTS_NOT_FINALIZED_BY_THERAPIST" : "A csatolmányokat az Ön terapeutája még nem veglegesítette",
+              "PICTURES_TAB_LABEL" : "Képek",
+              "VIDEOS_TAB_LABEL" : "Videók",
+              "DOCUMENTS_TAB_LABEL" : "Dokumentumok"
             },
             "ADD_EXERCISE" : {
               "TITLE" : "Gyakorlat hozzáadása",
@@ -468,23 +475,25 @@
         "SYSTEM_NOTIFICATIONS" : {}
       },
       "EXERCISES" : {
-        "MUSCULOSKELETAL_PROBLEMS_DROPDOWN": {
-          "TITLE": "M.Szervi problémááák",
-          "NO_PATIENT_VISITS_YET": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.NO_PATIENT_VISITS_YET",
-          "NEW_PROBLEM_BUTTON_TEXT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.NEW_PROBLEM_BUTTON_TEXT",
-          "EXERCISES": {
-            "ADD_EXERCISE_TEXT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.EXERCISES.ADD_EXERCISE_TEXT",
-            "EXERCISE_CATEGORY_PLACEHOLDER" : "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.EXERCISES.EXERCISE_CATEGORY_PLACEHOLDER",
-            "EXERCISES_TEXT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.EXERCISES.EXERCISES_TEXT"
+        "MUSCULOSKELETAL_PROBLEMS_DROPDOWN" : {
+          "TITLE" : "M.szervi problémák",
+          "NO_PATIENT_VISITS_YET" : "A pácienshez még nem tartozik vizsgálat.",
+          "NEW_PROBLEM_BUTTON_TEXT" : "Új M.szervi prob.",
+          "EXERCISES" : {
+            "ADD_EXERCISE_TEXT" : "Gyakorlat hozzáadása",
+            "EXERCISE_CATEGORY_PLACEHOLDER" : "Gyakorlat kategória",
+            "EXERCISES_TEXT" : "Gyakorlatok"
           },
-          "TOOLTIPS": {
-            "CLOSED_VISIT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.CLOSED_VISIT",
-            "RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED",
-            "ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM",
-            "COPY_VISIT": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.COPY_VISIT",
-            "DELETE_VERSION": "PATIENT_PROFILE.TABS.EXERCISES.MUSCULOSKELETAL_PROBLEMS_DROPDOWN.TOOLTIPS.DELETE_VERSION"
+          "TOOLTIPS" : {
+            "CLOSED_VISIT" : "Lezárt vizsgálat",
+            "RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED" : "Annak a mozgásszervi problémának a felvétele, mellyel a páciens érkezett",
+            "ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM" : "Ugyanahoz a mozgásszervi problémához tartozó vizsgálatok hozzáadása",
+            "COPY_VISIT" : "Vizsgálat másolása",
+            "DELETE_VERSION" : "Verzió törlése"
           }
         },
+        "NO_EXERCISE_FOR_THIS_VISIT" : "A vizsgálathoz nem tartozik gyakorlat",
+        "EXERCISES_NOT_FINALIZED_BY_THERAPIST" : "A gyakorlatokat az Ön terapeutája még nem véglegesítette",
         "EXERCISE_CARD" : {
           "DESCRIPTION_OF_EXERCISE" : "Gyakorlat leírása",
           "REPS" : "Ismétlések",
@@ -506,7 +515,7 @@
           "VISIT_SHEETS" : {
             "TAB_HEADER" : "Vizsgálati lapok",
             "NO_VISIT_SHEET_FOR_VISIT" : "A vizsgálatokhoz nem tartozik vizsgálati lap",
-            "NO_VISIT_SHEET_LIKE_THIS_FOR_FIRST_VISIT" : "Az első vizsgálathoz nem tartozik ilyen vizsgálati lap"
+            "NO_VISIT_SHEET_LIKE_THIS_FOR_FIRST_VISIT" : "Az első vizsgálathoz nem tartozik ilyen vizsgálati lap",
             "NO_VISIT_SHEET_LIKE_THIS_FOR_SECOND_VISIT" : "Az második vizsgálathoz nem tartozik ilyen vizsgálati lap"
           },
           "EXERCISES" : {
@@ -542,7 +551,54 @@
         "SYSTEM_NOTIFICATIONS" : {}
       },
       "BILLING_AND_CONTACT_INFORMATION" : {
-
+        "BILLING_DATA_CARD" : {
+          "CARD_TITLE" : "Számlázási adatok",
+          "FIELDS" : {
+            "BILLING_NAME" : "Számlázási név",
+            "COUNTRY" : "Ország",
+            "POST_CODE" : "Irányítószám",
+            "CITY" : "Település",
+            "ADDRESS" : "Cím",
+            "TAX_NUMBER" : "Adószám",
+            "SAVE_BUTTON_TEXT" : "Mentés"
+          }
+        },
+        "HEALTH_FUND_DATA_CARD" : {
+          "CARD_TITLE" : "Egészségpénztár",
+          "FIELDS" : {
+            "FUND_NAME" : "Pénztár neve",
+            "COUNTRY" : "Ország",
+            "POST_CODE" : "Irányítószám",
+            "CITY" : "Település",
+            "ADDRESS" : "Cím",
+            "TAX_NUMBER" : "Adószám",
+            "FUND_MEMBER" : "Pénztártag",
+            "ID_OF_FUND_MEMBERSHIP" : "Pénztártag tagi azonosítója",
+            "SAVE_BUTTON_TEXT" : "Mentés"
+          }
+        },
+        "CONTACTS_CARD" : {
+          "CARD_TITLE" : "Kontaktok",
+          "TABLE_ACTIONS" : {
+            "DELETE" : "Törlés",
+            "EDIT" : "Szerkesztés"
+          },
+          "TABLE_HEADERS" : {
+            "NAME" : "Név",
+            "MOBILE_NUMBER" : "Telefonszám",
+            "EMAIL" : "Email",
+            "COMMENT" : "Megjegyzés",
+            "OPERATIONS" : "Műveletek",
+            "NEW_CONTACT_BUTTON_TEXT" : "Új kontakt felvétele"
+          }
+        },
+        "SYSTEM_NOTIFICATIONS" : {}
+      },
+      "DATA_PRIVACY" : {
+        "COOKIE_INFORMATION" : "A cookiek alkalmazásáról szóló tájékoztató megtekintéséhez",
+        "COOKIE_INFORMATION_CLICK_HERE" : "kattints ide",
+        "DATA_PRIVACY_INFORMATION" : "Az adatvédelmi tájékoztató megtekintéséhez",
+        "DATA_PRIVACY_INFORMATION_CLICK_HERE" : "kattints ide",
         "SYSTEM_NOTIFICATIONS" : {}
       }
     }

@@ -1,0 +1,11 @@
+{
+  "DATA_TABLE_PAGINATION": {
+    "ITEMS_PER_PAGE": "Sor / oldal",
+    "NEXT_PAGE": "Következő oldal",
+    "PREVIOUS_PAGE": "Előző oldal",
+    "FIRST_PAGE": "Első oldal",
+    "LAST_PAGE": "Utolsó oldal",
+    "RANGE_EMPTY": "0 a(z) {{total}} elemből",
+    "RANGE_LABEL": "{{start}} - {{end}} a(z) {{total}} elemből"
+  }
+}

@@ -208,7 +208,7 @@
             "DELETED_BY_PATIENT_INACTIVATION" : "Törölt esemény (Páciens inaktiválás)",
             "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
             "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)",
-            "IF_NOT_COMPENSATED" : "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható."
+            "IF_NOT_COMPENSATED" : "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\nMegtörtént vagy Lemondott (késve) állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható."
           }
         },
         "ACTION_BUTTONS" : {

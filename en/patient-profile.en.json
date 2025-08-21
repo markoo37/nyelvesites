@@ -1,73 +1,82 @@
 {
-  "PATIENT_PROFILE" : {
-    "BREADCRUMB" : {
-      "TITLE" : {
-        "DASHBOARD" : "Dashboard",
-        "PATIENTS" : "Patients",
-        "ACTIVE_PATIENTS" : "Active patients",
-        "INACTIVE_PATIENTS" : "Inactive patients",
-        "SUSPENDED_PATIENTS" : "Suspended patients",
-        "WAITING_FOR_ACCEPTANCE_PATIENTS" : "Patients waiting for acceptance",
-        "WAITLISTED_PATIENTS" : "Waitlisted patients",
-        "DATA" : "Data",
-        "MY_DATA" : "My data",
-        "EXERCISES" : "Exercises",
-        "VISIT_COMPARISON" : "Visit comparison",
-        "DATA_PRIVACY" : "Data privacy",
-        "MUSCULOSKELETAL_PROBLEMS" : "Musculoskeletal problems",
-        "MESSAGES" : "Messages",
-        "BILLING_AND_CONTACT_INFORMATION" : "Billing and contact information",
-        "EDIT_PATIENT" : "Edit patient",
-        "EDIT_MY_DATA" : "Edit my data"
+  "PATIENT_PROFILE": {
+    "BREADCRUMB": {
+      "TITLE": {
+        "DASHBOARD": "Home",
+        "PATIENTS": "Patients",
+        "ACTIVE_PATIENTS": "Active patients",
+        "INACTIVE_PATIENTS": "Inactive patients",
+        "SUSPENDED_PATIENTS": "Suspended patients",
+        "WAITING_FOR_ACCEPTANCE_PATIENTS": "Patients pending acceptance",
+        "WAITLISTED_PATIENTS": "Waitlisted patients",
+        "DATA": "Data",
+        "MY_DATA": "My data",
+        "EXERCISES": "Exercises",
+        "VISIT_COMPARISON": "Visit comparison",
+        "DATA_PRIVACY": "Data privacy",
+        "MUSCULOSKELETAL_PROBLEMS": "Musculoskeletal problems",
+        "MESSAGES": "Messages",
+        "BILLING_AND_CONTACT_INFORMATION": "Billing and contact information",
+        "EDIT_PATIENT": "Edit patient",
+        "EDIT_MY_DATA": "Edit my data"
       },
-      "SEARCH" : {
-        "INPUT_PLACEHOLDER" : {
-          "SEARCH_FOR_PATIENT" : "Search for patient"
+      "SEARCH": {
+        "INPUT_PLACEHOLDER": {
+          "SEARCH_FOR_PATIENT": "Search for patient"
         },
-        "TOOLTIPS" : {
-          "SEARCH_FOR_PATIENT" : "Search for patient"
+        "TOOLTIPS": {
+          "SEARCH_FOR_PATIENT": "Patient search"
         }
       }
     },
-    "SIDEBAR" : {
-      "TAB_TEXT" : {
-        "DATA" : "Data",
-        "MUSCULOSKELETAL_PROBLEMS" : "Musculoskeletal problems",
-        "MESSAGES" : "Messages",
-        "BILLING_AND_CONTACT_INFORMATION" : "Billing and contact information",
+    "SIDEBAR": {
+      "TAB_TEXT": {
+        "DATA": "Data",
+        "MUSCULOSKELETAL_PROBLEMS": "Musculoskeletal problems",
+        "MESSAGES": "Messages",
+        "BILLING_AND_CONTACT_INFORMATION": "Billing and contact information",
         "MY_DATA": "My data",
-        "EXERCISES" : "Exercises",
-        "VISIT_COMPARISON" : "Visit comparison",
-        "DATA_PRIVACY" : "Data privacy"
+        "EXERCISES": "Exercises",
+        "VISIT_COMPARISON": "Visit comparison",
+        "DATA_PRIVACY": "Data privacy"
       }
     },
-    "TABS" : {
-      "DATA" : {
-        "PATIENT_DATA" : {
-          "ACTIONS" : {
-            "EDIT_DATA_BUTTON_TEXT" : "Edit data"
+    "TABS": {
+      "DATA": {
+        "PATIENT_DATA": {
+          "ACTIONS": {
+            "EDIT_DATA_BUTTON_TEXT": "Edit data"
           },
-          "HEADER" : {
-            "TITLE" : {
-              "PATIENT_DATA" : "Patient data",
-              "MY_DATA" : "My data"
+          "HEADER": {
+            "TITLE": {
+              "PATIENT_DATA": "Patient data",
+              "MY_DATA": "My data"
             },
-            "TOOLTIPS" : {
-              "INACTIVATE_PATIENT" : "Inactivate patient",
-              "BLOCK_PATIENT_PROFILE" : "Block patient profile page",
-              "UNBLOCK_PATIENT_PROFILE" : "Unblock patient profile page",
-              "PATIENT_ABLE_TO_SEE_VISITS" : "Patient can see visits",
-              "PATIENT_UNABLE_TO_SEE_VISITS" : "Patient cannot see visits",
-              "SHARE_PATIENT" : "Share patient",
-              "EDIT_PATIENT" : "Edit patient",
-              "DOWNLOAD_PDF" : "Download PDF"
+            "TOOLTIPS": {
+              "INACTIVATE_PATIENT": "Inactivate patient",
+              "BLOCK_PATIENT_PROFILE": "Block patient profile page",
+              "UNBLOCK_PATIENT_PROFILE": "Unblock patient profile page",
+              "PATIENT_ABLE_TO_SEE_VISITS": "Patient can see visits",
+              "PATIENT_UNABLE_TO_SEE_VISITS": "Patient cannot see visits",
+              "SHARE_PATIENT": "Share patient",
+              "EDIT_PATIENT": "Edit data",
+              "DOWNLOAD_PDF": "Download PDF"
             }
           },
-          "FIELDS" : {
-            "TAJ": "Social security number",
+          "FIELDS": {
+            "IDENTIFIERS": {
+              "TAJ": "TAJ number: ",
+              "CHILD": "TAJ number assigned to a child under 2 months: ",
+              "PASSPORT": "Passport number (foreign citizen): ",
+              "IMMIGRANT_1": "Asylum applicant, reception certificate number: ",
+              "UNKNOWN": "Unknown patient: ",
+              "EU": "European Health Insurance Card: ",
+              "IMMIGRANT_2": "Before applying for refugee, asylum seeker or protected status: ",
+              "ID": "Identifier: "
+            },
             "ADDRESS": "Address",
             "PHONE": "Phone number",
-            "EMAIL": "E-mail",
+            "EMAIL": "Email",
             "BIRTH_DATE": "Date of birth",
             "THERAPIST": "Therapist",
             "LAST_VISIT": "Last visit",
@@ -75,104 +84,104 @@
             "OCCUPATION": "Occupation",
             "HEALTH_ISSUE": "Health issue"
           },
-          "DATA_MANAGEMENT_INFORMATION_SHEET" : {
-            "LINK_TEXT" : {
-              "NOT_ACCEPTED_YET" : "Data management information sheet not yet accepted",
-              "ACCEPTED" : "Accepted data management information sheet"
+          "DATA_MANAGEMENT_INFORMATION_SHEET": {
+            "LINK_TEXT": {
+              "NOT_ACCEPTED_YET": "Data management information sheet not yet accepted",
+              "ACCEPTED": "Accepted data management information sheet"
             },
-            "TITLE" : "Data management information sheet",
-            "AGREEMENT" : "I have read and accept the Terms of Use regulating the use of i-Clinic. / I have read and accept the Terms of Use regulating the use of i-Clinic.",
-            "SIGNATURE" : "Signature",
-            "ACTIONS" : {
-              "CLOSE" : "Close",
-              "ACCEPT" : "Accept"
+            "TITLE": "Data management information sheet",
+            "AGREEMENT": "I have read and accept the Terms of Use regulating the use of i-Clinic.",
+            "SIGNATURE": "Signature",
+            "ACTIONS": {
+              "CLOSE": "Close",
+              "ACCEPT": "Accept"
             }
           }
         },
-        "SEND_NOTIFICATION_SETTINGS" : {
-          "TITLE" : "Send notification in the following cases",
-          "OPTIONS" : {
+        "SEND_NOTIFICATION_SETTINGS": {
+          "TITLE": "Send notification in the following cases",
+          "OPTIONS": {
             "DATE_REMINDER": "Appointment reminder",
-            "NEW_VISIT": "Notification about new visit recording",
-            "NEW_EXERCISE_LIST": "Notification about new exercise list recording",
-            "NEW_APPOINTMENT":"New appointment recording",
-            "DELETE_APPOINTMENT": "Existing appointment deletion",
-            "MODIFY_APPOINTMENT": "Existing appointment modification",
-            "NEW_MESSAGE": "Notification about new message",
-            "CONDITION_CHECK": "Condition assessment sending",
+            "NEW_VISIT": "Notification about recording a new visit",
+            "NEW_EXERCISE_LIST": "Notification about recording a new exercise list",
+            "NEW_APPOINTMENT": "New appointment recorded",
+            "DELETE_APPOINTMENT": "Existing appointment deleted",
+            "MODIFY_APPOINTMENT": "Existing appointment modified",
+            "NEW_MESSAGE": "Notification of new message",
+            "CONDITION_CHECK": "Send condition assessment",
             "SMS_NOTIFICATION": {
-              "NEW_APPOINTMENT": "SMS reminder about appointment",
+              "NEW_APPOINTMENT": "SMS appointment reminder",
               "NOTE_NEW_APPOINTMENT": "SMS notification about new appointment",
               "NOTE_DELETE_APPOINTMENT": "SMS notification about appointment deletion",
-              "MODIFY_APPOINTMENT": "SMS notification about existing appointment modification"
+              "MODIFY_APPOINTMENT": "SMS notification about modification of existing appointment"
             }
           },
-          "SAVE_BUTTON_TEXT" : "Save",
-          "UPSELL_MESSAGE" : "If you want to extend your existing subscription with SMS notifications, please let us know",
-          "LINK_TEXT" : "here",
-          "MESSAGE_SENT_TEXT" : "sent in Order modification message."
+          "SAVE_BUTTON_TEXT": "Save",
+          "UPSELL_MESSAGE": "If you want to expand your existing subscription with SMS notifications, please let us know",
+          "LINK_TEXT": "here",
+          "MESSAGE_SENT_TEXT": "sent in the 'Modify order' message."
         },
-        "MESSAGES" : {
-          "TITLE" : "Messages"
+        "MESSAGES": {
+          "TITLE": "Messages"
         },
-        "TREATMENTS_TAB" : {
-          "TITLE" : "Treatments",
-          "TABLE_HEADERS" : {
+        "TREATMENTS_TAB": {
+          "TITLE": "Treatments",
+          "TABLE_HEADERS": {
             "THERAPIST": "Therapist",
             "TREATMENT": "Treatment",
             "TREATMENT_DATE": "Treatment date",
             "LENGTH_OF_TREATMENT": "Treatment length",
             "STATUS": "Status",
-            "COMPENSATED": "Compensated",
+            "COMPENSATED": "Settled",
             "PRICE": "Price",
-            "OPERATIONS" : "Operations"
+            "OPERATIONS": "Actions"
           },
-          "STATUS_OPTIONS" : {
-            "AGREED_TIME" : "Agreed appointment",
-            "TREATMENT_IS_DONE" : "Completed",
-            "CANCELED" : "Canceled (late)",
-            "BILLED" : "Settled",
-            "DELETED" : "Deleted event",
-            "DELETED_BY_PATIENT_SUSPENSION" : "Deleted event (Patient suspension)",
-            "DELETED_BY_PATIENT_INACTIVATION" : "Deleted event (Patient inactivation)",
-            "DELETED_BY_PATIENT_DELETION" : "Deleted event (Patient deletion)",
-            "DELETED_BY_THERAPIST_SUSPENSION" : "Deleted event (Therapist suspension)"
+          "STATUS_OPTIONS": {
+            "AGREED_TIME": "Agreed time",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Cancelled (late)",
+            "BILLED": "Settled",
+            "DELETED": "Deleted event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Deleted event (Patient suspension)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Deleted event (Patient inactivation)",
+            "DELETED_BY_PATIENT_DELETION": "Deleted event (Patient deletion)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Deleted event (Therapist suspension)"
           },
-          "TOOLTIPS" : {
-            "AGREED_TIME" : "Agreed appointment",
-            "TREATMENT_IS_DONE" : "Completed",
-            "CANCELED" : "Canceled (late)",
-            "BILLED" : "Settled",
-            "DELETED" : "Deleted event",
-            "DELETED_BY_PATIENT_SUSPENSION" : "Deleted event (Patient suspension)",
-            "DELETED_BY_PATIENT_INACTIVATION" : "Deleted event (Patient inactivation)",
-            "DELETED_BY_PATIENT_DELETION" : "Deleted event (Patient deletion)",
-            "DELETED_BY_THERAPIST_SUSPENSION" : "Deleted event (Therapist suspension)",
-            "IF_NOT_COMPENSATED" : "Currently the treatment has not been compensated yet. To compensate, the treatment must be changed to 'Completed' or 'Canceled (late)' status. After that, the membership occasion can be deducted or the invoice can be issued.",
-            "EDIT" : "Edit"
+          "TOOLTIPS": {
+            "AGREED_TIME": "Agreed time",
+            "TREATMENT_IS_DONE": "Completed",
+            "CANCELED": "Cancelled (late)",
+            "BILLED": "Settled",
+            "DELETED": "Deleted event",
+            "DELETED_BY_PATIENT_SUSPENSION": "Deleted event (Patient suspension)",
+            "DELETED_BY_PATIENT_INACTIVATION": "Deleted event (Patient inactivation)",
+            "DELETED_BY_PATIENT_DELETION": "Deleted event (Patient deletion)",
+            "DELETED_BY_THERAPIST_SUSPENSION": "Deleted event (Therapist suspension)",
+            "IF_NOT_COMPENSATED": "The treatment has not yet been settled. To settle it, set the treatment status to &quot;Completed&quot; or &quot;Cancelled (late)&quot;. After that, a membership session can be deducted or the invoice can be issued.",
+            "EDIT": "Edit"
           },
           "INVOICING": {
             "ISSUER_SECTION": {
               "TITLE": "Invoice issuer",
               "FIELDS": {
-                "ACCOUNT": "Choose billing account",
+                "ACCOUNT": "Select billing account",
                 "INVOICE_TYPE": "Invoice type",
                 "PAYMENT_METHOD": "Payment method",
-                "PAYMENT_METHOD_TYPES" : {
-                  "TRANSFER": "transfer",
+                "PAYMENT_METHOD_TYPES": {
+                  "TRANSFER": "bank transfer",
                   "CREDIT_CARD": "credit card",
                   "CASH": "cash",
                   "OTHER": "other"
                 },
-                "CURRENCY": "Invoice currency",
-                "CURRENCY_TYPES" : {
+                "CURRENCY": "Currency of your invoices",
+                "CURRENCY_TYPES": {
                   "HUF": "forint",
                   "EUR": "euro",
                   "CHF": "Swiss franc",
                   "USD": "US dollar",
                   "AED": "UAE dirham",
                   "AUD": "Australian dollar",
-                  "BGN": "Bulgarian leva",
+                  "BGN": "Bulgarian lev",
                   "BRL": "Brazilian real",
                   "CAD": "Canadian dollar",
                   "CNY": "Chinese yuan",
@@ -185,19 +194,19 @@
                   "IDR": "Indonesian rupiah",
                   "ILS": "Israeli shekel",
                   "INR": "Indian rupee",
-                  "ISK": "Icelandic krona",
+                  "ISK": "Icelandic króna",
                   "JPY": "Japanese yen",
                   "KRW": "South Korean won",
                   "KWD": "Kuwaiti dinar",
                   "LTL": "Lithuanian litas",
-                  "LVL": "Latvian lat",
+                  "LVL": "Latvian lats",
                   "MXN": "Mexican peso",
                   "MYR": "Malaysian ringgit",
                   "NOK": "Norwegian krone",
                   "NZD": "New Zealand dollar",
                   "PHP": "Philippine peso",
                   "PLN": "Polish zloty",
-                  "RON": "New Romanian leu",
+                  "RON": "Romanian leu",
                   "RSD": "Serbian dinar",
                   "RUB": "Russian ruble",
                   "SEK": "Swedish krona",
@@ -212,20 +221,20 @@
                 "DUE_DATE": "Due date",
                 "FULFILLMENT_DATE": "Fulfillment date"
               },
-              "NOTE_SZAMLAZZ": "The data related to the invoice is provided by Szamlazz.hu for the invoice, so it cannot be edited here, only by logging into Szamlazz.hu!"
+              "NOTE_SZAMLAZZ": "The data for your invoice is provided by Számlázz.hu, so it can't be edited here—only after logging in to Számlázz.hu!"
             },
             "PARTNER_SECTION": {
               "TITLE": "Partner",
               "INVOICE_TO": {
-                "PATIENT": "Patient billing data",
+                "PATIENT": "Patient billing details",
                 "HEALTH_FUND": "Health fund invoice"
               },
               "FIELDS": {
                 "NAME": "Name",
                 "TAX_NUMBER": "Tax number",
-                "EMAIL": "E-mail",
+                "EMAIL": "Email",
                 "COUNTRY": "Country",
-                "ZIP": "ZIP code",
+                "ZIP": "Postal code",
                 "CITY": "City",
                 "ADDRESS": "Address"
               }
@@ -235,7 +244,7 @@
               "FIELDS": {
                 "NAME": "Item name",
                 "QUANTITY": "Quantity",
-                "UNIT": "Unit of measurement",
+                "UNIT": "Unit of measure",
                 "UNIT_PRICE": "Net unit price",
                 "VAT": "VAT rate",
                 "NET_PRICE": "Net price",
@@ -243,7 +252,7 @@
                 "COMMENT": "Comment"
               },
               "SUMMARY": {
-                "TOTAL": "Total amount",
+                "TOTAL": "Total",
                 "NET": "Net",
                 "GROSS": "Gross"
               },
@@ -254,44 +263,44 @@
                 "ISSUE_INVOICE": "Issue invoice"
               },
               "OPTIONS": {
-                "SEND_EMAIL": "Send invoice to patient by email",
-                "ALREADY_PAID": "Already paid"
+                "SEND_EMAIL": "Send the invoice to the patient by email",
+                "ALREADY_PAID": "Already settled"
               },
               "INVOICE_COMMENT": "Invoice comment"
             }
           }
         },
-        "WAITING_LISTS_TAB" : {
-          "TITLE" : "Waiting list",
-          "SEARCH_FIELD" : {
-            "PLACEHOLDER" : "Search"
+        "WAITING_LISTS_TAB": {
+          "TITLE": "Waiting list",
+          "SEARCH_FIELD": {
+            "PLACEHOLDER": "Search"
           },
-          "TABLE_HEADERS" : {
+          "TABLE_HEADERS": {
             "PRIORITY": "Priority",
             "TREATMENT": "Treatment",
             "LENGTH_OF_TREATMENT": "Treatment length",
             "THERAPIST": "Therapist",
-            "ON_LIST": "On waiting list",
+            "ON_LIST": "On the waiting list",
             "COMMENT": "Comment",
-            "OPERATIONS" : "Operations"
+            "OPERATIONS": "Actions"
           },
-          "ACTIONS" : {
-            "ADD_TO_WAITING_LIST" : "Add to waiting list"
+          "ACTIONS": {
+            "ADD_TO_WAITING_LIST": "Add to waiting list"
           },
-          "ADD_TO_WAITING_LIST_POPUP" : {
-            "TITLE" : "Edit waiting list",
-            "FIELDS" : {
+          "ADD_TO_WAITING_LIST_POPUP": {
+            "TITLE": "Edit waiting list",
+            "FIELDS": {
               "THERAPIST": {
                 "TEXT": "Therapist",
-                "PLACEHOLDER": "Choose therapist"
+                "PLACEHOLDER": "Select therapist"
               },
               "PATIENT": {
                 "TEXT": "Patient",
-                "PLACEHOLDER": "Choose patient"
+                "PLACEHOLDER": "Select patient"
               },
               "TREATMENT_TYPE": {
-                "TEXT": "Treatment type",
-                "PLACEHOLDER": "Choose type"
+                "TEXT": "Type of treatment",
+                "PLACEHOLDER": "Select type"
               },
               "DURATION": {
                 "TEXT": "Treatment length"
@@ -300,7 +309,7 @@
                 "TEXT": "Priority",
                 "OPTIONS": {
                   "NOT_URGENT": "Not urgent",
-                  "AVERAGE" :  "Average",
+                  "AVERAGE": "Average",
                   "URGENT": "Urgent"
                 }
               },
@@ -313,157 +322,274 @@
               "SAVE": "Save"
             }
           },
-          "TOOLTIPS" : {
-            "EDIT" : "Edit",
-            "DELETE" : "Delete"
+          "TOOLTIPS": {
+            "EDIT": "Edit",
+            "DELETE": "Delete"
           }
         },
         "DOCUMENTS_TAB": {
           "TITLE": "Documents",
-          "TABLE_HEADERS" : {
+          "TABLE_HEADERS": {
             "UPLOADER": "Uploaded by",
-            "NAME" : "Name",
-            "VISIT" : "Visit",
-            "UPLOAD_TIME" : "Upload date",
-            "OPERATIONS" : "Operations"
+            "NAME": "Name",
+            "VISIT": "Visit",
+            "UPLOAD_TIME": "Upload date",
+            "OPERATIONS": "Actions"
           },
-          "UPLOAD_NEW_DOCUMENT_BUTTON_TEXT" : "Upload new document"
+          "UPLOAD_NEW_DOCUMENT_BUTTON_TEXT": "Upload new document"
         },
         "REVIEWS_TAB": {
           "TITLE": "Reviews",
-          "TABLE_HEADERS" : {
-            "DATE" : "Date",
-            "GIVEN_BY" : "Given by",
-            "REVIEW" : "Review",
-            "REASON" : "Reason",
-            "OPERATIONS" : "Operations"
+          "TABLE_HEADERS": {
+            "DATE": "Date",
+            "GIVEN_BY": "Given by",
+            "REVIEW": "Review",
+            "REASON": "Reason",
+            "OPERATIONS": "Actions"
           },
-          "NEW_REVIEW_BUTTON_TEXT" : "New review"
+          "NEW_REVIEW_BUTTON_TEXT": "New review"
         },
         "COMMENTS_TAB": {
-          "TITLE": "Comments",
-          "TABLE_HEADERS" : {
-            "DATE" : "Date",
-            "GIVEN_BY" : "Given by",
-            "COMMENT" : "Comment",
-            "OPERATIONS" : "Operations"
+          "TITLE": "Notes",
+          "TABLE_HEADERS": {
+            "DATE": "Date",
+            "GIVEN_BY": "Given by",
+            "COMMENT": "Note",
+            "OPERATIONS": "Actions"
           },
-          "NEW_COMMENT_BUTTON_TEXT" : "New comment"
+          "NEW_COMMENT_BUTTON_TEXT": "New note"
         },
         "MEMBERSHIPS_TAB": {
-          "TITLE": "Memberships",
-          "TABLE_HEADERS" : {
-            "OCCASIONS" : "Occasions",
-            "DATE_OF_MEMBERSHIP_PURCHASE" : "Membership purchase date",
-            "MEMBERSHIP_TYPE" : "Membership type",
-            "IN_GROUP" : "Group",
-            "PRICE" : "Price",
-            "VALID_UNTIL" : "Valid until",
-            "COMPENSATED" : "Compensated",
-            "SOLD_BY" : "Sold by",
-            "OPERATIONS" : "Operations"
+          "TITLE": "Passes",
+          "TABLE_HEADERS": {
+            "OCCASIONS": "Sessions",
+            "DATE_OF_MEMBERSHIP_PURCHASE": "Date of pass purchase",
+            "MEMBERSHIP_TYPE": "Pass type",
+            "IN_GROUP": "Group",
+            "PRICE": "Price",
+            "VALID_UNTIL": "Validity",
+            "COMPENSATED": "Settled",
+            "SOLD_BY": "Sold by",
+            "OPERATIONS": "Actions"
           },
-          "SELL_MEMBERSHIP_BUTTON_TEXT" : "Sell membership"
+          "SELL_MEMBERSHIP_BUTTON_TEXT": "Sell pass"
         },
         "PRELIMINARY_HEALTH_SECTION": {
-          "TITLE": "Preliminary health assessment, data request",
-          "INFO_TEXTS" : {
-            "THE_PATIENT_IS_SUSPENDED" : "The patient is currently in suspended status, so no health assessment can be sent to them.",
-            "THE_PATIENT_HAVE_NOT_ACCEPTED_PRIVACY_POLICY_YET" : "The patient has not yet accepted the data management information sheet, so no data request can be assigned to them.",
-            "INTAKE_FORM_DOES_NOT_EXIST_YET" : "Data request form does not exist yet. Please create one under the examination forms menu!",
-            "NO_COMPLETED_ASSESSMENT" : "No completed health assessment has been received yet"
+          "TITLE": "Preliminary condition assessment, data request",
+          "INFO_TEXTS": {
+            "THE_PATIENT_IS_SUSPENDED": "The patient is currently suspended, so a condition assessment cannot be sent.",
+            "THE_PATIENT_HAVE_NOT_ACCEPTED_PRIVACY_POLICY_YET": "The patient has not accepted the data management information sheet yet, so a data request cannot be assigned.",
+            "INTAKE_FORM_DOES_NOT_EXIST_YET": "An intake data sheet does not exist yet. Create one under the visit sheets menu!",
+            "NO_COMPLETED_ASSESSMENT": "No completed condition assessment has been received yet"
           }
         },
-        "SYSTEM_NOTIFICATIONS" : {}
+        "SYSTEM_NOTIFICATIONS": {}
       },
-      "MUSCULOSKELETAL_PROBLEMS" : {
-        "EESZT_INFO_SECTION" : {
-          "CARD_TITLE" : "EESZT Data Service",
-          "HELP_TOOLTIP" : "Here you can see whether you have already initiated EESZT data service for the examination, and whether you have closed it.",
-          "TEXTS" : {
-            "ID_OF_DATA_SERVICE" : "Data service identifier",
-            "DATA_RECORDED_NOT_SYNCED_EESZT_ERROR" : "The data service has been recorded, but due to EESZT technical error it has not yet been synchronized with the EESZT system.",
-            "START_OF_DATA_SERVICE" : "Data service start",
-            "DATA_SERVICE_OF_VISIT_IS_NOT_CLOSED_YET" : "The data service initiated for the visit is not yet closed.",
-            "PREVIOUSLY_INITIATED_CLOSURE_DATA" : "Previously initiated closure date",
-            "NO_INITIATED_DATA_SERVICE_ON_THIS_VISIT_YET" : "No data service has been initiated for this visit yet!",
-            "DATA_SERVICE_ALREADY_HAPPENED_ON_THIS_VISIT" : "Data service has already occurred for this visit!"
+      "MUSCULOSKELETAL_PROBLEMS": {
+        "EESZT_INFO_SECTION": {
+          "CARD_TITLE": "EESZT Data Service",
+          "HELP_TOOLTIP": "Here you can see whether you have already initiated EESZT data service for the visit, and whether you have closed it.",
+          "TEXTS": {
+            "ID_OF_DATA_SERVICE": "ID of data service",
+            "DATA_RECORDED_NOT_SYNCED_EESZT_ERROR": "The data service was recorded, but due to an EESZT technical error it has not yet been synchronized with the EESZT system.",
+            "START_OF_DATA_SERVICE": "Start of data service",
+            "DATA_SERVICE_OF_VISIT_IS_NOT_CLOSED_YET": "The data service initiated for the visit has not been closed yet.",
+            "PREVIOUSLY_INITIATED_CLOSURE_DATA": "Time of previously initiated closure",
+            "NO_INITIATED_DATA_SERVICE_ON_THIS_VISIT_YET": "No data service has been initiated for this visit yet!",
+            "DATA_SERVICE_ALREADY_HAPPENED_ON_THIS_VISIT": "Data service has already been performed for this visit!"
           },
-          "BUTTON_TEXTS" : {
-            "SYNC_CLOSURE" : "Synchronize closure",
-            "CLOSE_DATA_SERVICE" : "Close data service",
-            "SYNC_DATA_SERVICE" : "Synchronize data service",
-            "INITIATE_DATA_SERVICE" : "Initiate data service"
+          "BUTTON_TEXTS": {
+            "SYNC_CLOSURE": "Synchronize closure",
+            "CLOSE_DATA_SERVICE": "Close data service",
+            "SYNC_DATA_SERVICE": "Synchronize data service",
+            "INITIATE_DATA_SERVICE": "Initiate data service"
           }
         },
-        "ACTIONS" : {
-          "NEW_MUSCULOSKELETAL_PROBLEM" : "New musculoskeletal problem",
-          "SAVE" : "Save",
-          "ADD_NEW_VISIT" : "Add new visit"
+        "ACTIONS": {
+          "NEW_MUSCULOSKELETAL_PROBLEM": "New MSK problem",
+          "SAVE": "Save",
+          "ADD_NEW_VISIT": "Add new visit"
         },
-        "MUSCULOSKELETAL_PROBLEMS_DROPDOWN" : {
-          "TITLE" : "Musculoskeletal problems",
-          "NO_PATIENT_VISITS_YET" : "The patient has no visits yet.",
-          "NEW_PROBLEM_BUTTON_TEXT" : "New musculoskeletal problem",
-          "EXERCISES" : {
-            "ADD_EXERCISE_TEXT" : "Add exercise",
-            "EXERCISE_CATEGORY_PLACEHOLDER" : "Exercise category",
-            "EXERCISES_TEXT" : "Exercises"
+        "MUSCULOSKELETAL_PROBLEMS_DROPDOWN": {
+          "TITLE": "MSK problems",
+          "NO_PATIENT_VISITS_YET": "There are no visits for the patient yet.",
+          "NEW_PROBLEM_BUTTON_TEXT": "New MSK problem",
+          "EXERCISES": {
+            "ADD_EXERCISE_TEXT": "Add exercise",
+            "EXERCISE_CATEGORY_PLACEHOLDER": "Exercise category",
+            "EXERCISES_TEXT": "Exercises"
           },
-          "TOOLTIPS" : {
-            "CLOSED_VISIT" : "Closed visit",
-            "RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED" : "Record of the musculoskeletal problem with which the patient arrived",
-            "ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM" : "Add visits for the same musculoskeletal problem",
-            "COPY_VISIT" : "Copy visit",
-            "DELETE_VERSION" : "Delete version"
+          "TOOLTIPS": {
+            "CLOSED_VISIT": "Closed visit",
+            "RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED": "Record the musculoskeletal problem with which the patient arrived",
+            "ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM": "Add visits that belong to the same musculoskeletal problem",
+            "COPY_VISIT": "Copy visit",
+            "DELETE_VERSION": "Delete version"
           }
         },
-        "INFORMATION_SECTION" : {
-          "TEXTS" : {
-            "TOGGLE_FINALIZE" : "For the patient to see the completed examination forms and attachments, please finalize them",
-            "MUSCULOSKELETAL_PROBLEM" : "Musculoskeletal problem",
-            "VISIT" : "Visit",
-            "CREATED_BY" : "Created by",
-            "FILLED_OUT_BY" : "Filled out by",
-            "NO_MUSCULOSKELETAL_PROBLEM_OR_VISIT_FOR_PATIENT" : "The patient has no musculoskeletal problem and visit yet.",
-            "CLICK_NEW_MUSCULOSKELETAL_PROBLEM_BUTTON" : "Please click the New musculoskeletal problem button to create the first examination and examination forms for the musculoskeletal complaint."
+        "INFORMATION_SECTION": {
+          "TEXTS": {
+            "TOGGLE_FINALIZE_DOCUMENTS": "To make the patient see the completed visit sheets and attachments, please finalize them",
+            "TOGGLE_FINALIZE_EXERCISES": "To make the patient see the exercises, please finalize them",
+            "MUSCULOSKELETAL_PROBLEM": "Musculoskeletal problem",
+            "VISIT": "Visit",
+            "CREATED_BY": "Created by",
+            "FILLED_OUT_BY": "Filled out by",
+            "NO_MUSCULOSKELETAL_PROBLEM_OR_VISIT_FOR_PATIENT": "The patient does not yet have a musculoskeletal problem and visit.",
+            "CLICK_NEW_MUSCULOSKELETAL_PROBLEM_BUTTON": "Please click the New musculoskeletal problem button to create the first visit and visit sheets for the musculoskeletal complaint."
           }
         },
-        "FORM_SECTION" : {
-          "TABS" : {
-            "SHEET_COMPLETION" : {
-              "TITLE" : "Filling out examination forms",
-              "NO_VISIT_FORM_FOR_VISIT" : "No examination form belongs to this visit",
-              "VISIT_FORMS_NOT_FINALIZED_BY_THERAPIST" : "The examination forms have not yet been finalized by your therapist"
+        "FORM_SECTION": {
+          "TABS": {
+            "SHEET_COMPLETION": {
+              "TITLE": "Fill out visit sheets",
+              "NO_VISIT_FORM_FOR_VISIT": "There is no visit sheet for the visit",
+              "VISIT_FORMS_NOT_FINALIZED_BY_THERAPIST": "Your therapist has not finalized the visit sheets yet"
             },
-            "UPLOAD_DOCUMENTS" : {
-              "TITLE" : "Upload documents, images",
-              "ATTACHMENTS_NOT_FINALIZED_BY_THERAPIST" : "The attachments have not yet been finalized by your therapist"
+            "UPLOAD_DOCUMENTS": {
+              "TITLE": "Upload documents, images",
+              "ATTACHMENTS_NOT_FINALIZED_BY_THERAPIST": "Your therapist has not finalized the attachments yet"
             },
-            "ADD_EXERCISE" : {
-              "TITLE" : "Add exercise",
-              "NO_EXERCISE_FOR_VISIT" : "No exercise belongs to this visit",
-              "EXERCISES_NOT_FINALIZED_BY_THERAPIST" : "The exercises have not yet been finalized by your therapist"
+            "ADD_EXERCISE": {
+              "TITLE": "Add exercise",
+              "NO_EXERCISE_FOR_VISIT": "There is no exercise for the visit",
+              "EXERCISES_NOT_FINALIZED_BY_THERAPIST": "Your therapist has not finalized the exercises yet"
             }
           }
         },
-        "TOOLTIPS" : {
-          "NEW_PROBLEM_BUTTON_TOOLTIP" : "Record of the musculoskeletal problem with which the patient arrived",
-          "DROPDOWN_MENU" : "Add visits for the same musculoskeletal problem",
-          "DELETE_ANSWERS" : "Delete answers",
-          "DELETE_SURVEY" : "Delete examination form",
-          "ADD_OR_DELETE_SURVEYS" : "Add/delete examination forms",
-          "PDF_DOWNLOAD" : "Download PDF"
+        "TOOLTIPS": {
+          "NEW_PROBLEM_BUTTON_TOOLTIP": "Record the musculoskeletal problem with which the patient arrived",
+          "DROPDOWN_MENU": "Add visits that belong to the same musculoskeletal problem",
+          "DELETE_ANSWERS": "Delete answers",
+          "DELETE_SURVEY": "Delete visit sheet",
+          "ADD_OR_DELETE_SURVEYS": "Add/delete visit sheets",
+          "PDF_DOWNLOAD": "Download PDF"
         },
-        "SYSTEM_NOTIFICATIONS" : {}
+        "SYSTEM_NOTIFICATIONS": {}
       },
-      "COMPARE_VISITS" : {
-        "SYSTEM_NOTIFICATIONS" : {}
+      "EXERCISES": {
+        "MUSCULOSKELETAL_PROBLEMS_DROPDOWN": {
+          "TITLE": "MSK problems",
+          "NO_PATIENT_VISITS_YET": "There are no visits for the patient yet.",
+          "NEW_PROBLEM_BUTTON_TEXT": "New MSK problem",
+          "EXERCISES": {
+            "ADD_EXERCISE_TEXT": "Add exercise",
+            "EXERCISE_CATEGORY_PLACEHOLDER": "Exercise category",
+            "EXERCISES_TEXT": "Exercises"
+          },
+          "TOOLTIPS": {
+            "CLOSED_VISIT": "Closed visit",
+            "RECORD_OF_THE_MUSCULOSKELETAL_PROBLEM_WITH_WHICH_THE_PATIENT_ARRIVED": "Record the musculoskeletal problem with which the patient arrived",
+            "ADD_VISITS_FOR_SAME_MUSCULOSKELETAL_PROBLEM": "Add visits that belong to the same musculoskeletal problem",
+            "COPY_VISIT": "Copy visit",
+            "DELETE_VERSION": "Delete version"
+          }
+        },
+        "EXERCISE_CARD": {
+          "DESCRIPTION_OF_EXERCISE": "Exercise description",
+          "REPS": "Repetitions",
+          "PICTURES": "Images",
+          "VIDEOS": "Videos"
+        },
+        "TOOLTIPS": {
+          "PDF_PRINT": "Print PDF"
+        },
+        "SYSTEM_NOTIFICATIONS": {}
       },
-      "MESSAGES" : {
-        "SYSTEM_NOTIFICATIONS" : {}
+      "COMPARE_VISITS": {
+        "CARD_TITLE": "Compare visits",
+        "SELECT_MUSCULOSKELETAL_PROBLEM_DROPDOWN_PLACEHOLDER": "Select a musculoskeletal problem",
+        "FIRST_VISIT_PLACEHOLDER": "First visit",
+        "SECOND_VISIT_PLACEHOLDER": "Second visit",
+        "COMPARE_BUTTON_TEXT": "Compare",
+        "TABS": {
+          "VISIT_SHEETS": {
+            "TAB_HEADER": "Visit sheets",
+            "NO_VISIT_SHEET_FOR_VISIT": "There are no visit sheets for the visits",
+            "NO_VISIT_SHEET_LIKE_THIS_FOR_FIRST_VISIT": "There is no such visit sheet for the first visit",
+            "NO_VISIT_SHEET_LIKE_THIS_FOR_SECOND_VISIT": "There is no such visit sheet for the second visit"
+          },
+          "EXERCISES": {
+            "TAB_HEADER": "Exercises",
+            "NO_EXERCISE_FOR_FIRST_VISIT": "There is no exercise for the first visit",
+            "NO_EXERCISE_FOR_SECOND_VISIT": "There is no exercise for the second visit"
+          },
+          "ATTACHMENTS": {
+            "MAIN_TAB_HEADER": "Attachments",
+            "PICTURES_TAB_HEADER": "Images",
+            "VIDEOS_TAB_HEADER": "Videos",
+            "DOCUMENTS_TAB_HEADER": "Documents",
+            "NO_PICTURE_FOR_FIRST_VISIT": "There is no image for the first visit",
+            "NO_PICTURE_FOR_SECOND_VISIT": "There is no image for the second visit",
+            "NO_VIDEO_FOR_FIRST_VISIT": "There is no video for the first visit",
+            "NO_VIDEO_FOR_SECOND_VISIT": "There is no video for the second visit",
+            "NO_DOCUMENT_FOR_FIRST_VISIT": "There is no document for the first visit",
+            "NO_DOCUMENT_FOR_SECOND_VISIT": "There is no document for the second visit"
+          }
+        },
+        "SYSTEM_NOTIFICATIONS": {}
       },
-      "BILLING_AND_CONTACT_INFORMATION" : {
+      "MESSAGES": {
+        "MESSAGING_PARTNERS_LEFT_SIDEBAR": {
+          "CLINIC": "Clinic",
+          "CLINIC_ADMINISTRATORS": "Clinic administrators",
+          "MY_THERAPISTS": "My therapists"
+        },
+        "MESSAGING_SECTION": {
+          "CLINIC_MESSAGE_WARNING": "All staff members of the clinic can see the conversation with the clinic!",
+          "MESSAGE_PLACEHOLDER": "Type a message here"
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "BILLING_AND_CONTACT_INFORMATION": {
+        "BILLING_DATA_CARD": {
+          "CARD_TITLE": "Billing data",
+          "FIELDS": {
+            "BILLING_NAME": "Billing name",
+            "COUNTRY": "Country",
+            "POST_CODE": "Postal code",
+            "CITY": "City",
+            "ADDRESS": "Address",
+            "TAX_NUMBER": "Tax number",
+            "SAVE_BUTTON_TEXT": "Save"
+          }
+        },
+        "HEALTH_FUND_DATA_CARD": {
+          "CARD_TITLE": "Health fund",
+          "FIELDS": {
+            "FUND_NAME": "Fund name",
+            "COUNTRY": "Country",
+            "POST_CODE": "Postal code",
+            "CITY": "City",
+            "ADDRESS": "Address",
+            "TAX_NUMBER": "Tax number",
+            "FUND_MEMBER": "Fund member",
+            "ID_OF_FUND_MEMBERSHIP": "Fund member ID",
+            "SAVE_BUTTON_TEXT": "Save"
+          }
+        },
+        "CONTACTS_CARD": {
+          "CARD_TITLE": "Contacts",
+          "TABLE_ACTIONS": {
+            "DELETE": "Delete",
+            "EDIT": "Edit"
+          },
+          "TABLE_HEADERS": {
+            "NAME": "Name",
+            "MOBILE_NUMBER": "Phone number",
+            "EMAIL": "Email",
+            "COMMENT": "Comment",
+            "OPERATIONS": "Actions",
+            "NEW_CONTACT_BUTTON_TEXT": "Add new contact"
+          }
+        },
+        "SYSTEM_NOTIFICATIONS": {}
+      },
+      "DATA_PRIVACY" : {
+        "COOKIE_INFORMATION" : "PATIENT_PROFILE.TABS.DATA_PRIVACY.COOKIE_INFORMATION",
+        "COOKIE_INFORMATION_CLICK_HERE" : "PATIENT_PROFILE.TABS.DATA_PRIVACY.COOKIE_INFORMATION_CLICK_HERE",
+        "DATA_PRIVACY_INFORMATION" : "PATIENT_PROFILE.TABS.DATA_PRIVACY.DATA_PRIVACY_INFORMATION",
+        "DATA_PRIVACY_INFORMATION_CLICK_HERE" : "PATIENT_PROFILE.TABS.DATA_PRIVACY.DATA_PRIVACY_INFORMATION_CLICK_HERE",
         "SYSTEM_NOTIFICATIONS" : {}
       }
     }

@@ -1,0 +1,12 @@
+{
+	"PRIORITIES" : {
+		"ADD_TO_WAITLISTED" : "Várólistához adás",
+		"DELETED_EVENT" : "Törölt időpont",
+		"EDIT_OF_WAITLISTED" : "Várólista szerkesztés",
+		"LOW_PRIORITY" : "Nem sürgős",
+		"MEDIUM_PRIORITY" : "Átlagos",
+		"HIGH_PRIORITY" : "Sürgős",
+		"TREATMENT_TYPE" : "Kezelés típusa",
+		"PRIORITY" : "Prioritás"
+	}
+}

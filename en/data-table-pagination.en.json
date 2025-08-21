@@ -1,0 +1,11 @@
+{
+  "DATA_TABLE_PAGINATION": {
+    "ITEMS_PER_PAGE": "Rows per page",
+    "NEXT_PAGE": "Next page",
+    "PREVIOUS_PAGE": "Previous page",
+    "FIRST_PAGE": "First page",
+    "LAST_PAGE": "Last page",
+    "RANGE_EMPTY": "0 of {{total}} items",
+    "RANGE_LABEL": "{{start}} - {{end}} of {{total}} items"
+  }
+}
