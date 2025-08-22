@@ -1,0 +1,7 @@
+{
+	"COOKIE_ACCEPTANCE_DIALOG" : {
+		"TEXT" : "Azért, hogy biztosítsuk a weboldal felhasználóbarát, gördülékeny használatát, sütiket használunk. Ennek elfogadása elengedhetetlen, hogy az oldalt annak minden funkciójával megfelelően tudd használni. Amennyiben beleegyezel a sütik használatába, kérlek kattints az Elfogadom gombra. Ha szeretnél többet megtudni a sütihasználatról,",
+		"LINK_TEXT" : "kattints ide.",
+		"ACCEPT_BUTTON_TEXT" : "Elfogadom"
+	}
+}

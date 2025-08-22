@@ -97,6 +97,20 @@
               "CLOSE" : "Bezár",
               "ACCEPT" : "Elfogad"
             }
+          },
+          "PDF_DOWNLOAD_MODAL" : {
+            "CARD_TITLE" : "PDF Letöltés",
+            "HEADER_TEXT" : "Milyen adatokat tartalmazzon a PDF?",
+            "NO_VISITS_FOR_PATIENT" : "A pácienshez még nem tartozik vizsgálat.",
+            "PATIENT_DATA_CHECKBOX_TEXT" : "Páciens törzsadatok",
+            "PRELIMINARY_DATA_CHECKBOX_TEXT" : "Előzetes állapotfelmérő, adatbekérő",
+            "VISITS" : "Játékok",
+            "SAVE_ALL_QUESTIONS_RADIO_TEXT" : "Összes kérdés mentése",
+            "SAVE_ONLY_ANSWERED_QUESTIONS_RADIO_TEXT" : "Csak megválaszolt kérdések mentése",
+            "SELECT_ALL_CHECKBOX_TEXT" : "Mind kijelöl",
+            "DELETE_SELECTION_CHECKBOX_TEXT" : "Kijelölések törlése",
+            "CLOSE_BUTTON_TEXT" : "Bezár",
+            "DOWNLOAD_BUTTON_TEXT" : "Letöltés"
           }
         },
         "SEND_NOTIFICATION_SETTINGS" : {
@@ -386,7 +400,66 @@
           "CHOOSE_SHEET_DROPDOWN_PLACEHOLDER" : "Állapotfelmérő, adatbekérő kiválasztása",
           "SEND_BUTTON_TEXT" : "Küldés"
         },
-        "SYSTEM_NOTIFICATIONS" : {}
+        "SYSTEM_NOTIFICATIONS" : {
+          "CONFIRM_PATIENT_INACTIVATION_NAME": "Biztos, hogy inaktív állapotba szeretnéd rakni a \"{{name}}\" nevű pácienst?",
+          "PATIENT_HAS_EVENTS_HTML": "A páciensnek még vannak naptári eseményei: {{eventsList}}",
+          "PATIENT_ON_WAITLIST_HTML": "A páciens még szerepel várólistán: {{waitingList}}",
+          "CONFIRM_INACTIVATE_PATIENT": "Biztos, hogy inaktív állapotba szeretnéd tenni a pácienst?",
+          "CONFIRM_INACTIVATE_PATIENT_NOTE": "Amennyiben igen, az összes elem törlésre kerül.",
+          "PATIENT_INACTIVATED_SUCCESS": "Sikeres páciens inaktiválás",
+          "PATIENT_INACTIVATE_ERROR": "Hiba a páciens inaktiválása közben",
+
+          "CONFIRM_PATIENT_ACTIVATION_NAME": "Biztos, hogy aktív állapotba szeretnéd tenni a \"{{name}}\" nevű pácienst?",
+          "PATIENT_ACTIVATED_SUCCESS": "Sikeres páciens aktiválás",
+          "PATIENT_ACTIVATE_ERROR": "Hiba a páciens aktiválása közben",
+
+          "CONFIRM_PATIENT_PROFILE_ENABLE_NAME": "Biztos, hogy engedélyezed a \"{{name}}\" páciens profil oldalát?",
+          "PATIENT_PROFILE_ENABLED_SUCCESS": "Sikeres páciens profil oldal engedélyezés",
+          "PATIENT_PROFILE_ENABLE_ERROR": "Hiba a páciens profil oldalának engedélyezése közben",
+
+          "CONFIRM_PATIENT_PROFILE_DISABLE_NAME": "Biztos, hogy le szeretnéd tiltani a \"{{name}}\" páciens profil oldalát?",
+          "PATIENT_PROFILE_DISABLED_SUCCESS": "Sikeres páciens profil oldal letiltás",
+          "PATIENT_PROFILE_DISABLE_ERROR": "Hiba a páciens profil oldalának letiltása közben",
+
+          "CONFIRM_PATIENT_VISIT_VISIBILITY_DISABLE_NAME": "Biztos, hogy letiltod a vizsgálatok láthatóságát a \"{{name}}\" páciensnél?",
+          "PATIENT_VISIT_VISIBILITY_DISABLED_SUCCESS": "Sikeres vizsgálat láthatóság letiltás",
+          "PATIENT_VISIT_VISIBILITY_DISABLE_ERROR": "Hiba a vizsgálat láthatóság tiltása közben",
+
+          "CONFIRM_PATIENT_VISIT_VISIBILITY_ENABLE_NAME": "Biztos, hogy engedélyezed a vizsgálatok láthatóságát a \"{{name}}\" páciensnél?",
+          "PATIENT_VISIT_VISIBILITY_ENABLED_SUCCESS": "Sikeres vizsgálat láthatóság engedélyezés",
+          "PATIENT_VISIT_VISIBILITY_ENABLE_ERROR": "Hiba a vizsgálat láthatóság engedélyezése közben",
+
+          "SHARE_INACTIVATED_PATIENT_QUESTION": "Szeretnéd megosztani az inaktivált pácienst egy másik terapeutával?",
+
+          "EVENT_STATUS_UPDATE_SUCCESS": "Sikeres esemény állapot frissítés",
+          "EVENT_STATUS_UPDATE_ERROR": "Sikertelen esemény állapot beállítás",
+
+          "GROUP_EVENT_FETCH_ERROR": "Sikertelen csoportos esemény lekérdezés.",
+          "CANCEL_REQUEST_SENT_SUCCESS": "Lemondási kérelem sikeresen elküldve",
+          "EVENT_CANCEL_ERROR": "Sikertelen esemény lemondás",
+
+          "CONFIRM_WAITING_LIST_DELETE_NAME": "Biztos, hogy törlöd a \"{{name}}\" pácienst a várólistáról?",
+          "WAITING_LIST_DELETE_SUCCESS_NAME": "A \"{{name}}\" páciens sikeresen törölve a várólistáról",
+          "WAITING_LIST_DELETE_ERROR": "Hiba a várólista törlése során.",
+
+          "SURVEY_SELECT_REQUIRED": "Kérjük, válasszon ki egy vizsgálati lapot",
+          "SURVEY_SEND_SUCCESS": "Sikeres vizsgálati lap kiküldés",
+          "SURVEY_SEND_ERROR": "Sikertelen vizsgálati lap kiküldés",
+
+          "CONFIRM_DUPLICATE_DATA_INPUT": "Biztosan másolatot szeretnél készíteni az adatbekérőből?",
+          "DATA_INPUT_DUPLICATE_SUCCESS": "Sikeres adatbekérő másolás",
+          "DATA_INPUT_DUPLICATE_ERROR": "Sikertelen adatbekérő másolás",
+
+          "CONFIRM_DOCUMENT_DELETE_NAME": "Biztos, hogy törölni szeretné a \"{{name}}\" dokumentumot?",
+          "DOCUMENT_DELETE_SUCCESS_NAME": "A \"{{name}}\" dokumentum sikeresen törölve.",
+          "DOCUMENT_DELETE_ERROR": "Hiba a dokumentum törlése során.",
+
+          "DOCUMENT_UPLOAD_SUCCESS": "Sikeres dokumentum feltöltés",
+          "DOCUMENT_UPLOAD_ERROR": "Sikertelen dokumentum feltöltés",
+
+          "CONFIRM_PERMANENT_PROFILE_DELETE": "Biztos, hogy véglegesen törölni akarod az adataid? Ezt nem tudod visszavonni később és ezt követően nem fogsz tudni visszalépni a rendszerbe. 72 órán belül minden adatodat töröljük.",
+          "PERMANENT_PROFILE_DELETE_ERROR": "Sikertelen profil törlés. Kérjük, vedd fel a kapcsolatot a rendszergazdával vagy terapeutáddal."
+        }
       },
       "MUSCULOSKELETAL_PROBLEMS" : {
         "EESZT_INFO_SECTION" : {
