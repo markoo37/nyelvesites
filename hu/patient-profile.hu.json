@@ -50,10 +50,12 @@
           "HEADER" : {
             "TITLE" : {
               "PATIENT_DATA" : "Páciens adatai",
-              "MY_DATA" : "Adataim"
+              "MY_DATA" : "Adataim",
+              "IN_SUSPENDED_STATUS_MARKER" : "Felfüggesztett állapotban"
             },
             "TOOLTIPS" : {
               "INACTIVATE_PATIENT" : "Páciens inaktiválása",
+              "ACTIVATE_PATIENT" : "Páciens aktiválása",
               "BLOCK_PATIENT_PROFILE" : "Páciens profil oldal tiltása",
               "UNBLOCK_PATIENT_PROFILE" : "Páciens profil oldal engedélyezése",
               "PATIENT_ABLE_TO_SEE_VISITS" : "Páciens lássa a vizsgálatokat",
@@ -111,6 +113,66 @@
             "DELETE_SELECTION_CHECKBOX_TEXT" : "Kijelölések törlése",
             "CLOSE_BUTTON_TEXT" : "Bezár",
             "DOWNLOAD_BUTTON_TEXT" : "Letöltés"
+          },
+          "EDIT_PATIENT" : {
+            "HEADER_SECTION" : {
+              "GO_BACK_BUTTON_TEXT" : "Vissza",
+              "SAVE_BUTTON_TEXT" : "Mentés",
+              "TITLE" : "Adatok szerkesztése"
+            },
+            "PROFILE_PICTURE" : "Profilkép",
+            "PERSONAL_DATA_SECTION" : {
+              "TITLE" : "Személyes adatok",
+              "FIELDS" : {
+                "LAST_NAME" : "Vezetéknév",
+                "FIRST_NAME" : "Keresztnév",
+                "SALUTATION" : "Megszólítás",
+                "BIRTH_LAST_NAME" : "Születéskori vezetéknév",
+                "BIRTH_FIRST_NAME" : "Születéskori keresztnév",
+                "BIRTH_DATE" : "Születési idő",
+                "PARENT_LAST_NAME" : "Szülő vezetékneve",
+                "PARENT_FIRST_NAME" : "Szülő keresztneve",
+                "LANGUAGE" : "Nyelv",
+                "OCCUPATION" : "Foglalkozás"
+              }
+            },
+            "CONTACT_DATA_SECTION" : {
+              "TITLE" : "Kapcsolattartási adatok",
+              "MOBILE_NUMBER" : "Telefonszám",
+              "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
+              "EMAIL" : "Email cím",
+              "THERAPISTS" : "Terapeuták"
+            },
+            "HEALTH_DATA_SECTION" : {
+              "TITLE" : "Egészségügyi adatok",
+              "ID_TYPE" : "Azonosító típusa",
+              "ID_TYPES" : {
+                "TAJ":"TAJ szám",
+                "CHILD": "2 hónapnál fiatalabb gyermek képzett TAJ száma",
+                "PASSPORT": "Útlevél szám ",
+                "IMMIGRANT_1": "Menedékes kérelmező, befogadó ig. száma",
+                "UNKNOWN": "Ismeretlen beteg",
+                "EU": "Európai egészségbiztosítási kártya",
+                "IMMIGRANT_2": "Menekült, menedékes és oltalmazott státusz kérelmezése előtt",
+                "ID": "Azonosító"
+              },
+              "DESCRIPTION_OF_PATIENT_PROBLEM" : "Egészségügyi probléma leírása"
+            },
+            "ADDRESS_SECTION" : {
+              "TITLE" : "Lakcím",
+              "COUNTRY" : "Ország",
+              "POST_CODE" : "Irányítószám",
+              "CITY" : "Település",
+              "ADDRESS" : "Lakcím"
+            },
+            "SAFETY_DATA_SECTION" : {
+              "TITLE" : "Biztonsági adatok",
+              "USERNAME" : "Felhasználónév",
+              "PASSWORD" : "Jelszó",
+              "PASSWORD_AGAIN" : "Jelszó mégegyszer",
+              "EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+              "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon."
+            }
           }
         },
         "SEND_NOTIFICATION_SETTINGS" : {
@@ -458,7 +520,10 @@
           "DOCUMENT_UPLOAD_ERROR": "Sikertelen dokumentum feltöltés",
 
           "CONFIRM_PERMANENT_PROFILE_DELETE": "Biztos, hogy véglegesen törölni akarod az adataid? Ezt nem tudod visszavonni később és ezt követően nem fogsz tudni visszalépni a rendszerbe. 72 órán belül minden adatodat töröljük.",
-          "PERMANENT_PROFILE_DELETE_ERROR": "Sikertelen profil törlés. Kérjük, vedd fel a kapcsolatot a rendszergazdával vagy terapeutáddal."
+          "PERMANENT_PROFILE_DELETE_ERROR": "Sikertelen profil törlés. Kérjük, vedd fel a kapcsolatot a rendszergazdával vagy terapeutáddal.",
+
+          "VISITS_FETCH_ERROR" : "Sikertelen vizsgálatok lekérdezés",
+          "PRELIMINARY_DATA_SHEET_FETCH_ERROR" : "Sikertelen adatbekérő lekérdezés"
         }
       },
       "MUSCULOSKELETAL_PROBLEMS" : {
@@ -503,6 +568,28 @@
             "DELETE_VERSION" : "Verzió törlése"
           }
         },
+        "CREATE_OR_EDIT_NEW_PROBLEM" : {
+          "TITLE" : {
+            "SELECT_SURVEYS": "Vizsgálati lapok kiválasztása",
+            "NEW_PROBLEM": "Új mozgásszervi probléma"
+          },
+          "SEARCH_FOR_PROBLEM_PLACEHOLDER" : "Mozgásszervi probléma",
+          "GO_BACK_BUTTON_TEXT" : "Mégsem",
+          "SAVE_BUTTON_TEXT" : "Mentés",
+          "CREATE_BUTTON_TEXT" : "Létrehozás",
+          "NO_THERAPIST_FOR_PATIENT" : "A pácienshez nem tartozik terapeuta",
+          "THE_THERAPIST_FOR_THIS_VISIT" : "Vizsgálathoz tartozó terapeuta",
+          "TABLE" : {
+            "HEADERS" : {
+              "TITLE" : "Cím",
+              "CREATED_TIME_STAMP" : "Készült"
+            },
+            "TOOLTIPS" : {
+              "DELETE" : "Törlés",
+              "SELECT" : "Kijelölés"
+            }
+          }
+        },
         "INFORMATION_SECTION" : {
           "TEXTS" : {
             "TOGGLE_FINALIZE_DOCUMENTS" : "Ahhoz, hogy a páciens lássa a kitöltött vizsgálati lapokat és csatolmányokat, kérjük véglegesítse azokat",
@@ -545,7 +632,57 @@
           "ADD_OR_DELETE_SURVEYS" : "Vizsgálati lapok hozzáadása/törlése",
           "PDF_DOWNLOAD" : "PDF letöltés"
         },
-        "SYSTEM_NOTIFICATIONS" : {}
+        "SYSTEM_NOTIFICATIONS" : {
+          "THERAPIST_LIST_FETCH_ERROR": "Sikertelen terapeuta lista lekérdezés",
+          "CONFIRM_CLOSE_UNSAVED_HTML": "A <i>{{title}}</i> nem lett elmentve. Biztosan folytatod?",
+          "CREATE_SUCCESS": "Sikeres mozgásszervi probléma létrehozás",
+          "CREATE_ERROR": "Sikertelen mozgásszervi probléma létrehozás",
+
+          "VISIT_FETCH_ERROR": "Nem sikerült lekérdezni a vizsgálatot",
+          "LAST_VISIT_FETCH_ERROR": "Nem sikerült lekérdezni az utolsó vizsgálatot",
+
+          "CONFIRM_SURVEY_ANSWERS_DELETE": "Biztos, hogy törlöd a(z) \"{{title}}\" vizsgálati lap összes válaszát?",
+
+          "CONFIRM_OLD_VISIT_MODIFY": "Biztos, hogy ezt a vizsgálatot szeretnéd módosítani és nem újat létrehozni?",
+
+          "SURVEYS_FINALIZED": "A vizsgálati lapok és csatolmányok véglegesítve lettek",
+          "SURVEYS_FINALIZATION_REVOKED": "A vizsgálati lapok és csatolmányok véglegesítése visszavonva",
+          "SURVEYS_FINALIZATION_ERROR": "Hiba a vizsgálati lapok és csatolmányok véglegesítése közben",
+
+          "CONFIRM_NEW_VERSION": "Biztos, hogy új verziót szeretnél készíteni a(z) {{title}} vizsgálatból?",
+          "NEW_VERSION_ERROR": "Sikertelen vizsgálat másolás",
+
+          "CONFIRM_COPY_VERSION": "Biztos, hogy egy másolatot szeretnél készíteni a(z) \"{{title}}\" vizsgálatból?",
+          "COPY_VERSION_ERROR": "Sikertelen vizsgálat másolás",
+
+          "CONFIRM_VISIT_DELETE": "Biztos, hogy törölni szeretné a(z) \"{{title}}\" vizsgálatot?",
+          "VISIT_DELETE_SUCCESS": "Sikeres vizsgálat törlés",
+          "VISIT_DELETE_ERROR": "Sikertelen vizsgálat törlés",
+
+          "EXERCISES_FINALIZED": "A gyakorlatok véglegesítve lettek",
+          "EXERCISES_FINALIZATION_REVOKED": "A gyakorlatok véglegesítése visszavonva",
+          "EXERCISES_FINALIZATION_ERROR": "Hiba a gyakorlatok véglegesítése közben",
+
+          "CONFIRM_REMOVE_SURVEY_FROM_VISIT": "Biztos, hogy törölni szeretné a(z) \"{{title}}\" vizsgálati lapot a vizsgálatból?",
+          "CONFIRM_REMOVE_EXERCISE_FROM_VISIT": "Biztosan törölni szeretnéd a {{name}} gyakorlatot?",
+          "CONFIRM_ATTACHMENT_DELETE": "Biztos, hogy törölni szeretnéd a csatolmányt?",
+          "CONFIRM_VISIT_CHANGE": "A vizsgálat nem lett elmentve. Biztosan folytatod?",
+
+          "AUTOSAVE_SUCCESS": "Sikeres automatikus vizsgálat mentés",
+          "SAVE_SUCCESS": "Sikeres vizsgálat mentés",
+          "AUTOSAVE_ERROR": "Sikertelen automatikus vizsgálat mentés",
+          "SAVE_ERROR": "Sikertelen vizsgálat mentés",
+          "SAVE_ALL_DONE": "Minden mentés befejeződött",
+          "SAVE_NO_CHANGES": "Nincs változás",
+
+          "INVALID_PHONE_FORMAT": "Nem megfelelő telefonszám formátum",
+          "INVALID_EMAIL_FORMAT": "Nem megfelelő e-mail cím formátum",
+
+          "CONFIRM_FINISH_EESZT": "A vizsgálatról még nem történt Lezáró adatszolgáltatás az EESZT felé. Megteszed most?",
+          "CONFIRM_NAVIGATION_WITHOUT_FINISH_EESZT": "A vizsgálatról még nem történt Lezáró adatszolgáltatás az EESZT felé. Biztosan folytatod?",
+
+          "EXERCISE_CATEGORY_FETCH_ERROR" : "Sikertelen gyakorlat lekérdezés kategória alapján"
+        }
       },
       "EXERCISES" : {
         "MUSCULOSKELETAL_PROBLEMS_DROPDOWN" : {
@@ -576,7 +713,11 @@
         "TOOLTIPS" : {
           "PDF_PRINT" : "PDF nyomtatás"
         },
-        "SYSTEM_NOTIFICATIONS" : {}
+        "SYSTEM_NOTIFICATIONS" : {
+          "PATIENT_FETCH_ERROR": "Sikertelen páciens lekérdezés",
+          "EXERCISE_BASED_ON_CATEGORY_FETCH_ERROR" : "Sikertelen gyakorlat lekérdezés kategória alapján",
+          "EXERCISE_CATEGORY_FETCH_ERROR" : "Sikertelen gyakorlat kategória lekérdezés"
+        }
       },
       "COMPARE_VISITS" : {
         "CARD_TITLE" : "Vizsgálatok összehasonlítása",
@@ -609,7 +750,9 @@
             "NO_DOCUMENT_FOR_SECOND_VISIT" : "Az második vizsgálathoz nem tartozik dokumentum"
           }
         },
-        "SYSTEM_NOTIFICATIONS" : {}
+        "SYSTEM_NOTIFICATIONS" : {
+          "CHOOSE_TWO_VISITS" : "Kérjük válasszon ki két vizsgálatot"
+        }
       },
       "MESSAGES" : {
         "MESSAGING_PARTNERS_LEFT_SIDEBAR" : {
@@ -621,7 +764,9 @@
           "CLINIC_MESSAGE_WARNING" : "A klinikával folytatott beszélgetést a klinika összes munkatársa láthatja!",
           "MESSAGE_PLACEHOLDER" : "Ide írjon üzenetet"
         },
-        "SYSTEM_NOTIFICATIONS" : {}
+        "SYSTEM_NOTIFICATIONS" : {
+          "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lekérdezés"
+        }
       },
       "BILLING_AND_CONTACT_INFORMATION" : {
         "BILLING_DATA_CARD" : {
@@ -665,7 +810,29 @@
             "NEW_CONTACT_BUTTON_TEXT" : "Új kontakt felvétele"
           }
         },
-        "SYSTEM_NOTIFICATIONS" : {}
+        "SYSTEM_NOTIFICATIONS" : {
+          "BILLING_FETCH_ERROR": "Sikertelen számlázási adatok lekérdezés",
+          "BILLING_SAVE_SUCCESS": "Sikeres számlázási adatok mentés",
+          "BILLING_SAVE_ERROR": "Sikertelen számlázási adatok mentés",
+
+          "UNSAVED_BILLING_TITLE_HTML": "A <i>Számlázási adatok</i> nem lettek",
+          "UNSAVED_HEALTH_FUND_TITLE_HTML": "Az <i>Egészségpénztár</i> nem lett",
+          "UNSAVED_BOTH_TITLE_HTML": "A <i>Számlázási adatok</i> és az <i>Egészségpénztár</i> nem lettek",
+          "UNSAVED_CHANGES_PROMPT_HTML": "{{componentTitle}} elmentve. Biztosan folytatod?",
+
+          "HEALTH_FUND_FETCH_ERROR": "Sikertelen egészségpénztári adatok lekérdezés",
+          "HEALTH_FUND_SAVE_ERROR": "Sikertelen egészségpénztári adatok mentés",
+          "HEALTH_FUND_SAVE_SUCCESS": "Sikeres egészségpénztári adatok mentés",
+
+          "CONTACT_ACTION_SUCCESS": "Sikeres kontakt {{action}}",
+          "CONTACT_ACTION_ERROR": "Sikertelen kontakt {{action}}",
+          "CONTACT_ACTION_DELETE": "törlés",
+          "CONTACT_ACTION_UPDATE": "frissítés",
+          "CONTACT_ACTION_CREATE": "hozzáadás",
+
+          "CONTACT_EDIT_UNSAVED_PROMPT_HTML": "A <i>Kontakt szerkesztése</i> nem lett elmentve. Biztosan folytatod?",
+          "CONTACT_CREATE_UNSAVED_PROMPT_HTML": "Az <i>Új kontakt felvétele</i> nem lett elmentve. Biztosan folytatod?"
+        }
       },
       "DATA_PRIVACY" : {
         "COOKIE_INFORMATION" : "A cookiek alkalmazásáról szóló tájékoztató megtekintéséhez",
