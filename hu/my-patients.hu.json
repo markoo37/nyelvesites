@@ -1,5 +1,125 @@
 {
   "MY_PATIENTS" : {
+    "NEW_PATIENT" : {
+      "HEADER_SECTION" : {
+        "GO_BACK_BUTTON_TEXT" : "Vissza",
+        "SAVE_BUTTON_TEXT" : "Mentés",
+        "TITLE" : "Adatok szerkesztése"
+      },
+      "PROFILE_PICTURE" : "Profilkép",
+      "PERSONAL_DATA_SECTION" : {
+        "TITLE" : "Személyes adatok",
+        "FIELDS" : {
+          "LAST_NAME" : "Vezetéknév",
+          "FIRST_NAME" : "Keresztnév",
+          "SALUTATION" : "Megszólítás",
+          "BIRTH_LAST_NAME" : "Születéskori vezetéknév",
+          "BIRTH_FIRST_NAME" : "Születéskori keresztnév",
+          "BIRTH_DATE" : "Születési idő",
+          "PARENT_LAST_NAME" : "Szülő vezetékneve",
+          "PARENT_FIRST_NAME" : "Szülő keresztneve",
+          "LANGUAGE" : "Nyelv",
+          "OCCUPATION" : "Foglalkozás"
+        }
+      },
+      "CONTACT_DATA_SECTION" : {
+        "TITLE" : "Kapcsolattartási adatok",
+        "MOBILE_NUMBER" : "Telefonszám",
+        "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
+        "EMAIL" : "Email cím",
+        "THERAPISTS" : "Terapeuták"
+      },
+      "HEALTH_DATA_SECTION" : {
+        "TITLE" : "Egészségügyi adatok",
+        "ID_TYPE" : "Azonosító típusa",
+        "ID_TYPES" : {
+          "TAJ":"TAJ szám",
+          "CHILD": "2 hónapnál fiatalabb gyermek képzett TAJ száma",
+          "PASSPORT": "Útlevél szám ",
+          "IMMIGRANT_1": "Menedékes kérelmező, befogadó ig. száma",
+          "UNKNOWN": "Ismeretlen beteg",
+          "EU": "Európai egészségbiztosítási kártya",
+          "IMMIGRANT_2": "Menekült, menedékes és oltalmazott státusz kérelmezése előtt",
+          "ID": "Azonosító"
+        },
+        "DESCRIPTION_OF_PATIENT_PROBLEM" : "Egészségügyi probléma leírása"
+      },
+      "ADDRESS_SECTION" : {
+        "TITLE" : "Lakcím",
+        "COUNTRY" : "Ország",
+        "POST_CODE" : "Irányítószám",
+        "CITY" : "Település",
+        "ADDRESS" : "Lakcím"
+      },
+      "SAFETY_DATA_SECTION" : {
+        "TITLE" : "Biztonsági adatok",
+        "USERNAME" : "Felhasználónév",
+        "PASSWORD" : "Jelszó",
+        "PASSWORD_AGAIN" : "Jelszó mégegyszer",
+        "EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+        "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon."
+      }
+    },
+    "EDIT_PATIENT" : {
+      "HEADER_SECTION" : {
+        "GO_BACK_BUTTON_TEXT" : "Vissza",
+        "SAVE_BUTTON_TEXT" : "Mentés",
+        "TITLE" : "Adatok szerkesztése"
+      },
+      "PROFILE_PICTURE" : "Profilkép",
+      "PERSONAL_DATA_SECTION" : {
+        "TITLE" : "Személyes adatok",
+        "FIELDS" : {
+          "LAST_NAME" : "Vezetéknév",
+          "FIRST_NAME" : "Keresztnév",
+          "SALUTATION" : "Megszólítás",
+          "BIRTH_LAST_NAME" : "Születéskori vezetéknév",
+          "BIRTH_FIRST_NAME" : "Születéskori keresztnév",
+          "BIRTH_DATE" : "Születési idő",
+          "PARENT_LAST_NAME" : "Szülő vezetékneve",
+          "PARENT_FIRST_NAME" : "Szülő keresztneve",
+          "LANGUAGE" : "Nyelv",
+          "OCCUPATION" : "Foglalkozás"
+        }
+      },
+      "CONTACT_DATA_SECTION" : {
+        "TITLE" : "Kapcsolattartási adatok",
+        "MOBILE_NUMBER" : "Telefonszám",
+        "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
+        "EMAIL" : "Email cím",
+        "THERAPISTS" : "Terapeuták"
+      },
+      "HEALTH_DATA_SECTION" : {
+        "TITLE" : "Egészségügyi adatok",
+        "ID_TYPE" : "Azonosító típusa",
+        "ID_TYPES" : {
+          "TAJ":"TAJ szám",
+          "CHILD": "2 hónapnál fiatalabb gyermek képzett TAJ száma",
+          "PASSPORT": "Útlevél szám ",
+          "IMMIGRANT_1": "Menedékes kérelmező, befogadó ig. száma",
+          "UNKNOWN": "Ismeretlen beteg",
+          "EU": "Európai egészségbiztosítási kártya",
+          "IMMIGRANT_2": "Menekült, menedékes és oltalmazott státusz kérelmezése előtt",
+          "ID": "Azonosító"
+        },
+        "DESCRIPTION_OF_PATIENT_PROBLEM" : "Egészségügyi probléma leírása"
+      },
+      "ADDRESS_SECTION" : {
+        "TITLE" : "Lakcím",
+        "COUNTRY" : "Ország",
+        "POST_CODE" : "Irányítószám",
+        "CITY" : "Település",
+        "ADDRESS" : "Lakcím"
+      },
+      "SAFETY_DATA_SECTION" : {
+        "TITLE" : "Biztonsági adatok",
+        "USERNAME" : "Felhasználónév",
+        "PASSWORD" : "Jelszó",
+        "PASSWORD_AGAIN" : "Jelszó mégegyszer",
+        "EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+        "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon."
+      }
+    },
     "BREADCRUMB" : {
       "TITLE" : {
         "DASHBOARD" : "Kezdőlap",
