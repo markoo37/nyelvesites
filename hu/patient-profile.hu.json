@@ -214,7 +214,7 @@
             "OPERATIONS" : "Műveletek"
           },
           "STATUS_OPTIONS" : {
-            "AGREED_TIME" : "Leegyeztetett időpont",
+            "CREATED" : "Leegyeztetett időpont",
             "TREATMENT_IS_DONE" : "Megtörtént",
             "CANCELED" : "Lemondott (késve)",
             "BILLED" : "Kiegyenlített",
@@ -225,7 +225,7 @@
             "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
           },
           "TOOLTIPS" : {
-            "AGREED_TIME" : "Leegyeztetett időpont",
+            "CREATED" : "Leegyeztetett időpont",
             "TREATMENT_IS_DONE" : "Megtörtént",
             "CANCELED" : "Lemondott (késve)",
             "BILLED" : "Kiegyenlített",
@@ -398,8 +398,9 @@
           "ACTIONS" : {
             "ADD_TO_WAITING_LIST" : "Hozzáadás várólistához"
           },
-          "ADD_TO_WAITING_LIST_POPUP" : {
-            "TITLE" : "Várólista szerkesztés",
+          "WAITING_LIST_POPUP" : {
+            "TITLE_EDIT" : "Várólista szerkesztés",
+            "TITLE_ADD" : "Várólistához adás",
             "FIELDS" : {
               "THERAPIST": {
                 "TEXT": "Terapeuta",
@@ -447,7 +448,8 @@
             "UPLOAD_TIME" : "Feltöltés dátuma",
             "OPERATIONS" : "Műveletek"
           },
-          "UPLOAD_NEW_DOCUMENT_BUTTON_TEXT" : "Új dokumentum feltöltése"
+          "UPLOAD_NEW_DOCUMENT_BUTTON_TEXT" : "Új dokumentum feltöltése",
+          "DELETE_TOOLTIP" : "Törlés"
         },
         "REVIEWS_TAB": {
           "TITLE": "Értékelések",
@@ -458,7 +460,14 @@
             "REASON" : "Indok",
             "OPERATIONS" : "Műveletek"
           },
-          "NEW_REVIEW_BUTTON_TEXT" : "Új értékelés"
+          "NEW_REVIEW_BUTTON_TEXT" : "Új értékelés",
+          "PATIENT_REVIEW_POPUP" : {
+            "TITLE" : "Páciens értékelés",
+            "PLEASE_RATE_PATIENT" : "Kérjük értékelje a pácienst!",
+            "JUSTIFICATION" : "Indoklás",
+            "TO_SAVE_REVIEW_WRITE_JUSTIFICATION" : "Az értékelés mentéséhez kérjük írjon egy rövid indoklást"
+          },
+          "DELETE_REVIEW_TOOLTIP" : "Értékelés törlése"
         },
         "COMMENTS_TAB": {
           "TITLE": "Megjegyzések",
@@ -468,7 +477,8 @@
             "COMMENT" : "Megjegyzés",
             "OPERATIONS" : "Műveletek"
           },
-          "NEW_COMMENT_BUTTON_TEXT" : "Új megjegyzés"
+          "NEW_COMMENT_BUTTON_TEXT" : "Új megjegyzés",
+          "DELETE_COMMENT_TOOLTIP" : "Megjegyzés törlése"
         },
         "MEMBERSHIPS_TAB": {
           "TITLE": "Bérletek",
@@ -483,6 +493,13 @@
             "SOLD_BY" : "Értékesítette",
             "OPERATIONS" : "Műveletek"
           },
+          "STATUS" : {
+            "TREATMENT_IS_DONE" : "Megtörtént",
+            "CANCELED" : "Lemondott (késve)",
+            "BILLED" : "Számlázva"
+          },
+          "EDIT_TOOLTIP" : "Szerkesztés",
+          "DELETE_TOOLTIP" : "Törlés",
           "SELL_MEMBERSHIP_BUTTON_TEXT" : "Bérlet eladása"
         },
         "PRELIMINARY_HEALTH_SECTION": {
