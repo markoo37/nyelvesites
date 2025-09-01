@@ -1,0 +1,40 @@
+{
+	"PAYMENT_DIALOG": {
+		"TITLE": "Hogyan fizet a páciens?",
+		"USE_PASS": {
+			"TITLE": "Bérlet alkalom felhasználása",
+			"DESC_PART_1": "Ha a páciens az érvényes bérletei közül szeretne használni valamelyiket,",
+			"DESC_PART_2": "kérlek itt válaszd ki, hogy melyikből vonjuk le a mostani kezelésre vagy foglalkozásra az egy bérletalkalmat.",
+			"CARD": {
+				"TITLE": "Bérlet kiválasztása",
+				"TABLE": {
+					"HEADERS": {
+						"OCCURRENCES": "Alkalmak",
+						"PURCHASE_DATE": "Bérletvásárlás időpontja",
+						"TYPE": "Bérlet típusa",
+						"GROUP": "Csoportos",
+						"PRICE": "Ár",
+						"VALID_UNTIL": "Érvényesség"
+					},
+					"ROW_HOVER_TOOLTIP": {
+						"NO_THERAPIST": "A {{treatmentType}} kezelés nincs terapeutához rendelve.",
+						"WITH_THERAPIST": "A bérlet {{treatmentType}} kezelésekre az alábbi terapeutáknál használható fel:"
+					}
+				}
+			}
+		},
+		"NO_PASS": {
+			"TITLE": "Nem bérlettel történő fizetés.",
+			"DESC_PART_1": "Ha nem szeretnél bérletalkalmat levonni a mostani kezelésre vagy foglalkozásra,",
+			"DESC_PART_2": "hanem a páciens helyben fizetne egyéb (készpénz, utalás, bankkártya, stb...) fizetési móddal, kérlek ezt a lehetőséget válaszd!"
+		},
+		"ACTIONS": {
+			"CANCEL": "Mégse",
+			"SAVE": "Mentés"
+		},
+		"SYSTEM_NOTIFICATIONS" : {
+			"USE_MEMBERSHIP_OCCASION_ERROR" : "Hiba a bérlet alkalom levonása során.",
+			"SET_STATUS_ERROR" : "Hiba a kiegyenlítettség beállítása során."
+		}
+	}
+}

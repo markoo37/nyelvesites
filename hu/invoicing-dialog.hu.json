@@ -1,0 +1,97 @@
+{
+	"INVOICING": {
+		"ISSUER_SECTION": {
+			"TITLE": "Számlakibocsátó",
+			"FIELDS": {
+				"ACCOUNT": "Válassz számlázó fiókot",
+				"INVOICE_TYPE": "Számla típusa",
+				"PAYMENT_METHOD": "Fizetési mód",
+				"PAYMENT_METHOD_TYPES" : {
+					"TRANSFER": "átutalás",
+					"CREDIT_CARD": "bankkártya",
+					"CASH": "készpénz",
+					"OTHER": "egyéb"
+				},
+				"CURRENCY": "Számláid pénzneme",
+				"INVOICE_DATE": "Számla kelte",
+				"DUE_DATE": "Fizetési határidő",
+				"FULFILLMENT_DATE": "Teljesítés dátuma"
+			},
+			"NOTE_SZAMLAZZ": "A számlához tartozó adataidat a Számlázz.hu biztosítja a számlához, ezért az itt nem, csak a Számlázz.hu-ba belépve szerkeszthető!"
+		},
+		"PARTNER_SECTION": {
+			"TITLE": "Partner",
+			"INVOICE_TO": {
+				"PATIENT": "Páciens számlázási adatok",
+				"HEALTH_FUND": "Egészségpénztári számla"
+			},
+			"FIELDS": {
+				"NAME": "Neve",
+				"HEALTH_FUND_NAME" : "Egészségpénztár neve",
+				"TAX_NUMBER": "Adószáma",
+				"EMAIL": "E-mail",
+				"COUNTRY": "Ország",
+				"ZIP": "Irányítószám",
+				"CITY": "Város",
+				"ADDRESS": "Cím",
+				"HEALTH_FUND_MEMBER_NAME" : "Pénztártag neve",
+				"HEALTH_FUND_MEMBERSHIP_ID" : "Pénztártag tagi azonosítója",
+				"REQUIRED_FIELD_NOTIFICATIONS" : {
+					"NAME_REQUIRED" : "A 'Neve' mező kitöltése kötelező!",
+					"HEALTH_FUND_NAME_REQUIRED" : "A 'Neve' mező kitöltése kötelező!",
+					"ZIP_REQUIRED" : "Az 'Irányítószám' mező kitöltése kötelező!",
+					"CITY_REQUIRED" : "A 'Város' mező kitöltése kötelező!",
+					"ADDRESS_REQUIRED" : "A 'Cím' mező kitöltése kötelező!",
+					"PATIENT_EMAIL_REQUIRED" : "A páciens e-mail címét szükséges megadni az e-számla kiállításához!",
+					"PARTNER_EMAIL_REQUIRED" : "A partner e-mail címét szükséges megadni az e-számla kiállításához!",
+					"TAX_NUMBER_REQUIRED" : "Az 'Adószám' mező kitöltése kötelező!",
+					"HEALTH_FUND_MEMBER_NAME_REQUIRED" : "A 'Pénztártag neve' mező kitöltése kötelező!",
+					"HEALTH_FUND_MEMBERSHIP_ID_REQUIRED" : "A 'Pénztártag tagi azonosítója' mező kitöltése kötelező!"
+				}
+			}
+		},
+		"ITEMS_SECTION": {
+			"TITLE": "Tételek",
+			"FIELDS": {
+				"NAME": "Tétel neve",
+				"QUANTITY": "Mennyiség",
+				"UNIT": "Mennyiségi egység",
+				"UNIT_PRICE": "Nettó egységár",
+				"VAT": "Áfa kulcs",
+				"NET_PRICE": "Nettó ár",
+				"GROSS_PRICE": "Bruttó ár",
+				"COMMENT": "Megjegyzés"
+			},
+			"SUMMARY": {
+				"TOTAL": "Végösszeg",
+				"NET": "Nettó",
+				"GROSS": "Bruttó"
+			},
+			"ACTIONS": {
+				"ADD_ITEM": "Új tétel",
+				"DELETE_ITEM": "törlöm",
+				"CANCEL": "Mégse",
+				"ISSUE_INVOICE": "Kiállítom a számlát"
+			},
+			"OPTIONS": {
+				"SEND_EMAIL": "Számla elküldése a páciens számára e-mailben",
+				"ALREADY_PAID": "Már kiegyenlített"
+			},
+			"INVOICE_COMMENT": "Számla megjegyzése"
+		},
+		"SYSTEM_NOTIFICATIONS": {
+			"EMAIL_MISSING_FOR_NOTIFICATION": "Számla értesítő mail küldéséhez kérjük adja meg először a páciens e-mail címét",
+			"INVOICE_CREATE_SUCCESS": "Sikeres számla készítés",
+			"BILLING_SAVE_SUCCESS": "Sikeres számlázási adatok mentés",
+			"BILLING_SAVE_FAIL": "Sikertelen számlázási adatok mentés",
+			"BILLING_DIALOG_TEXT": "A páciens számlázási adatai megváltoztak.<br>Elmentsük az új adatokat a páciens számlázási adatai közé?<br>Ha elmentjük a későbbiekben már a most megadott adatokkal fogjuk kitölteni a számlát.",
+			"HEALTHFUND_DIALOG_TEXT": "A páciens egészségpénztár adatai megváltoztak.<br>Elmentsük az új adatokat a páciens egészségpénztár adatai közé?<br>Ha elmentjük a későbbiekben már a most megadott adatokkal fogjuk kitölteni a számlát.",
+			"HEALTHFUND_SAVE_SUCCESS": "Sikeres egészségpénztári adatok mentés",
+			"HEALTHFUND_SAVE_FAIL": "Sikertelen egészségpénztári adatok mentés",
+			"INVOICE_SAVE_FAIL": "Sikertelen számlázás",
+			"DATA_LOAD_FAIL": "Sikertelen adatbetöltés",
+			"SZAMLAZZ_HU_UNAVAILABLE": "A Számlázz.hu jelenleg nem elérhető, kérlek a számlát próbáld meg később kiállítani!",
+			"SZAMLAZZ_HU_ERROR_HTML": "Hiba történt a számlázás közben.\nA számlázószoftver szerverének a válasza:\n<br>\n<strong>{{errorMessage}}</strong>\n<br>\nKérjük hogy a számládat próbáld meg később kiállítani!"
+		}
+	}
+}

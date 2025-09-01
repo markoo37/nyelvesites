@@ -4,21 +4,127 @@
       "TITLE" : {
         "DASHBOARD" : "Kezdőlap",
         "NOTIFICATIONS" : "Értesítések"
-      },
-      "SEARCH" : {
-        "INPUT_PLACEHOLDER" : {
-          "SEARCH_FOR_PATIENT" : "Páciens keresése"
-        },
-        "TOOLTIPS" : {
-          "SEARCH_FOR_PATIENT" : "Páciens keresés"
-        }
-
       }
     },
     "TABS" : {
-      "EMAIL_NOTIFICATIONS" : {},
-      "SMS_NOTIFICATIONS" : {},
-      "BULK_EMAIL_SENDING" : {}
-    }
+      "EMAIL_NOTIFICATIONS" : {
+        "TAB_TITLE" : "E-mail értesítések",
+        "SENT_OUT_EMAILS_CARD" : {
+          "TITLE" : "Kiküldött E-mailek",
+          "FILTER_SECTION" : {
+            "RECIPIENT_FILTER" : "Címzett szűrés",
+            "FORWARDER_FILTER" : "Kiküldő szűrés",
+            "EMAIL_TYPE" : "E-mail típus",
+            "SENT_OUT_DATE_FILTER" : "Kiküldve"
+          },
+          "TABLE_HEADERS" : {
+            "RECIPIENT" : "Címzett",
+            "FORWARDER" : "Kiküldő",
+            "SUBJECT" : "Tárgy",
+            "TYPE" : "Típus",
+            "STATUS" : "Állapot",
+            "IS_READ" : "Olvasott",
+            "SENT_OUT_DATE" : "Kiküldve"
+          }
+        },
+        "USERS_WITH_SUSPENDED_EMAIL_CARD" : {
+          "TITLE" : "Felfüggesztett e-mail címmel rendelkező felhasználók",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_HEADERS" : {
+            "NAME" : "Név",
+            "USERNAME" : "Felhasználónév",
+            "EMAIL" : "E-mail cím",
+            "USER_TYPE" : "Felhasználó típusa"
+          }
+        }
+      },
+      "SMS_NOTIFICATIONS" : {
+        "TAB_TITLE" : "SMS értesítések",
+        "SENT_OUT_SMS_CARD" : {
+          "TITLE" : "Kiküldött SMS üzenetek",
+          "FILTER_SECTION" : {
+            "RECIPIENT_FILTER" : "Címzett szűrés",
+            "FORWARDER_FILTER" : "Kiküldő szűrés",
+            "SMS_TYPE" : "SMS típus",
+            "SENT_OUT_DATE_FILTER" : "Kiküldve"
+          },
+          "TABLE_HEADERS" : {
+            "RECIPIENT" : "Címzett",
+            "FORWARDER" : "Kiküldő",
+            "MESSAGE" : "Üzenet",
+            "TYPE" : "Típus",
+            "STATUS" : "Állapot",
+            "QUANTITY" : "DB",
+            "SENT_OUT_DATE" : "Kiküldve"
+          },
+          "EXPORT_AS_EXCEL_BUTTON_TEXT" : "Export excel fájlként"
+        },
+        "USERS_WITH_SUSPENDED_MOBILE_NUMBER_CARD" : {
+          "TITLE" : "Felfüggesztett telefonszámmal rendelkező felhasználók",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_HEADERS" : {
+            "NAME" : "Név",
+            "USERNAME" : "Felhasználónév",
+            "MOBILE" : "Telefonszám",
+            "USER_TYPE" : "Felhasználó típusa"
+          }
+        }
+      },
+      "BULK_EMAIL_SENDING" : {
+        "TAB_TITLE" : "Tömeges emailküldés",
+        "TABS" : {
+          "SELECT_RECIPIENTS" : {
+            "TITLE" : "Címzettek kiválasztása",
+            "FILTER_SECTION" :  {
+              "CHOOSE_PATIENT_TYPE_PLACEHOLDER" : "Kérlek válassz",
+              "THERAPIST_DROPDOWN_PLACEHOLDER" : "Terapeuta",
+              "SHOW_INACTIVE_PATIENTS_CHECKBOX_TEXT" : "Inaktív páciensek is látszódjanak",
+              "SEARCH_PLACEHOLDER" : "Keresés",
+              "DELETE_FILTERS_BUTTON_TEXT" : "Szűrők törlése"
+            },
+            "PATIENTS" : {
+              "TITLE" : "Páciensek",
+              "WARNING_TEXT" : "Csak az email címmel rendelkező páciensek látszódnak",
+              "NO_PATIENTS_TO_SHOW_TEXT" : "Nincs szűrőfeltétel(ek)nek megfelelő páciens / A páciens(ek) már szerepel(nek) a címzettlistában",
+              "SHOW_PATIENT_CARD_TOOLTIP" : "Pácienskártya megnyitása",
+              "PATIENT_COUNT_TEXT" : "Páciensek",
+              "ADD_ALL_PATIENTS_BUTTON_TEXT" : "Összes megjelenített hozzáadása"
+            },
+            "RECIPIENTS" : {
+              "TITLE" : "Címzettek",
+              "NO_RECIPIENT_CHOSEN_TEXT" : "Nincs címzett kiválasztva",
+              "SHOW_PATIENT_CARD_TOOLTIP" : "Pácienskártya megnyitása",
+              "RECIPIENTS_COUNT_TEXT" : "Címzettek",
+              "DELETE_ALL_BUTTON_TEXT" : "Összes eltávolítása"
+            },
+            "NEXT_BUTTON_TEXT" : "Tovább"
+          },
+          "EDIT_EMAIL" : {
+            "TITLE" : "Email szerkesztése",
+            "FORWARDER" : "Feladó",
+            "SUBJECT" : "Tárgy",
+            "EMAIL_BODY" : "Levél törzse",
+            "YOU_CAN_ADD_THESE_VARIABLES_TO_THE_EMAIL" : "A következő változókat tudod beilleszteni a levél szövegébe és tárgyába",
+            "VARIABLES_TO_THE_EMAIL_TOOLTIP" : "A beillesztés mindig arra a helyre fog megtörténni, ahol állsz a kurzorral. A változók neveit be is gépeleheted a megfelelő pozícióba.\n\n    A következő változókat tudod beállítani ebben a templateben:\n    {{variablesList}}\n    Minden levélben a beillesztett változó helyén meg fog jelenni annak az értéke.\n    Pl. Ha ezt írod a baloldali szerkesztő nézetben:\n\n    Kedves {SYS_PATIENT_NAME}, {SYS_CALENDAR_EVENT_TIME} időpontban vár téged a terapeutád {SYS_THERAPIST_NAME} rendelésünkre!\n\n    Az így fog megjelenni Kovács Páciens Patrícia nevű páciensednek küldött e-mailben, aki Tamási Terapeuta Patrikhoz érkezik 2020. 07. 20-án 9:00-ra:\n\n    Kedves Kovács Páciens Patrícia, 2020.07. 20 9:00 időpontban vár téged terapeutád Tamási Terapeuta Patrik rendelésünkre!\n    ",
+            "GO_BACK_BUTTON_TEXT": "Vissza",
+            "NEXT_BUTTON_TEXT" : "Tovább"
+          },
+          "CHECK_EMAIL_AND_SEND" : {
+            "TITLE" : "Email ellenőrzés és küldés",
+            "FIELDS" : {
+              "RECIPIENTS" : "Címzettek",
+              "FORWARDER" : "Feladó",
+              "SUBJECT" : "Tárgy",
+              "MAIL_BODY" : "Levél törzse"
+            },
+            "SHOW_PATIENT_CARD_TOOLTIP" : "Pácienskártya megnyitása",
+            "NOTICE_TEXT" : "A kiküldött tömeges emaileket megtalálod az Értesítések menü E-mail értesítések tabján",
+            "GO_BACK_BUTTON_TEXT" : "Vissza",
+            "SEND_BUTTON_TEXT" : "Küldés"
+          }
+        }
+      }
+    },
+    "SYSTEM_NOTIFICATIONS" : {}
   }
 }
