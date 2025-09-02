@@ -4,7 +4,7 @@
       "HEADER_SECTION" : {
         "GO_BACK_BUTTON_TEXT" : "Vissza",
         "SAVE_BUTTON_TEXT" : "Mentés",
-        "TITLE" : "Adatok szerkesztése"
+        "TITLE" : "Új {{userTypeName}} rögzítése"
       },
       "PROFILE_PICTURE" : "Profilkép",
       "PERSONAL_DATA_SECTION" : {
@@ -163,7 +163,7 @@
         "NEW_PATIENT_BUTTON_TEXT" : "Új páciens",
         "PATIENTS_TABLE" : {
           "SEARCH_PLACEHOLDER" : "Keresés",
-          "TABLE_COLUMN" : {
+          "TABLE_HEADERS" : {
             "NAME" : "Név",
             "LAST_VISIT" : "Utolsó vizsgálat",
             "ID" : "Azonosító",
@@ -188,15 +188,13 @@
             "PATIENT_UNABLE_TO_SEE_VISITS" : "Páciens ne lássa a vizsgálatokat",
             "SHARE_PATIENT" : "Páciens megosztása",
             "EDIT_PATIENT" : "Páciens szerkesztése"
-          },
-          "PAGINATION" : {}
-        },
-        "SYSTEM_NOTIFICATIONS" : {}
+          }
+        }
       },
       "INACTIVE_PATIENTS" : {
         "PATIENTS_TABLE" : {
           "SEARCH_PLACEHOLDER" : "Keresés",
-          "TABLE_COLUMN" : {
+          "TABLE_HEADERS" : {
             "NAME" : "Név",
             "ID" : "Azonosító",
             "EMAIL" : "Email-cím",
@@ -205,50 +203,45 @@
           "TOOLTIPS" : {
             "ACTIVATE_PATIENT" : "Páciens aktiválása",
             "EDIT_PATIENT" : "Páciens szerkesztése"
-          },
-          "PAGINATION" : {}
-        },
-        "SYSTEM_NOTIFICATIONS" : {}
+          }
+        }
       },
       "SUSPENDED_PATIENTS" : {
         "PATIENTS_TABLE" : {
           "SEARCH_PLACEHOLDER" : "Keresés",
-          "TABLE_COLUMN" : {
+          "TABLE_HEADERS" : {
             "NAME" : "Név",
             "ID" : "Azonosító",
             "EMAIL" : "Email-cím"
           },
           "TOOLTIPS" : {
 
-          },
-          "PAGINATION" : {}
-        },
-        "SYSTEM_NOTIFICATIONS" : {}
+          }
+        }
       },
-      "PATIENTS_WAITING_FOR_ACCEPTANCE" : {
+      "UNACCEPTED_PATIENTS" : {
         "PATIENTS_TABLE" : {
           "SEARCH_PLACEHOLDER" : "Keresés",
-          "TABLE_COLUMN" : {
+          "TABLE_HEADERS" : {
             "NAME" : "Név",
             "ID" : "Azonosító",
             "EMAIL" : "Email-cím",
             "OPERATIONS" : "Műveletek"
           },
           "TOOLTIPS" : {
-
-          },
-          "PAGINATION" : {}
-        },
-        "SYSTEM_NOTIFICATIONS" : {}
+            "ACCEPT_PATIENT" : "Páciens elfogadás",
+            "DENY_PATIENT" : "Páciens elutasítása"
+          }
+        }
       },
       "PATIENTS_ON_WAITING_LIST" : {
         "PATIENTS_TABLE" : {
           "SEARCH_PLACEHOLDER" : "Keresés",
-          "TABLE_COLUMN" : {
+          "TABLE_HEADERS" : {
             "NAME" : "Név",
             "PRIORITY" : "Prioritás",
             "TREATMENT" : "Kezelés",
-            "TREATMENT_LENGHT" : "Kezelés hossz",
+            "TREATMENT_LENGTH" : "Kezelés hossz",
             "EMAIL" : "Email-cím",
             "ON_WAITING_LIST" : "Várólistán",
             "COMMENT" : "Megjegyzés",
@@ -280,7 +273,7 @@
                 "TEXT": "Prioritás",
                 "OPTIONS": {
                   "NOT_URGENT": "Nem sürgős",
-                  "AVARAGE" :  "Átlagos",
+                  "AVERAGE" :  "Átlagos",
                   "URGENT": "Sürgős"
                 }
               },
@@ -327,11 +320,33 @@
               "CANCEL": "Mégsem",
               "SAVE": "Mentés"
             }
-          },
-          "PAGINATION" : {}
-        },
-        "SYSTEM_NOTIFICATIONS" : {}
+          }
+        }
       }
+    },
+    "SYSTEM_NOTIFICATIONS": {
+      "INACTIVATE_PATIENT_CONFIRM_WITH_NAME": "Biztos, hogy inaktív állapotba szeretnéd rakni a \"{{patientName}}\" nevű pácienst?",
+      "PATIENT_HAS_FUTURE_EVENTS_HTML": "A páciensnek még vannak naptári eseményei:<ul>{{items}}</ul>",
+      "PATIENT_ON_WAITING_LIST_HTML": "A páciens még szerepel várólistán:<ul>{{items}}</ul>",
+      "INACTIVATE_PATIENT_CONFIRM_WITH_LISTS_HTML": "{{eventsList}}{{waitingListItems}}Biztos, hogy inaktív állapotba szeretnéd tenni a pácienst?<br><br>Amennyiben igen, az összes elem törlésre kerül.",
+      "PATIENT_INACTIVATION_SUCCESS": "Sikeres páciens inaktiválás",
+      "PATIENT_INACTIVATION_ERROR": "Hiba a páciens inaktiválása közben",
+      "PATIENT_ACCEPT_SUCCESS": "A(z) \"{{patientName}}\" páciens elfogadva.",
+      "PATIENT_ACCEPT_ERROR": "Hiba a(z) \"{{patientName}}\" páciens elfogadás során.",
+      "SHARE_INACTIVATED_PATIENT_QUESTION": "Az inaktivált pácienst szeretné megosztani másik terapeutával?",
+      "SELECT_CLINIC_AND_THERAPIST_ERROR": "Kérem, válasszon klinikát és terapeutát!",
+      "WAITING_LIST_SAVE_SUCCESS": "A várólista sikeresen mentve.",
+      "WAITING_LIST_UPDATE_SUCCESS": "A várólista sikeresen frissült.",
+      "WAITING_LIST_SAVE_ERROR": "Hiba a várólista mentése során.",
+      "PATIENT_REFUSE_CONFIRM_WITH_NAME": "Biztos, hogy elutasítja a \"{{patientName}}\" nevű pácienst?",
+      "PATIENT_REFUSE_SUCCESS": "A(z) \"{{patientName}}\" páciens elutasítva.",
+      "PATIENT_REFUSE_ERROR": "Hiba a(z) \"{{patientName}}\" páciens elutasítása során.",
+      "WAITING_LIST_DELETE_CONFIRM_WITH_NAME": "Biztos, hogy törölni szeretné a \"{{patientName}}\" páciens a várólistáról?",
+      "WAITING_LIST_DELETE_SUCCESS": "A \"{{patientName}}\" páciens sikeresen törölve a várólistáról.",
+      "WAITING_LIST_DELETE_ERROR": "Hiba a várólista törlése során.",
+      "PATIENT_SEARCH_ERROR" : "Sikertelen páciens keresés",
+      "WAITING_LIST_EDIT_NOT_SAVED_CONFIRM": "A <i>{{dialogTitle}}</i> nem lett elmentve. Biztosan folytatod?"
     }
+
   }
 }
