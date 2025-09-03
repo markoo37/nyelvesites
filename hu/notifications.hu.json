@@ -36,6 +36,18 @@
             "EMAIL" : "E-mail cím",
             "USER_TYPE" : "Felhasználó típusa"
           }
+        },
+        "SENT_OUT_EMAIL_DIALOG" : {
+          "TITLE" : "Kiküldött e-mail megtekintése",
+          "FORWARDER" : "Kiküldő",
+          "SENDER" : "Feladó",
+          "RECIPIENT" : "Címzett",
+          "SENT_OUT" : "Kiküldve",
+          "READ" : "Elolvasta",
+          "READ_ON_THIS_DATE" : "Olvasva ekkor",
+          "NOT_READ" : "Nem olvasta",
+          "SUBJECT" : "Tárgy",
+          "MAIL_BODY" : "Levél törzse"
         }
       },
       "SMS_NOTIFICATIONS" : {
@@ -68,6 +80,13 @@
             "MOBILE" : "Telefonszám",
             "USER_TYPE" : "Felhasználó típusa"
           }
+        },
+        "SENT_OUT_SMS_DIALOG" : {
+          "TITLE" : "Kiküldött e-mail megtekintése",
+          "SENDER" : "Kiküldő",
+          "RECIPIENT" : "Címzett",
+          "SENT_OUT" : "Kiküldve",
+          "MESSAGE" : "Üzenet"
         }
       },
       "BULK_EMAIL_SENDING" : {
@@ -125,6 +144,18 @@
         }
       }
     },
-    "SYSTEM_NOTIFICATIONS" : {}
+    "SYSTEM_NOTIFICATIONS" : {
+      "PATIENT_LIST_FETCH_ERROR" : "Sikertelen pácienslista lekérdezés",
+      "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lista lekérdezés",
+      "BULK_EMAIL_SEND_SUCCESS" : "Sikeres tömeges emailküldés",
+      "BULK_EMAIL_SEND_ERROR" : "Sikertelen tömeges emailküldés",
+      "NO_CLINIC_LOGO_SET": "Nincs beállítva klinika logó...",
+      "ERROR_WHILE_FETCHING_SETTINGS" : "Hiba a beállítások lekérdezése közben",
+      "CLINIC_DATA_FETCH_ERROR" : "Sikertelen klinika adatok lekérdezés",
+      "THE_START_DATE_CAN_NOT_BE_LATER_THAN_THE_END" : "A szűrés kezdete nem lehet később, mint a szűrés vége",
+      "EMAIL_FETCH_ERROR" : "Hiba az e-mail lekédezése közben",
+      "BULK_EMAIL_HAS_NOT_BEEN_SENT_WARNING" : "Az tömeges email nem lett elküldve. Biztosan folytatod?",
+      "ERROR_FETCHING_SMS" : "Hiba az SMS lekérdezése közben"
+    }
   }
 }

@@ -1,0 +1,232 @@
+{
+  "OWN_CLINIC" : {
+    "BREADCRUMB" : {
+      "DASHBOARD" : "Kezdőlap",
+      "MY_CLINIC" : "Klinikám",
+      "NOTIFICATIONS" : "Értesítések",
+      "PATIENTS" : "Páciensek",
+      "COLLEAGUES" : "Munkatársak",
+      "EDIT_CLINIC" : "Klinika szerkesztése",
+      "AUTHORITIES_AND_CLINIC_SETTINGS" : "Jogosultságok, Klinika beállítások",
+      "BILLING_SETTINGS" : "Számlázási beállítások",
+      "SUBSCRIPTION" : "Előfizetés",
+      "TEST_PERIOD" : "Tesztidőszak",
+      "OWN_WEBSITE" : "Saját weboldal",
+      "SEARCH" : {
+        "INPUT_PLACEHOLDER" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+        },
+        "TOOLTIPS" : {
+          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        }
+      }
+    },
+    "SIDEBAR" : {
+      "TAB_TEXT" : {
+        "NOTIFICATION_SETTINGS" : "Értesítés beállítások",
+        "PATIENTS" : "Páciensek",
+        "COLLEAGUES" : "Munkatársak",
+        "EDIT_CLINIC" : "Klinika szerkesztése",
+        "AUTHORITIES_AND_CLINIC_SETTINGS" : "Jogosultságok, Klinika beállítások",
+        "BILLING_SETTINGS" : "Számlázási beállítások",
+        "SUBSCRIPTION" : "Előfizetés",
+        "TEST_PERIOD" : "Tesztidőszak",
+        "OWN_WEBSITE" : "Saját weboldal"
+      }
+    },
+    "TABS" : {
+      "NOTIFICATION_SETTINGS" : {
+        "TABS" : {
+          "EMAIL_SETTINGS" : {
+            "EMAIL_USED_FOR_SENDING_CARD" : {
+              "TITLE" : "Küldéshez használt e-mail cím",
+              "FIELDS" : {
+                "SENDER_EMAIL" : "Feladó e-mail címe",
+                "SENDER_EMAIL_TOOLTIP" : "A leveleket alapértelmezetten noreply@i-clinic.hu e-mail címmel küldjük ki. A válasz e-mailcím az az e-mail cím lesz, amire a levelek megérkeznek ha a páciensed válaszol a levelére.\n\n                  Emellet van lehetősége arra is, hogy a saját e-mail címedet add meg küldő e-mailcímnek a noreply@i-clinic.hu e-mail cím helyett.\n\n                  Ehhez azonban hitelesíteni kell az e-mail címed, amit az i-Clinic ügyfélszolgálaton keresztül tudsz elindítani.",
+                "SENDER_NAME" : "Feladó neve",
+                "SENDER_NAME_TOOLTIP" : "A feladó neve csak ékezet nélküli karaktereket tartalmazhat",
+                "RESPONSE_EMAIL" : "Válasz e-mail cím",
+                "RESPONSE_EMAIL_TOOLTIP" : "Válasz e-mail cím: ha a páciens a levélben a válasz gombra kattint, erre a címre fogja küldeni a rendszer a levelet alapértelmezetten. Olyan e-mail címet adjál meg, amit rendszeresen olvasol!"
+              }
+            },
+            "EMAIL_SETTING_CHECKBOXES_CARD" : {
+              "TITLE" : "Levél küldése a pácienseknek a következő esetekben",
+              "CARD_TOOLTIP" : "Az itt felsorolt eseteken kívül minden esetben küldünk e-mail regisztrációkor, hiszen így tudjuk elküldeni a páciensek számára a jelszavukat.\n\n          Ne feledd! A GDPR szabályok értelmében a felhasználók számára lehetőséget kell biztosítanod a leiratkozásra. Ehhez minden levél sablonban elhelyezhetsz egy leiratkozó linket, illetve ha kéri a páciensed, a profiljában te is be tudod állítani, hogy miről kapjon értesítést, valamint a páciens a saját profiljában is be tudja ezt állítani.\n\n          Ezek a klinikád globális beállításai. Sajnos itt hiába van beállítva, hogy a páciensek kapjanak e-mailt, ha egy adott páciensed leiratkozik a mail-ekről, akkor nem küldhetünk annak a páciensnek levelet.",
+              "CHECKBOX_TEXTS" : {
+                "EVENT_REMINDER" : "Időpont emlékeztető",
+                "NEW_VISIT_NOTIFICATION" : "Értesítés új vizsgálat rögzítéséről",
+                "NEW_EXERCISE_NOTIFICATION" : "Értesítés új gyakorlatsor rögzítéséről",
+                "NEW_EVENT_DATE" : "Új időpont rögzítése",
+                "DELETE_EXISTING_EVENT_DATE" : "Meglévő időpont törlése",
+                "EDIT_EXISTING_EVENT_DATE" : "Meglévő időpont módosítása",
+                "NEW_MESSAGE_NOTIFICATION" : "Értesítés új üzenetről",
+                "SEND_OUT_PRELIMINARY_CHECK" : "Állapotfelmérő kiküldése"
+              }
+            },
+            "EMAIL_TEMPLATES" : {
+              "EVENT_REMINDER" : {},
+              "NEW_VISIT" : {},
+              "NEW_EXERCISES" : {},
+              "NEW_EVENT_DATE" : {},
+              "DELETING_EVENT_DATE" : {},
+              "EDITING_EVENT_DATE"  : {},
+              "NEW_MESSAGE" : {},
+              "PRELIMINARY_CHECK" : {}
+            },
+            "SAVE_BUTTON_TEXT" : "Mentés"
+          },
+          "SMS_SETTINGS" : {
+            "SMS_BILLING_NOTICE" : "Amint bármelyik sms értesítés típus bepipálásra és mentésre kerül, az sms értesítések küldése a bepipált eseménytípusra azonnal megkezdődik! Az így automatikusan kiküldött SMS-eket havonta utólag kiszámlázzuk bruttó 28 Ft/db áron.",
+            "EMAIL_SETTING_CHECKBOXES_CARD"  : {
+              "TITLE" : "SMS küldése a pácienseknek következő esetekben",
+              "HELP_TOOLTIP" : "Az itt felsorolt eseteken kap a páciens SMS értesítést.\n\n          Ne feledd! A GDPR szabályok értelmében a felhasználók számára lehetőséget kell biztosítanod a leiratkozásra. Amennyiben kéri a páciensed, a profiljában te is be tudod állítani, hogy miről kapjon értesítést, valamint a páciens a saját profiljában is be tudja ezt állítani.\n\n          Ezek a klinikád globális beállításai. Sajnos itt hiába van beállítva, hogy a páciensek kapjanak SMS-t, ha egy adott páciensed leiratkozik a SMS-ekről, akkor nem küldhetünk annak a páciensnek üzenetet.",
+              "CHECKBOX_TEXTS" : {
+                "EVENT_DATE_REMINDER" : "Időpont emlékeztető",
+                "NEW_EVENT_DATE" : "Új időpont rögzítése",
+                "DELETE_EXISTING_EVENT_DATE" : "Meglévő időpont törlése",
+                "EDIT_EXISTING_EVENT_DATE" : "Meglévő időpont módosítása"
+              }
+            },
+            "SMS_TEMPLATES" : {
+              "EVENT_DATE_REMINDER" : {},
+              "NEW_EVENT_DATE" : {},
+              "DELETE_EVENT_DATE" : {},
+              "EDIT_EVENT_DATE" : {}
+            },
+            "SAVE_BUTTON_TEXT" : "Mentés"
+          }
+        }
+      },
+      "PATIENTS" : {
+        "NEW_PATIENT_BUTTON_TEXT" : "Új páciens",
+        "ACTIVE_PATIENTS_TABLE" : {
+          "TITLE" : "Aktív páciensek",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TOOLTIPS" : {
+            "EXPORT_TO_EXCEL" : "Páciens adatok exportálása Excel fájlként",
+            "BAN_PATIENT_PROFILE_PAGE" : "Páciens profil oldal tiltása",
+            "ENABLE_PATIENT_PROFILE_PAGE" : "Páciens profil oldal engedélyezése",
+            "TERMS_AND_CONDITIONS_ACCEPTED" : "i-Clinic használatát szabályozó felhasználási feltételeket elfogadta?"
+          },
+          "TABLE_HEADERS" : {
+            "NAME" : "Név",
+            "ID" : "Azonosító",
+            "EMAIL" : "E-mail cím",
+            "MOBILE" : "Telefonszám",
+            "THERAPIST" : "Terapeuta",
+            "TERMS_AND_CONDITIONS_ACCEPTED" : "ÁSZF elfogadva?",
+            "OPERATIONS" : "Műveletek"
+          }
+        },
+        "SUSPENDED_PATIENTS" : {
+          "TITLE" : "Fefüggesztett állapotú páciensek",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TOOLTIPS" : {
+            "TERMS_AND_CONDITIONS_ACCEPTED" : "i-Clinic használatát szabályozó felhasználási feltételeket elfogadta?",
+            "AT_ACCEPTED" : "Adatkezelési tájékoztató elfogadva?",
+            "EXPORT_TO_EXCEL" : "Páciens adatok exportálása Excel fájlként",
+            "ACTIVATE_PATIENT" : "Páciens aktiválása",
+            "DELETE_PATIENT" : "Páciens törlése"
+          },
+          "TABLE_HEADERS" : {
+            "NAME" : "Név",
+            "ID" : "Azonosító",
+            "EMAIL" : "E-mail cím",
+            "MOBILE" : "Telefonszám",
+            "THERAPIST" : "Terapeuta",
+            "AT_ACCEPTED" : "AT elfogadva?",
+            "TERMS_AND_CONDITIONS_ACCEPTED" : "ÁSZF elfogadva?",
+            "OPERATIONS" : "Műveletek"
+          }
+        },
+        "WAITLISTED_PATIENTS" : {
+          "TITLE" : "Várólistás páciensek",
+          "FILTER_THERAPIST_DROPDOWN_PLACEHOLDER" : "Terapeuta szűrés",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_HEADERS" : {
+            "PATIENT" : "Páciens",
+            "THERAPIST" : "Terapeuta",
+            "PRIORITY" : "Prioritás",
+            "TREATMENT" : "Kezelés",
+            "TREATMENT_LENGTH" : "Kezelés hossz",
+            "EMAIL" : "E-mail cím",
+            "ON_WAITING_LIST" : "Várólistán",
+            "COMMENT" : "Megjegyzés",
+            "OPERATIONS" : "Műveletek"
+          }
+        },
+        "PATIENT_TABLE_PAGINATOR_TEXT" : "Páciens / oldal"
+      },
+      "COLLEAGUES" : {
+        "NEW_COLLEAGUE_BUTTON_TEXT" : "Új munkatárs",
+        "COLLEAGUES_CARD" : {
+          "TITLE" : "Munkatársak",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TOOLTIPS" : {
+
+          },
+          "TABLE_HEADERS" : {
+            "NAME" : "Név",
+            "TYPE" : "Típus",
+            "AREA_OF_SPECIALIZATION" : "Szakterület",
+            "APPROVAL_NUMBER" : "Engedélyszám",
+            "EMAIL" : "E-mail cím",
+            "MOBILE" : "Telefonszám",
+            "SUSPENDED" : "Felfüggesztett",
+            "ALLOWED_TO_BILL_FROM_OWN_BILLING_ACCOUNT" : "Számlázhat saját számlázó fiókból",
+            "OPERATIONS" : "Műveletek"
+          }
+        }
+      },
+      "EDIT_CLINIC" : {
+        "TABS" : {
+          "CLINIC_DATA" : {
+            "FIELDS" : {
+              "COMPANY_NAME" : "Cégév",
+              "CLINIC_NAME" : "Klinika neve",
+              "LANGUAGE" : "Nyelv beállítás",
+              "CLINIC_LOGO" : "Klinika logó",
+              "UPLOAD_BUTTON_TEXT" : "Feltöltés",
+              "TAX_NUMBER" : "Adószám",
+              "TAX_NUMBER_TOOLTIP" : "Adószám 11111111-1-11 formátumban.",
+              "CLINIC_LEADER" : "Klinika vezető"
+            },
+            "SAVE_BUTTON_TEXT" : "Mentés"
+          },
+          "CLINIC_OPENING" : {
+            "SAVE_BUTTON_TEXT" : "Mentés"
+          },
+          "TREATMENT_ROOMS" : {
+            "TABLE_HEADERS" : {
+              "ROOM" : "Kezelőhelyiség",
+              "GROUP_CLASSES" : "Csoportos órákat tartunk benne",
+              "MAX_CAPACITY" : "Max férőhely",
+              "OPERATIONS" : "Műveletek"
+            },
+            "ADD_TREATMENT_ROOM_BUTTON_TEXT" : "Kezelőhelyiség hozzáadása",
+            "TREATMENT_ROOM_EDIT_POPUP" : {
+              "TITLE" : {
+                "NEW_TREATMENT_ROOM" : "Új kezelőhelyiség létrehozása",
+                "EDIT_TREATMENT_ROOM" : "Kezelőhelyiség szerkesztése",
+                "WATCH_TREATMENT_ROOM" : "Kezelőhelyiség megtekintése"
+              },
+              "TREATMENT_ROOM_NAME_PLACEHOLDER" : "Kezelőhelyiség neve",
+              "THERE_ARE_GROUP_CLASSES_IN_ROOM" : "Tartunk csoportos órát ebben a kezelőhelyiségben",
+              "MAX_NUMBER_OF_PATIENTS" : "Maximum hány páciens fér el egyszerre a kezelőhelyiségben",
+              "GROUP_ClASS_MINIMUM" : "Csoportos óra esetén a minimális létszám 2",
+              "TOOLTIPS" : {
+                "CHECKBOX_WARNING" : "Akkor pipáld be, ha elég nagy a kezelőhelyiséged ahhoz, hogy csoportos órákat is tarts benne, legalább 2 fő számára egyidejűleg."
+              },
+              "CLOSE_BUTTON_TEXT" : "Bezár",
+              "CANCEL_BUTTON_TEXT" : "Mégsem",
+              "SAVE_BUTTON_TEXT" : "Mentés"
+            }
+          }
+        }
+      },
+      "AUTHORITIES_AND_CLINIC_SETTINGS" : {},
+      "BILLING_SETTINGS" : {},
+      "SUBSCRIPTION" : {}
+    }
+  }
+}

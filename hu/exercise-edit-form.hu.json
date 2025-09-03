@@ -1,0 +1,11 @@
+{
+	"EXERCISE_EDIT_FORM" : {
+		"NAME_OF_EXERCISE" : "Gyakorlat neve",
+		"CATEGORY" : "Kategória",
+		"TO_CREATE_NEW_CATEGORY_TYPE_A_NAME" : "Új kategória létrehozásához gépelje be az új kategória nevét",
+		"DESCRIPTION" : "Gyakorlat leírása",
+		"REPS" : "Ismétlések",
+		"PICTURES" : "Képek",
+		"VIDEOS" : "Videók "
+	}
+}
