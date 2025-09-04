@@ -38,14 +38,17 @@
       "NOTIFICATION_SETTINGS" : {
         "TABS" : {
           "EMAIL_SETTINGS" : {
+            "TAB_LABEL" : "E-mail beállítások",
             "EMAIL_USED_FOR_SENDING_CARD" : {
               "TITLE" : "Küldéshez használt e-mail cím",
               "FIELDS" : {
                 "SENDER_EMAIL" : "Feladó e-mail címe",
+                "NOT_CONFIRMED" : "Nincs megerősítve",
                 "SENDER_EMAIL_TOOLTIP" : "A leveleket alapértelmezetten noreply@i-clinic.hu e-mail címmel küldjük ki. A válasz e-mailcím az az e-mail cím lesz, amire a levelek megérkeznek ha a páciensed válaszol a levelére.\n\n                  Emellet van lehetősége arra is, hogy a saját e-mail címedet add meg küldő e-mailcímnek a noreply@i-clinic.hu e-mail cím helyett.\n\n                  Ehhez azonban hitelesíteni kell az e-mail címed, amit az i-Clinic ügyfélszolgálaton keresztül tudsz elindítani.",
                 "SENDER_NAME" : "Feladó neve",
                 "SENDER_NAME_TOOLTIP" : "A feladó neve csak ékezet nélküli karaktereket tartalmazhat",
                 "RESPONSE_EMAIL" : "Válasz e-mail cím",
+                "RESPONSE_EMAIL_NOTICE" : "Kérlek, adj meg egy e-mail címet, amire a páciensek válaszleveleit továbbíthatjuk!",
                 "RESPONSE_EMAIL_TOOLTIP" : "Válasz e-mail cím: ha a páciens a levélben a válasz gombra kattint, erre a címre fogja küldeni a rendszer a levelet alapértelmezetten. Olyan e-mail címet adjál meg, amit rendszeresen olvasol!"
               }
             },
@@ -76,6 +79,7 @@
             "SAVE_BUTTON_TEXT" : "Mentés"
           },
           "SMS_SETTINGS" : {
+            "TAB_LABEL" : "SMS beállítások",
             "SMS_BILLING_NOTICE" : "Amint bármelyik sms értesítés típus bepipálásra és mentésre kerül, az sms értesítések küldése a bepipált eseménytípusra azonnal megkezdődik! Az így automatikusan kiküldött SMS-eket havonta utólag kiszámlázzuk bruttó 28 Ft/db áron.",
             "EMAIL_SETTING_CHECKBOXES_CARD"  : {
               "TITLE" : "SMS küldése a pácienseknek következő esetekben",
@@ -163,7 +167,11 @@
           "TITLE" : "Munkatársak",
           "SEARCH_PLACEHOLDER" : "Keresés",
           "TOOLTIPS" : {
-
+            "EDIT_COLLEAGUE" : "Munkatárs szerkesztése",
+            "SUSPEND_COLLEAGUE" : "Munkatárs felfüggesztése",
+            "ACTIVATE_COLLEAGUE" : "Munkatárs aktiválása",
+            "DELETE_COLLEAGUE" : "Munkatárs törlése",
+            "SUPERVISOR_ACCOUNT" : "Átjelentkezés"
           },
           "TABLE_HEADERS" : {
             "NAME" : "Név",
@@ -175,12 +183,14 @@
             "SUSPENDED" : "Felfüggesztett",
             "ALLOWED_TO_BILL_FROM_OWN_BILLING_ACCOUNT" : "Számlázhat saját számlázó fiókból",
             "OPERATIONS" : "Műveletek"
-          }
+          },
+          "THERAPIST_TABLE_PAGINATOR_TEXT" : "Terapeuta / oldal"
         }
       },
       "EDIT_CLINIC" : {
         "TABS" : {
           "CLINIC_DATA" : {
+            "TAB_TITLE" :  "Klinika adatok",
             "FIELDS" : {
               "COMPANY_NAME" : "Cégév",
               "CLINIC_NAME" : "Klinika neve",
@@ -194,14 +204,21 @@
             "SAVE_BUTTON_TEXT" : "Mentés"
           },
           "CLINIC_OPENING" : {
+            "TAB_TITLE" : "Klinika nyitvatartás",
             "SAVE_BUTTON_TEXT" : "Mentés"
           },
           "TREATMENT_ROOMS" : {
+            "TAB_TITLE" : "Kezelőhelyiségek",
             "TABLE_HEADERS" : {
               "ROOM" : "Kezelőhelyiség",
               "GROUP_CLASSES" : "Csoportos órákat tartunk benne",
               "MAX_CAPACITY" : "Max férőhely",
               "OPERATIONS" : "Műveletek"
+            },
+            "TOOLTIPS" : {
+              "WATCH_TREATMENT_ROOM" : "Kezelőhelyiség megtekintése",
+              "SET_GROUP_CLASS" : "Csoportos óra beállítása",
+              "DELETE_TREATMENT_ROOM" : "Kezelőhelyiség törlése"
             },
             "ADD_TREATMENT_ROOM_BUTTON_TEXT" : "Kezelőhelyiség hozzáadása",
             "TREATMENT_ROOM_EDIT_POPUP" : {
@@ -221,12 +238,162 @@
               "CANCEL_BUTTON_TEXT" : "Mégsem",
               "SAVE_BUTTON_TEXT" : "Mentés"
             }
+          },
+          "PRIVACY_POLICY_TABLE" : {
+            "TAB_TITLE" : "Adatvédelmi tájékoztató",
+            "TABLE_HEADERS" : {
+              "LAST_MODIFIED_BY" : "Utoljára módosította",
+              "MODIFICATION_DATE" : "Módosítás dátuma",
+              "PUBLISHED" : "Publikálva?",
+              "OPERATIONS" : "Műveletek"
+            },
+            "ADD_PRIVACY_POLICY_POPUP" : {
+              "CARD_TITLE" : "Adatkezelési tájékoztató szerkesztése",
+              "SAVE_BUTTON_TEXT" : "Mentés",
+              "CANCEL_BUTTON_TEXT" : "Mégse"
+            },
+            "PUBLISH_TOOLTIP" : "Publikálás",
+            "ADD_DATA_PRIVACY_NOTICE_BUTTON_TEXT" : "Adatkezelési tájékoztató hozzáadása"
+          },
+          "TREATMENTS" : {
+            "TAB_TITLE" : "Kezelések",
+            "CLINIC_LEVEL_TREATMENTS_CARD" : {
+              "TITLE" : "Klinika szintű kezelések",
+              "SEARCH_PLACEHOLDER" : "Keresés",
+              "TABLE_HEADERS" : {
+                "TREATMENT_NAME" : "Kezelés neve",
+                "DURATION" : "Időtartam",
+                "PRICE" : "Ár",
+                "GROUP_EVENT" : "Csoportos foglalkozás",
+                "MAX_CAPACITY" : "Max férőhely",
+                "OPERATIONS" : "Műveletek"
+              },
+              "DELETE_TREATMENT_TOOLTIP" : "Kezelés törlése",
+              "CLINIC_TABLE_PAGINATOR_TEXT" : "Klinika / oldal",
+              "ADD_TREATMENT_BUTTON_TEXT" : "Kezelés hozzáadása"
+            },
+            "THERAPISTS_AND_THEIR_TREATMENTS_CARD" : {
+              "TITLE" : "Terapeuták és kezeléseik",
+              "TABLE_HEADERS" : {
+                "TREATMENT" : "Kezelés",
+                "DURATION" : "Időtartam",
+                "PRICE" : "Ár",
+                "GROUP_EVENT" : "Csoportos foglalkozás",
+                "MAX_CAPACITY" : "Max férőhely"
+              },
+              "SAVE_BUTTON_TEXT" : "Mentés"
+            }
           }
         }
       },
-      "AUTHORITIES_AND_CLINIC_SETTINGS" : {},
+      "AUTHORITIES_AND_CLINIC_SETTINGS" : {
+        "TABS" : {
+          "CLINIC_SETTINGS": {
+            "TAB_TITLE" : "Klinka beállítások",
+            "SAVE": "Mentés",
+
+            "SECURITY_TITLE": "Biztonság",
+            "SECURITY_AUTO_LOGOUT_ON_DESC": "Ha bezárom az i-Clinic bármelyik böngésző tabját, automatikusan kiléptet a rendszer. (Ez a biztonságosabb, de bizonyos esetekben picit kényelmetlenebb müködés, mert például nem működik a böngésző \"vissza\" és \"oldalfrissítés\" gombja).",
+            "SECURITY_AUTO_LOGOUT_OFF_DESC": "Az i-Clinicet futtató böngésző tab bezárására az i-Clinic nem léptet ki automatikusan, továbbá működik a böngésző \"vissza\" és \"oldalfrissítés\" gombja. (Ez egy kényelmesebb de kevésbé biztonságos működés. CSAK akkor válaszd, ha egyedül használod azt az eszközt, amivel az i-Clinicben adminisztrálsz)",
+
+            "CLINIC_TITLE": "Klinika beállítások",
+            "AUTO_ACCEPT_SHARE_LABEL": "Páciens - terapeuta megosztás esetén, automatikus páciens elfogadás",
+            "AUTO_ACCEPT_SHARE_TOOLTIP": "Beállítható, hogy ha egy terapeutához hozzá rendelünk egy pácienst, akkor az automatikusan el legyen-e fogadva vagy a terapeutának külön kelljen elfogadnia.",
+
+            "PATIENT_RATING_LABEL": "Páciens értékelés",
+            "PATIENT_RATING_TOOLTIP": "Páciensek értékelése munkatársak által",
+            "PATIENT_RATING_DAILY_LIMIT_PH": "Napi, maximális páciens értékelés terapeutánként",
+
+            "PDF_HEADER_LABEL": "Letölthető pdf-ben fejléc megjelenítése",
+            "PDF_HEADER_TOOLTIP": "A letölthető PDF állomány fejlécének ellátása logóval és szöveggel.",
+            "PDF_HEADER_TEXT_PH": "Fejléc tartalma",
+
+            "AUTO_DATA_REQ_TITLE": "Automatikus adatbekérő kiküldése",
+            "AUTO_DATA_REQ_NOTE": "(Csak akkor tudjuk kiküldeni az adatbekérőket automatikusan, ha a páciens regisztrálásakor kitöltésre kerül az e-mail cím és a Klinika beállításokban a \"Páciensek számára elérhető profil oldal\" be van kapcsolva.)",
+            "AUTO_DATA_REQ_NONE": "Ne küldjön a rendszer automatikusan adatbekérőt",
+            "AUTO_DATA_REQ_SELECT_AFTER_REG": "Páciens regisztrációt követően ki szeretném választani, hogy melyik adatbekérőket küldje ki a rendszer",
+            "AUTO_DATA_REQ_SEND_MARKED": "A vizsgálati lapok menüpontban megjelölt adatbekérőket külön rákérdezés nélkül, automatikusan küldje ki a rendszer",
+
+            "PATIENT_PERMS_TITLE": "Páciens jogosultságok",
+            "PATIENT_VISITS_VISIBLE_LABEL": "Páciensek számára láthatóak a saját mozgásszervi problémák, vizsgálatok",
+            "PATIENT_VISITS_VISIBLE_TOOLTIP": "Beállítható, hogy a páciensek lássák-e a hozzájuk tartozó vizsgálatokat. A beállítást páciensenként felület lehet írni az 'Aktív páciensek' táblázatban.",
+            "PATIENT_TREATMENT_PRICES_VISIBLE_LABEL": "Páciensek számára láthatóak a saját kezelések árai",
+            "PATIENT_TREATMENT_PRICES_VISIBLE_TOOLTIP": "Beállítható, hogy a páciensek lássák-e a hozzájuk tartozó kezelések árait, ha bejelentkeznek saját oldalukra.",
+            "PATIENT_PROFILE_PAGE_LABEL": "Páciensek számára elérhető profil oldal",
+            "PATIENT_PROFILE_PAGE_TOOLTIP": "Beállítható, hogy a páciensek hozzáférjenek-e saját oldalokhuz. Amennyiben a klinika beállítást engedélyezed, akkor páciensenként ez külön-külön beállítható.",
+
+            "CALENDAR_TITLE": "Naptár beállítások",
+            "EVEN_ODD_WEEKS_LABEL": "Páros / páratlan hetek engedélyezése",
+            "EVEN_ODD_WEEKS_TOOLTIP": "Terapeuták rendelési idejének beállítása páros és páratlan hetekre",
+
+            "EVENT_WITHOUT_TREATMENT_LABEL": "Páciens naptári esemény létrehozása kezelés megadása nélkül",
+            "EVENT_WITHOUT_TREATMENT_TOOLTIP": "Naptár nézetben a páciensnek felvett eseményeknél nem kötelező megadni kezelést. Helyette tetszőleges esemény hossz állítható be.",
+            "DEFAULT_EVENT_DURATION_PH": "Alapértelmezett esemény hossz",
+            "DEFAULT_EVENT_DURATION_UNIT_MIN": "perc",
+
+            "EDIT_TIME_WINDOW_LABEL": "Időablak naptári események utólagos szerkesztéséhez",
+            "EDIT_TIME_WINDOW_DAYS_PH": "Nap",
+            "EDIT_TIME_WINDOW_HOURS_PH": "Óra",
+            "EDIT_TIME_WINDOW_MINUTES_PH": "Perc",
+            "EDIT_TIME_WINDOW_TOOLTIP": "Az időablak nem lehet több, mint 4 hét",
+
+            "EVENT_COLOR_AUTO_TITLE": "Naptár események színeinek automatikus beállítása",
+            "EVENT_COLOR_DEFAULT": "Alapértelmezett",
+            "EVENT_COLOR_THERAPIST_TREATMENT": "Terapeuta/Kezelés",
+            "EVENT_COLOR_ROOM": "Kezelőhelyiség",
+
+            "MESSAGES_TITLE": "Üzenetek",
+            "CLINIC_CHAT_LABEL": "Klinika szintű üzenetküldés",
+            "CLINIC_CHAT_TOOLTIP": "A páciensek tudnak üzenetet küldeni a klinikának, amit a jogosultsággal rendelkező munkatársak elolvashatnak és válaszolhatnak rá.",
+            "UNREAD_MSG_NOTIFY_LABEL": "Kérek értesítést az olvasatlan üzenetekről",
+            "UNREAD_MSG_NOTIFY_TOOLTIP": "Óránként egyszer ellenőrizzük, van-e olvasatlan üzenet és ha igen, e-mailes értesítést küldünk róla."
+          },
+          "USER_AUTHORITIES": {
+            "SAVE_BUTTON_TEXT": "Mentés",
+            "TAB_THERAPIST": "Terapeuta",
+            "TAB_RECEPTIONIST": "Recepciós",
+            "TAB_CLINIC_ADMIN": "Klinika adminisztrátor",
+            "BASIC_RIGHTS": "Alapjogok",
+            "OPTIONAL_RIGHTS": "Adható jogok"
+          },
+          "EESZT_DATA" : {
+            "TITLE": "Szervezet adatai",
+            "SAVE_BUTTON_TEXT": "Mentés",
+            "ORGANISATION_ID_PLACEHOLDER": "Szervezet azonosítója",
+            "ORGANISATION_NAME_PLACEHOLDER": "Szervezet neve",
+            "UNITS_TITLE": "Szervezeti egységek",
+            "UNIT_CREATE": "Új szervezeti egység"
+          }
+        }
+      },
       "BILLING_SETTINGS" : {},
-      "SUBSCRIPTION" : {}
+      "SUBSCRIPTION" : {
+        "TABS" : {
+          "SUBSCRIPTION_DATA" : {
+            "TITLE" : "Előfizetés adatai",
+            "EXPIRY": "Előfizetés lejárta",
+            "LICENSE_COUNT": "Fő munkatársra fizettél elő",
+            "ORDERED_PACKAGE": "Megrendelt csomag",
+            "COLLEAGUES_COUNT": "Munkatársak száma",
+            "PLAN": "Számlázási periódus",
+            "VALID_UNTIL": "Előfizetés érvényes",
+            "MODIFY_TITLE": "Előfizetés módosítása",
+            "MODIFY_INFO_PHONE": "Ha szeretnéd módosítani azt, hogy hány főre szóljon az előfizetésed, milyen számlázási periódus legyen vagy változtatni szeretnél a csomag típusán, azt megteheted telefonon",
+            "MODIFY_INFO_EMAIL": "e-mailben",
+            "MODIFY_INFO_FACEBOOK": "írhatsz nekünk a Facebook oldalunkon. vagy megírhatod nekünk itt is:",
+            "MODIFY_ORDER": "Megrendelés módosítása",
+            "CANCEL_INFO": "Ha szeretnéd az előfizetésed lemondani, kattints ide."
+          },
+          "SUBSCRIPTION_ORDER" : {
+            "TITLE" : "Megrendelés"
+          },
+          "SUBSCRIPTION_BILLS" : {
+            "TITLE" : "Számlák",
+            "INSTRUCTION": "Kedves {{userName}}, számláid megtekintéséhez és a bankkártyás fizetéshez kérlek lépj be a szamlazz.hu fiókodba az alábbi linkre kattintva:",
+            "NO_ACCOUNT": "Nem rendelkezik általunk ismert számlazz.hu fiókkal!"
+          }
+        }
+      }
     }
   }
 }
