@@ -66,15 +66,108 @@
                 "SEND_OUT_PRELIMINARY_CHECK" : "Állapotfelmérő kiküldése"
               }
             },
-            "EMAIL_TEMPLATES" : {
-              "EVENT_REMINDER" : {},
-              "NEW_VISIT" : {},
-              "NEW_EXERCISES" : {},
-              "NEW_EVENT_DATE" : {},
-              "DELETING_EVENT_DATE" : {},
-              "EDITING_EVENT_DATE"  : {},
-              "NEW_MESSAGE" : {},
-              "PRELIMINARY_CHECK" : {}
+            "EMAIL_TEMPLATES": {
+              "TEMPLATE_EDITOR": {
+                "FONT_SIZE": "Betűméret",
+                "SMALL": "Kicsi",
+                "NORMAL": "Normál",
+                "LARGE": "Nagy",
+                "HUGE": "Hatalmas",
+                "BOLD": "Félkövér",
+                "ITALIC": "Dőlt",
+                "UNDERLINE": "Aláhúzott",
+                "STRIKE": "Áthúzott",
+                "COLOR": "Betűszín",
+                "BACKGROUND": "Háttérszín",
+                "SUBSCRIPT": "Alsó index",
+                "SUPERSCRIPT": "Felső index",
+                "HEADER1": "Címsor 1",
+                "HEADER2": "Címsor 2",
+                "ORDERED_LIST": "Számozás",
+                "BULLET_LIST": "Felsorolás",
+                "OUTDENT": "Behúzás csökkentése",
+                "INDENT": "Behúzás növelése",
+                "ALIGN": "Igazítás",
+                "LINK": "Hivatkozás",
+                "CLEAN": "Formázás törlése"
+              },
+              "TEMPLATE_VARIABLES_TEXTS" : {
+                "WITH_SUBJECT": "A következő változókat tudod beilleszteni a levél szövegébe és tárgyába:",
+                "WITHOUT_SUBJECT": "A következő változókat tudod beilleszteni a levél szövegébe:",
+                "TEMPLATE_VARIABLES_TOOLTIP": "A beillesztés mindig arra a helyre fog megtörténni, ahol állsz a kurzorral. A változók neveit be is gépeleheted a megfelelő pozícióba.\n\nA következő változókat tudod beállítani ebben a templateben:\n{{variablesList}}\nMinden levélben a beillesztett változó helyén meg fog jelenni annak az értéke.\nPl. Ha ezt írod a baloldali szerkesztő nézetben:\n\nKedves {SYS_PATIENT_NAME}, {SYS_CALENDAR_EVENT_TIME} időpontban vár téged a terapeutád {SYS_THERAPIST_NAME} rendelésünkre!\n\nAz így fog megjelenni Kovács Páciens Patrícia nevű páciensednek küldött e-mailben, aki Tamási Terapeuta Patrikhoz érkezik 2020. 07. 20-án 9:00-ra:\n\nKedves Kovács Páciens Patrícia, 2020.07. 20 9:00 időpontban vár téged terapeutád Tamási Terapeuta Patrik rendelésünkre!"
+              },
+              "EVENT_REMINDER": {
+                "TAB_TITLE" : "Időpont emlékeztető",
+                "TITLE": "Időpont emlékeztető e-mail",
+                "PREVIEW": "Email előnézete",
+                "SUBJECT": "Az e-mail tárgya",
+                "CONTENT": "Az e-mail szövege",
+                "SCHEDULE_TITLE": "Időpont emlékeztető e-mail kiküldése a következő időpontokban",
+                "SCHEDULE_TOOLTIP": "Az itt megadott időpontokban a rendszer emlékeztető e-mailt fog küldeni a páciensnek (a fent beállított szöveggel), a közelgő kezelésének az időpontjáról. Maximum 6. emlékeztető e-mailt tudsz beütemezni.\n\nAz első sorban add meg, hogy a kezelés napján hány órakor szeretnél e-mailt küldeni a pácienseinek. (Ha nem szeretne ilyet beállítani, akkor az óra és a perc értéket állítsa be '-' értékre.)\n\nA további sorokban beállíthatod, hogy a kezelést megelőző napokon, hány óra hány hány perckor szeretnél e-mailt küldeni a páciensnek.\n\nHa a kezelést megelőző napot nem állítod be egy adott sorban (tehát kötőjelet választasz a legördülő listában), akkor ahhoz a sorhoz nem fog ütemezett időpontemlékezető e-mail kiküldésre kerülni (függetlenül attól, hogy az óra és a perc mezők kitöltésre kerültek-e).",
+                "DAY_TODAY": "A kezelés napján",
+                "DAY_PREFIX": "A kezelést megelőző",
+                "DAY_SUFFIX": "napon",
+                "HOUR": "óra",
+                "MINUTE_AT": "perckor"
+              },
+              "NEW_VISIT": {
+                "TAB_TITLE" : "Új vizsgálat",
+                "TITLE": "Új vizsgálat e-mail",
+                "PREVIEW": "Email előnézete",
+                "SUBJECT": "Az e-mail tárgya",
+                "CONTENT": "Az e-mail szövege"
+              },
+              "NEW_EXERCISES": {
+                "TAB_TITLE" : "Új gyakorlatsor",
+                "TITLE": "Új gyakorlatsor e-mail",
+                "PREVIEW": "Email előnézete",
+                "SUBJECT": "Az e-mail tárgya",
+                "CONTENT": "Az e-mail szövege"
+              },
+              "NEW_EVENT_DATE": {
+                "TAB_TITLE" : "Új időpont rögzítése",
+                "TITLE": "Új időpont e-mail",
+                "PREVIEW": "Email előnézete",
+                "SUBJECT": "Az e-mail tárgya",
+                "CONTENT": "Az e-mail szövege"
+              },
+              "DELETING_EVENT_DATE": {
+                "TAB_TITLE" : "Időpont törlése",
+                "TITLE": "Törölt időpont e-mail",
+                "PREVIEW": "Email előnézete",
+                "SUBJECT": "Az e-mail tárgya",
+                "CONTENT": "Az e-mail szövege"
+              },
+              "EDITING_EVENT_DATE": {
+                "TAB_TITLE" : "Időpont módosítása",
+                "TITLE": "Módosított időpont e-mail",
+                "PREVIEW": "Email előnézete",
+                "SUBJECT": "Az e-mail tárgya",
+                "CONTENT": "Az e-mail szövege"
+              },
+              "NEW_MESSAGE": {
+                "TAB_TITLE" : "Új üzenet",
+                "TITLE": "Új üzenet e-mail",
+                "PREVIEW": "Email előnézete",
+                "SUBJECT": "Az e-mail tárgya",
+                "CONTENT": "Az e-mail szövege"
+              },
+              "PRELIMINARY_CHECK": {
+                "TAB_TITLE" : "Állapotfelmérő",
+                "TITLE": "Értesítő e-mail állapotfelmérő kiküldéséről",
+                "PREVIEW": "Email előnézete",
+                "SUBJECT": "Az e-mail tárgya",
+                "CONTENT": "Az e-mail szövege"
+              },
+              "TEMPLATE_PREVIEW_DIALOG" : {
+                "CARD_TITLE" : "E-mail előnézete",
+                "SENDER" : "Feladó",
+                "SUBJECT" : "Tárgy",
+                "MAIL_CONTENT" : "Levél törzse",
+                "TEMPLATE_VARIABLES_PREVIEW_TOOLTIP": "A leveled az alábbi módon fog kinézni, abban az esetben, ha a következő adatokat helyettesítjük be:\n\nPáciens neve: {{patientName}}\nKezelés időpontja: {{treatmentDateTime}}\nTerapeuta neve: {{therapistName}}\nKezelés neve: {{treatmentName}}\nKezelés hossza: {{treatmentDuration}}\nTerapeuta profil képe: egy előre elmentett képet helyettesítünk be\nKezelőhelyiség: {{treatmentRoom}}\nKezelőhelyiség címe: {{treatmentRoomAddress}}",
+                "DEFAULT_CLINIC_LOGO_WARNING": "Nincs beállítva klinika logó, így ez az alapértelemezett kép fog megjelenni a kiküldött e-mailekben!",
+                "DEFAULT_THERAPIST_IMAGE_WARNING": "Nincs beállítva saját profilképed, így ez az alapértelemezett kép fog megjelenni a kiküldött e-mailekben!"
+              }
             },
             "SAVE_BUTTON_TEXT" : "Mentés"
           },
@@ -92,12 +185,25 @@
               }
             },
             "SMS_TEMPLATES" : {
-              "EVENT_DATE_REMINDER" : {},
-              "NEW_EVENT_DATE" : {},
-              "DELETE_EVENT_DATE" : {},
-              "EDIT_EVENT_DATE" : {}
+              "EVENT_DATE_REMINDER" : {
+                "TAB_TITLE" : "Időpont emlékeztető"
+              },
+              "NEW_EVENT_DATE" : {
+                "TAB_TITLE" : "Új időpont rögzítése"
+              },
+              "DELETE_EVENT_DATE" : {
+                "TAB_TITLE" : "Időpont törlése"
+              },
+              "EDIT_EVENT_DATE" : {
+                "TAB_TITLE"  : "Időpont módosítása"
+              }
             },
-            "SAVE_BUTTON_TEXT" : "Mentés"
+            "SAVE_BUTTON_TEXT" : "Mentés",
+            "NEED_SUBSCRIPTION_TEXT" : {
+              "FIRST_PART" : "Ha meglévő előfizetésed szeretnéd bővíteni az sms értesítésekkel, kérlek jelezd felénk",
+              "LINK_TEXT" : "itt",
+              "SECOND_PART" : "a Megrendelés módosítása üzenetben elküldve."
+            }
           }
         }
       },

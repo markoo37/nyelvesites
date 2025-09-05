@@ -470,7 +470,8 @@
           "TABLE" : {
             "HEADERS" : {
               "TITLE" : "Cím",
-              "CREATED_TIME_STAMP" : "Készült"
+              "CREATED_TIME_STAMP" : "Készült",
+              "OPERATIONS" : "Műveletek"
             },
             "TOOLTIPS" : {
               "DELETE" : "Törlés",
@@ -696,6 +697,19 @@
             "COMMENT" : "Megjegyzés",
             "OPERATIONS" : "Műveletek",
             "NEW_CONTACT_BUTTON_TEXT" : "Új kontakt felvétele"
+          },
+          "ADD_CONTACT_POPUP" : {
+            "TITLE" : "Új kontakt felvétele",
+            "FIELDS" : {
+              "FIRST_NAME" : "Keresztnév",
+              "LAST_NAME" : "Vezetéknév",
+              "EMAIL" : "E-mail cím",
+              "MOBILE_NUMBER" : "Telefonszám",
+              "MOBILE_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt.",
+              "COMMENT" : "Megjegyzés"
+            },
+            "CANCEL_BUTTON_TEXT" : "Mégsem",
+            "SAVE_BUTTON_TEXT" : "Mentés"
           }
         },
         "SYSTEM_NOTIFICATIONS" : {

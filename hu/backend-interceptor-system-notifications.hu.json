@@ -1,0 +1,13 @@
+{
+	"BACKEND_INTERCEPTOR_SYSTEM_NOTIFICATIONS": {
+        "CLIENT_SIDE_ERROR": "Kliensoldali hiba:<br>{{message}}",
+        "BAD_API_REQUEST": "Hibás API kérés!",
+        "UNAUTHORIZED": "Nincs megfelelő jogosultságod a kért művelet végrehajtására!",
+        "NO_PERMISSION_PLEASE_CONTACT_CLINIC_ADMIN": "Nincs jogosultságod ehhez a művelethez! Kérjük, vedd fel a kapcsolatot a klinika adminisztrátorával.",
+        "INTERNAL_SERVER_ERROR": "Szerveroldali hiba. Kérjük jegyezd fel az időpontot és vedd fel a kapcsolatot a rendszergazdával.",
+        "SERVICE_UNAVAILABLE": "A szolgáltatás nem elérhető. Kérjük ellenőrizd az internet kapcsolatot.",
+        "CANNOT_CONNECT": "Nem sikerült kapcsolódni a szerverhez. Kérjük, ellenőrizd az internet kapcsolatot.",
+        "UNKNOWN_ERROR": "Ismeretlen hiba. Kérjük, jegyezd fel az időpontot és vedd fel a kapcsolatot a rendszergazdával.",
+        "NO_INTERNET": "Nincs internet kapcsolat"
+      }
+}
