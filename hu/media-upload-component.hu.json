@@ -1,0 +1,9 @@
+{
+	"MEDIA_UPLOAD_COMPONENT" : {
+		"UPLOAD" : "Feltöltés",
+		"MODIFY" : "Módosít",
+		"PROFILE_PICTURE_DELETE_CONFIRM" : "Biztos, hogy törölni szeretné a profilképét?",
+		"FILE_FORMAT_NOT_ACCEPTABLE" : "Nem megfelelő fájlformátum! Használható típusok: {{acceptValue}}",
+		"ERROR_DURING_FILE_UPLOAD" : "Hiba a fájl feltöltése során"
+	}
+}

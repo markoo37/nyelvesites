@@ -469,29 +469,23 @@
           "CLINIC_SETTINGS": {
             "TAB_TITLE" : "Klinka beállítások",
             "SAVE": "Mentés",
-
             "SECURITY_TITLE": "Biztonság",
             "SECURITY_AUTO_LOGOUT_ON_DESC": "Ha bezárom az i-Clinic bármelyik böngésző tabját, automatikusan kiléptet a rendszer. (Ez a biztonságosabb, de bizonyos esetekben picit kényelmetlenebb müködés, mert például nem működik a böngésző \"vissza\" és \"oldalfrissítés\" gombja).",
             "SECURITY_AUTO_LOGOUT_OFF_DESC": "Az i-Clinicet futtató böngésző tab bezárására az i-Clinic nem léptet ki automatikusan, továbbá működik a böngésző \"vissza\" és \"oldalfrissítés\" gombja. (Ez egy kényelmesebb de kevésbé biztonságos működés. CSAK akkor válaszd, ha egyedül használod azt az eszközt, amivel az i-Clinicben adminisztrálsz)",
-
             "CLINIC_TITLE": "Klinika beállítások",
             "AUTO_ACCEPT_SHARE_LABEL": "Páciens - terapeuta megosztás esetén, automatikus páciens elfogadás",
             "AUTO_ACCEPT_SHARE_TOOLTIP": "Beállítható, hogy ha egy terapeutához hozzá rendelünk egy pácienst, akkor az automatikusan el legyen-e fogadva vagy a terapeutának külön kelljen elfogadnia.",
-
             "PATIENT_RATING_LABEL": "Páciens értékelés",
             "PATIENT_RATING_TOOLTIP": "Páciensek értékelése munkatársak által",
             "PATIENT_RATING_DAILY_LIMIT_PH": "Napi, maximális páciens értékelés terapeutánként",
-
             "PDF_HEADER_LABEL": "Letölthető pdf-ben fejléc megjelenítése",
             "PDF_HEADER_TOOLTIP": "A letölthető PDF állomány fejlécének ellátása logóval és szöveggel.",
             "PDF_HEADER_TEXT_PH": "Fejléc tartalma",
-
             "AUTO_DATA_REQ_TITLE": "Automatikus adatbekérő kiküldése",
-            "AUTO_DATA_REQ_NOTE": "(Csak akkor tudjuk kiküldeni az adatbekérőket automatikusan, ha a páciens regisztrálásakor kitöltésre kerül az e-mail cím és a Klinika beállításokban a \"Páciensek számára elérhető profil oldal\" be van kapcsolva.)",
+            "AUTO_DATA_REQ_NOTE": "(Csak akkor tudjuk kiküldeni az adatbekérőket automatikusan, ha a páciens regisztrálásakor kitöltésre kerül az <b>e-mail</b> cím és a Klinika beállításokban a <b>\",Páciensek számára elérhető profil oldal\"</b> be van kapcsolva.)",
             "AUTO_DATA_REQ_NONE": "Ne küldjön a rendszer automatikusan adatbekérőt",
             "AUTO_DATA_REQ_SELECT_AFTER_REG": "Páciens regisztrációt követően ki szeretném választani, hogy melyik adatbekérőket küldje ki a rendszer",
             "AUTO_DATA_REQ_SEND_MARKED": "A vizsgálati lapok menüpontban megjelölt adatbekérőket külön rákérdezés nélkül, automatikusan küldje ki a rendszer",
-
             "PATIENT_PERMS_TITLE": "Páciens jogosultságok",
             "PATIENT_VISITS_VISIBLE_LABEL": "Páciensek számára láthatóak a saját mozgásszervi problémák, vizsgálatok",
             "PATIENT_VISITS_VISIBLE_TOOLTIP": "Beállítható, hogy a páciensek lássák-e a hozzájuk tartozó vizsgálatokat. A beállítást páciensenként felület lehet írni az 'Aktív páciensek' táblázatban.",
@@ -499,27 +493,22 @@
             "PATIENT_TREATMENT_PRICES_VISIBLE_TOOLTIP": "Beállítható, hogy a páciensek lássák-e a hozzájuk tartozó kezelések árait, ha bejelentkeznek saját oldalukra.",
             "PATIENT_PROFILE_PAGE_LABEL": "Páciensek számára elérhető profil oldal",
             "PATIENT_PROFILE_PAGE_TOOLTIP": "Beállítható, hogy a páciensek hozzáférjenek-e saját oldalokhuz. Amennyiben a klinika beállítást engedélyezed, akkor páciensenként ez külön-külön beállítható.",
-
             "CALENDAR_TITLE": "Naptár beállítások",
             "EVEN_ODD_WEEKS_LABEL": "Páros / páratlan hetek engedélyezése",
             "EVEN_ODD_WEEKS_TOOLTIP": "Terapeuták rendelési idejének beállítása páros és páratlan hetekre",
-
             "EVENT_WITHOUT_TREATMENT_LABEL": "Páciens naptári esemény létrehozása kezelés megadása nélkül",
             "EVENT_WITHOUT_TREATMENT_TOOLTIP": "Naptár nézetben a páciensnek felvett eseményeknél nem kötelező megadni kezelést. Helyette tetszőleges esemény hossz állítható be.",
             "DEFAULT_EVENT_DURATION_PH": "Alapértelmezett esemény hossz",
             "DEFAULT_EVENT_DURATION_UNIT_MIN": "perc",
-
             "EDIT_TIME_WINDOW_LABEL": "Időablak naptári események utólagos szerkesztéséhez",
             "EDIT_TIME_WINDOW_DAYS_PH": "Nap",
             "EDIT_TIME_WINDOW_HOURS_PH": "Óra",
             "EDIT_TIME_WINDOW_MINUTES_PH": "Perc",
             "EDIT_TIME_WINDOW_TOOLTIP": "Az időablak nem lehet több, mint 4 hét",
-
             "EVENT_COLOR_AUTO_TITLE": "Naptár események színeinek automatikus beállítása",
             "EVENT_COLOR_DEFAULT": "Alapértelmezett",
             "EVENT_COLOR_THERAPIST_TREATMENT": "Terapeuta/Kezelés",
             "EVENT_COLOR_ROOM": "Kezelőhelyiség",
-
             "MESSAGES_TITLE": "Üzenetek",
             "CLINIC_CHAT_LABEL": "Klinika szintű üzenetküldés",
             "CLINIC_CHAT_TOOLTIP": "A páciensek tudnak üzenetet küldeni a klinikának, amit a jogosultsággal rendelkező munkatársak elolvashatnak és válaszolhatnak rá.",
@@ -527,6 +516,7 @@
             "UNREAD_MSG_NOTIFY_TOOLTIP": "Óránként egyszer ellenőrizzük, van-e olvasatlan üzenet és ha igen, e-mailes értesítést küldünk róla."
           },
           "USER_AUTHORITIES": {
+            "TAB_TITLE" : "Felhasználói jogosultságok",
             "SAVE_BUTTON_TEXT": "Mentés",
             "TAB_THERAPIST": "Terapeuta",
             "TAB_RECEPTIONIST": "Recepciós",
@@ -535,6 +525,7 @@
             "OPTIONAL_RIGHTS": "Adható jogok"
           },
           "EESZT_DATA" : {
+            "TAB_TITLE" : "EESZ adatok",
             "TITLE": "Szervezet adatai",
             "SAVE_BUTTON_TEXT": "Mentés",
             "ORGANISATION_ID_PLACEHOLDER": "Szervezet azonosítója",
@@ -558,9 +549,12 @@
             "MODIFY_TITLE": "Előfizetés módosítása",
             "MODIFY_INFO_PHONE": "Ha szeretnéd módosítani azt, hogy hány főre szóljon az előfizetésed, milyen számlázási periódus legyen vagy változtatni szeretnél a csomag típusán, azt megteheted telefonon",
             "MODIFY_INFO_EMAIL": "e-mailben",
-            "MODIFY_INFO_FACEBOOK": "írhatsz nekünk a Facebook oldalunkon. vagy megírhatod nekünk itt is:",
+            "MODIFY_INFO_FACEBOOK_WRITE": "írhatsz nekünk a",
+            "MODIFY_INFO_FACEBOOK_PAGE": "Facebook oldalunkon",
+            "MODIFY_INFO_FACEBOOK_OR_WRITE_HERE": ". vagy megírhatod nekünk itt is:",
             "MODIFY_ORDER": "Megrendelés módosítása",
-            "CANCEL_INFO": "Ha szeretnéd az előfizetésed lemondani, kattints ide."
+            "CANCEL_INFO": "Ha szeretnéd az előfizetésed lemondani,",
+            "CLICK_HERE" : "kattints ide."
           },
           "SUBSCRIPTION_ORDER" : {
             "TITLE" : "Megrendelés"
@@ -573,6 +567,56 @@
         }
       }
     },
-    "SYSTEM_NOTIFICATIONS" : {}
+    "SYSTEM_NOTIFICATIONS": {
+      "SELECT_CLINIC_PLEASE": "Kérem, válasszon klinikát!",
+      "EMAIL_SETTINGS_FETCH_FAILED": "Sikertelen e-mail beállítás lekérdezés",
+      "EMAIL_SETTINGS_NOT_SAVED_CONFIRM": "Az <i>Email beállítások</i> nem lettek elmentve. Biztosan folytatod?",
+      "SAVE_SUCCESS": "Sikeres mentés",
+      "SETTINGS_SAVE_ERROR": "Hiba a beállítások mentése közben",
+      "REVERT_CUSTOM_EMAIL_CONFIRM": "Biztosan visszavonod a beállított saját e-mail címet?",
+      "REVERT_SUCCESS": "Sikeres visszaállítás",
+      "VERIFIED_EMAIL_STATUS_FETCH_FAILED": "Nem sikerült lekérni a megerősített e-mail cím állapotát",
+      "UPDATE_SUCCESS": "Sikeres frissítés",
+      "VERIFIED_EMAIL_ADDRESS_TOOLTIP": "Te már hitelesítetted a klinikád e-mail címét, az i-Clinic rendszer a leveleket a {{EMAIL}}-ről küldi ki a pácienseknek.\n\nEnnek a visszavonásához/megváltoztatásához kérlek kattints a \"Visszavonás\" gombra.",
+      "SMS_SETTINGS_FETCH_FAILED": "Sikertelen SMS beállítás lekérdezés",
+      "SETTINGS_FETCH_ERROR": "Hiba a beállítások lekérdezése közben",
+      "SMS_SETTINGS_NOT_SAVED_CONFIRM": "Az <i>SMS beállítások</i> nem lettek elmentve. Biztosan folytatod?",
+      "NO_EVALUATION_SELECTED": "Nincs kiválasztva értékelés",
+      "SET_EVALUATION_SUCCESS": "Sikeres értékelés beállítás",
+      "SET_EVALUATION_ERROR": "Hiba értékelés beállítása közben",
+      "SUSPEND_PATIENT_CONFIRM": "Biztos, hogy felfüggesztett állapotba szeretnéd rakni a(z) \"{{PATIENT_NAME}}\" nevű pácienst?<br><br>Ezzel minden terapeutánál inaktív, majd felfüggesztett állapotba kerül.",
+      "PATIENT_HAS_FUTURE_EVENTS": "A páciensnek még vannak naptári eseményei:",
+      "PATIENT_ON_WAITING_LIST": "A páciens még szerepel várólistán:",
+      "SUSPEND_PATIENT_FINAL_CONFIRM": "Biztosan felfüggeszti a pácienst?<br><br>Amennyiben igen, az összes elem törlésre kerül.",
+      "PATIENT_SUSPENDED_SUCCESS": "A(z) \"{{PATIENT_NAME}}\" páciens sikeresen felfüggesztve.",
+      "PATIENT_SUSPEND_ERROR": "Hiba a(z) \"{{PATIENT_NAME}}\" páciens felfüggesztése során.",
+      "LOGIN_AS_CONFIRM": "Szeretnél átjelentkezni a \"{{PATIENT_NAME}}\" nevű pácienshez?",
+      "DELETE_PATIENT_CONFIRM": "Biztos, hogy törölni szeretné a \"{{PATIENT_NAME}}\" nevű pácienst?",
+      "PATIENT_DELETE_SUCCESS": "A(z) \"{{PATIENT_NAME}}\" páciens sikeresen törölve lett.",
+      "DELETE_PATIENT_FINAL_CONFIRM": "Biztosan törli a pácienst?<br><br>Amennyiben igen, az összes jövőbeni esemény törlésre kerül.",
+      "PATIENT_DELETE_ERROR_WITH_MESSAGE": "Hiba a(z) \"{{PATIENT_NAME}}\" páciens törlése során. {{MESSAGE}}",
+      "ACTIVATE_PATIENT_CONFIRM": "Biztos, hogy újra aktív állapotba szeretné rakni a \"{{PATIENT_NAME}}\" nevű pácienst?",
+      "PATIENT_ACTIVATED_SUCCESS": "A(z) \"{{PATIENT_NAME}}\" páciens sikeresen aktiválva.",
+      "PATIENT_ACTIVATE_ERROR": "Hiba a(z) \"{{PATIENT_NAME}}\" páciens aktiválása során.",
+      "OWN_BILLING_NO_AUTHORITY": "Sikertelen beállítás. A terapeutának nincs megfelelő jogosultsága a számlázáshoz.",
+      "ENABLE_OWN_BILLING_CONFIRM": "Biztosan bekapcsolod a(z) {{THERAPIST_FULL_NAME}} számára a saját fiókkal történő számlázást?\n<br> Ha így teszel a gyógytornász be tudja állítani, hogy a saját számlázási fiókjából is állíthatóak ki számlák a páciensei számára.",
+      "DISABLE_OWN_BILLING_CONFIRM": "Biztosan kikapcsolod a(z) {{THERAPIST_FULL_NAME}} gyógytornász számára a saját fiókkal történő számlázást?\n<br> Ha így teszel, a gyógytornász nem tud majd a saját számlázási fiókjából számlázni a páciensei számára.",
+      "UPDATE_FAILED": "Sikertelen frissítés",
+      "SUSPEND_THERAPIST_CONFIRM": "Biztos, hogy felfüggesztett állapotba szeretnéd rakni a \"{{THERAPIST_NAME}}\" nevű terapeutát?",
+      "THERAPIST_HAS_FUTURE_EVENTS": "A terapeutának még vannak naptári eseményei:",
+      "SUSPEND_THERAPIST_FINAL_CONFIRM": "Biztosan felfüggeszted a terapeutát?<br><br>Amennyiben igen, egy új várólista bejegyzés fog létrejönni minden egyes érintett pácienshez, a legközelebbi időpontja alapján. Az események pedig törlésre kerülnek.<br><br>Ha a törlendő eseményhez nem tartozik kezelés, akkor a várólistás elem is kezelés nélkül fog létrejönni, viszont megjegyzésben fog szerepelni a törölt esemény hossza!",
+      "THERAPIST_SUSPENDED_SUCCESS": "A(z) \"{{THERAPIST_NAME}}\" terapeuta sikeresen fel lett függesztve.",
+      "THERAPIST_SUSPENDED": "A(z) \"{{THERAPIST_NAME}}\" terapeuta fel lett függesztve.",
+      "THERAPIST_SUSPEND_ERROR": "Hiba a(z) \"{{THERAPIST_NAME}}\" terapeuta felfüggesztése során.",
+      "THERAPIST_SUSPEND_ERROR_SHORT": "Hiba a(z) \"{{THERAPIST_NAME}}\" terapeuta felfüggesztése.",
+      "ACTIVATE_THERAPIST_CONFIRM": "Biztos, hogy aktív állapotba szeretnéd rakni a \"{{THERAPIST_NAME}}\" nevű terapeutát?",
+      "THERAPIST_ACTIVATED_SUCCESS": "A(z) \"{{THERAPIST_NAME}}\" terapeuta sikeresen aktiválva lett.",
+      "THERAPIST_ACTIVATE_FAILED": "Sikertelen terapeuta aktiválás",
+      "DELETE_THERAPIST_CONFIRM": "Biztos, hogy törölni szeretné a \"{{THERAPIST_NAME}}\" nevű terapeutát?",
+      "DELETE_THERAPIST_FINAL_CONFIRM": "Biztosan törlöd a terapeutát?<br><br>Amennyiben igen, egy új várólista bejegyzés fog létrejönni minden egyes érintett pácienshez, a legközelebbi időpontja alapján. Az események pedig törlésre kerülnek.<br><br>Ha a törlendő eseményhez nem tartozik kezelés, akkor a várólistás elem is kezelés nélkül fog létrejönni, viszont megjegyzésben fog szerepelni a törölt esemény hossza!",
+      "THERAPIST_DELETE_SUCCESS": "A(z) \"{{THERAPIST_NAME}}\" terapeuta sikeresen törölve lett.",
+      "THERAPIST_DELETE_ERROR": "Hiba a(z) \"{{THERAPIST_NAME}}\" terapeuta törlése során.",
+      "LOGIN_AS_USER_CONFIRM": "Szeretnél átjelentkezni a \"{{THERAPIST_NAME}}\" nevű felhasználóhoz?"
+    }
   }
 }
