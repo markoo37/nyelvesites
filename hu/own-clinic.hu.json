@@ -186,16 +186,40 @@
             },
             "SMS_TEMPLATES" : {
               "EVENT_DATE_REMINDER" : {
-                "TAB_TITLE" : "Időpont emlékeztető"
+                "TAB_TITLE" : "Időpont emlékeztető",
+                "TITLE": "Időpont emlékeztető SMS",
+                "PREVIEW" : "SMS előnézete",
+                "CONTENT": "Az SMS szövege",
+                "SCHEDULE_TITLE": "Időpont emlékeztető sms kiküldése a következő időpontokban",
+                "SCHEDULE_TOOLTIP": "Az itt megadott időpontokban a rendszer emlékeztető SMS-t fog küldeni a páciensnek (a fent beállított szöveggel), a közelgő kezelésének az időpontjáról. Maximum 6. emlékeztető SMS-t tudsz beütemezni.\n\nAz első sorban add meg, hogy a kezelés napján hány órakor szeretnél SMS-t küldeni a pácienseinek. (Ha nem szeretne ilyet beállítani, akkor az óra és a perc értéket állítsa be '-' értékre.)\n\nA további sorokban beállíthatod, hogy a kezelést megelőző napokon, hány óra hány hány perckor szeretnél e-mailt küldeni a páciensnek.\n\nHa a kezelést megelőző napot nem állítod be egy adott sorban (tehát kötőjelet választasz a legördülő listában), akkor ahhoz a sorhoz nem fog ütemezett időpontemlékezető SMS kiküldésre kerülni (függetlenül attól, hogy az óra és a perc mezők kitöltésre kerültek-e).",
+                "DAY_TODAY": "A kezelés napján",
+                "DAY_PREFIX": "A kezelést megelőző",
+                "DAY_SUFFIX": "napon",
+                "HOUR": "óra",
+                "MINUTE_AT": "perckor"
               },
-              "NEW_EVENT_DATE" : {
-                "TAB_TITLE" : "Új időpont rögzítése"
+              "NEW_EVENT_DATE": {
+                "TAB_TITLE" : "Új időpont rögzítése",
+                "TITLE": "Új időpont SMS",
+                "PREVIEW": "SMS előnézete",
+                "CONTENT": "Az SMS szövege"
               },
-              "DELETE_EVENT_DATE" : {
-                "TAB_TITLE" : "Időpont törlése"
+              "DELETE_EVENT_DATE": {
+                "TAB_TITLE" : "Időpont törlése",
+                "TITLE": "Törölt időpont SMS",
+                "PREVIEW": "SMS előnézete",
+                "CONTENT": "Az SMS szövege"
               },
-              "EDIT_EVENT_DATE" : {
-                "TAB_TITLE"  : "Időpont módosítása"
+              "EDIT_EVENT_DATE": {
+                "TAB_TITLE" : "Időpont módosítása",
+                "TITLE": "Módosított időpont SMS",
+                "PREVIEW": "SMS előnézete",
+                "CONTENT": "Az SMS szövege"
+              },
+              "TEMPLATE_PREVIEW_DIALOG" : {
+                "CARD_TITLE" : "SMS előnézete",
+                "SMS" : "SMS",
+                "TEMPLATE_VARIABLES_PREVIEW_TOOLTIP": "Az SMS-ed az alábbi módon fog kinézni, abban az esetben, ha a következő adatokat helyettesítjük be:\n\nPáciens neve: {{patientName}}\nKezelés időpontja: {{treatmentDateTime}}\nKezelőhelyiség címe: {{treatmentRoomAddress}}"
               }
             },
             "SAVE_BUTTON_TEXT" : "Mentés",
@@ -216,6 +240,12 @@
             "EXPORT_TO_EXCEL" : "Páciens adatok exportálása Excel fájlként",
             "BAN_PATIENT_PROFILE_PAGE" : "Páciens profil oldal tiltása",
             "ENABLE_PATIENT_PROFILE_PAGE" : "Páciens profil oldal engedélyezése",
+            "PATIENT_ABLE_TO_SEE_VISITS" : "Páciens lássa a vizsgálatokat",
+            "PATIENT_UNABLE_TO_SEE_VISITS" : "Páciens ne lássa a vizsgálatokat",
+            "SHARE_PATIENT" : "Páciens megosztása",
+            "EDIT_PATIENT" : "Páciens szerkesztése",
+            "SUSPEND_PATIENT" : "Páciens felfüggesztése",
+            "SET_PATIENT_EVALUATION" : "Páciens értékelés beállítása",
             "TERMS_AND_CONDITIONS_ACCEPTED" : "i-Clinic használatát szabályozó felhasználási feltételeket elfogadta?"
           },
           "TABLE_HEADERS" : {
@@ -253,6 +283,11 @@
           "TITLE" : "Várólistás páciensek",
           "FILTER_THERAPIST_DROPDOWN_PLACEHOLDER" : "Terapeuta szűrés",
           "SEARCH_PLACEHOLDER" : "Keresés",
+          "ADD_BUTTON_TEXT" : "Hozzáadás",
+          "TOOLTIPS" : {
+            "EDIT" : "Szerkesztés",
+            "DELETE" : "Törlés"
+          },
           "TABLE_HEADERS" : {
             "PATIENT" : "Páciens",
             "THERAPIST" : "Terapeuta",
@@ -389,6 +424,43 @@
               },
               "SAVE_BUTTON_TEXT" : "Mentés"
             }
+          },
+          "MEMBERSHIP_TYPES" : {
+            "TAB_TITLE" : "Bérlettípusok",
+            "MEMBERSHIP_TYPES_TABLE" : {
+              "CARD_TITLE" : "Bérlettípusok",
+              "SEARCH_PLACEHOLDER" : "Keresés",
+              "TABLE_HEADERS" : {
+                "MEMBERSHIP_TYPE_NAME" : "Bérlettípus neve",
+                "NUMBER_OF_INSTANCES" : "Alkalmak száma",
+                "PRICE" : "Ár",
+                "VALID_TIME" : "Érvényesség ideje",
+                "SOLO_CLASS" : "Egyéni óra",
+                "GROUP_CLASS" : "Csoportos óra",
+                "OPERATIONS" : "Műveletek"
+              },
+              "DELETE_MEMBERSHIP_TYPE_TOOLTIP" : "Bérlettípus törlése",
+              "ADD_MEMBERSHIP_TYPE_BUTTON_TEXT" : "Bérlettípus hozzáadása",
+              "PAGINATOR_INFO" : "Klinika / oldal"
+            },
+            "TREATMENTS_AND_MEMBERSHIPS_TABLE" : {
+              "CARD_TITLE" : "Kezelések és bérletek",
+              "SEARCH_PLACEHOLDER" : "Keresés",
+              "TABLE_HEADERS" : {
+                "MEMBERSHIP_TYPE_NAME" : "Bérlettípus neve",
+                "NUMBER_OF_INSTANCES" : "Alkalmak száma",
+                "PRICE" : "Ára",
+                "VALID_TIME" : "Érvényesség idő",
+                "SOLO" : "Egyéni",
+                "GROUP" : "Csoportos",
+                "REMEDIAL_MASSAGE" : "Gyógymasszázs"
+              },
+              "TOOLTIPS" : {
+                "REMEDIAL_MASSAGE" : "Gyógymasszázs",
+                "INFO_CHECKBOX" : "A bérlet Gyógymasszázs kezelésre az alábbi terapeutáknál használható fel"
+              },
+              "SAVE_BUTTON_TEXT" : "Mentés"
+            }
           }
         }
       },
@@ -500,6 +572,7 @@
           }
         }
       }
-    }
+    },
+    "SYSTEM_NOTIFICATIONS" : {}
   }
 }
