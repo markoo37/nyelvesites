@@ -1,0 +1,26 @@
+{
+  "TEMPLATE_EDITOR": {
+    "FONT_SIZE": "Betűméret",
+    "SMALL": "Kicsi",
+    "NORMAL": "Normál",
+    "LARGE": "Nagy",
+    "HUGE": "Hatalmas",
+    "BOLD": "Félkövér",
+    "ITALIC": "Dőlt",
+    "UNDERLINE": "Aláhúzott",
+    "STRIKE": "Áthúzott",
+    "COLOR": "Betűszín",
+    "BACKGROUND": "Háttérszín",
+    "SUBSCRIPT": "Alsó index",
+    "SUPERSCRIPT": "Felső index",
+    "HEADER1": "Címsor 1",
+    "HEADER2": "Címsor 2",
+    "ORDERED_LIST": "Számozás",
+    "BULLET_LIST": "Felsorolás",
+    "OUTDENT": "Behúzás csökkentése",
+    "INDENT": "Behúzás növelése",
+    "ALIGN": "Igazítás",
+    "LINK": "Hivatkozás",
+    "CLEAN": "Formázás törlése"
+  }
+}

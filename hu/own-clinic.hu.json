@@ -67,30 +67,6 @@
               }
             },
             "EMAIL_TEMPLATES": {
-              "TEMPLATE_EDITOR": {
-                "FONT_SIZE": "Betűméret",
-                "SMALL": "Kicsi",
-                "NORMAL": "Normál",
-                "LARGE": "Nagy",
-                "HUGE": "Hatalmas",
-                "BOLD": "Félkövér",
-                "ITALIC": "Dőlt",
-                "UNDERLINE": "Aláhúzott",
-                "STRIKE": "Áthúzott",
-                "COLOR": "Betűszín",
-                "BACKGROUND": "Háttérszín",
-                "SUBSCRIPT": "Alsó index",
-                "SUPERSCRIPT": "Felső index",
-                "HEADER1": "Címsor 1",
-                "HEADER2": "Címsor 2",
-                "ORDERED_LIST": "Számozás",
-                "BULLET_LIST": "Felsorolás",
-                "OUTDENT": "Behúzás csökkentése",
-                "INDENT": "Behúzás növelése",
-                "ALIGN": "Igazítás",
-                "LINK": "Hivatkozás",
-                "CLEAN": "Formázás törlése"
-              },
               "TEMPLATE_VARIABLES_TEXTS" : {
                 "WITH_SUBJECT": "A következő változókat tudod beilleszteni a levél szövegébe és tárgyába:",
                 "WITHOUT_SUBJECT": "A következő változókat tudod beilleszteni a levél szövegébe:",
@@ -382,6 +358,7 @@
           },
           "PRIVACY_POLICY_TABLE" : {
             "TAB_TITLE" : "Adatvédelmi tájékoztató",
+            "EDIT_HERE_PLACEHOLDER" : "Itt lehet szerkeszteni az adatkezelési tájékoztatót...",
             "TABLE_HEADERS" : {
               "LAST_MODIFIED_BY" : "Utoljára módosította",
               "MODIFICATION_DATE" : "Módosítás dátuma",
@@ -412,6 +389,37 @@
               "DELETE_TREATMENT_TOOLTIP" : "Kezelés törlése",
               "CLINIC_TABLE_PAGINATOR_TEXT" : "Klinika / oldal",
               "ADD_TREATMENT_BUTTON_TEXT" : "Kezelés hozzáadása"
+            },
+            "ADD_TREATMENT_DIALOG": {
+              "TITLE": "Kezelés létrehozása",
+              "FIELDS": {
+                "NAME": {
+                  "PLACEHOLDER": "Kezelés neve"
+                },
+                "DURATION": {
+                  "PLACEHOLDER": "Időtartam"
+                },
+                "PRICE": {
+                  "PLACEHOLDER": "Ár",
+                  "TOOLTIP": "A kezelés ára nem lehet nagyobb, mint 9.999.999"
+                },
+                "CURRENCY": {
+                  "PLACEHOLDER": "Pénznem"
+                },
+                "IS_GROUP_CLASS": {
+                  "TEXT": "A kezelés egy csoportos foglalkozás?"
+                },
+                "MAX_PATIENT_COUNT": {
+                  "PLACEHOLDER": "Mennyi lehet a csoportos foglalkozás maximális létszáma?"
+                }
+              },
+              "ERRORS": {
+                "MIN_GROUP_SIZE": "Csoportos kezelés esetén a minimális létszám 2."
+              },
+              "ACTIONS": {
+                "CANCEL_BUTTON_TEXT": "Mégsem",
+                "SAVE_BUTTON_TEXT": "Mentés"
+              }
             },
             "THERAPISTS_AND_THEIR_TREATMENTS_CARD" : {
               "TITLE" : "Terapeuták és kezeléseik",
@@ -616,7 +624,65 @@
       "DELETE_THERAPIST_FINAL_CONFIRM": "Biztosan törlöd a terapeutát?<br><br>Amennyiben igen, egy új várólista bejegyzés fog létrejönni minden egyes érintett pácienshez, a legközelebbi időpontja alapján. Az események pedig törlésre kerülnek.<br><br>Ha a törlendő eseményhez nem tartozik kezelés, akkor a várólistás elem is kezelés nélkül fog létrejönni, viszont megjegyzésben fog szerepelni a törölt esemény hossza!",
       "THERAPIST_DELETE_SUCCESS": "A(z) \"{{THERAPIST_NAME}}\" terapeuta sikeresen törölve lett.",
       "THERAPIST_DELETE_ERROR": "Hiba a(z) \"{{THERAPIST_NAME}}\" terapeuta törlése során.",
-      "LOGIN_AS_USER_CONFIRM": "Szeretnél átjelentkezni a \"{{THERAPIST_NAME}}\" nevű felhasználóhoz?"
+      "LOGIN_AS_USER_CONFIRM": "Szeretnél átjelentkezni a \"{{THERAPIST_NAME}}\" nevű felhasználóhoz?",
+      "TAB_NOT_SAVED_WARNING" : "A <i>{{tabLabel}}</i> nem lett elmentve. Biztosan folytatod?",
+      "THERAPISTS_AND_TREATMENTS_NOT_SAVED_WARNING" : "<i>A terapeuták és kezeléseik</i> nem lett elmentve. Biztosan folytatod?",
+      "TREATMENTS_AND_MEMBERSHIPS_NOT_SAVED_WARNING" : "<i>A kezelések és bérletek</i> nem lett elmentve. Biztosan folytatod?",
+      "CLINIC_CREATE_SUCCESS" : "A(z) {{clinicName}} klinika létrejött.",
+      "CLINIC_UPDATE_SUCCESS" : "A(z) {{clinicName}} klinika frissült.",
+      "CLINIC_SAVE_ERROR" : "Hiba a klinika mentése során.",
+      "DELETE_TREATMENT_ROOM_CONFIRM" : "Biztos, hogy törölni szeretné a \"{{roomName}}\" nevű kezelőhelyiséget?",
+      "DELETE_TREATMENT_ROOM_SUCCESS" : "A(z) \"{{roomName}}\" kezelőhelyiség sikeresen törölve lett.",
+      "DELETE_TREATMENT_ROOM_ERROR" : "Hiba a(z) \"{{roomName}}\" kezelőhelyiség törlése során.",
+      "NO_CLINIC_DEFINED_TO_ROOM" : "Nincs definiálva a klinika a helyiséghez.",
+      "CREATE_NEW_TREATMENT_ROOM" : "Új kezelőhelyiség létrehozása",
+      "EDIT_TREATMENT_ROOM" : "Kezelőhelyiség szerkesztése",
+      "OPERATION_NOT_SAVED_CONFIRM" : "A(z) <i>{{operation}}</i> nem lett elmentve. Biztosan folytatod?",
+      "TREATMENT_ROOM_SAVE_SUCCESS" : "A(z) \"{{name}}\" kezelőhelyiség létrejött.",
+      "TREATMENT_ROOM_UPDATE_SUCCESS" : "A(z) \"{{name}}\" kezelőhelyiség frissült.",
+      "TREATMENT_ROOM_SAVE_ERROR" : "Hiba a kezelőhelyiség mentése során.",
+      "CONFIRM_PUBLISH_PRIVACY_POLICY" : "Biztosan publikálja az adatkezelési tájékoztatót?",
+      "PRIVACY_POLICY_PATIENT_ACCEPT_QUESTION" : "Szeretné, hogy a pácienseknek el kelljen fogadniuk az adatkezelési tájékoztató módosításait?<br><br>Ha igen, akkor a terapeuták addig nem tudnak adatbekérőt kiküldeni és vizsgálatot felvenni a pácienshez, amíg az adott páciens el nem fogadja a frissített adatkezelési tájékoztatót!",
+      "PRIVACY_POLICY_PUBLISH_SUCCESS" : "Az adatkezelési tájékoztató sikeresen publikálva",
+      "PRIVACY_POLICY_PUBLISH_ERROR" : "Hiba az adatkezelési tájékoztató pubklikálása közben",
+      "PRIVACY_POLICY_FETCH_ERROR" : "Sikertelen adatkezelési tájékoztató lekérés",
+      "DEFAULT_PRIVACY_POLICY_FETCH_ERROR" : "Sikertelen alapértelmezett adatkezelési tájékoztató lekérés",
+      "PRIVACY_POLICY_SAVE_SUCCESS" : "Sikeres adatkezelési tájékoztató mentés",
+      "PRIVACY_POLICY_SAVE_ERROR" : "Sikertelen adatkezelési tájékoztató mentés",
+      "THERAPIST_FETCH_FAILED": "Sikertelen terapeuta lekérdezés",
+      "THERAPIST_TREATMENTS_UPDATE_ERROR": "Hiba a terapeuta kezelések módosítása közben",
+      "THERAPISTS_TREATMENTS_NOT_SAVED_CONFIRM": "A <i>Terapeuták és kezeléseik</i> nem lettek elmentve. Biztosan folytatod?",
+      "CREATE_TREATMENT_NOT_SAVED_CONFIRM": "A <i>Kezelés létrehozása</i> nem lett elmentve. Biztosan folytatod?",
+      "INVALID_MINUTES_IN_DURATION": "A kezelési időben a perc nem lehet több mint 59",
+      "TREATMENT_CREATE_SUCCESS": "Sikeres kezelés létrehozás",
+      "TREATMENT_SAVE_ERROR": "Hiba a kezelés mentése során",
+      "DATA_LOAD_FAILED": "Sikertelen adatbetöltés",
+      "MEMBERSHIP_CANT_BE_CONNECTED_WITH_TREATMENT_ERROR" : "A bérlet nem kapcsolható össze a kezeléssel az egyéni/csoportos beállítások eltérése miatt.",
+      "TREATMENT_NOT_ASSIGNED_TO_THERAPIST" : "A kezelés nincs terapeutához rendelve.",
+      "THE_MEMBERSHIP_CAN_BE_USED_WITH_THE_FOLLOWING_THERAPISTS_FOR_THIS_TREATMENT" : "A bérlet {{treatmentName}} kezelésre az alábbi terapeutáknál használható fel: \n",
+      "ADD_MEMBERSHIP_TYPE_NOT_SAVED_CONFIRM" : "A <i>Bérlettípus hozzáadása</i> nem lett elmentve. Biztosan folytatod?",
+      "SETTINGS_NOT_SAVED" : "Az <i>{{string}} beállítások</i> nem lettek elmentve. Biztosan folytatod?",
+      "TAB_NOT_SAVED_CONFIRM" : "A(z) <i>{{tabLabel}}{{userAuthTabLabel}}</i> nem lettek elmentve. Biztosan folytatod?",
+      "CLINIC_SETTINGS_FETCH_ERROR" : "Sikertelen klinika beállítások lekérdezés",
+      "CLINIC_SETTINGS_NOT_SAVED_CONFIRM" : "Az <i>Klinika beállítások</i> nem lettek elmentve. Biztosan folytatod?",
+      "CLINIC_SETTINGS_SAVE_SUCCESS" : "Sikeres klinika beállítások mentés",
+      "CLINIC_SETTINGS_SAVE_ERROR" : "Hiba a klinika beállítások mentése során",
+      "THE_MODIFICATIONS_WILL_TAKE_EFFECT_AFTER_NEXT_LOGIN" : "A módosított beállítások, a következő bejelentkezést követően fognak érvénybe lépni",
+      "USER_AUTHORITIES_NOT_SAVED_CONFIRM" : "A <i>Felhasználói jogosultságok ({{tabLabel}})</i> nem lettek elmentve. Biztosan folytatod?",
+      "CAN_NOT_TAKE_PERMISSION_BECAUSE_OF_DEPENDENCY" : "A '{{localisedDependency}}' függőség miatt nem lehet elvenni a jogot",
+      "PERMISSION_UPDATE_SUCCESS" : "A jogosultságok frissítése sikeresen megtörtént.",
+      "PERMISSION_UPDATE_ERROR" : "Hiba a jogosultságok mentése során.",
+      "PERMISSION_MODIFICATIONS_WILL_TAKE_EFFECT_AFTER_NEXT_LOGIN" : "A módosított jogosultságok, a következő bejelentkezést követően fognak érvénybe lépni",
+      "USER_PERMISSION_FETCH_ERROR" : "Hiba a felhasználók és jogosultságok lekérése közben!",
+      "SZAMLAZZ_HU_URL_FETCH_ERROR" : "Sikertelen Számlázz.hu URL lekérdezés",
+      "CLINIC_DATA_FETCH_ERROR" : "Sikertelen klinika adatok lekérdezés",
+      "ORDER_DATA_FETCH_ERROR" : "Sikertelen rendelési adatok lekérdezés",
+      "CANCEL_SUBSCRIPTION_CONFIRM" : "Biztosan szeretnéd lemondani az előfizetést?<br>Ha igen, a már kifizetett megrendelés lejártával beállítjuk a szolgáltatás végét.",
+      "ORDER_MODIFICATION_NOT_SENT_CONFIRM" : "A <i>Megrendelés módosítása</i> nem lett elküldve. Biztosan folytatod?",
+      "MODIFICATION_REQUEST_SEND_SUCCESS" : "Módosítási kérés sikeresen beküldve",
+      "MODIFICATION_REQUEST_SEND_ERROR" : "Módosítási kérés beküldése sikertelen",
+      "SUBSCRIPTION_INFO_AFTER_CANCEL" : "Az aktuális előfizetésed {{subscriptionDate}} dátumig tart, a szolgáltatás ezt követően szűnik meg.<br>Addig viszont működik és használni tudod a rendszert.",
+      "SUBSCRIPTION_CANCEL_ERROR" : "Sikertelen lemondás"
     }
   }
 }

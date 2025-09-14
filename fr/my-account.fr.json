@@ -1,41 +1,41 @@
 {
-  "MY_ACCOUNT" : {
-    "BREADCRUMB" : {
-      "TITLE" : {
-        "DASHBOARD" : "Kezdőlap",
-        "PERSONAL_DATA": "Személyes adatok",
-        "EXERCISES" : "Gyakorlatok",
-        "SURVEYS" : "Vizsgálati lapok",
-        "EESZT_DATA" : "EESZT adatok",
-        "CUSTOM_BILLING_SETTINGS" : "Saját számlázási beállítások",
-        "DATA_PRIVACY" : "Adatvédelem"
+  "MY_ACCOUNT": {
+    "BREADCRUMB": {
+      "TITLE": {
+        "DASHBOARD": "MY_ACCOUNT.BREADCRUMB.TITLE.DASHBOARD",
+        "PERSONAL_DATA": "MY_ACCOUNT.BREADCRUMB.TITLE.PERSONAL_DATA",
+        "EXERCISES": "MY_ACCOUNT.BREADCRUMB.TITLE.EXERCISES",
+        "SURVEYS": "MY_ACCOUNT.BREADCRUMB.TITLE.SURVEYS",
+        "EESZT_DATA": "MY_ACCOUNT.BREADCRUMB.TITLE.EESZT_DATA",
+        "CUSTOM_BILLING_SETTINGS": "MY_ACCOUNT.BREADCRUMB.TITLE.CUSTOM_BILLING_SETTINGS",
+        "DATA_PRIVACY": "MY_ACCOUNT.BREADCRUMB.TITLE.DATA_PRIVACY"
       },
-      "SEARCH" : {
-        "INPUT_PLACEHOLDER" : {
-          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+      "SEARCH": {
+        "INPUT_PLACEHOLDER": {
+          "SEARCH_FOR_PATIENT": "MY_ACCOUNT.BREADCRUMB.SEARCH.INPUT_PLACEHOLDER.SEARCH_FOR_PATIENT"
         },
-        "TOOLTIPS" : {
-          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        "TOOLTIPS": {
+          "SEARCH_FOR_PATIENT": "MY_ACCOUNT.BREADCRUMB.SEARCH.TOOLTIPS.SEARCH_FOR_PATIENT"
         }
       }
     },
-    "SIDEBAR" : {
-      "TAB_TEXT" : {
-        "PERSONAL_DATA": "Személyes adatok",
-        "EXERCISES" : "Gyakorlatok",
-        "SURVEYS" : "Vizsgálati lapok",
-        "EESZT_DATA" : "EESZT adatok",
-        "CUSTOM_BILLING_SETTINGS" : "Saját számlázási beállítások",
-        "DATA_PRIVACY" : "Adatvédelem"
+    "SIDEBAR": {
+      "TAB_TEXT": {
+        "PERSONAL_DATA": "MY_ACCOUNT.SIDEBAR.TAB_TEXT.PERSONAL_DATA",
+        "EXERCISES": "MY_ACCOUNT.SIDEBAR.TAB_TEXT.EXERCISES",
+        "SURVEYS": "MY_ACCOUNT.SIDEBAR.TAB_TEXT.SURVEYS",
+        "EESZT_DATA": "MY_ACCOUNT.SIDEBAR.TAB_TEXT.EESZT_DATA",
+        "CUSTOM_BILLING_SETTINGS": "MY_ACCOUNT.SIDEBAR.TAB_TEXT.CUSTOM_BILLING_SETTINGS",
+        "DATA_PRIVACY": "MY_ACCOUNT.SIDEBAR.TAB_TEXT.DATA_PRIVACY"
       }
     },
-    "TABS" : {
-      "PERSONAL_DATA" : {},
-      "EXERCISES" : {},
-      "SURVEYS" : {},
-      "EESZT_DATA" : {},
-      "CUSTOM_BILLING_SETTINGS" : {},
-      "DATA_PRIVACY" : {}
+    "TABS": {
+      "PERSONAL_DATA": {},
+      "EXERCISES": {},
+      "SURVEYS": {},
+      "EESZT_DATA": {},
+      "CUSTOM_BILLING_SETTINGS": {},
+      "DATA_PRIVACY": {}
     }
   }
 }

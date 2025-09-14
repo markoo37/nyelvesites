@@ -1,22 +1,22 @@
 {
-  "EESZT" : {
-    "BREADCRUMB" : {
-      "TITLE" : {
-        "DASHBOARD" : "Kezdőlap",
-        "EESZT_DATA_SERVICE" : "EESZT adatszolgáltatás"
+  "EESZT": {
+    "BREADCRUMB": {
+      "TITLE": {
+        "DASHBOARD": "EESZT.BREADCRUMB.TITLE.DASHBOARD",
+        "EESZT_DATA_SERVICE": "EESZT.BREADCRUMB.TITLE.EESZT_DATA_SERVICE"
       },
-      "SEARCH" : {
-        "INPUT_PLACEHOLDER" : {
-          "SEARCH_FOR_PATIENT" : "Páciens keresése"
+      "SEARCH": {
+        "INPUT_PLACEHOLDER": {
+          "SEARCH_FOR_PATIENT": "EESZT.BREADCRUMB.SEARCH.INPUT_PLACEHOLDER.SEARCH_FOR_PATIENT"
         },
-        "TOOLTIPS" : {
-          "SEARCH_FOR_PATIENT" : "Páciens keresés"
+        "TOOLTIPS": {
+          "SEARCH_FOR_PATIENT": "EESZT.BREADCRUMB.SEARCH.TOOLTIPS.SEARCH_FOR_PATIENT"
         }
       }
     },
-    "TABS" : {
-      "DATA_PROVISION" : {},
-      "QUERY_DATA_PROVISION" : {}
+    "TABS": {
+      "DATA_PROVISION": {},
+      "QUERY_DATA_PROVISION": {}
     }
   }
 }
