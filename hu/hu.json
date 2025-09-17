@@ -1361,6 +1361,56 @@
     }
   },
 
+  "THERAPIST_VIEW_COMPONENT" : {
+    "BREADCRUMB": "Munkatárs megtekintése",
+    "THERAPIST_DATA_CARD" : {
+      "TITLES" : {
+        "RECEPTIONIST_DATA" : "Recepciós adatai",
+        "THERAPIST_DATA" : "Terapeuta adatai"
+      },
+      "AUTHORITIES" : {
+        "THERAPIST" : "Terapeuta",
+        "RECEPTIONIST" : "Recepciós",
+        "CLINIC_ADMIN" : "Klinika admin",
+        "UNKNOWN" : "Ismeretlen"
+      },
+      "EDIT_DATA_ICON_TOOLTIP" : "Adatok szerkesztése",
+      "FIELDS" : {
+        "LAST_LOGIN" : "Utolsó bejelentkezés",
+        "AUTHORITY" : "Jogosultság",
+        "AREA_OF_SPECIALIZATION" : "Szakterület",
+        "AUTHORITY_NUMBER" : "Engedélyszám",
+        "ADDRESS" : "Lakcím",
+        "MOBILE_NUMBER" : "Telefonszám",
+        "EMAIL" : "E-mail",
+        "BIRTHDATE" : "Születési dátum"
+      }
+    },
+    "THERAPIST_TREATMENTS_CARD" : {
+      "TITLES" : {
+        "TREATMENT_OF_THERAPIST" : "{{therapist}} kezelései",
+        "MY_TREATMENTS" : "Kezeléseim"
+      },
+      "ICON_TOOLTIP" : "Kezelések megtekintése",
+      "TABLE_HEADERS" : {
+        "TREATMENT_NAME" : "Kezelés neve",
+        "DURATION" : "Időtartam",
+        "PRICE" : "Ár",
+        "IS_GROUP_CLASS" : "Csoportos foglalkozás",
+        "MAX_CAPACITY" : "Max férőhely"
+      }
+    },
+    "THERAPIST_CALENDAR_COMPONENT" : {
+      "TITLES" : {
+        "CONSULTING_HOURS" : "Rendelési idő",
+        "CONSULTING_HOURS_EVEN_WEEK" : "Rendelési idő - Páros hét",
+        "CONSULTING_HOURS_ODD_WEEK" : "Rendelési idő - Páratlan hét"
+      },
+      "WARNING_TEXT" : "Rendelési idő módosításakor kérjük ellenőrizze a korábban felvett, jövőbeni kezelési időpontjait, mert  elképzelhető, hogy az újonnan beállított rendelési időn kívülre eshetnek.",
+      "BREAKS" : "Szünetek"
+    }
+  },
+
   "PAGE_HEADER" : {
     "DASHBOARD" : "Kezdőlap",
     "MY_PATIENTS" : "Pácienseim",
@@ -1446,6 +1496,129 @@
     "REPS" : "Ismétlések",
     "PICTURES" : "Képek",
     "VIDEOS" : "Videók "
+  },
+
+  "SURVEYS" : {
+    "EDIT_SURVEYS_COMPONENT" : {
+      "SURVEY_ELEMENT_SELECTOR" : {
+        "SECTIONS": {
+          "FORM_ELEMENTS_TITLE": "Űrlap elemek",
+          "PATIENT_DATA_TITLE": "Páciens adatai",
+          "PATIENT_DATA_INFO_TOOLTIP": "Az alábbi kérdéstípusok válaszai a kitöltést követően automatikusan átmásolódnak a páciens adatai közé."
+        },
+        "COMMON": {
+          "ADD": "Hozzáadás"
+        },
+        "FORM_ELEMENTS": {
+          "TITLE_AND_DESCRIPTION": {
+            "DISPLAY_NAME": "Cím és leírás",
+            "TOOLTIP": "Cím és leírás a vizsgálati laphoz. Kitöltés közben már nem szerkeszthető."
+          },
+          "PARAGRAPH": {
+            "DISPLAY_NAME": "Leírás/Tájékoztató",
+            "TOOLTIP": "Kérdésekhez adható tájékoztató szöveg. Kitöltés közben már nem szerkeszthető."
+          },
+          "SINGLE_CHOICE": {
+            "DISPLAY_NAME": "Felelet választó",
+            "TOOLTIP": "Kitöltéskor egy válasz választható ki."
+          },
+          "DROP_DOWN": {
+            "DISPLAY_NAME": "Legördülő lista",
+            "TOOLTIP": "Kitöltéskor egy válasz választható ki."
+          },
+          "SHORT_ANSWER": {
+            "DISPLAY_NAME": "Szöveges válasz",
+            "TOOLTIP": "Kitöltéskor beírható szöveges válasz."
+          },
+          "LONG_ANSWER": {
+            "DISPLAY_NAME": "Hosszú szöveges válasz",
+            "TOOLTIP": "Kitöltéskor beírható hosszabb szöveges válasz."
+          },
+          "DATE_PICKER": {
+            "DISPLAY_NAME": "Dátum választó",
+            "TOOLTIP": "Kitöltéskor naptári nap kiválasztása."
+          },
+          "MULTIPLE_CHOICE": {
+            "DISPLAY_NAME": "Jelölőnégyzetek",
+            "TOOLTIP": "Kitöltéskor több válasz is kiválasztható."
+          },
+          "LINEAR_SCALE": {
+            "DISPLAY_NAME": "Lineáris skála",
+            "TOOLTIP": "Kitöltéskor egy érték választható ki."
+          },
+          "CONDITION_ACCEPTOR": {
+            "DISPLAY_NAME": "Feltétel elfogadás",
+            "TOOLTIP": "A szerkesztéskor beírt szöveg elfogadtatása kitöltéskor."
+          },
+          "DRAWER": {
+            "DISPLAY_NAME": "Rajzoló",
+            "TOOLTIP": "A szerkesztéskor feltöltött képre lehet rajzolni a kitöltés során."
+          },
+          "PHOTO_AND_DRAWING": {
+            "DISPLAY_NAME": "Fotózás és rajzolás",
+            "TOOLTIP": "Kitöltéskor ezzel lehet először fotót készíteni, majd a fotóra rajzolni"
+          },
+          "IMAGE_UPLOAD": {
+            "DISPLAY_NAME": "Képfeltöltés",
+            "TOOLTIP": "Kitöltéskor ezzel lehet egy darab képet feltölteni."
+          },
+          "STATIC_TABLE": {
+            "DISPLAY_NAME": "Táblázat",
+            "TOOLTIP": "McKenzie és MGYFT vizsgálati lapok táblázatos kérdései"
+          },
+          "CUSTOM_TABLE": {
+            "DISPLAY_NAME": "Egyedi táblázat",
+            "TOOLTIP": "Egyedi táblázat létrehozása"
+          },
+          "SIGNATURE": {
+            "DISPLAY_NAME": "Aláírás",
+            "TOOLTIP": "Aláírás mező létrehozása"
+          }
+        },
+        "PATIENT_DATA_FIELDS": {
+          "LAST_NAME": "Vezetéknév",
+          "FIRST_NAME" : "Keresztnév",
+          "PHONE_NUMBER" : "Telefonszám",
+          "E_MAIL": "E-mail cím",
+          "HEALTH_ISSUE": "Egészségügyi probléma",
+          "BIRTH_DATE": "Születési idő",
+          "TITLE": "Megszólítás",
+          "MAIDEN_LAST_NAME": "Születéskori vezetéknév",
+          "MAIDEN_FIRST_NAME": "Születéskori keresztnév",
+          "PARENT_LAST_NAME": "Szülő vezetéknév",
+          "PARENT_FIRST_NAME": "Szülő keresztnév",
+          "COUNTRY": "Ország",
+          "POSTCODE": "Irányítószám",
+          "CITY": "Település",
+          "ADDRESS": "Cím",
+          "SOCIAL_SECURITY_NUMBER": "Azonosító (TAJ szám, Útevélszám, Európai biztosítási kártya, egyéb)",
+          "PROFESSION": "Foglalkozás"
+        }
+      },
+      "CANCEL_BUTTON_TEXT" : "Mégsem",
+      "SAVE_BUTTON_TEXT" : "Mentés",
+      "CARD_TITLE" : "Vizsgálati lap",
+      "FIELDS" : {
+        "SURVEY_TITLE_PLACEHOLDER" : "Vizsgálati lap címe",
+        "SURVEY_TYPE_PLACEHOLDER" : "Vizsgálati lap típusa",
+        "SURVEY_TYPES" : {
+          "GENERAL" : "Általános",
+          "PRELIMINARY_DATA_SHEET" : "Adatbekérő"
+        },
+        "AUTOMATIC_SENDOUT_CHECKBOX_TEXT" : "Automatikus küldés",
+        "AUTOMATIC_SENDOUT_TOOLTIP" : "A Klinikám / Klinika beállításoknál megadott",
+        "ADD_FIELDS_HELP" : "A kérdések hozzáadásához kattints a hozzáadni kívánt kérdés típusára. A felvett kérdést ezt követően tudod szerkeszteni.",
+        "OPERATIONS" : {
+          "NECESSARY" : "Kötelező",
+          "FILLING_OUT_IS_NECESSARY" : "A mező kitöltése kötelező",
+          "NECESSARY_FILLING" : "Kötelezően kitöltendő",
+          "DELETE" : "Törlés",
+          "COPY" : "Másolás",
+          "MOVE" : "Mozgatás",
+          "TITLE" : "Cím"
+        }
+      }
+    }
   },
 
   "MEDIA_UPLOAD_COMPONENT" : {
@@ -1685,6 +1858,13 @@
       "PERSONAL_DATA_SECTION" : {
         "TITLE" : "Személyes adatok",
         "FIELDS" : {
+          "USER_TYPE" : "Típus",
+          "USER_TYPES" : {
+            "THERAPIST" : "Terapeuta",
+            "PATIENT" : "Páciens",
+            "CLINIC_ADMIN" : "Klinika admin",
+            "CLINIC_RECEPTIONIST" : "Klinika recepciós"
+          },
           "LAST_NAME" : "Vezetéknév",
           "FIRST_NAME" : "Keresztnév",
           "SALUTATION" : "Megszólítás",
@@ -1694,7 +1874,9 @@
           "PARENT_LAST_NAME" : "Szülő vezetékneve",
           "PARENT_FIRST_NAME" : "Szülő keresztneve",
           "LANGUAGE" : "Nyelv",
-          "OCCUPATION" : "Foglalkozás"
+          "OCCUPATION" : "Foglalkozás",
+          "AUTHORISATION_NUMBER" : "Engedélyszám",
+          "AREA_OF_SPECIALIZATION" : "Szakterület"
         }
       },
       "CONTACT_DATA_SECTION" : {
@@ -1729,10 +1911,17 @@
       "SAFETY_DATA_SECTION" : {
         "TITLE" : "Biztonsági adatok",
         "USERNAME" : "Felhasználónév",
+        "USERNAME_TOOLTIP" : "Legalább 5 karakter. Kis-és nagybetűt, számot, pontot, kötőjel és aláhúzás karaktereket tartalmazhat. Nem tartalmazthat ékezetes betűt.",
         "PASSWORD" : "Jelszó",
         "PASSWORD_AGAIN" : "Jelszó mégegyszer",
         "EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
-        "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon."
+        "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon.",
+        "RESET_PASSWORD_BUTTON_TEXT" : "Jelszó visszaállítása"
+      },
+      "PERSONAL_SETTINGS" : {
+        "TITLE" : "Személyes beállítások",
+        "SHOW_INACTIVE_PATIENTS_DEFAULT_SETTING_CHECKBOX_TEXT" : "Inaktív páciensek alapértelmezetten látszódjanak keresésnél",
+        "CHECKBOX_HELP_TOOLTIP" : "A páciens gyorskeresőnél az 'Inaktív páciensek is látszódjanak' kapcsoló alapértelmezett értéke"
       }
     },
     "EDIT_PATIENT" : {
@@ -1745,6 +1934,13 @@
       "PERSONAL_DATA_SECTION" : {
         "TITLE" : "Személyes adatok",
         "FIELDS" : {
+          "USER_TYPE" : "Típus",
+          "USER_TYPES" : {
+            "THERAPIST" : "Terapeuta",
+            "PATIENT" : "Páciens",
+            "CLINIC_ADMIN" : "Klinika admin",
+            "CLINIC_RECEPTIONIST" : "Klinika recepciós"
+          },
           "LAST_NAME" : "Vezetéknév",
           "FIRST_NAME" : "Keresztnév",
           "SALUTATION" : "Megszólítás",
@@ -1754,7 +1950,9 @@
           "PARENT_LAST_NAME" : "Szülő vezetékneve",
           "PARENT_FIRST_NAME" : "Szülő keresztneve",
           "LANGUAGE" : "Nyelv",
-          "OCCUPATION" : "Foglalkozás"
+          "OCCUPATION" : "Foglalkozás",
+          "AUTHORISATION_NUMBER" : "Engedélyszám",
+          "AREA_OF_SPECIALIZATION" : "Szakterület"
         }
       },
       "CONTACT_DATA_SECTION" : {
@@ -1789,10 +1987,17 @@
       "SAFETY_DATA_SECTION" : {
         "TITLE" : "Biztonsági adatok",
         "USERNAME" : "Felhasználónév",
+        "USERNAME_TOOLTIP" : "Legalább 5 karakter. Kis-és nagybetűt, számot, pontot, kötőjel és aláhúzás karaktereket tartalmazhat. Nem tartalmazthat ékezetes betűt.",
         "PASSWORD" : "Jelszó",
         "PASSWORD_AGAIN" : "Jelszó mégegyszer",
         "EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
-        "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon."
+        "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon.",
+        "RESET_PASSWORD_BUTTON_TEXT" : "Jelszó visszaállítása"
+      },
+      "PERSONAL_SETTINGS" : {
+        "TITLE" : "Személyes beállítások",
+        "SHOW_INACTIVE_PATIENTS_DEFAULT_SETTING_CHECKBOX_TEXT" : "Inaktív páciensek alapértelmezetten látszódjanak keresésnél",
+        "CHECKBOX_HELP_TOOLTIP" : "A páciens gyorskeresőnél az 'Inaktív páciensek is látszódjanak' kapcsoló alapértelmezett értéke"
       }
     },
     "BREADCRUMB" : {
@@ -3391,6 +3596,10 @@
               }
             },
             "SMS_TEMPLATES" : {
+              "TEMPLATE_VARIABLES_TEXTS" : {
+                "YOU_CAN_PLACE_THESE_VARIABLES": "A következő változókat tudod beilleszteni az SMS szövegébe",
+                "TEMPLATE_VARIABLES_TOOLTIP": "A beillesztés mindig arra a helyre fog megtörténni, ahol állsz a kurzorral. A változók neveit be is gépeleheted a megfelelő pozícióba.\n\n    A következő változókat tudod beállítani ebben a templateben:\n    {{variablesList}}\n    Minden üzenetbe beillesztett változó helyén meg fog jelenni annak az értéke.\n    Pl. Ha ezt írod a baloldali szerkesztő nézetben:\n\n    Kedves {SYS_PATIENT_FIRST_NAME}! {SYS_CALENDAR_EVENT_TIME} időpontban várunk {SYS_TREATMENT_NAME} kezelésre. Cím: {SYS_TREATMENT_ROOM_ADDRESS}\n\n    Az így fog megjelenni Kovács Páciens Patrícia nevű páciensednek küldött sms-ben, aki 2020. 07. 20-án 9:00-ra érkezik manuál terápiára:\n\n    Kedves Patrícia! 2020. 07. 20-án 9:00 időpontban várunk Manuál terápia kezelésre. Cím: 6723 Szeged, Fecske u. 4. 2/8 102-es rendelő"
+              },
               "EVENT_DATE_REMINDER" : {
                 "TAB_TITLE" : "Időpont emlékeztető",
                 "TITLE": "Időpont emlékeztető SMS",
@@ -3532,6 +3741,160 @@
             "OPERATIONS" : "Műveletek"
           },
           "THERAPIST_TABLE_PAGINATOR_TEXT" : "Terapeuta / oldal"
+        },
+        "NEW_COLLEAGUE" : {
+          "HEADER_SECTION" : {
+            "GO_BACK_BUTTON_TEXT" : "Vissza",
+            "SAVE_BUTTON_TEXT" : "Mentés",
+            "TITLE" : "Új {{userTypeName}} rögzítése"
+          },
+          "BREADCRUMB" : "Munkatárs hozzáadása",
+          "PROFILE_PICTURE" : "Profilkép",
+          "PERSONAL_DATA_SECTION" : {
+            "TITLE" : "Személyes adatok",
+            "FIELDS" : {
+              "USER_TYPE" : "Típus",
+              "USER_TYPES" : {
+                "THERAPIST" : "Terapeuta",
+                "PATIENT" : "Páciens",
+                "CLINIC_ADMIN" : "Klinika admin",
+                "CLINIC_RECEPTIONIST" : "Klinika recepciós"
+              },
+              "LAST_NAME" : "Vezetéknév",
+              "FIRST_NAME" : "Keresztnév",
+              "SALUTATION" : "Megszólítás",
+              "BIRTH_LAST_NAME" : "Születéskori vezetéknév",
+              "BIRTH_FIRST_NAME" : "Születéskori keresztnév",
+              "BIRTH_DATE" : "Születési idő",
+              "PARENT_LAST_NAME" : "Szülő vezetékneve",
+              "PARENT_FIRST_NAME" : "Szülő keresztneve",
+              "LANGUAGE" : "Nyelv",
+              "OCCUPATION" : "Foglalkozás",
+              "AUTHORISATION_NUMBER" : "Engedélyszám",
+              "AREA_OF_SPECIALIZATION" : "Szakterület"
+            }
+          },
+          "CONTACT_DATA_SECTION" : {
+            "TITLE" : "Kapcsolattartási adatok",
+            "MOBILE_NUMBER" : "Telefonszám",
+            "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
+            "EMAIL" : "Email cím",
+            "THERAPISTS" : "Terapeuták"
+          },
+          "HEALTH_DATA_SECTION" : {
+            "TITLE" : "Egészségügyi adatok",
+            "ID_TYPE" : "Azonosító típusa",
+            "ID_TYPES" : {
+              "TAJ":"TAJ szám",
+              "CHILD": "2 hónapnál fiatalabb gyermek képzett TAJ száma",
+              "PASSPORT": "Útlevél szám ",
+              "IMMIGRANT_1": "Menedékes kérelmező, befogadó ig. száma",
+              "UNKNOWN": "Ismeretlen beteg",
+              "EU": "Európai egészségbiztosítási kártya",
+              "IMMIGRANT_2": "Menekült, menedékes és oltalmazott státusz kérelmezése előtt",
+              "ID": "Azonosító"
+            },
+            "DESCRIPTION_OF_PATIENT_PROBLEM" : "Egészségügyi probléma leírása"
+          },
+          "ADDRESS_SECTION" : {
+            "TITLE" : "Lakcím",
+            "COUNTRY" : "Ország",
+            "POST_CODE" : "Irányítószám",
+            "CITY" : "Település",
+            "ADDRESS" : "Lakcím"
+          },
+          "SAFETY_DATA_SECTION" : {
+            "TITLE" : "Biztonsági adatok",
+            "USERNAME" : "Felhasználónév",
+            "USERNAME_TOOLTIP" : "Legalább 5 karakter. Kis-és nagybetűt, számot, pontot, kötőjel és aláhúzás karaktereket tartalmazhat. Nem tartalmazthat ékezetes betűt.",
+            "PASSWORD" : "Jelszó",
+            "PASSWORD_AGAIN" : "Jelszó mégegyszer",
+            "EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+            "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon.",
+            "RESET_PASSWORD_BUTTON_TEXT" : "Jelszó visszaállítása"
+          },
+          "PERSONAL_SETTINGS" : {
+            "TITLE" : "Személyes beállítások",
+            "SHOW_INACTIVE_PATIENTS_DEFAULT_SETTING_CHECKBOX_TEXT" : "Inaktív páciensek alapértelmezetten látszódjanak keresésnél",
+            "CHECKBOX_HELP_TOOLTIP" : "A páciens gyorskeresőnél az 'Inaktív páciensek is látszódjanak' kapcsoló alapértelmezett értéke"
+          }
+        },
+        "EDIT_COLLEAGUE" : {
+          "HEADER_SECTION" : {
+            "GO_BACK_BUTTON_TEXT" : "Vissza",
+            "SAVE_BUTTON_TEXT" : "Mentés",
+            "TITLE" : "Adatok szerkesztése"
+          },
+          "BREADCRUMB" : "Munkatárs szerkesztése",
+          "PROFILE_PICTURE" : "Profilkép",
+          "PERSONAL_DATA_SECTION" : {
+            "TITLE" : "Személyes adatok",
+            "FIELDS" : {
+              "USER_TYPE" : "Típus",
+              "USER_TYPES" : {
+                "THERAPIST" : "Terapeuta",
+                "PATIENT" : "Páciens",
+                "CLINIC_ADMIN" : "Klinika admin",
+                "CLINIC_RECEPTIONIST" : "Klinika recepciós"
+              },
+              "LAST_NAME" : "Vezetéknév",
+              "FIRST_NAME" : "Keresztnév",
+              "SALUTATION" : "Megszólítás",
+              "BIRTH_LAST_NAME" : "Születéskori vezetéknév",
+              "BIRTH_FIRST_NAME" : "Születéskori keresztnév",
+              "BIRTH_DATE" : "Születési idő",
+              "PARENT_LAST_NAME" : "Szülő vezetékneve",
+              "PARENT_FIRST_NAME" : "Szülő keresztneve",
+              "LANGUAGE" : "Nyelv",
+              "OCCUPATION" : "Foglalkozás",
+              "AUTHORISATION_NUMBER" : "Engedélyszám",
+              "AREA_OF_SPECIALIZATION" : "Szakterület"
+            }
+          },
+          "CONTACT_DATA_SECTION" : {
+            "TITLE" : "Kapcsolattartási adatok",
+            "MOBILE_NUMBER" : "Telefonszám",
+            "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
+            "EMAIL" : "Email cím",
+            "THERAPISTS" : "Terapeuták"
+          },
+          "HEALTH_DATA_SECTION" : {
+            "TITLE" : "Egészségügyi adatok",
+            "ID_TYPE" : "Azonosító típusa",
+            "ID_TYPES" : {
+              "TAJ":"TAJ szám",
+              "CHILD": "2 hónapnál fiatalabb gyermek képzett TAJ száma",
+              "PASSPORT": "Útlevél szám ",
+              "IMMIGRANT_1": "Menedékes kérelmező, befogadó ig. száma",
+              "UNKNOWN": "Ismeretlen beteg",
+              "EU": "Európai egészségbiztosítási kártya",
+              "IMMIGRANT_2": "Menekült, menedékes és oltalmazott státusz kérelmezése előtt",
+              "ID": "Azonosító"
+            },
+            "DESCRIPTION_OF_PATIENT_PROBLEM" : "Egészségügyi probléma leírása"
+          },
+          "ADDRESS_SECTION" : {
+            "TITLE" : "Lakcím",
+            "COUNTRY" : "Ország",
+            "POST_CODE" : "Irányítószám",
+            "CITY" : "Település",
+            "ADDRESS" : "Lakcím"
+          },
+          "SAFETY_DATA_SECTION" : {
+            "TITLE" : "Biztonsági adatok",
+            "USERNAME" : "Felhasználónév",
+            "USERNAME_TOOLTIP" : "Legalább 5 karakter. Kis-és nagybetűt, számot, pontot, kötőjel és aláhúzás karaktereket tartalmazhat. Nem tartalmazthat ékezetes betűt.",
+            "PASSWORD" : "Jelszó",
+            "PASSWORD_AGAIN" : "Jelszó mégegyszer",
+            "EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+            "HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon.",
+            "RESET_PASSWORD_BUTTON_TEXT" : "Jelszó visszaállítása"
+          },
+          "PERSONAL_SETTINGS" : {
+            "TITLE" : "Személyes beállítások",
+            "SHOW_INACTIVE_PATIENTS_DEFAULT_SETTING_CHECKBOX_TEXT" : "Inaktív páciensek alapértelmezetten látszódjanak keresésnél",
+            "CHECKBOX_HELP_TOOLTIP" : "A páciens gyorskeresőnél az 'Inaktív páciensek is látszódjanak' kapcsoló alapértelmezett értéke"
+          }
         }
       },
       "EDIT_CLINIC" : {
