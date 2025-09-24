@@ -910,7 +910,21 @@
     "DESCRIPTION" : "Leírás",
     "GENERAL" : "Általános",
     "PARAGRAPH_TEXT" : "A vizsgálati laphoz, kérdéshez tartozó leírás, tájékoztató szövege. A vizsgálat közben már nem módosítható.",
-    "MULTIPLE_SHARE": " (Megosztotta: %s)"
+    "MULTIPLE_SHARE": " (Megosztotta: %s)",
+    "DURING_SURVEY_COMPLETION_CALENDAR_DAY" : "A vizsgálati lap kitöltése során itt lehet megadni egy naptári napon",
+    "STARTING_VALUE" : "Kezdőérték",
+    "ENDING_VALUE" : "Végérték",
+    "VALUES_CAN_ONLY_BE_INTEGERS_AND_STARTING_MUST_BE_LESS_THAN_ENDING" : "A kezdő és végérték csak egész szám lehet és a kezdőérték legyen kisebb, mint a végérték!",
+    "DURING_SURVEY_COMPLETION_TAKE_PHOTO_HERE_AND_DRAW_ON_IT" : "A vizsgálati lap kitöltése során itt lehet fotót készíteni, majd arra rajzolni",
+    "DURING_SURVEY_COMPLETION_UPLOAD_PICTURE_HERE" : "A vizsgálati lap kitöltése során itt tölthető fel kép",
+    "SELECT_TABLE" : "Táblázat kiválasztása",
+    "OPTION_TEXT" : "Válasz szövege",
+    "MOVE_TOOLTIP" : "Mozgatás",
+    "DELETE_TOOLTIP" : "Törlés",
+    "ADD_RESPONSE" : "Válasz hozzáadása",
+    "NECESSARY_DATA_BUT_NO_CHOICE_GIVEN" : "Kötelező adat, viszont nincs megadva választási lehetőség!",
+    "DURING_SURVEY_COMPLETION_SHORT_ANSWER_PLACE" : "Vizsgálati lap kitöltése során megadható rövid szöveges válasz helye",
+    "DURING_SURVEY_COMPLETION_LONG_ANSWER_PLACE" : "Vizsgálati lap kitöltése során megadható hosszú szöveges válasz helye"
   },
   "VAT_RATE": {
     "AAM" : "alanyi adómentes",
@@ -1183,6 +1197,21 @@
     "CLEAN": "Formázás törlése"
   },
 
+  "COLOR" : {
+    "BLUE" : "Kék",
+    "RED" : "Piros",
+    "GREEN" : "Zöld",
+    "YELLOW" : "Sárga",
+    "GREY" : "Szürke",
+    "PURPLE" : "Lila",
+    "GULES" : "Vörös",
+    "ORANGE" : "Narancs",
+    "DARK_GREEN" : "Sötétzöld",
+    "PINK" : "Rózsaszín",
+    "DARK_BLUE" : "Sötétkék",
+    "CUSTOM" : "Egyedi"
+  },
+
   "COOKIE_ACCEPTANCE_DIALOG" : {
     "TEXT" : "Azért, hogy biztosítsuk a weboldal felhasználóbarát, gördülékeny használatát, sütiket használunk. Ennek elfogadása elengedhetetlen, hogy az oldalt annak minden funkciójával megfelelően tudd használni. Amennyiben beleegyezel a sütik használatába, kérlek kattints az Elfogadom gombra. Ha szeretnél többet megtudni a sütihasználatról,",
     "LINK_TEXT" : "kattints ide.",
@@ -1410,6 +1439,63 @@
       "BREAKS" : "Szünetek"
     }
   },
+  "GROUP_CLASS_EVENT_PATIENT_LIST_DIALOG"  : {
+    "TITLE" : "Résztvevők",
+    "NO_PARTICIPANT" : "Még nem rögzítettél résztvevőt az eseményhez."
+  },
+  "REPEAT_TIME_LINE_DIALOG" : {
+    "TITLE" : "Ismétlődés",
+    "REPEAT_FREQUENCY" : "Ismétlődés gyakorisága",
+    "DAY_OF_REPEATING" : "Ismétlődés napja",
+    "SHORT_DAY_FORMATS" : {
+      "MONDAY" : "H",
+      "TUESDAY" : "K",
+      "WEDNESDAY" : "Sze",
+      "THURSDAY" : "Cs",
+      "FRIDAY" : "P",
+      "SATURDAY" : "Szo",
+      "SUNDAY" : "V"
+    },
+    "END" : "Vége",
+    "AT" : "Ekkor",
+    "DATE" : "Időpont",
+    "WEEK" : "hét",
+    "MONTH" : "hónap",
+    "LAST_FOR_THIS_MANY_WEEKS" : "Ennyi héten keresztül tartson",
+    "HOW_MANY_WEEKS" : "Hány hétig?",
+    "MAX_REPEATING" : "A maximum ismétlődés {{occasionsMaximum}} alkalom.",
+    "MIN_REPEATING" : "A minimum ismétlődés {{occasionsMinimum}} alkalom.",
+    "CANCEL_BUTTON_TEXT" : "Mégsem",
+    "SAVE_BUTTON_TEXT" : "Mentés"
+  },
+
+  "GROUP_CLASS_EVENT_FINISH_DIALOG" : {
+    "TITLE" : "Események kiegyenlítése",
+    "PARTICIPANTS" : "Résztvevők",
+    "USE_MEMBERSHIP_INSTANCE" : "Bérlet alkalom felhasználása",
+    "PAYMENT_WITHOUT_MEMBERSHIP" : "Nem bérlettel történő fizetés",
+    "EQUALIZE" : "Kiegyenlítés",
+    "BILL" : "Számla kiállítása",
+    "NO_USABLE_MEMBERSHIPS" : "Nincs felhasználható bérlet",
+    "CHOOSE_MEMBERSHIP" : "Bérlet kiválasztása",
+    "CANCEL_BUTTON_TEXT" : "Mégse",
+    "EQUALIZE_BUTTON_TEXT" : "Kiegyenlítés",
+    "SYSTEM_NOTIFICATIONS" : {
+      "MEMBERSHIP_INSTANCE_SUBSTRACTION_ERROR" : "Hiba történt a bérlet alkalom levonása során.",
+      "BILLING_ERROR" : "Hiba történt a számlázás során.",
+      "EQUALIZE_SETTING_ERROR" : "Hiba történt a kiegyenlítés beállítása során."
+    }
+  },
+  "THERAPIST_EVENT_FORM" : {
+    "THERAPIST_PLACEHOLDER" : "Terapeuta",
+    "EVENT_TYPE" : "Esemény típusa",
+    "WORK_BREAK" : "Munkaközi szünet",
+    "HOLIDAY" : "Szabadság",
+    "COMMENT" : "Megjegyzés",
+    "END_OF_DATE" : "Időpont vége",
+    "CANCEL_BUTTON_TEXT" : "Mégsem",
+    "SAVE_BUTTON_TEXT" : "Mentés"
+  },
 
   "DATA_TABLE_SYSTEM_NOTIFICATIONS" : {
     "EMAIL" : "E-mail cím",
@@ -1421,6 +1507,50 @@
     "OPERATION_ERROR_CHECK_IF_THE_GIVEN_DATA_IS_CORRECT" : "Hiba a művelet során. Kérjük ellenőrizd a megadott adatok helyességét.",
     "TECHNICAL_ERROR_CONTACT_ADMIN" : "Technikai hiba a művelet során. Kérjük, jegyezd fel az időpontot és vedd fel a kapcsolatot a rendszergazdával.",
     "EVENT_CANT_BE_COMPENSATED_BECAUSE_NO_TREATMENT_TYPE_SET" : "Az esemény nem kiegyenlíthető, mert nincs beállítva Kezelés típus."
+  },
+
+  "COMPONENTS_SYSTEM_NOTIFICATIONS" : {
+    "CALENDAR_DAILY_VIEW" : {
+      "NO_NEXT_OCCASION_TODAY" : "Nincs következő időpont a mai napon",
+      "NO_PREVIOUS_OCCASION_TODAY" : "Nincs korábbi időpont a mai napon",
+      "TREATMENT_ROOM_QUERY_ERROR" : "Sikertelen kezelőhelyiség lekérdezés",
+      "THERAPIST_AND_TREATMENT_ROOM_QUERY_ERROR" : "Sikertelen terapeuta, kezelőhelyiség lekérdezés"
+    },
+    "ABSTRACT_CALENDAR_HANDLER" : {
+      "EVENT_DELETE_SUCCESS" : "Sikeres esemény törlés",
+      "EVENT_DELETE_ERROR" : "Sikertelen esemény törlés",
+      "EVENT_DELETE_CONFIRM" : "Biztosan törölni szeretnéd az eseményt?",
+      "EVENT_SAVE_CONFIRM_WITH_MESSAGE" : "{{MESSAGE}}. Biztosan mented az eseményt?",
+      "EVENT_UPDATE_SUCCESS" : "Sikeres esemény frissítés",
+      "EVENT_UPDATE_ERROR" : "Sikertelen esemény frissítés",
+      "EVENT_OUTSIDE_CONSULTING_TIMEFRAME_CONFIRM_SAVE" : "Az időpont klinikai rendelésen kivül esik. Biztosan mented az eseményt?"
+    },
+    "ABSTRACT_PATIENT_DATA_TABLE" : {
+      "CLINIC_SETTINGS_QUERY_ERROR" : "Sikertelen klinika beállítások lekérdezés",
+      "SUSPEND_SELECTED_PATIENTS_PROFILE_CONFIRM" : "Biztos, hogy le szeretnéd tiltani a {{length}}db, kijelölt páciens profil oldalát?",
+      "SUSPEND_PATIENT_CONFIRM" : "Biztos, hogy le szeretnéd tiltani a \"{{patientName}}\" páciens profil oldalát?",
+      "SUSPEND_PATIENT_PROFILE_SUCCESS" : "Sikeres páciens profil oldal letiltás",
+      "SUSPEND_PATIENT_PROFILE_ERROR" : "Hiba a páciens profil oldalának letiltása közben",
+      "ACTIVATE_SELECTED_PATIENTS_PROFILE_CONFIRM" : "Biztos, hogy engedélyezed a {{length}}db, kijelölt páciens profil oldalát?",
+      "ACTIVATE_PATIENT_PROFILE_CONFIRM" : "Biztos, hogy engedélyezed a \"{{patientName}}\" páciens profil oldalát?",
+      "ACTIVATE_PATIENT_PROFILE_SUCCESS" : "Sikeres páciens profil oldal engedélyezés",
+      "ACTIVATE_PATIENT_PROFILE_ERROR" : "Hiba a páciens profil oldalának engedélyezése közben",
+      "AUTO_DATA_INPUT_REGISTRATION_SUCCESS" : "Sikeres automatikus adatbekérők beregisztrálása.",
+      "AUTO_DATA_INPUT_REGISTRATION_ERROR" : "Sikertelen automatikus adatbekérők beregisztrálása.",
+      "ENABLE_VISIBLE_VISITS_SELECTED_PATIENTS_CONFIRM" : "Biztos, hogy engedélyezed a vizsgálatatok láthatóságát a {{length}}db, kijelölt páciensnél?",
+      "ENABLE_VISIBLE_VISITS_FOR_PATIENT_CONFIRM" : "Biztos, hogy engedélyezed a vizsgálatatok láthatóságát a \"{{patientName}}\" páciensnél?",
+      "ENABLE_VISIBLE_VISITS_SUCCESS" : "Sikeres vizsgálat láthatóság engedélyezés",
+      "ENABLE_VISIBLE_VISITS_ERROR" : "Hiba a vizsgálat láthatóság engedélyezése közben",
+      "DISABLE_VISIBLE_VISITS_SELECTED_PATIENTS_CONFIRM" : "Biztos, hogy letiltod a vizsgálatatok láthatóságát a {{length}}db, kijelölt páciensnél?",
+      "DISABLE_VISIBLE_VISITS_FOR_PATIENT_CONFIRM" : "Biztos, hogy letiltod a vizsgálatatok láthatóságát a \"{{patientName}}\" páciensnél?",
+      "DISABLE_VISIBLE_VISITS_SUCCESS" : "Sikeres vizsgálat láthatóság letiltás",
+      "DISABLE_VISIBLE_VISITS_ERROR" : "Hiba a vizsgálat láthatóság letiltása közben"
+    },
+    "CLINIC_CHAT_MESSENGER" : {
+      "CLINIC_MESSAGE_SEND_ERROR" : "Sikertelen klinika üzenet küldés. Nincs csatlakozva az üzenetküldő szolgáltatáshoz.",
+      "CLINIC_MESSAGE_NOT_SENT" : "Nem sikerült elküldeni a klinika üzenetet.",
+      "MESSAGE_NOT_SET_TO_READ" : "Az üzenetet nem sikerült olvasottnak jelölni"
+    }
   },
 
   "PAGE_HEADER" : {
@@ -1610,6 +1740,7 @@
       },
       "CANCEL_BUTTON_TEXT" : "Mégsem",
       "SAVE_BUTTON_TEXT" : "Mentés",
+      "PREVIEW_TOOLTIP" : "Megtekintés",
       "CARD_TITLE" : "Vizsgálati lap",
       "FIELDS" : {
         "SURVEY_TITLE_PLACEHOLDER" : "Vizsgálati lap címe",
@@ -2552,7 +2683,8 @@
       "BEGINNING_OF_SCREENING_CAN_NOT_BE_LATER_THAN_THE_END" : "A szűrés kezdete nem lehet később, mint a szűrés vége",
       "CANCEL_SUCCESS_CONFIRMATION" : "Sikeres lemondás megerősítése",
       "CANCEL_FAILURE_CONFIRMATION" : "Sikertelen lemondás megerősítés",
-      "CONFIRM_EVENT_DATE_MODIFICATION_DIALOG" : "Biztos, hogy módosítod az esemény időpontját?"
+      "CONFIRM_EVENT_DATE_MODIFICATION_DIALOG" : "Biztos, hogy módosítod az esemény időpontját?",
+      "NOT_SAVED_DIALOG_CONFIRM" : "Az <i>${TITLE}</i> nem lett elmentve. Biztosan folytatod?"
     }
   },
 
