@@ -494,7 +494,7 @@
   "EXERCISE": {
     "COPIED_NAME_SUFFIX" : "Másolat",
     "MULTIPLE_SHARE" : " (Megosztotta: %s)",
-    "PUBLISHED" : "Megosztotta"
+    "SHARED" : "Megosztotta"
   },
   "FORMAT" : {
     "HOUR" : "óra",
@@ -1411,6 +1411,18 @@
     }
   },
 
+  "DATA_TABLE_SYSTEM_NOTIFICATIONS" : {
+    "EMAIL" : "E-mail cím",
+    "MOBILE_NUMBER" : "Telefonszám",
+    "ERROR_DURING_OPERATION" : "Hiba a művelet végrehajtása közben",
+    "ERROR_DURING_EESZT_OPERATION" : "Hiba az EESZT művelet közben",
+    "EESZT_SYSTEM_ERROR" : "EESZT rendszerhiba. A művelet adatait és időpontját rögzítettük. Kerjük próbáld meg a műveletet újra az EESZT menüpontban a táblázatból.",
+    "EESZT_CONNECTION_EXPIRED" : "EESZT kapcsolat lejárt. Kérjük végezd el az azonosítást újra.",
+    "OPERATION_ERROR_CHECK_IF_THE_GIVEN_DATA_IS_CORRECT" : "Hiba a művelet során. Kérjük ellenőrizd a megadott adatok helyességét.",
+    "TECHNICAL_ERROR_CONTACT_ADMIN" : "Technikai hiba a művelet során. Kérjük, jegyezd fel az időpontot és vedd fel a kapcsolatot a rendszergazdával.",
+    "EVENT_CANT_BE_COMPENSATED_BECAUSE_NO_TREATMENT_TYPE_SET" : "Az esemény nem kiegyenlíthető, mert nincs beállítva Kezelés típus."
+  },
+
   "PAGE_HEADER" : {
     "DASHBOARD" : "Kezdőlap",
     "MY_PATIENTS" : "Pácienseim",
@@ -1491,6 +1503,7 @@
   "EXERCISE_EDIT_FORM" : {
     "NAME_OF_EXERCISE" : "Gyakorlat neve",
     "CATEGORY" : "Kategória",
+    "NEW" : "Új",
     "TO_CREATE_NEW_CATEGORY_TYPE_A_NAME" : "Új kategória létrehozásához gépelje be az új kategória nevét",
     "DESCRIPTION" : "Gyakorlat leírása",
     "REPS" : "Ismétlések",
@@ -1617,6 +1630,22 @@
           "MOVE" : "Mozgatás",
           "TITLE" : "Cím"
         }
+      },
+      "SYSTEM_NOTIFICATIONS" : {
+        "TABLE_CONTENT_FETCH_ERROR": "Sikertelen táblázat tartalom lekérdezés",
+        "CAN_ONLY_ADD_ONE_SIGNING_ELEMENT" : "Aláírás típusú elemből csak 1 adható hozzá.",
+        "DELETE_ELEMENT_CONFIRM": "Biztosan törölni szeretnéd a {{ELEMENT_TITLE}} elemet?",
+        "SURVEY_SAVE_SUCCESS": "A vizsgálati lap sikeresen mentve.",
+        "SURVEY_SAVE_ERROR": "Hiba a vizsgálati lap mentése során.",
+        "SURVEY_VERSIONING_CONFIRM": "A vizsgálati lap már hozzá lett rendelve pácienshez, ezért új verzió fog létrejönni '{{NEW_TITLE}}' néven. Folytatod?",
+        "AUTO_ASSIGN_SWITCH_TO_NEW_CONFIRM": "Az adatbekérő automatikus kiküldésre volt állítva korábban. Szeretnéd, hogy a korábbi helyett az új verzió kerüljön automatikusan kiküldésre?",
+        "AUTO_SENDOUT_PREVIOUS_VERSION_DISABLE_SUCCESS" : "Sikeres korábbi verzió automatikus kiküldés kikapcsolás.",
+        "AUTO_SENDOUT_PREVIOUS_VERSION_DISABLE_ERROR" : "Sikertelen korábbi verzió automatikus kiküldés kikapcsolás.",
+        "SURVEY_EMPTY_SAVE_CONFIRM": "A vizsgálati lap nem tartalmaz még kérdéseket, biztosan szeretnéd elmenteni?",
+        "LINEAR_SCALE_INVALID": "Lineáris skála értéke nem megfelelő, kérjük állítsa be újra a megfelelő értékeket.",
+        "SURVEY_NOT_SAVED_CONFIRM": "A <i>Vizsgálati lap</i> nem lett elmentve. Biztosan folytatod?",
+        "TOO_MANY_IMAGE_ELEMENTS": "Nem lehet több képi elemet hozzáadni a vizsgálati laphoz! Maximális elemszám: {{MAX}}",
+        "RELATIONAL_ELEMENT_ALREADY_ADDED": "'{{ELEMENT_TITLE}}' kötött ürlap elem már hozzá lett adva!"
       }
     }
   },
@@ -4311,8 +4340,165 @@
     },
     "TABS" : {
       "PERSONAL_DATA" : {},
-      "EXERCISES" : {},
-      "SURVEYS" : {},
+      "EXERCISES" : {
+        "BREADCRUMBS" : {
+          "NEW_EXERCISE" : "Új",
+          "EDIT_EXERCISE" : "Szerkesztés"
+        },
+        "OWN_EXERCISES_CARD" : {
+          "TITLE" : "Saját gyakorlatok",
+          "NEW_EXERCISE_BUTTON_TEXT" : "Új gyakorlat",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_HEADERS" : {
+            "NAME" : "Név",
+            "CATEGORY" : "Kategória",
+            "CREATION_DATE" : "Készült",
+            "LAST_MODIFICATION" : "Utolsó módosítás",
+            "DESCRIPTION" : "Leírás",
+            "OPERATIONS" : "Műveletek"
+          },
+          "TOOLTIPS" : {
+            "SHARE" : "Megosztás",
+            "SHARE_WITH_THERAPISTS" : "Megosztás terapeutákkal",
+            "SHARE_WITH_CLINIC" : "Megosztás klinika szinten",
+            "COPY" : "Másolás",
+            "DELETE" : "Törlés"
+          }
+        },
+        "CLINIC_EXERCISES_CARD" : {
+          "TITLE" : "Klinika szintű gyakorlatok",
+          "SEARCH_PLACEHOLDER": "Keresés",
+          "TABLE_HEADERS" : {
+            "NAME" : "Név",
+            "CATEGORY" : "Kategória",
+            "CREATION_DATE" : "Készült",
+            "DESCRIPTION" : "Leírás",
+            "OPERATIONS" : "Műveletek"
+          },
+          "TOOLTIPS" : {
+            "WATCH" : "Megtekintés",
+            "COPY_TO_OWN_SURVEYS" : "Másolás saját vizsgálati lapokhoz",
+            "DELETE" : "Törlés"
+          }
+        },
+        "EXERCISES_EDIT_COMPONENT" : {
+          "TITLE" : {
+            "WATCH_EXERCISE" : "Gyakorlat megtekintése",
+            "EDIT_EXERCISE" : "Gyakorlat szerkesztése",
+            "CREATE_NEW_EXERCISE" : "Új gyakorlat létrehozása"
+          },
+          "SAVE_BUTTON_TEXT" : "Mentés"
+        },
+        "EXERCISE_VIEW_DIALOG" : {
+          "TITLE" : "Klinika szintű gyakorlat megtekintése",
+          "EXERCISE_NAME" : "Gyakorlat neve",
+          "CATEGORY" : "Kategória",
+          "DESCRIPTION" : "Gyakorlat leírása",
+          "REPS" : "Ismétlések",
+          "PICTURES" : "Képek",
+          "VIDEOS" : "Videók"
+        },
+        "SHARE_EXERCISE_DIALOG" : {
+          "TITLE" : "Megosztott gyakorlat neve",
+          "EXERCISE_NAME_PLACEHOLDER" : "Gyakorlat neve",
+          "CANCEL_BUTTON_TEXT" : "Mégsem",
+          "SELECT_COLLEAGUE_BUTTON_TEXT" : "Munkatárs kiválasztása"
+        },
+        "SYSTEM_NOTIFICATIONS" : {
+          "DELETE_EXERCISE_CONFIRM" : "Biztos, hogy törölni szeretné a(z) \"{{itemName}}\" gyakorlatot?",
+          "DELETE_EXERCISE_SUCCESS" : "A \"{{itemName}}\" gyakorlat sikeresen törölve",
+          "DELETE_EXERCISE_ERROR" : "Hiba a gyakorlat törlése során",
+          "DELETE_CLINIC_EXERCISE_CONFIRM" : "Biztos, hogy törölni szeretnéd a(z) \"{{exerciseName}}\" klinika szintű gyakorlatot?",
+          "DELETE_CLINIC_EXERCISE_SUCCESS" : "A \"{{exerciseName}}\" klinika szintű gyakorlat sikeresen törölve",
+          "DELETE_CLINIC_EXERCISE_ERROR" : "Hiba a klinika szintű gyakorlat törlése során.",
+          "EXERCISE_SHARE_SUCCESS" : "Sikeres gyakorlat megosztás",
+          "EXERCISES_SHARE_SUCCESS" : "Sikeres gyakorlatok megosztás",
+          "EXERCISE_SHARE_ERROR" : "Hiba a gyakorlat megosztása közben",
+          "EXERCISES_SHARE_ERROR" : "Hiba a gyakorlatok megosztása közben",
+          "CLINIC_EXERCISE_SHARE_CONFIRM" : "Biztos, hogy megosztod a kijelölt gyakorlatot klinika szinten?",
+          "CLINIC_EXERCISES_SHARE_CONFIRM" : "Biztos, hogy megosztod a kijelölt gyakorlatokat klinika szinten?",
+          "CLINIC_EXERCISE_SHARE_SUCCESS" : "Sikeres gyakorlat megosztás klinika szinten",
+          "CLINIC_EXERCISES_SHARE_SUCCESS" : "Sikeres gyakorlatok megosztás klinika szinten",
+          "CLINIC_EXERCISE_SHARE_ERROR" : "Hiba a gyakorlat klinika szintű megosztása közben",
+          "CLINIC_EXERCISES_SHARE_ERROR" : "Hiba a gyakorlatok klinika szintű megosztása közben",
+          "SHARE_SELECTED_EXERCISES_WITH_SELECTED_THERAPISTS_CONFIRM" : "Biztos, hogy megosztod a kijelölt gyakorlatokat a kiválasztott terapeutákkal?",
+          "EXERCISE_COPY_SUCCESS_WITH_NAME" : "Sikeres gyakorlat másolás. Új gyakorlat neve: {{exerciseName}}",
+          "EXERCISE_COPY_SUCCESS" : "Sikeres gyakorlat másolás",
+          "EXERCISE_COPY_ERROR" : "Hiba a gyakorlat másolása során.",
+          "EXERCISE_SAVE_SUCCESS" : "A gyakorlat sikeresen mentve.",
+          "EXERCISE_SAVE_ERROR" : "Hiba a gyakorlat mentése során.",
+          "EXERCISE_NOT_SAVED_CONFIRM" : "A(z) <i>{{exerciseName}}</i> nem lett elmentve. Biztosan folytatod?"
+        }
+      },
+      "SURVEYS": {
+        "BREADCRUMBS" : {
+          "NEW_SURVEY" : "Új",
+          "EDIT_SURVEY" : "Szerkesztés"
+        },
+        "OWN_SURVEYS_CARD" : {
+          "TITLE" : "Saját vizsgálati lapok",
+          "NEW_SURVEY_BUTTON_TEXT" : "Új vizsgálati lap",
+          "TYPE_PLACEHOLDER" : "Típus",
+          "ALL" : "Összes",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_HEADERS" : {
+            "TITLE" : "Cím",
+            "TYPE" : "Típus",
+            "CREATED_DATE" : "Keszült",
+            "TOP_10" : "TOP 10",
+            "OPERATIONS" : "Műveletek",
+            "AUTOMATIC_SENDOUT" : "Automatikus kiküldés"
+          },
+          "TOOLTIPS" : {
+            "WATCH" : "Megtekintés",
+            "SHARE_WITH_THERAPISTS" : "Megosztás terapeutákkal",
+            "SHARE_WITH_CLINIC" : "Megosztás klinika szinten",
+            "COPY" : "Másolás",
+            "DELETE" : "Törlés"
+          }
+        },
+        "CLINIC_SURVEYS_CARD" : {
+          "TITLE" : "Klinika szintű vizsgálati lapok",
+          "SEARCH_PLACEHOLDER" : "Keresés",
+          "TABLE_HEADERS" : {
+            "TITLE" : "Cím",
+            "TYPE" : "Típus",
+            "CREATED_DATE" : "Keszült",
+            "OPERATIONS" : "Műveletek",
+            "AUTOMATIC_SENDOUT" : "Automatikus kiküldés"
+          },
+          "TOOLTIPS" : {
+            "WATCH" : "Megtekintés",
+            "COPY_TO_OWN_SURVEYS" : "Másolás saját vizsgálati lapokhoz",
+            "DELETE" : "Törlés"
+          }
+        },
+        "SYSTEM_NOTIFICATIONS" : {
+          "EDIT_AUTHORITY_NEEDED" : "Szerkesztési jog szükséges",
+          "AUTOMATIC_DATA_INPUT_ASSIGNMENT_TOOLTIP" : "A megjelelölt adatbekérők automatikusan kiküldésre kerülnek új Páciens regisztrációkor. (A Klinikám / Klinika beállítások menüpontban elérhető beállítás szerint)",
+          "SUCCESS_ORDER_SET": "Sikeres sorrend beállítás",
+          "ERROR_ORDER_SET": "Sikertelen sorrend beállítás",
+          "SUCCESS_TOP10_SET": "Sikeres TOP 10 beállítás",
+          "ERROR_TOP10_SET": "Sikertelen TOP 10 beállítás",
+          "SUCCESS_AUTOMATIC_SENDOUT_SET": "Sikeres Automatikus adatbekérő kiküldés beállítás",
+          "ERROR_AUTOMATIC_SENDOUT_SET": "Sikertelen Automatikus adatbekérő kiküldés beállítás",
+          "SURVEY_ALREADY_USED_DELETE_CONFIRM": "A vizsgálati lap már használva volt. Biztos, hogy törölni szeretnéd a(z) \"{{surveyTitle}}\" vizsgálati lapot?",
+          "SURVEY_DELETE_CONFIRM": "Biztos, hogy törölni szeretnéd a(z) \"{{surveyTitle}}\" vizsgálati lapot?",
+          "SURVEY_DELETE_SUCCESS": "A \"{{surveyTitle}}\" vizsgálati lap sikeresen törölve",
+          "SURVEY_DELETE_ERROR": "Hiba a vizsgálati lap törlése során.",
+          "CLINIC_SURVEY_DELETE_CONFIRM": "Biztos, hogy törölni szeretné a(z) \"{{surveyTitle}}\" klinika szintű vizsgálati lapot?",
+          "SURVEY_SHARE_CLINIC_CONFIRM": "Biztos, hogy klinika szinten szeretnéd megosztani a(z) \"{{surveyTitle}}\" vizsgálati lapot?",
+          "SURVEYS_SHARE_CLINIC_CONFIRM": "Biztos, hogy klinika szinten szeretnéd megosztani a kijelölt vizsgálati lapokat?",
+          "SURVEY_SHARE_SUCCESS": "Sikeres vizsgálati lap megosztás",
+          "SURVEY_SHARE_ERROR": "Hiba a vizsáltali lap megosztása közben",
+          "SURVEY_COPY_SUCCESS": "Sikeres vizsgálati lap másolás. Új vizsgálati lap neve: {{newSurveyTitle}}",
+          "SURVEY_COPY_ERROR": "Hiba a vizsgálati lap másolása során.",
+          "CLINIC_SURVEY_COPY_SUCCESS": "Sikeres klinika szintű vizsgálati lap másolás.",
+          "CLINIC_SURVEY_COPY_ERROR": "Hiba a klinika szintű vizsgálati lap másolása során.",
+          "CLINIC_SURVEY_FETCH_ERROR": "Sikertelen klinika szintű vizsgálati lap lekérdezés",
+          "SURVEY_FETCH_ERROR": "Sikertelen vizsgálati lap lekérdezés"
+        }
+      },
       "EESZT_DATA" : {},
       "CUSTOM_BILLING_SETTINGS" : {},
       "DATA_PRIVACY" : {}
