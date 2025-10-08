@@ -1659,20 +1659,6 @@
       "DELETE_JUSTIFICATION_CONFIRM" : "Biztos, hogy törölni szeretnéd az értékelést?",
       "JUSTIFICATION_DELETE_SUCCESS" : "Sikeres értékelés törlés",
       "JUSTIFICATION_DELETE_ERROR" : "Hiba az értékelés törlése során."
-    },
-    "PERSON_EDIT" : {
-      "MODIFY_USERNAME_CONFIRM" : "Ha módosítja a felhasználói nevét, akkor újra be kell jelentkeznie. Biztosan módosítja?",
-      "PATIENT_CAN_NOT_BE_CREATED_AS_PATIENT" : "Páciens nem hozható létre páciensként!",
-      "RESET_USER_PASSWORD_CONFIRM" : "Biztos, hogy visszaállítod a felhasználó jelszavát?<br><br>Ha igen, egy e-mailben fogja megkapni az új, ideiglenes jelszavát.",
-      "PASSWORD_RESET_SUCCESS" : "Sikeres jelszó visszaállítás",
-      "PASSWORD_RESET_ERROR" : "Sikertelen jelszó visszaállítás",
-      "USER_SAVE_ERROR" : "Hiba a felhasználó mentése során",
-      "PATIENT_CREATED_WITH_USERNAME" : "A páciens létrejött a következő felhasználónévvel: <b>{{USERNAME}}</b>",
-      "USER_CREATED" : "A(z) {{USERNAME}} felhasználó létrejött.",
-      "PATIENT_DATA_MODIFICATION_SUCCESS" : "Sikeres páciens adatmódosítás",
-      "USER_UPDATED" : "A(z) {{USERNAME}} felhasználó frissült.",
-      "AUTO_DATA_INPUT_REGISTER_SUCCESS" : "Sikeres automatikus adatbekérők beregisztrálása.",
-      "AUTO_DATA_INPUT_REGISTER_ERROR" : "Sikertelen automatikus adatbekérők beregisztrálása."
     }
   },
   "EESZT" : {
@@ -1684,7 +1670,7 @@
       "SAVE" : "Mentés",
       "CANCEL" : "Mégse",
       "SYSTEM_NOTIFICATIONS" : {
-        "OPERATION_NOT_SAVED_CONFIRM" : "A <i>{{operation}}</i> nem lett elmentve. Biztosan folytatod?",
+        "OPERATION_NOT_SAVED_CONFIRM" : "A <i>{{{operation}}</i> nem lett elmentve. Biztosan folytatod?",
         "SAVE_SUCCESS" : "Sikeres mentés",
         "SAVE_ERROR" : "Sikertelen mentés"
       }
@@ -1812,41 +1798,6 @@
         "TIMEOUT_NO_RESPONSE" : "Időtullépés. Nem érkezett válasz a hitelesítési kérésre, kérjük próbáld meg újra.",
         "CONNECTING_TO_READER_ERROR" : "Nem sikerült kapcsolódni az e-Személyi olvasóhoz. Kérjük ellenőrizd, hogy az eszköz megfelelően van-e csatlakoztatva és az eSzemélyi Kliens alkalmazás el van indítva.",
         "CONNECTION_UPDATE_ERROR_EESZT_CONNECTION_ERROR" : "Sikertelen kapcsolat frissítés. Sikertelen kapcsolódás EESZT-hez. Kérjük próbáld meg az azonosítást később."
-      }
-    }
-  },
-  "DEFAULT_SURVEYS" : {
-    "BREADCRUMBS" : {
-      "NEW" : "Új",
-      "EDIT" : "Szerkesztés"
-    },
-    "DEFAULT_SURVEYS_TABLE" : {
-      "NEW_SURVEY_BUTTON_TEXT" : "Új vizsgálati lap",
-      "HEADERS" : {
-        "TITLE" : "Cím",
-        "IS_GLOBAL" : "Globálisan megosztva?",
-        "PUBLISHED" : "Publikálva?",
-        "SHARED_WITH_CLINICS" : "Klinikákkal megosztva",
-        "TYPE" : "Típus",
-        "CREATED" : "Készült",
-        "OPERATIONS" : "Műveletek"
-      },
-      "TOOLTIPS" : {
-        "PUBLISH" : "Publikálás",
-        "SHARE_SURVEY_WITH_CLINIC" : "Vizsgálati lap megosztása klinikával",
-        "WATCH" : "Megtekintés",
-        "COPY" : "Másolás",
-        "DELETE" : "Törlés"
-      },
-      "SYSTEM_NOTIFICATIONS" : {
-        "SURVEY_SHARE_SUCCESS" : "Sikeres vizsgálati lap megosztás",
-        "SURVEY_SHARE_ERROR" : "Hiba a vizsgálati lap megosztása közben",
-        "DELETE_SURVEY_CONFIRM" : "Biztos, hogy törölni szeretné a(z) \"{{surveyTitle}}\" vizsgálati lapot?",
-        "DELETE_SURVEY_SUCCESS" : "A \"{{surveyTitle}}\" vizsgálati lap sikeresen törölve",
-        "DELETE_SURVEY_ERROR" : "Hiba a vizsgálati lap mentése során.",
-        "COPY_SURVEY_SUCCESS" : "Sikeres vizsgálati lap másolás. Új vizsgálati lap neve: {{title}}",
-        "COPY_SURVEY_ERROR" : "Hiba a vizsgálati lap másolása során.",
-        "CLINIC_SURVEY_FETCH_ERROR" : "Sikertelen klinika szintű vizsgálati lap lekérdezés"
       }
     }
   },
@@ -2158,24 +2109,6 @@
     "CANCEL" : "Mégsem",
     "ADD" : "Hozzáad",
     "BAD_URL" : "Hibás URL cím!"
-  },
-  "WARNING_COMPONENTS" : {
-    "WARNING_BLOCKED_EMAIL_ADDRESSES" : {
-      "BLOCKED_EMAIL_SENDING_USER_COUNT" : "Jelenleg {{COUNT}}db felhasználónál van felfüggesztve az e-mail küldés",
-      "GET_NUMBER_OF_BLOCKED_EMAILS_ERROR" : "Felfüggesztett e-mail címek számát nem sikerült lekérdezni"
-    },
-    "WARNING_BLOCKED_PHONE_NUMBERS" : {
-      "BLOCKED_SMS_SENDING_USER_COUNT" : "Jelenleg {{COUNT}}db felhasználónál van felfüggesztve az SMS küldés",
-      "GET_NUMBER_OF_BLOCKED_PHONE_NUMBERS_ERROR" : "Felfüggesztett telefonszámok számát nem sikerült lekérdezni"
-    },
-    "WARNING_MARKED_FOR_CANCEL_CALENDAR_EVENTS" : {
-      "EVENT_MARKED_FOR_CANCEL_COUNT" : "Jelenleg {{numberOfMarkedCalendarEvents}}db kezelés időpontot jelöltek meg lemondásra",
-      "GET_NUMBER_OF_CANCELED_EVENTS_ERROR" : "Lemondásra megjelölt kezelések számát nem sikerült lekérdezni"
-    },
-    "WARNING_PATIENTS_WITHOUT_THERAPIST" : {
-      "PATIENTS_WITHOUT_THERAPIST_COUNT" : "Jelenleg {{COUNT}}db páciensnek nincs terapeutája",
-      "GET_NUMBER_OF_PATIENTS_WITHOUT_THERAPIST_ERROR" : "Terapeuta nélküli páciensek számát nem sikerült lekérdezni"
-    }
   },
   "PAGE_HEADER" : {
     "DASHBOARD" : "Kezdőlap",
