@@ -3078,7 +3078,7 @@
       "PATIENT_REFUSE_CONFIRM_WITH_NAME": "Biztos, hogy elutasítja a \"{{patientName}}\" nevű pácienst?",
       "PATIENT_REFUSE_SUCCESS": "A(z) \"{{patientName}}\" páciens elutasítva.",
       "PATIENT_REFUSE_ERROR": "Hiba a(z) \"{{patientName}}\" páciens elutasítása során.",
-      "WAITING_LIST_DELETE_CONFIRM_WITH_NAME": "Biztos, hogy törölni szeretné a \"{{patientName}}\" páciens a várólistáról?",
+      "WAITING_LIST_DELETE_CONFIRM_WITH_NAME": "Biztos, hogy törölni szeretné a \"{{patientName}}\" pácienst a várólistáról?",
       "WAITING_LIST_DELETE_SUCCESS": "A \"{{patientName}}\" páciens sikeresen törölve a várólistáról.",
       "WAITING_LIST_DELETE_ERROR": "Hiba a várólista törlése során.",
       "PATIENT_SEARCH_ERROR" : "Sikertelen páciens keresés",
@@ -4318,6 +4318,8 @@
       "OWN_WEBSITE" : "Saját weboldal",
       "MEMBERSHIP_TYPES" : "Bérlettípusok",
       "ADD_CLINIC" : "Klinika hozzáadása",
+      "ADD_PATIENT" : "Páciens hozzáadása",
+      "EDIT_PATIENT" : "Páciens szerkesztése",
       "SEARCH" : {
         "INPUT_PLACEHOLDER" : {
           "SEARCH_FOR_PATIENT" : "Páciens keresése"
@@ -4459,6 +4461,27 @@
                 "DEFAULT_THERAPIST_IMAGE_WARNING": "Nincs beállítva saját profilképed, így ez az alapértelemezett kép fog megjelenni a kiküldött e-mailekben!"
               }
             },
+            "AWS_EMAIL_CONFIRMATION_DIALOG" : {
+              "TITLE" : "Saját e-mail cím beállítás",
+              "EMAIL_INPUT_PLACEHOLDER" : "Kérjük add meg az e-mail címed",
+              "NOTE_CONTAINER_PARTS" : {
+                "1" : "Ezen a felületen be tudod állítani saját e-mail címed, amit az i-Clinic.hu a noreply@i-clinic.hu helyett használ az automatikus e-mailek kiküldésekor.",
+                "2" : "Ha például a saját e-mailcímed vagy a klinikád központi mailcímét adod meg, akkor a páciensek hamarabb felismerik a levél küldőjét, és nagyobb valószínűséggel olvassák el a leveleket.",
+                "3" : "Ehhez kérjük tedd meg a következő lépéseket",
+                "4" : "kérjük a baloldali e-mail mezőben add meg az e-mailcímét, majd kattints az OK gombra.,",
+                "5" : "egy rövid idő után kapni fogsz egy e-mailt az xyz@amazon.com címről.",
+                "6" : "a levélben kérjük, hogy kattints a linkre amit piros nyillal jelöltünk a következő képen.",
+                "7" : "ha esetleg nem műkodik a link akkor másold be a linket a böngésződ címsorába és nyomj entert",
+                "8" : "A levélben a linket az alábbi helyen találod",
+                "9" : "Ezután az előző képernyőn, azaz az e-mail beállítások menüpontban a feladónál már nem a noreply@i-clinic.hu cím fog látszódni, mint feladó, hanem az általad beállított e-mailcím.",
+                "10" : "Amint megváltozott a feladó mailcíme a te általad beállított címre, az i-Clinic már a te e-mailcímeddel, mint feladóval fogja kiküldeni az automatikus leveleket.",
+                "11" : "Ha ezt az e-mailcímet szeretnéd visszaállítani a noreply@i-clinic.hu-ra kérlek kattints majd az előző képernyőn a visszavonás gombra. Ha másik saját címet állítanál be, akkor is kérünk, hogy a visszavonás gombra kattints, majd a fenti lépéseket ismételd meg az új e-mail címmel."
+              },
+              "SYSTEM_NOTIFICATIONS" : {
+                "CONFIRM_EMAIL_SENT_OUT_SUCCESS" : "A megerősítéshez szükséges e-mail sikeresen ki lett küldve",
+                "CONFIRM_EMAIL_SENT_OUT_ERROR" : "Sikertelen megerősítő e-mail kiküldés"
+              }
+            },
             "SAVE_BUTTON_TEXT" : "Mentés"
           },
           "SMS_SETTINGS" : {
@@ -4540,7 +4563,8 @@
             "EDIT_PATIENT" : "Páciens szerkesztése",
             "SUSPEND_PATIENT" : "Páciens felfüggesztése",
             "SET_PATIENT_EVALUATION" : "Páciens értékelés beállítása",
-            "TERMS_AND_CONDITIONS_ACCEPTED" : "i-Clinic használatát szabályozó felhasználási feltételeket elfogadta?"
+            "TERMS_AND_CONDITIONS_ACCEPTED" : "i-Clinic használatát szabályozó felhasználási feltételeket elfogadta?",
+            "LOG_INTO_PROFILE" : "Átjelentkezés"
           },
           "TABLE_HEADERS" : {
             "NAME" : "Név",
@@ -4788,7 +4812,15 @@
               "UPLOAD_BUTTON_TEXT" : "Feltöltés",
               "TAX_NUMBER" : "Adószám",
               "TAX_NUMBER_TOOLTIP" : "Adószám 11111111-1-11 formátumban.",
-              "CLINIC_LEADER" : "Klinika vezető"
+              "CLINIC_LEADER" : "Klinika vezető",
+              "TOOLTIPS" : {
+                "CHOOSE_CLINIC_ADMINISTRATOR" : "Válassza ki a klinika felelős adminisztrátorát.",
+                "CHOOSE_ADMIN_AFTER_CREATING_CLINIC" : "Klinika létrehozást követően tud felvenni admin terapeutát."
+              }
+            },
+            "CLINIC_ADMIN_SETTINGS" : {
+              "TITLE" : "Klinika admin beállítások",
+              "MAX_PICTURE_UPLOAD_FOR_SURVEYS" : "Maximális képfeltöltés vizsgálati lapoknál"
             },
             "SAVE_BUTTON_TEXT" : "Mentés"
           },
@@ -4802,12 +4834,14 @@
               "ROOM" : "Kezelőhelyiség",
               "GROUP_CLASSES" : "Csoportos órákat tartunk benne",
               "MAX_CAPACITY" : "Max férőhely",
+              "COLOR" : "Szín",
               "OPERATIONS" : "Műveletek"
             },
             "TOOLTIPS" : {
               "WATCH_TREATMENT_ROOM" : "Kezelőhelyiség megtekintése",
               "SET_GROUP_CLASS" : "Csoportos óra beállítása",
-              "DELETE_TREATMENT_ROOM" : "Kezelőhelyiség törlése"
+              "DELETE_TREATMENT_ROOM" : "Kezelőhelyiség törlése",
+              "TO_FIX_TREATMENT_ROOM_SAVE_CLINIC" : "Kezelőhelyiség rögzítéséhez mentse el a klinikát."
             },
             "ADD_TREATMENT_ROOM_BUTTON_TEXT" : "Kezelőhelyiség hozzáadása",
             "TREATMENT_ROOM_EDIT_POPUP" : {
@@ -4838,12 +4872,16 @@
               "OPERATIONS" : "Műveletek"
             },
             "ADD_PRIVACY_POLICY_POPUP" : {
-              "CARD_TITLE" : "Adatkezelési tájékoztató szerkesztése",
+              "CARD_TITLE" : {
+                "EDIT" : "Adatkezelési tájékoztató szerkesztése",
+                "ADD" : "Adatkezelési tájékoztató hozzáadása"
+              },
               "SAVE_BUTTON_TEXT" : "Mentés",
               "CANCEL_BUTTON_TEXT" : "Mégse"
             },
             "PUBLISH_TOOLTIP" : "Publikálás",
-            "ADD_DATA_PRIVACY_NOTICE_BUTTON_TEXT" : "Adatkezelési tájékoztató hozzáadása"
+            "ADD_DATA_PRIVACY_NOTICE_BUTTON_TEXT" : "Adatkezelési tájékoztató hozzáadása",
+            "SAVE_CLINIC_BEFORE_UPLOADING_TERMS_OF_SERVICE" : "Adatkezelési tájékoztató feltöltéséhez mentse el a klinikát."
           },
           "TREATMENTS" : {
             "TAB_TITLE" : "Kezelések",
@@ -4961,6 +4999,19 @@
               "SAVE" : "Mentés"
             }
           }
+        },
+        "ADMIN_SELECTOR_COMPONENT" : {
+          "TABLE" : {
+            "CHOOSE_ADMIN_TOOLTIP" : "Admin kiválasztása",
+            "HEADERS" : {
+              "NAME" : "Név",
+              "EMAIL" : "Email cím",
+              "PHONE_NUMBER" : "Telefonszám",
+              "USER" : "Felhasználó",
+              "ACTIVE" : "Aktív",
+              "DELETED" : "Törölt"
+            }
+          }
         }
       },
       "AUTHORITIES_AND_CLINIC_SETTINGS" : {
@@ -5049,6 +5100,10 @@
             "TOOLTIPS" : {
               "EDIT" : "Szerkesztés",
               "DELETE" : "Törlés"
+            },
+            "TABLE_HEADERS" : {
+              "NAME" : "Név",
+              "ID" : "Azonosító"
             }
           }
         }
@@ -5083,6 +5138,14 @@
             "NO_ACCOUNT": "Nem rendelkezik általunk ismert számlazz.hu fiókkal!"
           }
         }
+      },
+      "OWN_WEBSITE" : {
+        "SET_PASSWORD" : "Jelszó beállítása",
+        "SET_PASSWORD_TO_CONFIGURE_OWN_WEBSITE" : "Kérlek állíts be egy jelszót a saját weboldal konfigurálásához.",
+        "PASSWORD_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+        "PASSWORD" : "Jelszó",
+        "CONFIRM_PASSWORD" : "Jelszó megerősítése",
+        "TO_EDIT_WEBSITE_NOTICE" : "Weboldal szerkesztéséhez az <b>előfizető</b> felhasználónak be kell állítania egy új jelszót ezen a felületen."
       }
     },
     "SYSTEM_NOTIFICATIONS": {
@@ -5195,7 +5258,11 @@
       "SUBSCRIPTION_INFO_AFTER_CANCEL" : "Az aktuális előfizetésed {{subscriptionDate}} dátumig tart, a szolgáltatás ezt követően szűnik meg.<br>Addig viszont működik és használni tudod a rendszert.",
       "SUBSCRIPTION_CANCEL_ERROR" : "Sikertelen lemondás",
       "AUTHORITY_UPDATE_SUCCESS" : "Sikeres klinika jogosultság frissítés",
-      "AUTHORITY_UPDATE_ERROR" : "Sikertelen klinika jogosultság frissítés"
+      "AUTHORITY_UPDATE_ERROR" : "Sikertelen klinika jogosultság frissítés",
+      "EESZT_DATA_NOT_SAVED_CONFIRM" : "Az <i>EESZT adatok</i> nem lettek elmentve. Biztosan folytatod?",
+      "ORG_UNIT_DELETE_CONFIRM" : "Biztosan törli a szervezeti egységet?",
+      "RENEW_ERROR" : "Sikertelen megújítás, kérjük próbáld meg újra.",
+      "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lista lerkérdezés"
     }
   },
 
