@@ -649,7 +649,8 @@
       "UNKNOWN": "Ismeretlen beteg: ",
       "EU": "Európai egészségügyi kártya: ",
       "IMMIGRANT_2": "Menekült, menedékes és oltalmazott státusz kérelmezése előtt: ",
-      "ID": "Azonosító: "
+      "ID": "Azonosító: ",
+      "OTHER" : "Egyéb"
     },
     "SOCIAL_SECURITY_NUMBER_TYPE_DDL": {
       "TAJ":"TAJ szám",
@@ -1196,7 +1197,9 @@
     "INDENT": "Behúzás növelése",
     "ALIGN": "Igazítás",
     "LINK": "Hivatkozás",
-    "CLEAN": "Formázás törlése"
+    "CLEAN": "Formázás törlése",
+    "EDIT_HTML" : "HTML szerkesztés",
+    "QUOTE" : "Idézet"
   },
 
   "COLOR" : {
@@ -1582,6 +1585,16 @@
   },
 
   "COMPONENTS_SYSTEM_NOTIFICATIONS" : {
+    "APP" : {
+      "PLEASE_LOG_IN_AGAIN" : "Egy másik fülön bezártad az oldalt vagy kijelentkeztél onnan. Kérjük, jelentkezz be újra.",
+      "TOKEN_EXPIRED" : "A felhasználói token érvényessége lejárt, jelentkezz be újra",
+      "MAINTENANCE_WARNING" : "Az oldalon <b>{{FORMATTED_TIME}}</b> időponttól karbantartás lesz!<br><br>Kérjük mentsd el a munkád, mert ebben az időpontban automatikusan ki leszel jelentkeztetve!",
+      "SUBSCRIPTION_STATUS_FETCH_ERROR" : "Sikertelen előfizetési állapot lekérdezés"
+    },
+    "APP_ROUTE_GUARD" : {
+      "NO_AUTHORITY_FOR_ACCESSING_PAGE" : "Nincs megfelelő jogosultsága a kért oldal eléréséhez.",
+      "LOGIN_NEEDED" : "A kért oldal eléréséhez bejelentkezés szükséges."
+    },
     "CALENDAR_DAILY_VIEW" : {
       "NO_NEXT_OCCASION_TODAY" : "Nincs következő időpont a mai napon",
       "NO_PREVIOUS_OCCASION_TODAY" : "Nincs korábbi időpont a mai napon",
@@ -1846,7 +1859,9 @@
         "DELETE_SURVEY_ERROR" : "Hiba a vizsgálati lap mentése során.",
         "COPY_SURVEY_SUCCESS" : "Sikeres vizsgálati lap másolás. Új vizsgálati lap neve: {{title}}",
         "COPY_SURVEY_ERROR" : "Hiba a vizsgálati lap másolása során.",
-        "CLINIC_SURVEY_FETCH_ERROR" : "Sikertelen klinika szintű vizsgálati lap lekérdezés"
+        "CLINIC_SURVEY_FETCH_ERROR" : "Sikertelen klinika szintű vizsgálati lap lekérdezés",
+        "SURVEY_PUBLISH_SUCCESS" : "Sikeres vizsgálati lap pubklikálás",
+        "SURVEY_PUBLISH_ERROR" : "Hiba a vizsgálati lap pubklikálása közben"
       }
     }
   },
@@ -2177,6 +2192,17 @@
       "GET_NUMBER_OF_PATIENTS_WITHOUT_THERAPIST_ERROR" : "Terapeuta nélküli páciensek számát nem sikerült lekérdezni"
     }
   },
+  "SIDEBAR_ITEM_COMPONENT" : {
+    "CURRENT_CLINIC" : "Aktuális klinika",
+    "SYSTEM_NOTIFICATIONS" : {
+      "UNREAD_MESSAGES_FETCH_ERROR" : "Sikertelen olvasatlan üzenetek száma lekérdezés",
+      "NEW_SUPPORT_CHAT_MESSAGE" : "Új ügyfélszolgálati üzenet érkezett."
+    }
+  },
+  "HELP_COMPONENT" : {
+    "SEARCH_PLACEHOLDER" : "Keresés",
+    "CONTENT_FETCH_ERROR" : "Sikertelen tartalom lekérdezés"
+  },
   "PAGE_HEADER" : {
     "DASHBOARD" : "Kezdőlap",
     "MY_PATIENTS" : "Pácienseim",
@@ -2194,7 +2220,8 @@
       "HELP" : "Súgó",
       "SYSTEM_ADMIN_PAGE" : "Rendszer Admin oldal",
       "EXIT" : "Kilépés"
-    }
+    },
+    "SYS_NOTIFICATION_NEW_SUPPORT_CHAT_MESSAGE" : "Új ügyfélszolgálati üzenet érkezett."
   },
 
   "MAIN_BREADCRUMBS" : {
@@ -2270,6 +2297,19 @@
       "DELETE_CATEGORY_CONFIRM" : "Biztos, hogy törölni szeretné a \"{{CATNAME}}\" nevű kategóriát?",
       "DELETE_CATEGORY_SUCCESS" : "A(z) \"{{CATNAME}}\" kategória sikeresen törölve lett.",
       "DELETE_CATEGORY_ERROR" : "Sikertelen gyakorlat kategória törlés"
+    }
+  },
+  "SURVEY_VIEW_COMPONENT" : {
+    "PHONE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt.",
+    "ID_TYPE" : "Azonosító típusa",
+    "SAVE" : "Mentés",
+    "SYSTEM_NOTIFICATIONS" : {
+      "FIELDS_MARKED_WITH_RED_ARE_REQUIRED" : "A pirossal jelölt mezők kitöltése kötelező",
+      "VALUES_OF_RED_FIELDS_ARE_INVALID" : "A pirossal jelölt mezők értéke nem megfelelő",
+      "SAVE_DATA_INPUT_CONFIRM" : "Mentést követően az adatbekérőt már nem lehet szerkeszteni. Biztosan menti?",
+      "SURVEY_SAVE_SUCCESS" : "Sikeres vizsgálati lap mentés",
+      "SURVEY_SAVE_ERROR" : "Sikertelen vizsgálati lap mentés",
+      "PICTURE_UPLOAD_CONFIRM" : "Biztos, hogy új képet szeretnél feltölteni vagy új fotót készíteni? A műveletet nem visszavonható!"
     }
   },
 
@@ -2533,6 +2573,7 @@
     },
     "FORGOT_PASSWORD_PAGE" : {
       "BREADCRUMB" : "Elfelejtett jelszó",
+      "TEMPORARY_PASSWORD_EDIT" : "Ideiglenes jelszó módosítás",
       "TITLE" : "Elfelejtett jelszó",
       "PLEASE_GIVE_YOUR_USERNAME_OR_EMAIL" : "Kérlek, add meg a felhasználóneved vagy e-mail címed",
       "USER_TYPES" : {
@@ -3047,6 +3088,7 @@
   },
 
   "CALENDAR" : {
+    "MOVE" : "Mozgatás",
     "BREADCRUMB" : {
       "TITLE" : {
         "DASHBOARD" : "Kezdőlap",
@@ -3153,6 +3195,9 @@
               "ACTION_BUTTON_TEXTS" : {
                 "LOAD_TEST_DATA" : "Tesztadatok betöltése"
               },
+              "TREATMENT_AMOUNT" : "Kezelésszám",
+              "NUMBER_TOO_SMALL" : "Túl kicsi szám",
+              "NUMBER_TOO_BIG" : "Túl nagy szám",
               "TOOLTIPS" : {
                 "JUMP_TO_CURRENT_WEEK" : "Ugrás az aktuális hétre"
               },
@@ -3303,6 +3348,7 @@
             "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
           },
           "TOOLTIPS": {
+            "CONFIRM_CANCEL" : "",
             "SELECT_ALL" : "Összes kijelölése",
             "DELETE_ALL_SELECTION" : "Összes kijelölés törlése",
             "SELECT" : "Kijelölés",
@@ -4184,6 +4230,10 @@
       },
       "BULK_EMAIL_SENDING" : {
         "TAB_TITLE" : "Tömeges emailküldés",
+        "EXAMPLE_ENTITIES" : {
+          "EXAMPLE" : "Példa",
+          "PATIENT" : "Páciens"
+        },
         "TABS" : {
           "SELECT_RECIPIENTS" : {
             "TITLE" : "Címzettek kiválasztása",
@@ -4253,6 +4303,7 @@
   },
 
   "OWN_CLINIC" : {
+    "NEW_CLINIC_BUTTON_TEXT" : "Új klinika",
     "BREADCRUMB" : {
       "DASHBOARD" : "Kezdőlap",
       "MY_CLINIC" : "Klinikám",
@@ -4265,6 +4316,8 @@
       "SUBSCRIPTION" : "Előfizetés",
       "TEST_PERIOD" : "Tesztidőszak",
       "OWN_WEBSITE" : "Saját weboldal",
+      "MEMBERSHIP_TYPES" : "Bérlettípusok",
+      "ADD_CLINIC" : "Klinika hozzáadása",
       "SEARCH" : {
         "INPUT_PLACEHOLDER" : {
           "SEARCH_FOR_PATIENT" : "Páciens keresése"
@@ -4285,6 +4338,14 @@
         "SUBSCRIPTION" : "Előfizetés",
         "TEST_PERIOD" : "Tesztidőszak",
         "OWN_WEBSITE" : "Saját weboldal"
+      }
+    },
+    "CLINICS_DATA_TABLE" : {
+      "EDIT_CLINIC_TOOLTIP" : "Klinika szerkesztése",
+      "HEADERS" : {
+        "CLINIC_NAME" : "Klinika neve",
+        "TAX_NUMBER" : "Adószám",
+        "CITY" : "Település"
       }
     },
     "TABS" : {
@@ -4879,11 +4940,45 @@
                 "INFO_CHECKBOX" : "A bérlet Gyógymasszázs kezelésre az alábbi terapeutáknál használható fel"
               },
               "SAVE_BUTTON_TEXT" : "Mentés"
+            },
+            "MEMBERSHIP_TYPE_DIALOG" : {
+              "CREATE_MEMBERSHIP_TYPE" : "Bérlettípus létrehozása",
+              "MEMBERSHIP_TYPE_NAME" : "Bérlettípus neve",
+              "MEMBERSHIP_TYPE_PLACEHOLDER" : "Hány alkalmasak a bérletek ebben a bérlet típusban",
+              "MEMBERSHIP_TYPE_CAN_BE_USED_ON_THESE_TREATMENTS" : "Milyen foglalkozásokon/kezeléseken használható fel ez a bérlet típus",
+              "PRIVATE_CLASS" : "Egyéni foglalkozáson",
+              "PRIVATE_CLASS_TOOLTIP" : "Ezt akkor jelöld be, ha csak egyéni kezeléseken használható fel a bérlet, tehát amikor a terapueta egyidejűleg egyetlen pácienssel foglalkozik",
+              "GROUP_CLASS" : "Csoportos órákon",
+              "GROUP_CLASS_TOOLTIP" : "Ezt akkor jelöld be, ha csak csoportos órákon használható fel a bérlet, tehát amikor a terapeuta egyidejűleg több pácienssel foglalkozik.",
+              "PRIVATE_AND_GROUP_CLASS" : "Egyéni és csoportos órákon is",
+              "PRIVATE_AND_GROUP_CLASS_TOOLTIP" : "Ezt akkor jelöld be, hogyha a egyéni kezeléseken és csoportos órákon is felhasználható bérletet szeretnél.",
+              "MEMBERSHIP_TYPE_PRICE_PLACEHOLDER" : "Bérlettípus ára",
+              "PRICE_TOOLTIP" : "A bérlettípus ára nem lehet nagyobb, mint 9.999.999",
+              "CURRENCY" : "Pénznem",
+              "VALIDITY" : "Bérlettípus érvényessége",
+              "VALIDITY_TOOLTIP" : "Az érvényességi idő, napokban kifejezve, csak 0 vagy 0-nál nagyobb egész szám lehet.",
+              "CANCEL" : "Mégsem",
+              "SAVE" : "Mentés"
             }
           }
         }
       },
       "AUTHORITIES_AND_CLINIC_SETTINGS" : {
+        "TITLE" : "Klinika jogosultságok",
+        "CLINIC_AUTHORITY" : {
+          "CLINIC_ACCESS" : "Klinika hozzáférés",
+          "CUSTOMER_STATUS" : "Ügyfél státusz",
+          "SUBSCRIPTION_TIME" : "Előfizetési idő",
+          "LICENCE_AMOUNT" : "Licencek száma",
+          "SUBSCRIPTION_TYPE" : "Csomag típusa",
+          "NUMBER_OF_COLLEAGUES" : "Kollégák száma",
+          "PERIOD" : "Periódus",
+          "SZAMLAZZ_HU_URL" : "Klinikához tartozó számlázz.hu URL",
+          "BILLING" : "Számlázás",
+          "COUPON_CODE" : "Kuponkód",
+          "PARTNER_CODE" : "Partnerkkód",
+          "SAVE" : "Mentés"
+        },
         "TABS" : {
           "CLINIC_SETTINGS": {
             "TAB_TITLE" : "Klinka beállítások",
@@ -4950,7 +5045,11 @@
             "ORGANISATION_ID_PLACEHOLDER": "Szervezet azonosítója",
             "ORGANISATION_NAME_PLACEHOLDER": "Szervezet neve",
             "UNITS_TITLE": "Szervezeti egységek",
-            "UNIT_CREATE": "Új szervezeti egység"
+            "UNIT_CREATE": "Új szervezeti egység",
+            "TOOLTIPS" : {
+              "EDIT" : "Szerkesztés",
+              "DELETE" : "Törlés"
+            }
           }
         }
       },
@@ -4991,6 +5090,7 @@
       "EMAIL_SETTINGS_FETCH_FAILED": "Sikertelen e-mail beállítás lekérdezés",
       "EMAIL_SETTINGS_NOT_SAVED_CONFIRM": "Az <i>Email beállítások</i> nem lettek elmentve. Biztosan folytatod?",
       "SAVE_SUCCESS": "Sikeres mentés",
+      "SAVE_ERROR" : "Sikertelen mentés",
       "SETTINGS_SAVE_ERROR": "Hiba a beállítások mentése közben",
       "REVERT_CUSTOM_EMAIL_CONFIRM": "Biztosan visszavonod a beállított saját e-mail címet?",
       "REVERT_SUCCESS": "Sikeres visszaállítás",
@@ -5093,7 +5193,9 @@
       "MODIFICATION_REQUEST_SEND_SUCCESS" : "Módosítási kérés sikeresen beküldve",
       "MODIFICATION_REQUEST_SEND_ERROR" : "Módosítási kérés beküldése sikertelen",
       "SUBSCRIPTION_INFO_AFTER_CANCEL" : "Az aktuális előfizetésed {{subscriptionDate}} dátumig tart, a szolgáltatás ezt követően szűnik meg.<br>Addig viszont működik és használni tudod a rendszert.",
-      "SUBSCRIPTION_CANCEL_ERROR" : "Sikertelen lemondás"
+      "SUBSCRIPTION_CANCEL_ERROR" : "Sikertelen lemondás",
+      "AUTHORITY_UPDATE_SUCCESS" : "Sikeres klinika jogosultság frissítés",
+      "AUTHORITY_UPDATE_ERROR" : "Sikertelen klinika jogosultság frissítés"
     }
   },
 
