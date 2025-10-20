@@ -136,6 +136,8 @@
     "DELETE_PICTURE": "Kép törlése",
     "PICTURE_MAX_SIZE": "A vágásra kijelölhető maximális méret 1000 x 1000 pixel",
     "SIGNATURE" : "Aláírás",
+    "REASON" : "Indoklás",
+    "COLOR" : "Szín",
     "SYSTEM_EVENT" : {
       "CLINIC_ADMIN_SAVE" : "Klinika admin létrehozása",
       "CLINIC_DATA_UPDATE" : "Klinika adatok módosítása",
@@ -1561,7 +1563,17 @@
     "COMMENT" : "Megjegyzés",
     "END_OF_DATE" : "Időpont vége",
     "CANCEL_BUTTON_TEXT" : "Mégsem",
-    "SAVE_BUTTON_TEXT" : "Mentés"
+    "SAVE_BUTTON_TEXT" : "Mentés",
+    "SYSTEM_NOTIFICATIONS" : {
+      "START_DATE_MUST_BE_BEFORE_FINISH_DATE" : "A kezdő időpont legyen korábban, mint a végidőpont",
+      "WORK_BREAK_START_AND_FINISH_TIME_MUST_BE_ON_SAME_DAY" : "A munkaközi szünet kezdő és végidőpontja csak ugyanazon a napon lehet",
+      "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lista lekérdezés",
+      "EVENT_SAVE_CONFIRM" : "Az időpont klinikai rendelésen kivül esik. Biztosan mented az eseményt?",
+      "DATE" : "Időpont",
+      "START_OF_DATE" : "Időpont kezdete",
+      "EVENT_UPDATE_ERROR" : "Sikertelen esemény frissítés",
+      "EVENT_CREATE_ERROR" : "Sikertelen esemény létrehozás"
+    }
   },
 
   "CLINIC_DATE_PICKER" : {
@@ -1686,6 +1698,34 @@
       "USER_UPDATED" : "A(z) {{USERNAME}} felhasználó frissült.",
       "AUTO_DATA_INPUT_REGISTER_SUCCESS" : "Sikeres automatikus adatbekérők beregisztrálása.",
       "AUTO_DATA_INPUT_REGISTER_ERROR" : "Sikertelen automatikus adatbekérők beregisztrálása."
+    },
+    "PATIENT_EVENT_FORM" : {
+      "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lista lekérdezés",
+      "TREATMENT_LIST_FETCH_ERROR" : "Sikertelen kezelés lista lekérdezés",
+      "TREATMENT_ROOM_LIST_FETCH_ERROR" : "Sikertelen kezelőhelyiség lista lekérdezés",
+      "TIME_OUTSIDE_CONSULTING_HOURS_SAVE_CONFIRM" : "Az időpont klinikai rendelésen kivül esik. Biztosan mented az eseményt?",
+      "PATIENT_FETCH_ERROR" : "Sikertelen páciens lekérdezés",
+      "MORE_PATIENTS_THAN_MAXIMUM_TREATMENT_PARTICIPANTS_ERROR" : "A kezelés nem választható, mert több páciens van felírva, mint amennyi a kezelés maximális résztvevő száma.",
+      "MORE_PATIENTS_THAN_MAXIMUM_CAPACITY_ERROR" : "A helyiség nem választható, mert több páciens van felírva, mint amennyi a helyiség maximális férőhelye.",
+      "CAN_NOT_SET_EVENT_BECAUSE_OVER_MAXIMUM_CAPACITY" : "A maximális férőhely túllépése miatt nem tudod visszaállítani \"Leegyeztetett\" státuszra az eseményt.",
+      "EVENT_CAN_NOT_BE_COMPENSATED_NO_TREATMENT_TYPE_SET_ERROR" : "Az esemény nem kiegyenlíthető, mert nincs beállítva Kezelés típus.",
+      "EVENT_STATUS_UPDATE_SUCCESS" : "Sikeres esemény állapot frissítés",
+      "EVENT_STATUS_SETTING_ERROR" : "Sikertelen esemény állapot beállítás",
+      "EVENT_UPDATE_SUCCESS" : "Sikeres esemény frissítés",
+      "EVENT_UPDATE_ERROR" : "Sikertelen esemény frissítés",
+      "EVENT_CREATE_SUCCESS" : "Sikeres esemény létrehozás",
+      "EVENT_CREATE_ERROR" : "Sikertelen esemény létrehozás",
+      "BAD_FORMAT" : "Hibás formátum",
+      "MAXIMUM_CAPACITY_INFO" : "Maximális értéke a kezelés típusa és a kezelőhelyiség maximális létszáma alapján: {{LIMIT}}",
+      "CHOOSE_TREATMENT_TYPE_AND_ROOM_FOR_CALCULATING_MAXIMUM_CAPACITY" : "Maximális létszám kiszámításához kérlek válassz kezelés típust és kezelőhelyiséget",
+      "CAN_NOT_LOWER_MAXIMUM_CAPACITY" : "Nem tudod csökkenteni a maximális létszámot, mert több páciens van felírva.",
+      "GROUP_CLASS_DIALOG" : {
+        "EVENT_CAN_BE_COMPENSATED_FOR_ALL_PARTICIPANTS" : "Az esemény az összes résztvevő számára (akinek korábban \"Leegyeztetett\" státuszú volt az eseménye) kiegyenlíthető. ",
+        "SUBTRACT_MEMBERSHIP_INSTANCE_QUESTION" : "Szeretnéd most levonni a bérletalkalmakat?",
+        "BILL_FOR_PARTICIPANTS_QUESTION" : "Szeretnéd most kiállítani a számlákat a résztvevők számára?",
+        "BILL_AND_SUBTRACT_MEMBERSHIP_INSTANCE_QUESTION" : "Szeretnéd most levonni a bérletalkalmakat és/vagy kiállítani a számlákat a résztvevők számára?",
+        "SET_WHO_COMPENSATED_QUESTION" : "Szeretnéd most beállítani, hogy melyik résztvevő egyenlítette ki az foglalkozás díját?"
+      }
     }
   },
   "EESZT" : {
@@ -1912,12 +1952,21 @@
   },
   "HTML_TABLE_GENERATE" : {
     "NUMBER_OF_ROWS" : "Sorok száma",
+    "NUMBER_OF_COLUMNS" : "Oszlopok száma",
     "VALUES_MUST_BE_BETWEEN_1_AND_100" : "Az értéknek 1 és 100 között kell lennie.",
     "GENERATE_TABLE" : "Táblázat generálása",
     "SAVE_TABLE" : "Táblázat mentése",
     "SAVE_TABLE_SUCCESS" : "A táblázat mentése sikeres!"
   },
-
+  "CALENDAR_SCHEDULER_VIEW" : {
+    "JUMP_TO_TODAY" : "Ugrás a mai naphoz",
+    "DELETED_THERAPIST" : "Törölt terapeuta",
+    "SYSTEM_NOTIFICATIONS" : {
+      "THERAPIST_AND_TREATMENT_ROOM_FETCH_ERROR" : "Sikertelen terapeuta, kezelőhelyiség lekérdezés",
+      "MODIFY_EVENT_DATE_CONFIRM" : "Biztos, hogy módosítod az esemény időpontját?",
+      "CALENDAR_VIEW_UPDATE_ERROR" : "Sikertelen naptár nézet frissítés."
+    }
+  },
   "PATIENT_CARD" : {
     "PATIENT_PROFILE" : "Páciens profil oldala",
     "PATIENT_INFO" : {
@@ -2202,6 +2251,14 @@
   "HELP_COMPONENT" : {
     "SEARCH_PLACEHOLDER" : "Keresés",
     "CONTENT_FETCH_ERROR" : "Sikertelen tartalom lekérdezés"
+  },
+  "CALENDAR_EVENT_DELETE_DIALOG" : {
+    "TITLE" : "Ismétlődő esemény törlése",
+    "RADIO_BUTTON_OPTIONS" : {
+      "THIS_EVENT" : "Ezt az eseményt",
+      "THIS_AND_ALL_FOLLOWING_EVENTS" : "Ezt és az összes ezt követő eseményt"
+    },
+    "CANCEL" : "Mégsem"
   },
   "PAGE_HEADER" : {
     "DASHBOARD" : "Kezdőlap",
@@ -2559,6 +2616,11 @@
               "PASSWORD_AGAIN_EYE_TOOLTIP" : "A jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
               "PASSWORD_AGAIN_HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon."
             },
+            "PLAN_TYPES" : {
+              "MONTH" : "Havi",
+              "YEAR" : "Éves",
+              "TWO_YEAR" : "Kétéves"
+            },
             "ACCEPT_TERMS_AND_CONDITIONS" : {
               "TEXT" : "Elfogadom az",
               "LINK_TEXT" : "Általános Szerzői Feltételeket"
@@ -2568,7 +2630,34 @@
         }
       },
       "SYSTEM_NOTIFICATIONS" : {
-        "REGISTRATION_SUCCESS" : "Sikeres regisztráció"
+        "REGISTRATION_SUCCESS" : "Sikeres regisztráció",
+        "REGISTRATION_ERROR" : "Sikertelen regiszráció",
+        "CLINIC_ADMIN_USER_TYPE" : "Klinika adminisztrátor",
+        "CONFIRMATION_SUCCESS" : "Kedves {{token}} a regisztrációdat sikeresen megerősítetted",
+        "CONFIRMATION_ERROR" : "A konfirmáció sikertelen volt"
+      }
+    },
+    "DEFAULT_PASSWORD_CHANGE" : {
+      "PLEASE_MODIFY_TEMPORARY_PASSWORD_NOTICE" : "Kérünk most módosítsd az ideiglenes jelszavadat, amit e-mailben megküldtünk, egy olyanra amit te választasz. Ezután már be tudsz lépni a rendszerbe a saját jelszavaddal!",
+      "PASSWORD_EYE_TOOLTIP" : "Az új jelszó beírása után, a szem ikonra kattintva, láthatóvá válik a begépelt jelszó",
+      "PASSWORD_HELP_TOOLTIP" : "Legalább 8 és legfeljebb 50 karakter, valamint legalább egy kis- és nagybetűt és számot tartalmazzon.",
+      "FIELDS" : {
+        "USERNAME_FROM_REGISTRATION_EMAIL" : "A regisztrációs e-mailben megkapott felhasználói név",
+        "TEMPORARY_PASSWORD" : "Ideiglenes jelszó",
+        "TEMPORARY_PASSWORD_FROM_REGISTRATION_EMAIL" : "A regisztrációs e-mailben megkapott ideiglenes jelszó.",
+        "NEW_PASSWORD" : "Új jelszó",
+        "NEW_PASSWORD_AGAIN" : "Új jelszó ismét"
+      },
+      "ACCEPT_PRIVACY_POLICY" : {
+        "1" : "Adatkezelési tájékoztató",
+        "2" : "elfogadása"
+      },
+      "EDIT_BUTTON_TEXT" : "Módosítás",
+      "SYSTEM_NOTIFICATIONS" : {
+        "PASSWORD_CHANGE_SUCCESS" : "Sikeres jelszó módosítás!<br>Kérjük jelentkezzen be az új jelszóval",
+        "USERNAME_OR_PASSWORD_ERROR" : "Hibás felhasználónév vagy jelszó!",
+        "USERNAME_DOES_NOT_EXIST" : "A felhasználónév nem létezik",
+        "BEFORE_READING_PRIVACY_POLICY_GIVE_USERNAME" : "Az adatvédelmi tájékoztató elolvasása előtt kérjük adja meg felhasználói nevét"
       }
     },
     "FORGOT_PASSWORD_PAGE" : {
@@ -2621,7 +2710,11 @@
           "LENGTH" : "Időtartam",
           "NO_MOBILE_NUMBER_GIVEN" : "Nincs telefonszám",
           "NO_EMAIL_GIVEN" : "Nincs email cím"
-        }
+        },
+        "DELETED_THERAPIST": "Törölt terapeuta",
+        "GROUP_EVENT" : "Csoportos esemény",
+        "NOT_GIVEN" : "Nincs megadva",
+        "ALL_DAY_EVENT_DURATION" : "Egész napos"
       }
     },
     "NEXT_PATIENT" : {
@@ -2875,6 +2968,7 @@
         "MESSAGES" : "Üzenetek",
         "BILLING_AND_CONTACT_INFORMATION" : "Számlázási és kontakt adatok",
         "EDIT_PATIENT" : "Páciens szerkesztése",
+        "ADD_PATIENT" : "Páciens hozzáadása",
         "EDIT_MY_DATA" : "Adataim szerkesztése"
       },
       "SEARCH" : {
@@ -3160,7 +3254,9 @@
               "DATE" : "Időpont",
               "REPEATING" : "Ismétlődés",
               "THERAPIST" : "Terapeuta",
+              "CREATE_PATIENT" : "Páciens létrehozás",
               "TREATMENT_TYPE" : "Kezelés típusa",
+              "TREATMENT_DURATION" : "Kezelés időtartama",
               "LATER_SETTING_OF_TREATMENT_TYPE" : "Későbbi beállítás",
               "TREATMENT_ROOM" : "Helyiség",
               "MAX_GROUP_SIZE" : "Mennyi lehet a csoportos foglalkozás maximális létszáma?",
@@ -3186,6 +3282,7 @@
                 }
               }
             },
+            "PERSON" : "fő",
             "SAVE_BUTTON_TEXT" : "Mentés",
             "GO_BACK_BUTTON_TEXT" : "Mégsem"
           },
@@ -3503,7 +3600,8 @@
             "SELECT_ALL_CHECKBOX_TEXT" : "Mind kijelöl",
             "DELETE_SELECTION_CHECKBOX_TEXT" : "Kijelölések törlése",
             "CLOSE_BUTTON_TEXT" : "Bezár",
-            "DOWNLOAD_BUTTON_TEXT" : "Letöltés"
+            "DOWNLOAD_BUTTON_TEXT" : "Letöltés",
+            "ARCHIVE" : "Archív"
           },
           "EDIT_PATIENT" : {
             "HEADER_SECTION" : {
@@ -3606,7 +3704,9 @@
           },
           "TOOLTIPS" : {
             "IF_NOT_COMPENSATED" : "Jelenleg a kezelés még nem lett kiegyenlítve. Kiegyenlítéshez a kezelést át kell állítani\n&quot;Megtörtént&quot; vagy &quot;Lemondott (késve)&quot; állapotra. Utána a bérlet alkalom levonható vagy a számla kiállítható.",
-            "EDIT" : "Szerkesztés"
+            "EDIT" : "Szerkesztés",
+            "SEND_CANCEL_REQUEST" : "Lemondási kérelem küldése",
+            "CONFIRM_CANCEL" : "Lemondás megerősítése"
           }
         },
         "WAITING_LISTS_TAB" : {
@@ -3677,6 +3777,7 @@
             "UPLOAD_TIME" : "Feltöltés dátuma",
             "OPERATIONS" : "Műveletek"
           },
+          "DOWNLOAD" : "Letöltés",
           "UPLOAD_NEW_DOCUMENT_BUTTON_TEXT" : "Új dokumentum feltöltése",
           "DELETE_TOOLTIP" : "Törlés"
         },
@@ -3740,7 +3841,18 @@
             "NO_COMPLETED_ASSESSMENT" : "Nem érkezett még be kitöltött állapotfelmérő"
           },
           "CHOOSE_SHEET_DROPDOWN_PLACEHOLDER" : "Állapotfelmérő, adatbekérő kiválasztása",
+          "ARCHIVE" : "Archív",
           "SEND_BUTTON_TEXT" : "Küldés"
+        },
+        "DELETE_OWN_PROFILE_DIALOG" : {
+          "TITLE" : "Klinika előfizetés módosítása",
+          "PROFILE_DELETE_NOTICE" : "Amennyiben profil fiókod törlését elindítod a megadott beállítások szerint fogjuk elvégezni, a vissza nem vonható törlést!<br>\n      Ezzel a folyamattal minden hozzád kapcsolódó, mentet adat és fájl törlésre kerül.",
+          "CHECKBOX_TEXTS" : {
+            "SEND_STORED_DATA" : "A tárolt adatokat szeretném megkapni",
+            "CONFIRM_DELETION" : "Igen, kérem az adataim törlését és tisztában vagyok a törlés következményeivel"
+          },
+          "CANCEL_BUTTON_TEXT" : "Mégsem",
+          "DELETE_BUTTON_TEXT" : "Törlés"
         },
         "SYSTEM_NOTIFICATIONS" : {
           "CONFIRM_PATIENT_INACTIVATION_NAME": "Biztos, hogy inaktív állapotba szeretnéd rakni a \"{{name}}\" nevű pácienst?",
@@ -3900,10 +4012,13 @@
             },
             "ADD_EXERCISE" : {
               "TITLE" : "Gyakorlat hozzáadása",
+              "EXERCISE_NAME" : "Gyakolat neve",
               "NO_EXERCISE_FOR_VISIT" : "A vizsgálathoz nem tartozik gyakorlat",
               "EXERCISES_NOT_FINALIZED_BY_THERAPIST" : "A gyakorlatokat az Ön terapeutája még nem veglegesítette"
             }
-          }
+          },
+          "DELETE" : "Törlés",
+          "MOVE" : "Mozgatás"
         },
         "TOOLTIPS" : {
           "NEW_PROBLEM_BUTTON_TOOLTIP" : "Annak a mozgásszervi problémának felvétele, mellyel a páciens érkezett",
@@ -3911,7 +4026,8 @@
           "DELETE_ANSWERS" : "Válaszok törlése",
           "DELETE_SURVEY" : "Vizsgálati lap törlése",
           "ADD_OR_DELETE_SURVEYS" : "Vizsgálati lapok hozzáadása/törlése",
-          "PDF_DOWNLOAD" : "PDF letöltés"
+          "PDF_DOWNLOAD" : "PDF letöltés",
+          "PATIENT_IS_SUSPENDED" : "A páciens felfüggesztett állapotban van"
         },
         "SYSTEM_NOTIFICATIONS" : {
           "THERAPIST_LIST_FETCH_ERROR": "Sikertelen terapeuta lista lekérdezés",
@@ -4102,6 +4218,19 @@
             },
             "CANCEL_BUTTON_TEXT" : "Mégsem",
             "SAVE_BUTTON_TEXT" : "Mentés"
+          },
+          "EDIT_CONTACT_POPUP" : {
+            "TITLE" : "Kontakt szerkesztése",
+            "FIELDS" : {
+              "FIRST_NAME" : "Keresztnév",
+              "LAST_NAME" : "Vezetéknév",
+              "EMAIL" : "E-mail cím",
+              "MOBILE_NUMBER" : "Telefonszám",
+              "MOBILE_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt.",
+              "COMMENT" : "Megjegyzés"
+            },
+            "CANCEL_BUTTON_TEXT" : "Mégsem",
+            "SAVE_BUTTON_TEXT" : "Mentés"
           }
         },
         "SYSTEM_NOTIFICATIONS" : {
@@ -4125,7 +4254,8 @@
           "CONTACT_ACTION_CREATE": "hozzáadás",
 
           "CONTACT_EDIT_UNSAVED_PROMPT_HTML": "A <i>Kontakt szerkesztése</i> nem lett elmentve. Biztosan folytatod?",
-          "CONTACT_CREATE_UNSAVED_PROMPT_HTML": "Az <i>Új kontakt felvétele</i> nem lett elmentve. Biztosan folytatod?"
+          "CONTACT_CREATE_UNSAVED_PROMPT_HTML": "Az <i>Új kontakt felvétele</i> nem lett elmentve. Biztosan folytatod?",
+          "NOTIFICATION_SENDING_SETTING_NOT_SAVED_CONFIRM" : "Az <i>Értesítő küldése a következő esetekben</i> nem lett elmentve. Biztosan folytatod?"
         }
       },
       "DATA_PRIVACY" : {
@@ -4355,6 +4485,8 @@
         "TABS" : {
           "EMAIL_SETTINGS" : {
             "TAB_LABEL" : "E-mail beállítások",
+            "GIVE_OWN_EMAIL_ADDRESS_BUTTON_TEXT" : "Saját címet adok meg",
+            "REVERT_BUTTON_TEXT" : "Visszavonás",
             "EMAIL_USED_FOR_SENDING_CARD" : {
               "TITLE" : "Küldéshez használt e-mail cím",
               "FIELDS" : {
@@ -4854,6 +4986,7 @@
               "THERE_ARE_GROUP_CLASSES_IN_ROOM" : "Tartunk csoportos órát ebben a kezelőhelyiségben",
               "MAX_NUMBER_OF_PATIENTS" : "Maximum hány páciens fér el egyszerre a kezelőhelyiségben",
               "GROUP_ClASS_MINIMUM" : "Csoportos óra esetén a minimális létszám 2",
+              "COLOR" : "Szín",
               "TOOLTIPS" : {
                 "CHECKBOX_WARNING" : "Akkor pipáld be, ha elég nagy a kezelőhelyiséged ahhoz, hogy csoportos órákat is tarts benne, legalább 2 fő számára egyidejűleg."
               },
@@ -5001,6 +5134,9 @@
           }
         },
         "ADMIN_SELECTOR_COMPONENT" : {
+          "TITLE" : "Klinika vezető választása",
+          "CANCEL_BUTTON_TEXT" : "Mégsem",
+          "SELECT_BUTTON_TEXT" : "Kiválaszt",
           "TABLE" : {
             "CHOOSE_ADMIN_TOOLTIP" : "Admin kiválasztása",
             "HEADERS" : {
