@@ -138,6 +138,7 @@
     "SIGNATURE" : "Aláírás",
     "REASON" : "Indoklás",
     "COLOR" : "Szín",
+    "ID_OR_TAJ" : "Azonosító/TAJ",
     "SYSTEM_EVENT" : {
       "CLINIC_ADMIN_SAVE" : "Klinika admin létrehozása",
       "CLINIC_DATA_UPDATE" : "Klinika adatok módosítása",
@@ -216,6 +217,28 @@
     "UAH": "ukrán hryvna",
     "VND": "vietnámi dong",
     "ZAR": "dél-afrikai rand"
+  },
+  "COUNTRY": {
+    "HUNGARY": "Magyarország",
+    "GERMANY": "Németország",
+    "AUSTRIA": "Ausztria",
+    "ITALY": "Olaszország",
+    "SPAIN": "Spanyolország",
+    "FRANCE": "Franciaország",
+    "POLAND": "Lengyelország",
+    "CZECH_REPUBLIC": "Csehország",
+    "SLOVAKIA": "Szlovákia",
+    "ROMANIA": "Románia",
+    "CROATIA": "Horvátország",
+    "SERBIA": "Szerbia",
+    "SLOVENIA": "Szlovénia",
+    "SWITZERLAND": "Svájc",
+    "NETHERLANDS": "Hollandia",
+    "BELGIUM": "Belgium",
+    "UNITED_KINGDOM": "Egyesült Királyság",
+    "UNITED_STATES": "Amerikai Egyesült Államok",
+    "CANADA": "Kanada",
+    "SWEDEN": "Svédország"
   },
   "DEFAULT_EMAIL_SUBJECT" : {
 
@@ -480,7 +503,8 @@
       "PATIENT": "Páciens",
       "RECEPTIONIST" : "Recepciós",
       "SYSTEM_ADMIN": "Rendszer admin",
-      "THERAPIST": "Terapeuta"
+      "THERAPIST": "Terapeuta",
+      "COLLEAGUE" : "Munkatárs"
     },
     "PERIOD_TYPE": {
       "MONTHLY": "Havi",
@@ -1571,7 +1595,9 @@
       "EVENT_SAVE_CONFIRM" : "Az időpont klinikai rendelésen kivül esik. Biztosan mented az eseményt?",
       "DATE" : "Időpont",
       "START_OF_DATE" : "Időpont kezdete",
+      "EVENT_UPDATE_SUCCESS" : "Sikeres esemény frissítés",
       "EVENT_UPDATE_ERROR" : "Sikertelen esemény frissítés",
+      "EVENT_CREATE_SUCCESS" : "Sikeres esemény létrehozás",
       "EVENT_CREATE_ERROR" : "Sikertelen esemény létrehozás"
     }
   },
@@ -1583,7 +1609,10 @@
     "HOUR" : "ÓÓ",
     "MINUTE" : "PP"
   },
-
+  "DATA_TABLE_TEXTS" : {
+    "MEMBERSHIP" : "Bérlet",
+    "MOVE" : "Mozgatás"
+  },
   "DATA_TABLE_SYSTEM_NOTIFICATIONS" : {
     "EMAIL" : "E-mail cím",
     "MOBILE_NUMBER" : "Telefonszám",
@@ -1674,7 +1703,8 @@
     },
     "PATIENT_COMMENTS_TABLE" : {
       "DELETE_COMMENT_SUCCESS" : "Sikeres megjegyzés törlés",
-      "DELETE_COMMENT_ERROR" : "Hiba a megjegyzés törlése során."
+      "DELETE_COMMENT_ERROR" : "Hiba a megjegyzés törlése során.",
+      "DELETE_COMMENT_CONFIRM" : "Biztos, hogy törölni szeretnéd megjegyzést?"
     },
     "PATIENT_JUSTIFICATION_DIALOG" : {
       "JUSTIFICATION_SAVE_SUCCESS" : "Sikeres értékelés mentés",
@@ -1697,7 +1727,11 @@
       "PATIENT_DATA_MODIFICATION_SUCCESS" : "Sikeres páciens adatmódosítás",
       "USER_UPDATED" : "A(z) {{USERNAME}} felhasználó frissült.",
       "AUTO_DATA_INPUT_REGISTER_SUCCESS" : "Sikeres automatikus adatbekérők beregisztrálása.",
-      "AUTO_DATA_INPUT_REGISTER_ERROR" : "Sikertelen automatikus adatbekérők beregisztrálása."
+      "AUTO_DATA_INPUT_REGISTER_ERROR" : "Sikertelen automatikus adatbekérők beregisztrálása.",
+      "CREATE_NEW_USER_TYPE" : "Az <i>Új {{USERTYPE}} létrehozása</i>",
+      "EDIT_USER_TYPE" : "A <i>{{USERTYPE}} szerkesztése</i>",
+      "EDIT_PERSONAL_DATA" : "<i>A személyes adatok szerkesztése</i>",
+      "OPERATION_NOT_SAVED_CONFIRM" : "{{operation}}  nem lett elmentve. Biztos folytatod?"
     },
     "PATIENT_EVENT_FORM" : {
       "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lista lekérdezés",
@@ -1726,6 +1760,36 @@
         "BILL_AND_SUBTRACT_MEMBERSHIP_INSTANCE_QUESTION" : "Szeretnéd most levonni a bérletalkalmakat és/vagy kiállítani a számlákat a résztvevők számára?",
         "SET_WHO_COMPENSATED_QUESTION" : "Szeretnéd most beállítani, hogy melyik résztvevő egyenlítette ki az foglalkozás díját?"
       }
+    }
+  },
+  "PERSON_EDIT_COMPONENTS" : {
+    "DATA_INPUT_SURVEY_SELECTOR" : {
+      "TITLE" : "Adatbekérők",
+      "SKIP_SENDOUT" : "Kiküldés kihagyása",
+      "SEND" : "Küldés",
+      "TABLE_HEADERS" : {
+        "TITLE" : "Cím",
+        "CREATION_TIMESTAMP" : "Készült"
+      },
+      "SYSTEM_NOTIFICATIONS" : {
+        "AUTO_DATA_INPUT_REGISTRATION_SUCCESS" : "Sikeres automatikus adatbekérő beregisztrálás",
+        "AUTO_DATA_INPUT_REGISTRATION_ERROR" : "Sikertelen automatikus adatbekérő beregisztrálás"
+      }
+    },
+    "THERAPIST_SELECTOR" : {
+      "TITLE" : "Terapeuta választás",
+      "CANCEL" : "Mégsem",
+      "SELECT" : "Kiválaszt",
+      "TABLE_HEADERS" : {
+        "NAME" : "Név",
+        "EMAIL" : "E-mail cím",
+        "PHONE_NUMBER" : "Telefonszám",
+        "USERNAME" : "Felhasználónév",
+        "ACTIVE" : "Aktív",
+        "DELETED" : "Törölt"
+      },
+      "DELETE_TOOLTIP" : "Törlés",
+      "ADD_TOOLTIP" : "Hozzáadás"
     }
   },
   "EESZT" : {
@@ -1864,7 +1928,9 @@
         "EESZT_IDENTIFICATION_IN_PROGRESS" : "EESZT azonosítás folyamatban... Várakozási idő: {{REMAINING_TIME}} mp",
         "TIMEOUT_NO_RESPONSE" : "Időtullépés. Nem érkezett válasz a hitelesítési kérésre, kérjük próbáld meg újra.",
         "CONNECTING_TO_READER_ERROR" : "Nem sikerült kapcsolódni az e-Személyi olvasóhoz. Kérjük ellenőrizd, hogy az eszköz megfelelően van-e csatlakoztatva és az eSzemélyi Kliens alkalmazás el van indítva.",
-        "CONNECTION_UPDATE_ERROR_EESZT_CONNECTION_ERROR" : "Sikertelen kapcsolat frissítés. Sikertelen kapcsolódás EESZT-hez. Kérjük próbáld meg az azonosítást később."
+        "CONNECTION_UPDATE_ERROR_EESZT_CONNECTION_ERROR" : "Sikertelen kapcsolat frissítés. Sikertelen kapcsolódás EESZT-hez. Kérjük próbáld meg az azonosítást később.",
+        "NO_ACTIVE_EESZT_CONNECTION" : "Nincs aktív EESZT kapcsolat.",
+        "EESZT_UNAVAILABLE" : "EESZT nem elérhető"
       }
     }
   },
@@ -1961,6 +2027,10 @@
   "CALENDAR_SCHEDULER_VIEW" : {
     "JUMP_TO_TODAY" : "Ugrás a mai naphoz",
     "DELETED_THERAPIST" : "Törölt terapeuta",
+    "TITLES" : {
+      "THERAPISTS" : "TERAPEUTÁK",
+      "TREATMENT_ROOMS" : "KEZELŐHELYISÉGEK"
+    },
     "SYSTEM_NOTIFICATIONS" : {
       "THERAPIST_AND_TREATMENT_ROOM_FETCH_ERROR" : "Sikertelen terapeuta, kezelőhelyiség lekérdezés",
       "MODIFY_EVENT_DATE_CONFIRM" : "Biztos, hogy módosítod az esemény időpontját?",
@@ -2028,6 +2098,7 @@
       "EDIT_MEMBERSHIP" : "Bérlet szerkesztése"
     },
     "SELECT_MEMBERSHIP" : "Bérlet kiválasztása",
+    "MEMBERSHIP" : "Bérlet",
     "TABLE_HEADERS" : {
       "MEMBERSHIP_TYPE_NAME" : "Bérlet típus neve",
       "NUMBER_OF_OCCURRENCES" : "Alkalmak száma",
@@ -2536,7 +2607,10 @@
       "COMMENT_PLACEHOLDER" : "Megjegyzés",
       "CANCEL" : "Mégsem",
       "DELETE" : "Törlés",
-      "SAVE" : "Mentés"
+      "SAVE" : "Mentés",
+      "SYSTEM_NOTIFICATIONS" : {
+        "DELETE_MARKER_CONFIRM" : "Biztos, hogy törölni szeretnéd a jelölőt?"
+      }
     }
   },
 
@@ -2834,7 +2908,8 @@
         "MOBILE_NUMBER" : "Telefonszám",
         "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
         "EMAIL" : "Email cím",
-        "THERAPISTS" : "Terapeuták"
+        "THERAPISTS" : "Terapeuták",
+        "CHOOSE_THERAPIST_TOOLTIP" : "Válasszon terapeutát."
       },
       "HEALTH_DATA_SECTION" : {
         "TITLE" : "Egészségügyi adatok",
@@ -2910,7 +2985,8 @@
         "MOBILE_NUMBER" : "Telefonszám",
         "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
         "EMAIL" : "Email cím",
-        "THERAPISTS" : "Terapeuták"
+        "THERAPISTS" : "Terapeuták",
+        "CHOOSE_THERAPIST_TOOLTIP" : "Válasszon terapeutát."
       },
       "HEALTH_DATA_SECTION" : {
         "TITLE" : "Egészségügyi adatok",
@@ -3630,7 +3706,8 @@
               "MOBILE_NUMBER" : "Telefonszám",
               "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
               "EMAIL" : "Email cím",
-              "THERAPISTS" : "Terapeuták"
+              "THERAPISTS" : "Terapeuták",
+              "CHOOSE_THERAPIST_TOOLTIP" : "Válasszon terapeutát."
             },
             "HEALTH_DATA_SECTION" : {
               "TITLE" : "Egészségügyi adatok",
@@ -4440,6 +4517,7 @@
       "NOTIFICATIONS" : "Értesítések",
       "PATIENTS" : "Páciensek",
       "COLLEAGUES" : "Munkatársak",
+      "USERS" : "Felhasználók",
       "EDIT_CLINIC" : "Klinika szerkesztése",
       "AUTHORITIES_AND_CLINIC_SETTINGS" : "Jogosultságok, Klinika beállítások",
       "BILLING_SETTINGS" : "Számlázási beállítások",
@@ -4519,6 +4597,19 @@
                 "WITH_SUBJECT": "A következő változókat tudod beilleszteni a levél szövegébe és tárgyába:",
                 "WITHOUT_SUBJECT": "A következő változókat tudod beilleszteni a levél szövegébe:",
                 "TEMPLATE_VARIABLES_TOOLTIP": "A beillesztés mindig arra a helyre fog megtörténni, ahol állsz a kurzorral. A változók neveit be is gépeleheted a megfelelő pozícióba.\n\nA következő változókat tudod beállítani ebben a templateben:\n{{variablesList}}\nMinden levélben a beillesztett változó helyén meg fog jelenni annak az értéke.\nPl. Ha ezt írod a baloldali szerkesztő nézetben:\n\nKedves {SYS_PATIENT_NAME}, {SYS_CALENDAR_EVENT_TIME} időpontban vár téged a terapeutád {SYS_THERAPIST_NAME} rendelésünkre!\n\nAz így fog megjelenni Kovács Páciens Patrícia nevű páciensednek küldött e-mailben, aki Tamási Terapeuta Patrikhoz érkezik 2020. 07. 20-án 9:00-ra:\n\nKedves Kovács Páciens Patrícia, 2020.07. 20 9:00 időpontban vár téged terapeutád Tamási Terapeuta Patrik rendelésünkre!"
+              },
+              "TEMPLATE_PREVIEW_EXAMPLE_TEXTS" : {
+                "MESSAGE" : "Szia! Érdeklődnék, hogy hogya van a derekad?",
+                "TREATMENT_ROOM" : "102-es rendelő",
+                "CITY" : "Szeged",
+                "POST_CODE" : "6723",
+                "ADDRESS" : "Fecske u. 4. 2/8",
+                "NEW_TREATMENT_ROOM" : "105-ös rendelő",
+                "NEW_CITY" : "Budapest",
+                "NEW_POST_CODE" : "1221",
+                "NEW_ADDRESS" : "Piros sas u. 29/A 5/33",
+                "TREATMENT_NAME" : "Manuál terápia",
+                "NEW_TREATMENT_NAME" : "Szegmentális stabilizáció"
               },
               "EVENT_REMINDER": {
                 "TAB_TITLE" : "Időpont emlékeztető",
@@ -4814,7 +4905,8 @@
             "MOBILE_NUMBER" : "Telefonszám",
             "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
             "EMAIL" : "Email cím",
-            "THERAPISTS" : "Terapeuták"
+            "THERAPISTS" : "Terapeuták",
+            "CHOOSE_THERAPIST_TOOLTIP" : "Válasszon terapeutát."
           },
           "HEALTH_DATA_SECTION" : {
             "TITLE" : "Egészségügyi adatok",
@@ -4891,7 +4983,8 @@
             "MOBILE_NUMBER" : "Telefonszám",
             "MOBILE_NUMBER_TOOLTIP" : "Legalább 6 karakter, tartalmazhat számot és +/ jeleket, illetve szóközt",
             "EMAIL" : "Email cím",
-            "THERAPISTS" : "Terapeuták"
+            "THERAPISTS" : "Terapeuták",
+            "CHOOSE_THERAPIST_TOOLTIP" : "Válasszon terapeutát."
           },
           "HEALTH_DATA_SECTION" : {
             "TITLE" : "Egészségügyi adatok",
