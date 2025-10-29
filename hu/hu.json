@@ -136,6 +136,7 @@
     "DELETE_PICTURE": "Kép törlése",
     "PICTURE_MAX_SIZE": "A vágásra kijelölhető maximális méret 1000 x 1000 pixel",
     "SIGNATURE" : "Aláírás",
+    "DELETE_SIGNATURE" : "Aláírás törlése",
     "REASON" : "Indoklás",
     "COLOR" : "Szín",
     "ID_OR_TAJ" : "Azonosító/TAJ",
@@ -1699,7 +1700,8 @@
     "CROPPED_IMAGE_UPLOAD" : {
       "FILE_SIZE_TOO_BIG" : "Túl nagy fájl méret.<br>Maximális méret 1,5 Mbyte.",
       "PICTURE_FETCH_ERROR" : "Sikertelen kép lekérdezés, vágáshoz",
-      "DELETE_PROFILE_PICTURE_CONFIRM" : "Biztos, hogy törölni szeretné a profilképet?"
+      "DELETE_PROFILE_PICTURE_CONFIRM" : "Biztos, hogy törölni szeretné a profilképet?",
+      "FILE_UPLOAD_ERROR" : "Hiba a file feltöltése során"
     },
     "PATIENT_COMMENTS_TABLE" : {
       "DELETE_COMMENT_SUCCESS" : "Sikeres megjegyzés törlés",
@@ -2330,6 +2332,14 @@
       "THIS_AND_ALL_FOLLOWING_EVENTS" : "Ezt és az összes ezt követő eseményt"
     },
     "CANCEL" : "Mégsem"
+  },
+  "PATIENT_SEARCH_RESULT_PIPE" : {
+    "STATUS" : {
+      "SUSPENDED" : "Felfüggesztett",
+      "NOT_ASSIGNED" : "Nincs hozzárendelve",
+      "NOT_ACCEPTED" : "Nincs elfogadva",
+      "NOT_ACTIVE" : "Nem aktív"
+    }
   },
   "PAGE_HEADER" : {
     "DASHBOARD" : "Kezdőlap",
