@@ -93,13 +93,6 @@
       "DELETED_BY_PATIENT_DELETION" : "Törölt esemény (Páciens törlés)",
       "DELETED_BY_THERAPIST_SUSPENSION" : "Törölt esemény (Terapeuta felfüggesztés)"
     },
-    "EVENT_FILTERS" : {
-      "ALL_EVENTS" : "Minden esemény",
-      "THERAPIST_EVENT_ONLY" : "Terapeuta (csak esemény)",
-      "THERAPIST_ALL" : "Terapeuta (mind)",
-      "TREATMENT_ROOM_EVENT_ONLY" : "Kezelőhelyiség (csak esemény)",
-      "TREATMENT_ROOM_ALL" : "Kezelőhelyiség (mind)"
-    },
     "TEMPLATE_VARIABLE" : {
       "SYS_CLINICS_DEMO_ALL" : "i-Clinic-et kipróbáló klinikák",
       "SYS_CLINICS_WITH_SUBSCRIPTION_ALL" : "i-Clinic-re előfizető klinikák",
@@ -123,23 +116,19 @@
     "EDIT": "Szerkesztés",
     "VIEW": "Megtekintés",
     "DELETE": "Törlés",
-    "CANCEL": "Mégse",
+    "CANCEL": "Mégsem",
     "CALENDAR_EVENT_CANCEL": "Lemondom",
     "ARE_YOU_SURE": "Biztos benne?",
     "OK": "OK",
     "QUESTION": "Kérdés",
     "NOTIFY": "Értesítés",
+    "WARNING": "Figyelmeztetés",
     "FORWARD": "Tovább",
     "BACKWARD": "Vissza",
     "ARE_YOU_WANT_EXIT": "Biztosan ki szeretne lépni? ",
     "UPLOAD_PICTURE": "Kép feltöltése",
     "DELETE_PICTURE": "Kép törlése",
     "PICTURE_MAX_SIZE": "A vágásra kijelölhető maximális méret 1000 x 1000 pixel",
-    "SIGNATURE" : "Aláírás",
-    "DELETE_SIGNATURE" : "Aláírás törlése",
-    "REASON" : "Indoklás",
-    "COLOR" : "Szín",
-    "ID_OR_TAJ" : "Azonosító/TAJ",
     "SYSTEM_EVENT" : {
       "CLINIC_ADMIN_SAVE" : "Klinika admin létrehozása",
       "CLINIC_DATA_UPDATE" : "Klinika adatok módosítása",
@@ -218,28 +207,6 @@
     "UAH": "ukrán hryvna",
     "VND": "vietnámi dong",
     "ZAR": "dél-afrikai rand"
-  },
-  "COUNTRY": {
-    "HUNGARY": "Magyarország",
-    "GERMANY": "Németország",
-    "AUSTRIA": "Ausztria",
-    "ITALY": "Olaszország",
-    "SPAIN": "Spanyolország",
-    "FRANCE": "Franciaország",
-    "POLAND": "Lengyelország",
-    "CZECH_REPUBLIC": "Csehország",
-    "SLOVAKIA": "Szlovákia",
-    "ROMANIA": "Románia",
-    "CROATIA": "Horvátország",
-    "SERBIA": "Szerbia",
-    "SLOVENIA": "Szlovénia",
-    "SWITZERLAND": "Svájc",
-    "NETHERLANDS": "Hollandia",
-    "BELGIUM": "Belgium",
-    "UNITED_KINGDOM": "Egyesült Királyság",
-    "UNITED_STATES": "Amerikai Egyesült Államok",
-    "CANADA": "Kanada",
-    "SWEDEN": "Svédország"
   },
   "DEFAULT_EMAIL_SUBJECT" : {
 
@@ -402,7 +369,7 @@
       "SZAMLAZZ_AGENT_KEY_TOOLTIP": "Ezt az adatot, akkor találod meg, ha belépsz a számlázz.hu-ba és a kezdő oldalon legörgetsz az oldal aljára. Ha még nem generáltál magadnak Számla Agent kulcsot, a Számlázz.hu súgója segít ebben, vagy bátran írj nekünk és segítünk",
       "SZAMLAZZ_NO_AGENT_KEY_ERROR": "Nincs kitöltve a Számla Agent kulcs",
       "BILLINGO_API_KEY_LABEL": "Billingo API kulcs:",
-      "BILLINGO_API_KEY_TOOLTIP": "Ezt az adatot, akkor találod meg, ha belépsz a Billingo-ba és a kezdőoldalon a felső sávban a 'Beállítások(fogaskerék ikon)'-ra kattintasz, majd a bal oldali menüben az 'Integrációk' csoport 'API kulcsok' menüpontját választod. Itt az oldal alján lévő 'Új API kulcs' gombra kattintva tudsz kulcsot generálni",
+      "BILLINGO_API_KEY_TOOLTIP": "Ezt az adatot, akkor találod meg, ha belépsz a Billingo-ba és a kezdőoldalon a felső sávban a 'Beállítások(fogaskerék ikon)'-ra kattintasz, majd a bal oldali menüben az 'Integrációk' csoport 'API kulcsok' menüpontját választod. Itt az oldal alján lévő 'Új API kulcs' gombra kattintva tudsz kulcsot generálni, API verzióból V3 szükséges",
       "BILLINGO_NO_AGENT_KEY_ERROR": "Nincs kitöltve az API kulcs",
       "BASE_SETTINGS": {
         "TITLE": "Alapbeállítások",
@@ -504,8 +471,7 @@
       "PATIENT": "Páciens",
       "RECEPTIONIST" : "Recepciós",
       "SYSTEM_ADMIN": "Rendszer admin",
-      "THERAPIST": "Terapeuta",
-      "COLLEAGUE" : "Munkatárs"
+      "THERAPIST": "Terapeuta"
     },
     "PERIOD_TYPE": {
       "MONTHLY": "Havi",
@@ -614,22 +580,179 @@
     "CHOOSE_CLINIC": "Kiválasztott klinika",
     "MODIFY_PASSWORD": "Jelszó módosítása"
   },
+  "ADMIN_DASHBOARD": {
+    "WARNING_MESSAGE": {
+      "POPUP_TEXT": "Figyelmeztető felugró ablak szövege",
+      "POPUP_TEXT_PREVIEW": "Figyelmeztető felugró ablak szöveg előnézete"
+    }
+  },
   "MY_ACCOUNT" : {
     "THERAPIST" : {
       "TREATMENT_TYPE_EDIT_ACTIVE_TOOLTIP" : "Aktív",
       "TREATMENT_TYPE_EDIT_NOT_ACTIVE_TOOLTIP" : "Nem aktív"
     }
   },
-  "MY_PATIENTSS" : {
-    "WAITLISTED" : {
-      "ADD_TO_WAITLISTED" : "Várólistához adás",
-      "DELETED_EVENT" : "Törölt időpont",
-      "EDIT_OF_WAITLISTED" : "Várólista szerkesztés",
-      "LOW_PRIORITY" : "Nem sürgős",
-      "MEDIUM_PRIORITY" : "Átlagos",
-      "HIGH_PRIORITY" : "Sürgős",
-      "TREATMENT_TYPE" : "Kezelés típusa",
-      "PRIORITY" : "Prioritás"
+  "EESZT" : {
+    "DATA_SERVICE_TAB" : {
+      "TITLE": "Adatszolgáltatás",
+      "NEW_DATA_SERVICE_COMPONENT": {
+        "TITLE": "Új adatszolgáltatás",
+        "REFERRING_DOCTOR_SELECTOR" : {
+          "SELECTOR_PLACEHOLDER": "Beutaló orvos"
+        },
+        "REFERRING_DOCTOR_DIALOG": {
+          "TITLE_NEW": "Beutaló orvos felvétele",
+          "TITLE_EDIT": "Beutaló orvos szerkesztése",
+          "DOCTOR_NAME": "Beutaló orvos neve",
+          "DOCTOR_IDENTIFIER": "Beutaló orvos azonosítója",
+          "DOCTOR_ORGANIZATION_UNIT_IDENTIFIER": "Beutaló osztály (szervezeti egység azonosító)",
+          "SYSTEM_NOTIFICATIONS" : {
+            "REFERRING_DOCTOR_DATA_NOT_SAVED_CONFIRM" : "A <i>Beutaló orvos adatai</i> nem lettek elmentve. Biztosan folytatod?",
+            "SAVE_SUCCESS" : "Sikeres mentés",
+            "SAVE_ERROR" : "Sikertelen mentés"
+          }
+        }
+      }
+    },
+    "EESZT_ORGANIZATION_UNIT_DIALOG_COMPONENT" : {
+      "ADD_ORGANIZATION_UNIT" : "Szervezeti egység szerkesztése",
+      "EDIT_ORGANIZATION_UNIT" : "Szervezeti egység felvétele",
+      "ORGANIZATION_UNIT_ID" : "Szervezeti egység azonosítója",
+      "ORGANIZATION_UNIT_NAME" : "Szervezeti egység neve",
+      "SAVE" : "Mentés",
+      "CANCEL" : "Mégse",
+      "SYSTEM_NOTIFICATIONS" : {
+        "OPERATION_NOT_SAVED_CONFIRM" : "A <i>{{operation}}</i> nem lett elmentve. Biztosan folytatod?",
+        "SAVE_SUCCESS" : "Sikeres mentés",
+        "SAVE_ERROR" : "Sikertelen mentés"
+      }
+    },
+    "EESZT_REGISTER_MOBILE_TOKEN_DIALOG" : {
+      "TITLE" : "EESZT kapcsolat létesítése",
+      "PLEASE_PROVIDE_THE_6_DIGIT_CODE_FROM_THE_MOBILE_APP" : "Kérjük add meg a Mobil alkalmazásban látható 6 számjegyű kódot.",
+      "PROCEED" : "Tovább"
+    },
+    "EESZT_REGISTER_OTP_TOKEN_DIALOG" : {
+      "TITLE" : "EESZT kapcsolat létesítése",
+      "PLEASE_PROVIDE_THE_6_DIGIT_CODE_FROM_OTP_TOKEN" : "Kérjük add meg az OTP Token-en látható 6 számjegyű kódot.",
+      "PROCEED" : "Tovább"
+    },
+    "EESZT_REPORTING" : {
+      "EDIT_EVENT_ENTRY_DIALOG" : {
+        "TITLE" : "Adatszolgáltatás módosítása",
+        "ID" : "EESZT Azonosító",
+        "ID_TYPE" : "Azonosító típusa",
+        "DATA_SERVICE_DATE" : "Adatszolgáltatás időpontja",
+        "FINISH_DATE" : "Lezárás időpontja",
+        "MODIFY" : "Módosítás"
+      },
+      "FINISH_EVENT_ENTRY_DIALOG" : {
+        "TITLE" : "Adatszolgáltatás lezárása",
+        "EESZT_ID" : "EESZT Azonosító",
+        "ID" : "Azonosító",
+        "DATA_SERVICE_DATE" : "Adatszolgáltatás időpontja",
+        "FINISH_DATE" : "Lezárás időpontja",
+        "SUBMIT" : "Beküldés"
+      },
+      "EESZT_DATA_SERVICE" : "EESZT adatszolgáltatás",
+      "DATA_SERVICE" : "Adatszolgáltatás",
+      "NEW_DATA_SERVICE" : "Új adatszolgáltatás",
+      "QUERY_SETTINGS" : "Lekérdezés beállítások",
+      "REQUIRE_DATA_SERVICE_HERE" : "Itt tudsz a kiválasztott Szervezet és Szervezeti egységgel és a megadott Azonosítóval adatszolgáltatást kezdeményezni az EESZT felé.",
+      "SELECT_ORGANIZATION" : "Szervezet kiválasztása",
+      "SELECT_ORGANIZATION_UNIT" : "Szervezeti egység kiválasztása",
+      "PATIENT" : "Páciens",
+      "SHOW_INACTIVE_PATIENTS_TOO" : "Inaktív páciensek is látszódjanak",
+      "START_OF_DATA_SERVICE" : "Adatszolgáltatás kezdete",
+      "ID_TYPE" : "Azonosító típusa",
+      "START_OF_INTERVAL" : "Intervallum kezdete",
+      "END_OF_INTERVAL" : "Intervallum vége",
+      "QUERY" : "Lekérdezés",
+      "DATA_SERVICES" : "Adatszolgáltatások",
+      "NO_DATA_TO_SHOW" : "Nincs megjelenítendő adat",
+      "PREVIOUS_DATA_SERVICES_TOOLTIP" : "Itt láthatók a korábban kezdeményezett adatszolgáltatások. Amennyiben egy adatszolgáltatás lezárása még nem történt meg, azt a műveletek oszlopból kezdeményezheti.",
+      "QUERY_OF_DATA_SERVICES" : "Adatszolgáltatások lekérdezése",
+      "IDENTIFICATION_NEEDED" : "Azonosítás szükséges",
+      "TABLE_HEADERS" : {
+        "PATIENT" : "Páciens",
+        "PATIENT_ID" : "Páciens azon.",
+        "THERAPIST" : "Terapeuta",
+        "EESZT_ID" : "EESZT azonosító",
+        "ORGANIZATION" : "Szervezet",
+        "ORGANIZATION_UNIT" : "Szervezeti egység",
+        "START_STATUS" : "Kezdés státusza",
+        "START_DATE" : "Kezdés időpontja",
+        "FINISH_STATUS" : "Lezárás státusza",
+        "FINISH_DATE" : "Lezárás időpontja",
+        "OPERATIONS" : "Műveletek"
+      },
+      "TABLE_TOOLTIPS" : {
+        "SYNC" : "Szinkronizálás",
+        "EDIT_DATA_SERVICE" : "Adatszolgáltatás módosítása",
+        "FINISH" : "Lezárás",
+        "DELETE_DATA_SERVICE" : "Adatszolgáltatás törlése",
+        "ERROR_DURING_SYNC" : "A korábban rögzítésre került adatszolgáltatás szinkronizálása során EESZT oldali validációs hiba történt. Kérjük ellenőrizd a megadott adatokat és amennyiben lehetséges, módosítsd azokat a helyes értékekre."
+      },
+      "SYSTEM_NOTIFICATIONS" : {
+        "ERROR_DURING_EESZT_OPERATION" : "Hiba az EESZT művelet közben",
+        "EESZT_SYSTEM_ERROR" : "EESZT rendszerhiba. A művelet adatait és időpontját rögzítettük. Kerjük próbáld meg a műveletet újra az EESZT menüpontban a táblázatból.",
+        "EESZT_SYSTEM_ERROR_TRY_AGAIN_LATER" : "EESZT rendszerhiba. Kérjük próbáld újra később.",
+        "EESZT_CONNECTION_EXPIRED" : "EESZT kapcsolat lejárt. Kérjük végezd el az azonosítást újra.",
+        "OPERATION_ERROR_CHECK_IF_THE_GIVEN_DATA_IS_CORRECT" : "Hiba a művelet során. Kérjük ellenőrizd a megadott adatok helyességét.",
+        "TECHNICAL_ERROR_CONTACT_ADMIN" : "Technikai hiba a művelet során. Kérjük, jegyezd fel az időpontot és vedd fel a kapcsolatot a rendszergazdával.",
+        "UNSUCCESSFUL_DATA_SERVICE_AUTO_RETRY_CONFIRM" : "Szeretné a korábban kezdeményezett, de sikertelen adatszolgáltatásokat automatikusan újrapróbálni?",
+        "DATA_SERVICE_DATA_IS_UPLOADED" : "Az adatszolgáltatás adatait rögzítettük. Kérjük, próbáld meg később beküldeni a mentett adatokkal az adatszolgáltatást a táblázatból a műveletek oszlopban található felhő ikonnal.",
+        "PLEASE_SYNC_DATA_SERVICE" : "Az adatszolgáltatás adatait rögzítettük. Kérjük, szinkronizáld az adatszolgáltatást az EESZT-be a táblázat műveletek oszlopában található felhő ikonnal.",
+        "PATIENT_FETCH_ERROR" : "Sikertelen páciens lekérdezés",
+        "PATIENT_FETCH_SUCCESS" : "Sikeres páciens lekérdezés",
+        "DATA_SERVICE_ALREADY_EXISTS_WITH_GIVEN_ID" : "A megadott azonosítóval már van megkezdett adatszolgáltatás.",
+        "DELETE_DATA_SERVICE_CONFIRM" : "Biztosan törlöd az adatszolgáltatást? Ezzel nem csak az iClinic rendszeréből, de az EESZT-ből is törlődik az adatszolgáltatás.",
+        "DELETE_SUCCESS" : "Sikeres törlés",
+        "DELETE_ERROR" : "Sikertelen törlés",
+        "DATA_SERVICE_SUCCESS" : "Sikeres adatszolgáltatás"
+      }
+    },
+    "EESZT_RSS" : {
+      "TITLE" : "EESZT hírek",
+      "TABLE_HEADERS" : {
+        "DATE" : "Időpont",
+        "DESCRIPTION" : "Leírás"
+      }
+    },
+    "EESZT_THERAPIST_DATA" : {
+      "TABLE_HEADERS" : {
+        "NAME" : "Név",
+        "ID" : "Azonsoító"
+      },
+      "TABLE_TOOLTIPS" : {
+        "EDIT" : "Szerkesztés",
+        "DELETE" : "Törlés"
+      }
+    },
+    "EESZT_TOKEN_INFO" : {
+      "CONNECTION" : "EESZT kapcsolat",
+      "CONNECTION_CHECK_TOOLTIP" : "Itt tekintheted meg, hogy aktív-e a kapcsolatod az EESZT-vel, valamint innen tudsz kezdeményezni új kapcsolódást a fiókodhoz beállított kapcsolódási móddal.",
+      "CONNECTION_VALIDITY" : "Kapcsolat érvényessége",
+      "IDENTIFY" : "Azonosítás",
+      "FOR_VALIDATION_YOU_HAVE_TO_SET_YOUR_EESZT_PROFILE" : {
+        "PART_1" : "Azonosításhoz előbb be kell állítanod az",
+        "PART_2" : "EESZT profilod",
+        "PART_3" : "adatait."
+      },
+      "SYSTEM_NOTIFICATIONS" : {
+        "OPERATION_ERROR_CONTACT_THERAPIST_OR_ADMIN" : "Sikertelen művelet. Kérjük vedd fel a kapcsolatot a rendszergazdával vagy terapeutáddal.",
+        "CONNECTION_UPDATE_SUCCESS" : "Sikeres kapcsolat frissítés",
+        "CONNECTION_UPDATE_ERROR" : "Sikertelen kapcsolat frissítés",
+        "CONNECTION_UPDATE_ERROR_TRY_AGAIN_LATER" : "Sikertelen kapcsolat frissítés. Sikertelen kapcsolódás EESZT-hez. Kérjük próbáld meg az azonosítást később.",
+        "DATA_SERVICE_INFO" : "Adatszolgáltatást kezdeményezhetsz, minden adatot menteni fogunk, később pedig szinkronizáljuk az EESZT-be is, ha az újra elérhető.",
+        "CONNECTING_TO_READER_FOLLOW_INSTRUCTIONS" : "Csatlakozás az e-Személyi olvasóhoz. Kövesd a kártyaolvasó utasításait.",
+        "EESZT_IDENTIFICATION_IN_PROGRESS" : "EESZT azonosítás folyamatban... Várakozási idő: {{REMAINING_TIME}} mp",
+        "TIMEOUT_NO_RESPONSE" : "Időtullépés. Nem érkezett válasz a hitelesítési kérésre, kérjük próbáld meg újra.",
+        "CONNECTING_TO_READER_ERROR" : "Nem sikerült kapcsolódni az e-Személyi olvasóhoz. Kérjük ellenőrizd, hogy az eszköz megfelelően van-e csatlakoztatva és az eSzemélyi Kliens alkalmazás el van indítva.",
+        "CONNECTION_UPDATE_ERROR_EESZT_CONNECTION_ERROR" : "Sikertelen kapcsolat frissítés. Sikertelen kapcsolódás EESZT-hez. Kérjük próbáld meg az azonosítást később.",
+        "NO_ACTIVE_EESZT_CONNECTION" : "Nincs aktív EESZT kapcsolat.",
+        "EESZT_UNAVAILABLE" : "EESZT nem elérhető"
+      }
     }
   },
   "OWL_DATE_TIME" : {
@@ -925,10 +1048,11 @@
     "SUSPENDED_PATIENTS" : "Felfüggesztett páciensek",
     "UNACCEPTED_PATIENTS" : "Elfogadásra váró páciensek",
     "USED_TOKENS" : "Felhasznált tokenek",
-    "VISITS" : "Mozgásszervi problémák",
+    "VISITS" : "Vizsgálatok",
     "VISIT_COMPARISON" : "Vizsgálatok összehasonlítása",
     "WAITLISTED_PATIENTS" : "Várólistás páciensek",
-    "CALENDAR_EVENT_MARKED_FOR_CANCEL_LIST_VIEW" : "Lemondási kérelmek"
+    "CALENDAR_EVENT_MARKED_FOR_CANCEL_LIST_VIEW" : "Lemondási kérelmek",
+    "INPUT_SURVEY" : "Adatbekérő"
   },
   "SURVEY": {
     "CONDITION_DESCRIPTION" : "Elfogadandó szöveg helye",
@@ -938,8 +1062,9 @@
     "DATA_INPUT_SURVEY_ALREADY_ASSIGNED_TO_PATIENT" : "A páciensnek már ki lett küldve adatbekérő!",
     "DESCRIPTION" : "Leírás",
     "GENERAL" : "Általános",
-    "PARAGRAPH_TEXT" : "A vizsgálati laphoz, kérdéshez tartozó leírás, tájékoztató szövege. A vizsgálat közben már nem módosítható.",
     "MULTIPLE_SHARE": " (Megosztotta: %s)",
+    "PARAGRAPH_TEXT" : "A vizsgálati laphoz, kérdéshez tartozó leírás, tájékoztató szövege. A vizsgálat közben már nem módosítható.",
+    "UNFILLED_DATA_SURVEY_NOTE_TEXT": "Figyelem, kitöltetlen előzetes állapotfelmérőd, adatbekérőd van, amelyek kitöltésére a gyógytornászod vár!",
     "DURING_SURVEY_COMPLETION_CALENDAR_DAY" : "A vizsgálati lap kitöltése során itt lehet megadni egy naptári napon",
     "STARTING_VALUE" : "Kezdőérték",
     "ENDING_VALUE" : "Végérték",
@@ -1021,6 +1146,7 @@
   "INVALID_PHONE_NUMBER_FORMAT" : "Érvénytelen telefonszám formátum.",
   "INVALID_EMAIL_ADDRESS_FORMAT" : "Érvénytelen emailcím formátum.",
   "INVALID_PATIENT_FOR_THERAPIST": "A páciens nem hozzád tartozik.",
+  "INVALID_VIDEO_URL": "Hibás URL cím, csak YouTube és Vimeo link támogatott!",
   "INVOICE": {
     "TYPE": {
       "ELECTRIC": "e-számla",
@@ -1043,11 +1169,10 @@
   "SZAMLAZZ_API_KEY_IS_NULL_IN_THERAPIST_ACCOUNT": "A terapeuta nem rendelkezik Szamlazz.hu Agent API kulccsal",
   "BILLINGO_API_KEY_IS_NULL_IN_CLINIC_ACCOUNT": "A klinika nem rendelkezik Billingo API kulccsal",
   "BILLINGO_API_KEY_IS_NULL_IN_THERAPIST_ACCOUNT": "A terapeuta nem rendelkezik Billingo API kulccsal",
-  "BILLINGO_NOT_SUPPORTED_REQUEST_ERROR": "Billingo API által nem támogatott kérés típus",
-  "BILLINGO_INVOICE_CREATE_VALIDATION_ERROR": "Validációs hiba a számla létrehozása során",
-  "BILLINGO_API_RESPONSE_JSON_PROCESSING_ERROR": "A Billingo API válasz feldolgozása sikertelen",
-  "BILLINGO_INVOICE_CREATE_ERROR": "A számla létrehozásához a válasz feldolgozása sikertelen",
-  "BILLINGO_API_KEY_INVALID": "A Billingo API kulcs érvénytelen",
+  "BILLINGO_NOT_SUPPORTED_REQUEST_ERROR": "A billingo által nem támogatott kérés típus",
+  "BILLINGO_INVOICE_CREATE_ERROR": "A billingo számlakiállítás során hiba törént",
+  "BILLINGO_INVOICE_CREATE_ERROR_WITH_BILLINGO_RESPONSE": "A billingo számlakiállítás során hiba törént. A billingo üzenete",
+  "BILLINGO_API_KEY_INVALID": "A billingo API kulcs érvénytelen. A billingo üzenete",
   "UNKNOWN_BILLING_SYSTEM": "Ismeretlen számlázási rendszer",
   "MISSING_BILLINGO_SETTINGS": "Hiányzó Billingo számlázási beállítások",
   "INVALID_BILLINGO_API_KEY": "Billingo API kulcs nem megfelelő",
@@ -1113,6 +1238,7 @@
   "CLINIC_TREATMENT_ROOM_EDIT_IS_NOT_ALLOWED" : "Kezelőhelyiség szerkesztése nem engedélyezett",
   "NOT_UNIQUE_ORGANIZATION_ID": "Ezzel az azonosítóval már létezik szervezet.",
   "NOT_UNIQUE_ORGANIZATION_UNIT_ID": "Ezzel az azonosítóval már létezik szervezeti egység.",
+  "NOT_UNIQUE_REFERRING_DOCTOR_ID": "Ezzel az azonosítóval már létezik beutaló orvos.",
   "UNSUCCESSFUL_OWN_WEBSITE_REGISTRATION": "Sikertelen regisztráció",
   "UNSUCCESSFUL_OWN_WEBSITE_LOGIN": "Sikertelen bejelentkezés",
   "SMS_SETTINGS": {
@@ -1525,7 +1651,10 @@
     "MAX_REPEATING" : "A maximum ismétlődés {{occasionsMaximum}} alkalom.",
     "MIN_REPEATING" : "A minimum ismétlődés {{occasionsMinimum}} alkalom.",
     "CANCEL_BUTTON_TEXT" : "Mégsem",
-    "SAVE_BUTTON_TEXT" : "Mentés"
+    "SAVE_BUTTON_TEXT" : "Mentés",
+    "SYSTEM_NOTIFICATIONS" : {
+      "REPEATING_NOT_SAVED_CONFIRM" : "Az <i>Ismétlődés</i> nem lett elmentve. Biztosan folytatod?"
+    }
   },
 
   "GROUP_CLASS_EVENT_FINISH_DIALOG" : {
@@ -1612,7 +1741,10 @@
   },
   "DATA_TABLE_TEXTS" : {
     "MEMBERSHIP" : "Bérlet",
-    "MOVE" : "Mozgatás"
+    "MOVE" : "Mozgatás",
+    "CLOSED" : "Lezárt",
+    "EDITABLE" : "Szerkeszthető",
+    "VISIT" : "vizsgálat"
   },
   "DATA_TABLE_SYSTEM_NOTIFICATIONS" : {
     "EMAIL" : "E-mail cím",
@@ -1741,6 +1873,7 @@
       "TREATMENT_ROOM_LIST_FETCH_ERROR" : "Sikertelen kezelőhelyiség lista lekérdezés",
       "TIME_OUTSIDE_CONSULTING_HOURS_SAVE_CONFIRM" : "Az időpont klinikai rendelésen kivül esik. Biztosan mented az eseményt?",
       "PATIENT_FETCH_ERROR" : "Sikertelen páciens lekérdezés",
+      "PATIENT_MEMBERSHIP_COUNT_FETCH_ERROR" : "Páciens bérletszám lekérdezés hiba",
       "MORE_PATIENTS_THAN_MAXIMUM_TREATMENT_PARTICIPANTS_ERROR" : "A kezelés nem választható, mert több páciens van felírva, mint amennyi a kezelés maximális résztvevő száma.",
       "MORE_PATIENTS_THAN_MAXIMUM_CAPACITY_ERROR" : "A helyiség nem választható, mert több páciens van felírva, mint amennyi a helyiség maximális férőhelye.",
       "CAN_NOT_SET_EVENT_BECAUSE_OVER_MAXIMUM_CAPACITY" : "A maximális férőhely túllépése miatt nem tudod visszaállítani \"Leegyeztetett\" státuszra az eseményt.",
@@ -1755,6 +1888,9 @@
       "MAXIMUM_CAPACITY_INFO" : "Maximális értéke a kezelés típusa és a kezelőhelyiség maximális létszáma alapján: {{LIMIT}}",
       "CHOOSE_TREATMENT_TYPE_AND_ROOM_FOR_CALCULATING_MAXIMUM_CAPACITY" : "Maximális létszám kiszámításához kérlek válassz kezelés típust és kezelőhelyiséget",
       "CAN_NOT_LOWER_MAXIMUM_CAPACITY" : "Nem tudod csökkenteni a maximális létszámot, mert több páciens van felírva.",
+      "VISIT_FETCH_ERROR" : "Visit lekérdezés hiba",
+      "TREATMENT_TYPE_FETCH_ERROR" : "Hiba a kezelés típusok lekérdezésekor",
+      "NAVIGATE_TO_VISIT_CONFIRM" : "Biztosan átnavigálsz a vizsgálatra? Minden el nem mentett változtatás elveszik.",
       "GROUP_CLASS_DIALOG" : {
         "EVENT_CAN_BE_COMPENSATED_FOR_ALL_PARTICIPANTS" : "Az esemény az összes résztvevő számára (akinek korábban \"Leegyeztetett\" státuszú volt az eseménye) kiegyenlíthető. ",
         "SUBTRACT_MEMBERSHIP_INSTANCE_QUESTION" : "Szeretnéd most levonni a bérletalkalmakat?",
@@ -1792,148 +1928,6 @@
       },
       "DELETE_TOOLTIP" : "Törlés",
       "ADD_TOOLTIP" : "Hozzáadás"
-    }
-  },
-  "EESZT" : {
-    "EESZT_ORGANIZATION_UNIT_DIALOG_COMPONENT" : {
-      "ADD_ORGANIZATION_UNIT" : "Szervezeti egység szerkesztése",
-      "EDIT_ORGANIZATION_UNIT" : "Szervezeti egység felvétele",
-      "ORGANIZATION_UNIT_ID" : "Szervezeti egység azonosítója",
-      "ORGANIZATION_UNIT_NAME" : "Szervezeti egység neve",
-      "SAVE" : "Mentés",
-      "CANCEL" : "Mégse",
-      "SYSTEM_NOTIFICATIONS" : {
-        "OPERATION_NOT_SAVED_CONFIRM" : "A <i>{{operation}}</i> nem lett elmentve. Biztosan folytatod?",
-        "SAVE_SUCCESS" : "Sikeres mentés",
-        "SAVE_ERROR" : "Sikertelen mentés"
-      }
-    },
-    "EESZT_REGISTER_MOBILE_TOKEN_DIALOG" : {
-      "TITLE" : "EESZT kapcsolat létesítése",
-      "PLEASE_PROVIDE_THE_6_DIGIT_CODE_FROM_THE_MOBILE_APP" : "Kérjük add meg a Mobil alkalmazásban látható 6 számjegyű kódot.",
-      "PROCEED" : "Tovább"
-    },
-    "EESZT_REGISTER_OTP_TOKEN_DIALOG" : {
-      "TITLE" : "EESZT kapcsolat létesítése",
-      "PLEASE_PROVIDE_THE_6_DIGIT_CODE_FROM_OTP_TOKEN" : "Kérjük add meg az OTP Token-en látható 6 számjegyű kódot.",
-      "PROCEED" : "Tovább"
-    },
-    "EESZT_REPORTING" : {
-      "EDIT_EVENT_ENTRY_DIALOG" : {
-        "TITLE" : "Adatszolgáltatás módosítása",
-        "ID" : "EESZT Azonosító",
-        "ID_TYPE" : "Azonosító típusa",
-        "DATA_SERVICE_DATE" : "Adatszolgáltatás időpontja",
-        "FINISH_DATE" : "Lezárás időpontja",
-        "MODIFY" : "Módosítás"
-      },
-      "FINISH_EVENT_ENTRY_DIALOG" : {
-        "TITLE" : "Adatszolgáltatás lezárása",
-        "EESZT_ID" : "EESZT Azonosító",
-        "ID" : "Azonosító",
-        "DATA_SERVICE_DATE" : "Adatszolgáltatás időpontja",
-        "FINISH_DATE" : "Lezárás időpontja",
-        "SUBMIT" : "Beküldés"
-      },
-      "EESZT_DATA_SERVICE" : "EESZT adatszolgáltatás",
-      "DATA_SERVICE" : "Adatszolgáltatás",
-      "NEW_DATA_SERVICE" : "Új adatszolgáltatás",
-      "QUERY_SETTINGS" : "Lekérdezés beállítások",
-      "REQUIRE_DATA_SERVICE_HERE" : "Itt tudsz a kiválasztott Szervezet és Szervezeti egységgel és a megadott Azonosítóval adatszolgáltatást kezdeményezni az EESZT felé.",
-      "SELECT_ORGANIZATION" : "Szervezet kiválasztása",
-      "SELECT_ORGANIZATION_UNIT" : "Szervezeti egység kiválasztása",
-      "PATIENT" : "Páciens",
-      "SHOW_INACTIVE_PATIENTS_TOO" : "Inaktív páciensek is látszódjanak",
-      "START_OF_DATA_SERVICE" : "Adatszolgáltatás kezdete",
-      "ID_TYPE" : "Azonosító típusa",
-      "START_OF_INTERVAL" : "Intervallum kezdete",
-      "END_OF_INTERVAL" : "Intervallum vége",
-      "QUERY" : "Lekérdezés",
-      "DATA_SERVICES" : "Adatszolgáltatások",
-      "NO_DATA_TO_SHOW" : "Nincs megjelenítendő adat",
-      "PREVIOUS_DATA_SERVICES_TOOLTIP" : "Itt láthatók a korábban kezdeményezett adatszolgáltatások. Amennyiben egy adatszolgáltatás lezárása még nem történt meg, azt a műveletek oszlopból kezdeményezheti.",
-      "QUERY_OF_DATA_SERVICES" : "Adatszolgáltatások lekérdezése",
-      "IDENTIFICATION_NEEDED" : "Azonosítás szükséges",
-      "TABLE_HEADERS" : {
-        "PATIENT" : "Páciens",
-        "PATIENT_ID" : "Páciens azon.",
-        "THERAPIST" : "Terapeuta",
-        "EESZT_ID" : "EESZT azonosító",
-        "ORGANIZATION" : "Szervezet",
-        "ORGANIZATION_UNIT" : "Szervezeti egység",
-        "START_STATUS" : "Kezdés státusza",
-        "START_DATE" : "Kezdés időpontja",
-        "FINISH_STATUS" : "Lezárás státusza",
-        "FINISH_DATE" : "Lezárás időpontja",
-        "OPERATIONS" : "Műveletek"
-      },
-      "TABLE_TOOLTIPS" : {
-        "SYNC" : "Szinkronizálás",
-        "EDIT_DATA_SERVICE" : "Adatszolgáltatás módosítása",
-        "FINISH" : "Lezárás",
-        "DELETE_DATA_SERVICE" : "Adatszolgáltatás törlése",
-        "ERROR_DURING_SYNC" : "A korábban rögzítésre került adatszolgáltatás szinkronizálása során EESZT oldali validációs hiba történt. Kérjük ellenőrizd a megadott adatokat és amennyiben lehetséges, módosítsd azokat a helyes értékekre."
-      },
-      "SYSTEM_NOTIFICATIONS" : {
-        "ERROR_DURING_EESZT_OPERATION" : "Hiba az EESZT művelet közben",
-        "EESZT_SYSTEM_ERROR" : "EESZT rendszerhiba. A művelet adatait és időpontját rögzítettük. Kerjük próbáld meg a műveletet újra az EESZT menüpontban a táblázatból.",
-        "EESZT_SYSTEM_ERROR_TRY_AGAIN_LATER" : "EESZT rendszerhiba. Kérjük próbáld újra később.",
-        "EESZT_CONNECTION_EXPIRED" : "EESZT kapcsolat lejárt. Kérjük végezd el az azonosítást újra.",
-        "OPERATION_ERROR_CHECK_IF_THE_GIVEN_DATA_IS_CORRECT" : "Hiba a művelet során. Kérjük ellenőrizd a megadott adatok helyességét.",
-        "TECHNICAL_ERROR_CONTACT_ADMIN" : "Technikai hiba a művelet során. Kérjük, jegyezd fel az időpontot és vedd fel a kapcsolatot a rendszergazdával.",
-        "UNSUCCESSFUL_DATA_SERVICE_AUTO_RETRY_CONFIRM" : "Szeretné a korábban kezdeményezett, de sikertelen adatszolgáltatásokat automatikusan újrapróbálni?",
-        "DATA_SERVICE_DATA_IS_UPLOADED" : "Az adatszolgáltatás adatait rögzítettük. Kérjük, próbáld meg később beküldeni a mentett adatokkal az adatszolgáltatást a táblázatból a műveletek oszlopban található felhő ikonnal.",
-        "PLEASE_SYNC_DATA_SERVICE" : "Az adatszolgáltatás adatait rögzítettük. Kérjük, szinkronizáld az adatszolgáltatást az EESZT-be a táblázat műveletek oszlopában található felhő ikonnal.",
-        "PATIENT_FETCH_ERROR" : "Sikertelen páciens lekérdezés",
-        "PATIENT_FETCH_SUCCESS" : "Sikeres páciens lekérdezés",
-        "DATA_SERVICE_ALREADY_EXISTS_WITH_GIVEN_ID" : "A megadott azonosítóval már van megkezdett adatszolgáltatás.",
-        "DELETE_DATA_SERVICE_CONFIRM" : "Biztosan törlöd az adatszolgáltatást? Ezzel nem csak az iClinic rendszeréből, de az EESZT-ből is törlődik az adatszolgáltatás.",
-        "DELETE_SUCCESS" : "Sikeres törlés",
-        "DELETE_ERROR" : "Sikertelen törlés",
-        "DATA_SERVICE_SUCCESS" : "Sikeres adatszolgáltatás"
-      }
-    },
-    "EESZT_RSS" : {
-      "TITLE" : "EESZT hírek",
-      "TABLE_HEADERS" : {
-        "DATE" : "Időpont",
-        "DESCRIPTION" : "Leírás"
-      }
-    },
-    "EESZT_THERAPIST_DATA" : {
-      "TABLE_HEADERS" : {
-        "NAME" : "Név",
-        "ID" : "Azonsoító"
-      },
-      "TABLE_TOOLTIPS" : {
-        "EDIT" : "Szerkesztés",
-        "DELETE" : "Törlés"
-      }
-    },
-    "EESZT_TOKEN_INFO" : {
-      "CONNECTION" : "EESZT kapcsolat",
-      "CONNECTION_CHECK_TOOLTIP" : "Itt tekintheted meg, hogy aktív-e a kapcsolatod az EESZT-vel, valamint innen tudsz kezdeményezni új kapcsolódást a fiókodhoz beállított kapcsolódási móddal.",
-      "CONNECTION_VALIDITY" : "Kapcsolat érvényessége",
-      "IDENTIFY" : "Azonosítás",
-      "FOR_VALIDATION_YOU_HAVE_TO_SET_YOUR_EESZT_PROFILE" : {
-        "PART_1" : "Azonosításhoz előbb be kell állítanod az",
-        "PART_2" : "EESZT profilod",
-        "PART_3" : "adatait."
-      },
-      "SYSTEM_NOTIFICATIONS" : {
-        "OPERATION_ERROR_CONTACT_THERAPIST_OR_ADMIN" : "Sikertelen művelet. Kérjük vedd fel a kapcsolatot a rendszergazdával vagy terapeutáddal.",
-        "CONNECTION_UPDATE_SUCCESS" : "Sikeres kapcsolat frissítés",
-        "CONNECTION_UPDATE_ERROR" : "Sikertelen kapcsolat frissítés",
-        "CONNECTION_UPDATE_ERROR_TRY_AGAIN_LATER" : "Sikertelen kapcsolat frissítés. Sikertelen kapcsolódás EESZT-hez. Kérjük próbáld meg az azonosítást később.",
-        "DATA_SERVICE_INFO" : "Adatszolgáltatást kezdeményezhetsz, minden adatot menteni fogunk, később pedig szinkronizáljuk az EESZT-be is, ha az újra elérhető.",
-        "CONNECTING_TO_READER_FOLLOW_INSTRUCTIONS" : "Csatlakozás az e-Személyi olvasóhoz. Kövesd a kártyaolvasó utasításait.",
-        "EESZT_IDENTIFICATION_IN_PROGRESS" : "EESZT azonosítás folyamatban... Várakozási idő: {{REMAINING_TIME}} mp",
-        "TIMEOUT_NO_RESPONSE" : "Időtullépés. Nem érkezett válasz a hitelesítési kérésre, kérjük próbáld meg újra.",
-        "CONNECTING_TO_READER_ERROR" : "Nem sikerült kapcsolódni az e-Személyi olvasóhoz. Kérjük ellenőrizd, hogy az eszköz megfelelően van-e csatlakoztatva és az eSzemélyi Kliens alkalmazás el van indítva.",
-        "CONNECTION_UPDATE_ERROR_EESZT_CONNECTION_ERROR" : "Sikertelen kapcsolat frissítés. Sikertelen kapcsolódás EESZT-hez. Kérjük próbáld meg az azonosítást később.",
-        "NO_ACTIVE_EESZT_CONNECTION" : "Nincs aktív EESZT kapcsolat.",
-        "EESZT_UNAVAILABLE" : "EESZT nem elérhető"
-      }
     }
   },
   "DEFAULT_SURVEYS" : {
@@ -2882,6 +2876,16 @@
   },
 
   "MY_PATIENTS" : {
+    "WAITLISTED" : {
+      "ADD_TO_WAITLISTED" : "Várólistához adás",
+      "DELETED_EVENT" : "Törölt időpont",
+      "EDIT_OF_WAITLISTED" : "Várólista szerkesztés",
+      "LOW_PRIORITY" : "Nem sürgős",
+      "MEDIUM_PRIORITY" : "Átlagos",
+      "HIGH_PRIORITY" : "Sürgős",
+      "TREATMENT_TYPE" : "Kezelés típusa",
+      "PRIORITY" : "Prioritás"
+    },
     "NEW_PATIENT" : {
       "HEADER_SECTION" : {
         "GO_BACK_BUTTON_TEXT" : "Vissza",
@@ -4166,6 +4170,145 @@
           "CONFIRM_NAVIGATION_WITHOUT_FINISH_EESZT": "A vizsgálatról még nem történt Lezáró adatszolgáltatás az EESZT felé. Biztosan folytatod?",
 
           "EXERCISE_CATEGORY_FETCH_ERROR" : "Sikertelen gyakorlat lekérdezés kategória alapján"
+        }
+      },
+      "PATIENT_VISITS_NEW_COMPONENT" : {
+        "VISITS_OF" : "vizsgálatai",
+        "NEW_VISIT" : "Új vizsgálat",
+        "TABLE_HEADERS" : {
+          "TITLE" : "Cím",
+          "CATEGORY" : "Kategória",
+          "TREATMENT_DATE": "Kezelés időpontja",
+          "CREATED_AT" : "Létrehozva",
+          "CREATOR" : "Létrehozta",
+          "STATUS" : "Állapot"
+        },
+        "TOOLTIPS" : {
+          "EDIT" : "Szerkesztés",
+          "VIEW" : "Megtekintés",
+          "COPY_VISIT" : "Vizsgálat másolása",
+          "DELETE_VERSION" : "Verzió törlése",
+          "DOWNLOAD_PDF" : "PDF letöltése"
+        },
+        "PATIENT_CALENDAR_EVENT_SYNC" : {
+          "HELP_TEXT" : "Ebben a lépésben válaszd ki, hogy melyik naptáresemény tartozik ehhez a vizsgálathoz. Így a vizsgálat végén lehetőséged lesz a számla kiállítására és az esemény lezárására is egyben.",
+          "PREVIOUS_EVENTS" : "Korábbi időpontok",
+          "NO_PREVIOUS_EVENTS_FOR_PATIENT" : "A páciensnek nincs korábbi naptáridőpontja",
+          "MORE_EVENTS" : "További események",
+          "TODAY_EVENTS" : "Mai időpontok",
+          "NO_TODAY_EVENTS_FOR_PATIENT" : "A páciensnek nincs mai naptáridőpontja",
+          "FUTURE_EVENTS" : "Későbbi időpontok",
+          "NO_FUTURE_EVENTS_FOR_PATIENT" : "A páciensnek nincs későbbi naptáridőpontja",
+          "SELECTED_EVENT" : "Kiválasztott esemény",
+          "NO_SELECTED_EVENT" : "Nincs kiválasztott esemény",
+          "TREATMENT_DATE" : "Kezelés időpontja",
+          "TREATMENT" : "Kezelés",
+          "NOT_GIVEN" : "Nincs megadva",
+          "THERAPIST" : "Terapeuta",
+          "TREATMENT_ROOM" : "Kezelőhelyiség",
+          "EVENTS_STATUS" : "Esemény állapota",
+          "COMMENT" : "Megjegyzés",
+          "NO_TREATMENT_GIVEN" : "Nincs megadva kezelés"
+        },
+        "PATIENT_VISIT_EDIT" : {
+          "EDIT_VISIT" : "Vizsgálat szerkesztése",
+          "NEW_VISIT" : "Új vizsgálat",
+          "GO_BACK" : "Vissza",
+          "SAVE" : "Mentés",
+          "VISIT_NAME" : "Vizsgálat elnevezése",
+          "THERAPIST_OF_VISIT" : "Vizsgálathoz tartozó terapeuta",
+          "CATEGORY" : "Kategória",
+          "PREPARE_VISIT" : "Vizsgálat előkészítése",
+          "CHOOSE_THERAPIST" : "Kérlek válaszd ki, hogy melyik Terapeutához szeretnél vizsgálatot rögzíteni.",
+          "SEE_PATIENT_PROBLEM_LIST" : "Az alábbi listában azokat a Mozgásszervi problémákat láthatod, amiket a pácienshez korábban rögzítettél.",
+          "NEW_VISIT_FOR_PROBLEM_HELP_TEXT" : "Ha meglévő Mozgásszervi problémához / kategóriához szeretnél új vizsgálatot felvenni, válassz ezek közül egyet, vagy adj meg újat a fenti \"Kategória\" mezőben.",
+          "START_VISIT" : "Vizsgálat megkezdése",
+          "WITH_GIVEN_DATA" : " a megadott adatokkal",
+          "TO_FILL_OUT_CHANGE_TO_FULLSCREEN_MODE" : {
+            "1" : "A kitöltéshez válts teljes képernyő módba. (Fejléc ",
+            "2" : " ikon)"
+          },
+          "BACK_TO_GIVEN_STEP" : {
+            "BACK_TO" : "Vissza a ",
+            "FORWARD_TO" : "Tovább a",
+            "3" : " lépésre"
+          },
+          "SUMMARIZE" : "Összesítés",
+          "JUMP_TO_SUMMARIZATION" : "Ugrás az összesítésre",
+          "DOWNLOAD_PDF" : "PDF letöltése",
+          "FINISH" : "Befejezés",
+          "FINISH_VISIT" : "Vizsgálat befejezése",
+          "PROVIDE_CALENDAR_DATE" : "Naptár időpont megadása",
+          "CALENDAR_DATE" : "Naptár időpont",
+          "PROVIDE_PATIENT_TREATMENT_CALENDAR_DATE_IN_THIS_STEP" : "Ebben a lépésben tudod megadni a páciens kezelésének naptáridőpontját",
+          "EESZT_DATA_SERVICE" : "EESZT adatszolgáltatás",
+          "START_DATA_SERVICE" : "Adatszolgáltatás megkezdése",
+          "MANAGE_SURVEYS" : "Vizsgálati lapok kezelése",
+          "ADD_AND_REMOVE_SURVEY" : "Vizsgálati lapok hozzáadása és törlése",
+          "SURVEYS" : "Vizsgálati lapok",
+          "FILL_OUT_SURVEYS" : "Vizsgálati lapok kitöltése",
+          "EXERCISES" : "Gyakorlatok",
+          "ADD_EXERCISES" : "Gyakorlatok hozzáadása és kitöltése",
+          "ATTACHMENTS" : "Csatolmányok",
+          "UPLOAD_ATTACHMENTS" : "Dokumentumok, képek, videók feltöltése",
+          "SUMMARY" : "Összesítés",
+          "REVIEW_AND_FINALIZE_VISIT" : "Vizsgálat áttekintése és véglegesítése"
+        },
+        "PATIENT_VISIT_EXERCISE_FILLING" : {
+          "NO_EXERCISE_FOR_VISIT" : "A vizsgálathoz nem tartozik gyakorlat",
+          "EXERCISES_NOT_FINALIZED_BY_THERAPIST" : "A gyakorlatokat az Ön terapeutája még nem véglegesítette",
+          "EXERCISE_NAME": "Gyakorlat neve",
+          "TOOLTIPS" : {
+            "DELETE" : "Törlés",
+            "MOVE" : "Mozgatás"
+          }
+        },
+        "PATIENT_VISIT_EXERCISE_SELECTOR" : {
+          "SELECTABLE" : "Választható",
+          "SELECTED" : "Kiválasztott",
+          "NO_EXERCISE_FOR_VISIT" : "A vizsgálathoz nem tartozik gyakorlat",
+          "EXERCISES_NOT_FINALIZED_BY_THERAPIST" : "A gyakorlatokat az Ön terapeutája még nem véglegesítette",
+          "EXERCISE_NAME": "Gyakorlat neve",
+          "TOOLTIPS" : {
+            "DELETE" : "Törlés",
+            "MOVE" : "Mozgatás"
+          }
+        },
+        "SYSTEM_NOTIFICATIONS" : {
+          "DELETE_VISIT_CONFIRM" : "Biztos, hogy törölni szeretné a(z) \"{{visitTitle}}\" vizsgálatot?",
+          "DELETE_VISIT_SUCCESS" : "Sikeres vizsgálat törlés",
+          "DELETE_VISIT_ERROR" : "Sikertelen vizsgálat törlés",
+          "COPY_VISIT_ERROR" : "Sikertelen vizsgálat másolás",
+          "NOT_SAVED_CHANGES_CONTINUE_CONFIRM" : "A vizsgálat el nem mentett változtatásai elvesznek. Biztosan folytatod?",
+          "CALENDAR_EVENT_UPDATE_ERROR" : "Hiba a naptáresemény frissítése során.",
+          "CALENDAR_EVENT_SELECT_ERROR" : "Hiba a naptáresemény kiválasztása során.",
+          "VISIT_FETCH_ERROR" : "Nem sikerült lekérdezni a vizsgálatot",
+          "CALENDAR_EVENT_FETCH_ERROR" : "Nem sikerült lekérdezni a naptár eseményt",
+          "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lista lekérdezés",
+          "PATIENT_SUSPENDED_OR_PROFILE_PAGE_NOT_ENABLED" : "A páciens felfüggesztett állapotban van, vagy a profil oldal nincs engedélyezve számára",
+          "THERAPIST_SELECT_REQUIRED" : "Terapeuta kiválasztása kötelező",
+          "EDIT_THIS_VISIT_INSTEAD_OF_CREATING_NEW_CONFIRM" : "Biztos, hogy ezt a vizsgálatot szeretnéd módosítani és nem újat létrehozni?",
+          "SURVEYS_AND_ATTACHMENTS_FINALIZED" : "A vizsgálati lapok és csatolmányok véglegesítve lettek",
+          "SURVEYS_AND_ATTACHMENTS_FINALIZATION_CANCELED" : "A vizsgálati lapok és csatolmányok véglegesítése visszavonva",
+          "SURVEYS_AND_ATTACHMENTS_FINALIZATION_ERROR" : "Hiba a vizsgálati lapok és csatolmányok véglegesítése közben",
+          "DELETE_EXERCISE_CONFIRM" : "Biztosan törölni szeretnéd a {{NAME}} gyakorlatot?",
+          "EXERCISES_FINALIZED" : "A gyakorlatok véglegesítve lettek",
+          "EXERCISES_FINALIZATION_CANCELED" : "A gyakorlatok véglegesítése visszavonva",
+          "EXERCISES_FINALIZATION_ERROR" : "Hiba a gyakorlatok véglegesítése közben",
+          "DELETE_SURVEY_FROM_VISIT_CONFIRM" : "Biztos, hogy törölni szeretné a(z) \"{{TITLE}}\" vizsgálati lapot a vizsgálatból?",
+          "DELETE_SURVEY_ANSWERS_CONFIRM" : "Biztos, hogy törlöd a(z) \"{{TITLE}}\" vizsgálati lap összes válaszát?",
+          "DELETE_ATTACHMENT_CONFIRM" : "Biztos, hogy törölni szeretnéd a csatolmányt?",
+          "EVERY_SAVE_FINISHED" : "Minden mentés befejeződött",
+          "AUTOMATIC_VISIT_SAVE_SUCCESS" : "Sikeres automatikus vizsgálat mentés",
+          "AUTOMATIC_VISIT_SAVE_ERROR" : "Sikertelen automatikus vizsgálat mentés",
+          "VISIT_SAVE_SUCCESS" : "Sikeres vizsgálat mentés",
+          "VISIT_SAVE_ERROR" : "Sikertelen vizsgálat mentés",
+          "SAVE_ERROR" : "Mentés sikertelen",
+          "NO_CHANGE" : "Nincs változás",
+          "WRONG_PHONE_NUMBER_FORMAT" : "Nem megfelelő telefonszám formátum",
+          "WRONG_PHONE_EMAIL_FORMAT" : "Nem megfelelő e-mail cím formátum",
+          "PLEASE_SAVE_VISIT" : "Kérlek mentsd el a vizsgálatot, hogy a munkafolyamat lépései elérhetőek legyenek.",
+          "EXERCISES_FETCH_ERROR" : "Sikertelen gyakorlatok lekérdezése."
         }
       },
       "EXERCISES" : {
@@ -5501,7 +5644,8 @@
       "EESZT_DATA_NOT_SAVED_CONFIRM" : "Az <i>EESZT adatok</i> nem lettek elmentve. Biztosan folytatod?",
       "ORG_UNIT_DELETE_CONFIRM" : "Biztosan törli a szervezeti egységet?",
       "RENEW_ERROR" : "Sikertelen megújítás, kérjük próbáld meg újra.",
-      "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lista lerkérdezés"
+      "THERAPIST_LIST_FETCH_ERROR" : "Sikertelen terapeuta lista lerkérdezés",
+      "TREATMENT_LENGTH_CAN_NOT_BE_ZERO" : "A kezelés hossza nem lehet 0"
     }
   },
 
